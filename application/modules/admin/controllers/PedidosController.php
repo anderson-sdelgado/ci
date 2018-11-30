@@ -184,11 +184,13 @@ class Admin_PedidosController extends Zend_Controller_Action
         $this->view->itens_pedido   = $itens_pedido;        
         $this->view->Historico      = $PedidoHistorico;        
     }
-    
+
     public function enviarAction(){
+        
         $this->_helper->layout()->disableLayout();
         $id_pedido          = ($this->_request->getParam("pedido",null));
         $id_transportadora  = ($this->_request->getParam("transportadora",null));
+        $flag_frente        = ($this->_request->getParam("frente",null));
         
         $objPedidocontrole  = new Admin_Model_Pedidocontrole();
         $Pedidocontrole     = $objPedidocontrole->find($id_pedido);
@@ -213,13 +215,11 @@ class Admin_PedidosController extends Zend_Controller_Action
             $LINK = "http://pedidos.usinasantafe.com.br/org/confirmar/?id=".base64_encode(strrev(base64_encode($LINK)));
         }
 
-        
-        
-        
         $data = array("ID_PEDIDO"           => $id_pedido,
                       "ID_FORNECEDOR"       => $Pedido["CODIGO_FORNEC"],
                       "LINK"                => $LINK,
                       "ID_TRANSPORTADORA"   => $id_transportadora,
+                      "FLAG_FRENTE"         => $flag_frente,
                       "ENVIADO"             => "s");
         
         $data_atual     = new Zend_Date();
@@ -312,8 +312,8 @@ class Admin_PedidosController extends Zend_Controller_Action
 //        $mensagem = 'enviada';
 
         if ($mensagem == 'enviada') {
-//            echo "Pedido $id_pedido enviado com sucesso!";
             
+//            echo "Pedido $id_pedido enviado com sucesso!";
             $objPedidocontrole->__save($data);
             
             $objPedidohistorico = new Admin_Model_Pedidohistorico();
@@ -328,10 +328,6 @@ class Admin_PedidosController extends Zend_Controller_Action
             echo Zend_Debug::dump($mensagem);
             exit;
         }
-        
-        
-        
-        
         
     }
     

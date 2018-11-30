@@ -16,7 +16,6 @@ var caminho = url.substring(0, url.indexOf("/admin/", 0));
 //inicia o jquery
 $(document).ready(function(){  
     
-    
     $(".data").mask("99/99/9999");
     
     function Listar(){
@@ -275,11 +274,12 @@ $(document).ready(function(){
     var xhr_enviar = null;
     var xhr_inativar = null;
     
-    function Enviar_Pedidos(pedidos,i,transportadora){
+    function Enviar_Pedidos(pedidos,i,transportadora,frete){
         var porcentagem = 0;
         xhr_enviar = $.post(caminho+'/admin/pedidos/enviar',{
             pedido          : pedidos[i],
-            transportadora  : transportadora
+            transportadora  : transportadora,
+            frete          : frete
         },
         function(resposta){
             var total = $("#numero-total").val();
@@ -322,7 +322,7 @@ $(document).ready(function(){
             }
             i++;    
             if(pedidos.length > i){
-                Enviar_Pedidos(pedidos, i,transportadora);
+                Enviar_Pedidos(pedidos, i, transportadora, frete);
             }else{
                 
             }
@@ -379,13 +379,14 @@ $(document).ready(function(){
                         text: "Enviar",
                         click: function() {
                             var id_transportadora = $("#transportadora").val();
+                            var flag_frete = $("#frete").val();
                             if(id_transportadora){
                                 $(this).dialog().html('<h1>Enviando Pedidos, Aguarde!<h1><br/><br/><div id="enviados" ></div><br/><div id="msg-envio" ></div>');
                                 $("#btn-confirmar").attr("disabled","disabled").addClass("ui-state-disabled");
                                 $("#enviados").progressbar({
                                     value: 0
                                 });                            
-                                Enviar_Pedidos(pedidos, 0,id_transportadora);
+                                Enviar_Pedidos(pedidos, 0, id_transportadora, flag_frete);
                             }else{
                                 $("#msgTransportadora").html("<label class='msg-erro'>Selecione uma transportadora!</label>");
                             }                           
