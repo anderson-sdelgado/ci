@@ -1,0 +1,5 @@
+<label style="width: 200px;">Detalhes da Finalidade:</label>
+<br/><br/>
+<?php
+echo strlen($this->detalhes) > 0 ? nl2br($this->detalhes) : "Detalhes da finalidade ainda não cadastrado";
+?>

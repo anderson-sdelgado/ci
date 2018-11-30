@@ -1,0 +1,130 @@
+﻿- Correção dos parametros de acesso ao banco de dados em produção e em Dev
+- Mensagem de CI alterada ou criada
+- Mostrar e-mail e nome e mensagem quando der erro no envio
+- Alterado o limite de caracteres nos detalhes da CI
+
+-------------------------------11/09/2014---------------------------------------
+
+--------------------------------------------------------
+--  DDL for Table CI_FINALIDADE_TIPO_DESPESA
+--------------------------------------------------------
+
+  CREATE TABLE "USINA"."CI_FINALIDADE_TIPO_DESPESA" 
+   (	"ID" NUMBER, 
+	"CI_FINALIDADE" NUMBER, 
+	"TIPO" NUMBER, 
+	"DESCRICAO" VARCHAR2(50 BYTE), 
+	"ATIVO" VARCHAR2(1 BYTE) DEFAULT 't'
+   );
+
+   COMMENT ON COLUMN "USINA"."CI_FINALIDADE_TIPO_DESPESA"."TIPO" IS '1 - Despesa, 2- Adiantamento';
+--------------------------------------------------------
+--  DDL for Index CI_FINALIDADE_TIPO_DESPESA_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "USINA"."CI_FINALIDADE_TIPO_DESPESA_PK" ON "USINA"."CI_FINALIDADE_TIPO_DESPESA" ("ID");
+--------------------------------------------------------
+--  Constraints for Table CI_FINALIDADE_TIPO_DESPESA
+--------------------------------------------------------
+
+  ALTER TABLE "USINA"."CI_FINALIDADE_TIPO_DESPESA" MODIFY ("CI_FINALIDADE" NOT NULL ENABLE);
+  ALTER TABLE "USINA"."CI_FINALIDADE_TIPO_DESPESA" ADD CONSTRAINT "CI_FINALIDADE_TIPO_DESPESA_PK" PRIMARY KEY ("ID")  ENABLE;
+  ALTER TABLE "USINA"."CI_FINALIDADE_TIPO_DESPESA" MODIFY ("ATIVO" NOT NULL ENABLE);
+  ALTER TABLE "USINA"."CI_FINALIDADE_TIPO_DESPESA" MODIFY ("DESCRICAO" NOT NULL ENABLE);
+  ALTER TABLE "USINA"."CI_FINALIDADE_TIPO_DESPESA" MODIFY ("TIPO" NOT NULL ENABLE);
+  ALTER TABLE "USINA"."CI_FINALIDADE_TIPO_DESPESA" MODIFY ("ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Ref Constraints for Table CI_FINALIDADE_TIPO_DESPESA
+--------------------------------------------------------
+
+  ALTER TABLE "USINA"."CI_FINALIDADE_TIPO_DESPESA" ADD CONSTRAINT "CI_FINALIDADE_TIPO_DESPES_FK1" FOREIGN KEY ("CI_FINALIDADE")
+	  REFERENCES "USINA"."CI_FINALIDADE" ("ID") ENABLE;
+
+--------------------------------------------------------
+--  DDL for Sequence ID_CI_FINALIDADE_TIPO_DESPESA
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "USINA"."ID_CI_FINALIDADE_TIPO_DESPESA"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+
+
+
+
+--------------------------------------------------------
+--  DDL for Table CI_VALOR_TIPO_DESPESA
+--------------------------------------------------------
+
+  CREATE TABLE "USINA"."CI_VALOR_TIPO_DESPESA" 
+   (	"ID" NUMBER, 
+	"CI" NUMBER, 
+	"FINALIDADE_TIPO_DESPESA" NUMBER, 
+	"VALOR" NUMBER
+   );
+--------------------------------------------------------
+--  DDL for Index CI_VALOR_TIPO_DESPESA_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "USINA"."CI_VALOR_TIPO_DESPESA_PK" ON "USINA"."CI_VALOR_TIPO_DESPESA" ("ID");
+--------------------------------------------------------
+--  Constraints for Table CI_VALOR_TIPO_DESPESA
+--------------------------------------------------------
+
+  ALTER TABLE "USINA"."CI_VALOR_TIPO_DESPESA" MODIFY ("CI" NOT NULL ENABLE);
+  ALTER TABLE "USINA"."CI_VALOR_TIPO_DESPESA" ADD CONSTRAINT "CI_VALOR_TIPO_DESPESA_PK" PRIMARY KEY ("ID")  ENABLE;
+  ALTER TABLE "USINA"."CI_VALOR_TIPO_DESPESA" MODIFY ("VALOR" NOT NULL ENABLE);
+  ALTER TABLE "USINA"."CI_VALOR_TIPO_DESPESA" MODIFY ("FINALIDADE_TIPO_DESPESA" NOT NULL ENABLE);
+  ALTER TABLE "USINA"."CI_VALOR_TIPO_DESPESA" MODIFY ("ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Ref Constraints for Table CI_VALOR_TIPO_DESPESA
+--------------------------------------------------------
+
+  ALTER TABLE "USINA"."CI_VALOR_TIPO_DESPESA" ADD CONSTRAINT "CI_VALOR_TIPO_DESPESA_FK1" FOREIGN KEY ("CI")
+	  REFERENCES "USINA"."CI" ("ID") ENABLE;
+  ALTER TABLE "USINA"."CI_VALOR_TIPO_DESPESA" ADD CONSTRAINT "CI_VALOR_TIPO_DESPESA_FK2" FOREIGN KEY ("FINALIDADE_TIPO_DESPESA")
+	  REFERENCES "USINA"."CI_FINALIDADE_TIPO_DESPESA" ("ID") ENABLE;
+
+
+--------------------------------------------------------
+--  DDL for Sequence ID_CI_VALOR_TIPO_DESPESA
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "USINA"."ID_CI_VALOR_TIPO_DESPESA"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+
+-------------------------------09/10/2014---------------------------------------
+
+ALTER TABLE CI_FINALIDADE_TIPO_DESPESA 
+ADD (ORDEM NUMBER );
+
+
+-------------------------------19/01/2015---------------------------------------
+
+ALTER TABLE USUARIOS 
+ADD (PRE_APROVADOR NUMBER );
+
+ALTER TABLE USUARIOS
+ADD CONSTRAINT USUARIOS_FK1 FOREIGN KEY ( PRE_APROVADOR ) REFERENCES USUARIOS ( ID ) ENABLE;
+
+ALTER TABLE CI_FINALIDADE 
+ADD (PRE_APROVACAO CHAR(1) );
+
+ALTER TABLE CI_FINALIDADE 
+ADD (VALOR_OBRIGATORIO CHAR(1) );
+
+CREATE table "CI_FINALIDADE_CRIADORES" (
+    "ID"         NUMBER NOT NULL,
+    "FINALIDADE" NUMBER NOT NULL,
+    "USUARIO"    NUMBER NOT NULL,
+    constraint  "CI_FINALIDADE_CRIADORES_PK" primary key ("ID")
+);
+
+ALTER TABLE "CI_FINALIDADE_CRIADORES" ADD CONSTRAINT "CI_FINALIDADE_CRIADORES_FK01" 
+FOREIGN KEY ("FINALIDADE")
+REFERENCES "CI_FINALIDADE" ("ID")
+ON DELETE CASCADE;
+
+ALTER TABLE "CI_FINALIDADE_CRIADORES" ADD CONSTRAINT "CI_FINALIDADE_CRIADORES_FK02" 
+FOREIGN KEY ("USUARIO")
+REFERENCES "USUARIOS" ("ID")
+ON DELETE CASCADE;
+
+CREATE sequence "ID_CI_FINALIDADE_CRIADORES";
+

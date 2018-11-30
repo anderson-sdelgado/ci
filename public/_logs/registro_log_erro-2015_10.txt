@@ -1,0 +1,2 @@
+14/10/2015 11:03 - TOM | NOME = TOM | REMOTE_AGENTE = Chrome | REMOTE_ADDR = 192.168.0.172 | REQUEST_URI = /org/admin/ci/avaliarci/id/MTM1NDc= | MENSAGEM = CI Já avaliada pelo usuário TOM
+14/10/2015 11:06 - TOM | NOME = TOM | REMOTE_AGENTE = Chrome | REMOTE_ADDR = 192.168.0.172 | REQUEST_URI = /org/admin/ci/avaliarci/id/MTM1NDc= | MENSAGEM = CI Já avaliada pelo usuário TOM

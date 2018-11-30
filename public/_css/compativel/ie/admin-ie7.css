@@ -1,0 +1,109 @@
+#menu-admin #logocommit #corner{
+    width:570px;
+    background-color: #003366;
+    /*sem padding,display*/
+}
+#MainMenu{
+    width: 100%;
+    height: 37px;
+}
+.MainSubMenu{
+    /*width: 170%;*/
+}
+.btn-menu{
+    line-height: 1.4em;
+    margin: 10px 0px;
+    padding:0px;
+    width: 140px;
+}
+.btn-menu-sub{
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 170px;
+    margin: 3px 0px;
+    height: 22px;
+    line-height: 22px;
+}
+#lista #lista-borda{
+    /*border-bottom: 1px solid #d0cece;*/
+}
+/*#lista #lista-borda #lista-titulo{
+    overflow: hidden;
+    color: #000000;
+    height: 36px;
+    background-repeat: repeat-x;
+    background-image: url('../../../_img/background/fundo_admin_cadastro.png');
+}
+#lista #lista-borda #lista-titulo #lista-titulo-texto{
+    font-size: 16px;
+    margin-left: 20px;
+    height: 34px;
+    line-height: 34px;
+    font-weight: normal;
+    text-shadow: #FFF 1px 2px 5px;
+    float: left;
+}*/
+#lista #lista-borda #lista-titulo #lista-titulo-menu #visualizar_grafico{
+/*    background-repeat: no-repeat;
+    background-image: url('../../../_img/icones/grafico.png');
+    background-position: 4px;
+    padding-left: 30px;
+    margin-right: 10px;*/
+}
+#lista #lista-borda #lista-titulo #lista-titulo-menu .botao{
+/*    width: 130px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid;
+    float: left;
+    margin-top: 5px;
+    background-color: #434c4b;
+    color: #FFF;
+    font-weight: 900;
+    border: 1px solid #FFF;
+    cursor: pointer;*/
+}
+#lista #pesquisa{
+/*    background-color: #e6e6e6;
+    height: 50px;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;*/
+}
+#lista #gride{
+    border: 0px solid;
+}
+#lista #gride .titulo{
+    height: 30px;
+    font-size: 12px;
+    font-weight: 900;
+}
+#formulario table.listagem{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.float{
+    float: left;
+    margin: 2px 20px 0 0;
+}
+.checks{
+    width:400px;
+    float: left;
+}
+#targetAjaxArq{
+    display: none;
+    padding-left:50px;
+}
+#selectCargos{
+    float: left;
+}
+#targetMO, #targetMo select{
+    display: none;
+    float: left;
+    margin-left:20px;
+}
+#ul_listar{
+    margin: 0px 0px 0px -20px !important;
+}

@@ -1,0 +1,125 @@
+09/03/2015 07:32 - RONALDOGOMES | DESCRICAO = PAGAMENTO PARA CARTÓRIO | DETALHES =  | EMAIL_COPIA =  | ATIVO = s
+09/03/2015 07:33 - RONALDOGOMES | ID = 761 | DESCRICAO = PAGAMENTO PARA CARTÓRIO | DETALHES =  | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;adeir@usinasantafe.com.br;lucimara@usinasantafe.com.br;ronald.siqueira@usinasantafe.com.br; roger@usinasantafe.com.br; andre.azevedo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+09/03/2015 08:40 - HEITOR | ID = 61 | DESCRICAO = DOAÇÕES | DETALHES = Utilizada para aprovação de doações de qualquer natureza, seja ela com ou sem valor. 
+O Gestor que receber a solicitação deverá aceitá-la através de ofício, que será anexado no cadastro do C.I.
+A aprovação do C.I. deverá ser realizada pela diretoria.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Informar o nome da entidade/empresa solicitante.
+
+DE:
+Informar o centro de custo da área solicitante.
+
+PARA:
+Informar o centro de custo da área solicitante.
+
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever a solicitação da doação de acordo com o ofício da entidade/empresa solicitante.
+
+VALOR TOTAL DA CI EM R$: 
+Informar o valor da doação
+
+ANEXOS:
+Anexar o ofício da solicitação de doação. | EMAIL_COPIA = regina@usinasantafe.com.br;caraciolo@usinasantafe.com.br;suzana@usinasantafe.com.br;luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;adeir@usinasantafe.com.br;lucimara@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = n
+09/03/2015 08:40 - HEITOR | ID = 61 | DESCRICAO = DOAÇÕES | DETALHES = Utilizada para aprovação de doações de qualquer natureza, seja ela com ou sem valor. 
+O Gestor que receber a solicitação deverá aceitá-la através de ofício, que será anexado no cadastro do C.I.
+A aprovação do C.I. deverá ser realizada pela diretoria.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Informar o nome da entidade/empresa solicitante.
+
+DE:
+Informar o centro de custo da área solicitante.
+
+PARA:
+Informar o centro de custo da área solicitante.
+
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever a solicitação da doação de acordo com o ofício da entidade/empresa solicitante.
+
+VALOR TOTAL DA CI EM R$: 
+Informar o valor da doação
+
+ANEXOS:
+Anexar o ofício da solicitação de doação. | EMAIL_COPIA = regina@usinasantafe.com.br;caraciolo@usinasantafe.com.br;suzana@usinasantafe.com.br;luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;adeir@usinasantafe.com.br;lucimara@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+09/03/2015 14:08 - HEITOR | ID = 761 | DESCRICAO = PAGAMENTO PARA CARTÓRIO | DETALHES =  | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;adeir@usinasantafe.com.br;lucimara@usinasantafe.com.br;ronald.siqueira@usinasantafe.com.br; roger@usinasantafe.com.br; andre.azevedo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+11/03/2015 10:50 - HEITOR | ID = 782 | DESCRICAO = PAGAMENTO/ANTECIPAÇÃO FORNECEDORES DE CANA CONFORME CONTRATO | DETALHES = Utilizada para autorização de pagamento de valores que constam em contrato de fornecedores de cana e parceiros de cana.
+Cadastro do C.I.: 
+     - Para o pagamento antecipado de vencimentos de contrato de fornecedores de cana, deverá ser realizado pela área CONTROLE AGRICOLA
+Aprovação do C.I.:
+     - Para o pagamento antecipado de vencimentos de contrato de fornecedores de cana, deverá ser realizado pela assessoria de controle agricola.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo de acordo com critério descrito acima em Cadastro do C.I.
+PARA:
+Informar o centro de custo de acordo com critério descrito acima em Aprovação do C.I.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o nome do fornecedor e o vencimento do pagamento/antecipação.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor total dos pagamentos/antecipações.
+ANEXOS:
+Deverá ser anexado o memorial de cálculo da antecipação do contrato ou as guias de recolhimento das taxas de queima de laranja. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;adeir@usinasantafe.com.br;lucimara@usinasantafe.com.br;ronald.siqueira@usinasantafe.com.br; roger@usinasantafe.com.br; andre.azevedo@usinasantafe.com.br | ATIVO = n | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+11/03/2015 13:14 - RONALDOGOMES | DESCRICAO = FÉRIAS DE COLAB. NÃO PROGRAMADAS (30 dias antes) - CONTROLADORIA | DETALHES =  | EMAIL_COPIA =  | ATIVO = s
+11/03/2015 13:16 - RONALDOGOMES | ID = 783 | DESCRICAO = FÉRIAS DE COLAB. NÃO PROGRAMADAS (30 dias antes) - CONTROLADORIA | DETALHES = Utilizada para liberação de colaborador ao gozo de férias com menos de 30 dias antes do inicio das férias. 
+O cadastro da C.I. deverá ser realizado pelo Gerente da área a qual o colaborador esteja alocado.
+A aprovação do C.I. será de responsabilidade do Diretor da área.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo da área solicitante.
+PARA:
+Informar o centro de custo da área solicitante.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Informar matrícula e nome do(s) colaborador(es), data de início e quantidade de dias de gozo de férias.
+VALOR TOTAL DA CI EM R$: 
+Não informar valor
+ANEXOS:
+Poderá ser anexado arquivo com a relação de colaboradores quando a quantidade for expressiva, contento matrícula e nome do(s) colaborador(es), data de início e quantidade de dias de gozo de férias, mencionando no campo MOTIVO o arquivo anexo. | EMAIL_COPIA =  | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+11/03/2015 13:16 - RONALDOGOMES | ID = 783 | DESCRICAO = FÉRIAS DE COLAB. NÃO PROGRAMADAS (30 dias antes) - CONTROLADORIA | DETALHES = Utilizada para liberação de colaborador ao gozo de férias com menos de 30 dias antes do inicio das férias. 
+O cadastro da C.I. deverá ser realizado pelo Gerente da área a qual o colaborador esteja alocado.
+A aprovação do C.I. será de responsabilidade do Diretor da área.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo da área solicitante.
+PARA:
+Informar o centro de custo da área solicitante.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Informar matrícula e nome do(s) colaborador(es), data de início e quantidade de dias de gozo de férias.
+VALOR TOTAL DA CI EM R$: 
+Não informar valor
+ANEXOS:
+Poderá ser anexado arquivo com a relação de colaboradores quando a quantidade for expressiva, contento matrícula e nome do(s) colaborador(es), data de início e quantidade de dias de gozo de férias, mencionando no campo MOTIVO o arquivo anexo. | EMAIL_COPIA = kleber@usinasantafe.com.br;zeze@usinasantafe.com.br;valderes@usinasantafe.com.br;marta@usinasantafe.com.br;rose@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+12/03/2015 16:05 - HEITOR | ID = 802 | DESCRICAO = ANTECIPAÇÃO DE VALORES SEM CONTRATO/PEDIDO | DETALHES = Utilizada para liberação de pagamentos antecipados a fornecedores sem contrato/pedido.
+
+O cadastro do C.I. deverá ser realizado pelo Gerente/Assessor da área para  Diretoria.
+A aprovação do C.I. será de responsabilidade dos Diretores.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Nome do fornecedor
+DE:
+Informar o centro de custo da área solicitante.
+PARA:
+Informar o centro de custo da área solicitante.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo da liberação do pagamento, data e valor a ser pago ao fornecedor.
+VALOR TOTAL DA CI EM R$: 
+informar o valor
+ANEXOS:
+Poderá ser qualquer arquivo que se julgue necessário. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;adeir@usinasantafe.com.br;lucimara@usinasantafe.com.br;ronald.siqueira@usinasantafe.com.br; roger@usinasantafe.com.br; andre.azevedo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = s
+31/03/2015 17:11 - RONALDOGOMES | DESCRICAO = CADASTRO DE TALHÕES (FORA DO FLUXO DE TRABALHO) | DETALHES =  - Cadastrar talhão ainda sem contrato em propriedade que possua contrato para que seja possível abertura de OS de colheita.
+
+- Valor obrigatório (Utilizar valor estimado do contrato, devido ao fluxo exigido) | EMAIL_COPIA =  | ATIVO = s
+31/03/2015 17:14 - RONALDOGOMES | ID = 821 | DESCRICAO = CADASTRO DE TALHÕES (FORA DO FLUXO DE TRABALHO) | DETALHES = - Cadastrar talhão ainda sem contrato em propriedade que possua contrato para que seja possível abertura de OS de colheita.
+
+- Valor obrigatório (Utilizar valor estimado do contrato, devido ao fluxo exigido) | EMAIL_COPIA = raquel@usinasantafe.com.br, lucianohenrique@usinasantafe.com.br, dalves@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n

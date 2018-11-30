@@ -1,0 +1,47 @@
+<div id="lista">
+    <div id="lista-borda">
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">Permissões para organograma - Usu&aacute;rio <?php echo $this->usuarios[0]['LOGIN']; ?></div>
+            <div id="lista-titulo-menu">
+                <div id="lista-titulo-menu-voltar" class="botao" onclick="javascript:OpenSelf('<?php echo $this->baseUrl()?>/admin/permissoes/cadastro');">Voltar</div>
+            </div>
+        </div>
+        <div id="espaco"></div>
+        <div id="permissao-sistema" class="div-menu">
+            <div id="permissao-sistema-conteudo">
+                <?php echo base64_decode($this->mensagemPermissaoSistema);?>
+                <form id="permissao-sistema" enctype="application/x-www-form-urlencoded" action="<?php echo $this->baseUrl()?>/admin/relatorios/update" method="post" class="cadastro">
+                    <div id="formulario">
+                    <br />
+                    <?php 
+                    foreach ($this->usuarios as $cont=>$dados):
+                    ?>
+                        <table class="listagem" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th align="center">
+                                        <!--<input id="todas" value="<?php echo $dados['ID'];?>" type="checkbox" name="menu[]" <?php echo (($dados['VISUALIZAR']=='t')?'checked="checked"':'');?> /></th>-->
+                                    <th><?php echo $dados['LOGIN'];?></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                        <br />
+                    <?php
+                    endforeach;
+                    ?>
+                    <div style="text-align: right;">
+                        <hr style="color: #0070a3;background-color: #0070a3;"/>
+                        <input type="submit" name="btnSavar" value="Salvar"  class="inputBtnSalvar"/>&nbsp;
+                        <input type="button" name="btnCancelar" value="Cancelar" onclick="javascript:OpenSelf('<?php echo $this->baseUrl()?>/admin/permissoes/');"  class="inputBtnSalvar"/>&nbsp;
+                        <input type="hidden" name="id" value="<?php echo $this->usuario?>" />
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <br>
+    </div>
+</div>

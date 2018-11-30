@@ -1,0 +1,13 @@
+<table>
+<?php
+foreach ($this->despesas as $despesa) { ?>
+    <tr>
+        <td><label style="width: 170px;text-transform: uppercase;"><?php echo ($despesa["DESCRICAO"]); ?></label></td>
+        <td>
+            <input style="width: 120px;" name="despesa[<?php echo $despesa["FINALIDADE_TIPO_DESPESA"]; ?>]" type="text" value="<?php echo $despesa["VALOR"]; ?>" operador="<?php echo $despesa["TIPO"] == 1 ? "+" : "-" ?>" /> 
+            ( <?php echo $despesa["TIPO"] == 1 ? "+" : "-" ?> )
+        </td>
+    </tr>
+<?php } ?>
+</table>
+<br/>

@@ -1,0 +1,34 @@
+20/07/2015 12:02 - HEITOR | ID = 3 | DESCRICAO = LIBERAÇÃO DE PRESTAÇÃO DE SERVIÇOS | DETALHES = Utilizada para liberação da entrada de prestadores de serviço de empresas terceirizadas quando por falta de documentação necessária para execução do serviço.
+O cadastro do C.I. deverá ser realizado pela Segurança Patrimonial (portarias).
+A aprovação do C.I. deverá ser realizada pelo Gerente/Assessor da área responsável pelo serviço a ser realizado.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Nome da empresa prestadora do serviço
+DE:
+Informar o centro de custo Assessoria Segurança Patrimonial.
+PARA:
+Informar o centro de custo da área onde o serviço será realizado.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo da solicitação da liberação da entrada dos prestadores de serviço da empresa terceirizada, relacionando nome e documento dos mesmos.
+VALOR TOTAL DA CI EM R$: 
+Não informar o valor
+ANEXOS:
+Poderá ser anexado qualquer arquivo que se julgue necessário. | EMAIL_COPIA = camaceti@usinasantafe.com.br;apadovani@usinasantafe.com.br;cassiano@usinasantafe.com.br;junior.cesar@usinasantafe.com.br;rodrigobatista@usinasantafe.com.br;alexandre@usinasantafe.com.br;areias@usinasantafe.com.br;luzia@usinasantafe.com.br;jose.rodrigues@usinasantafe.com.br;everaldo.mandira@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+20/07/2015 12:04 - HEITOR | ID = 3 | DESCRICAO = LIBERAÇÃO DE PRESTAÇÃO DE SERVIÇOS | DETALHES = Utilizada para liberação da entrada de prestadores de serviço de empresas terceirizadas quando por falta de documentação necessária para execução do serviço.
+O cadastro do C.I. deverá ser realizado pela Segurança Patrimonial (portarias).
+A aprovação do C.I. deverá ser realizada pelo Gerente/Assessor da área responsável pelo serviço a ser realizado.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Nome da empresa prestadora do serviço
+DE:
+Informar o centro de custo Assessoria Segurança Patrimonial.
+PARA:
+Informar o centro de custo da área onde o serviço será realizado.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo da solicitação da liberação da entrada dos prestadores de serviço da empresa terceirizada, relacionando nome e documento dos mesmos.
+VALOR TOTAL DA CI EM R$: 
+Não informar o valor
+ANEXOS:
+Poderá ser anexado qualquer arquivo que se julgue necessário. | EMAIL_COPIA = camaceti@usinasantafe.com.br;apadovani@usinasantafe.com.br;cassiano@usinasantafe.com.br;junior.cesar@usinasantafe.com.br;rodrigobatista@usinasantafe.com.br;alexandre@usinasantafe.com.br;areias@usinasantafe.com.br;luzia@usinasantafe.com.br;everaldo.mandira@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n

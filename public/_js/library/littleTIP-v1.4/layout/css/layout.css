@@ -1,0 +1,109 @@
+/*
+ * Theme: "littleTIP Project Theme"
+ * Author: 2010-2012 © Saulo <http://code.google.com/p/littletip/>
+ *
+ */
+
+html, body {
+	margin:0;
+	padding:0;
+	}
+body {
+	background:gray;
+	}
+#container {
+	overflow:hidden;
+	padding:0 50px 50px 50px;
+	min-width:900px;
+	background:#B3B3B3;
+	}
+h1, h2, h3, h4, h5, h6, p, a {
+	font-family:'Georgia','Book Antiqua',serif;
+	font-size:15px;
+	font-weight:normal;
+	letter-spacing:0;
+	line-height:normal;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	opacity:1;
+	word-wrap:break-word;
+	white-space:normal;
+	color:#555;
+	text-shadow:0 1px 1px #E1E1E1;
+	}
+a:hover {
+	color:blue;
+	border-bottom:none;
+	}
+.alittletipel {
+	cursor:auto;
+	font-weight:bold;
+	color:#B5D5FF;
+	text-shadow:0 1px 1px gray;
+	border-bottom:1px solid #B5D5FF;
+	}
+.spanlittletipel {
+	cursor:help;
+	font-weight:bold;
+	color:#FFFF9A;
+	text-shadow:0 1px 1px gray;
+	}
+.imglittletipel {
+	cursor:help;
+	font-weight:bold;
+	color:#C3F991;
+	text-shadow:0 1px 1px gray;
+	}
+code {
+	background:#C7C7C7;
+	padding:0 2px;
+	}
+/* -------------------------- header -------------------------- */
+header {
+	margin:0 auto;
+	padding:50px 25px 25px 25px;
+	width:335px;
+	height:165px;
+	}
+header img {
+	margin:0 auto;
+	}
+/* ------------------------- wrapper -------------------------- */
+#littletipwrapper {
+	margin:0 auto;
+	padding:30px 25px 0 25px;
+	width:700px;
+	border-top:4px double #969696;
+	}
+/* -------------------- Image in littleTIP -------------------- */
+#littleTIP img {
+	margin-top:4px;
+
+	-ms-box-shadow:0 0 5px #000;
+	-o-box-shadow:0 0 5px #000;
+	-moz-box-shadow:0 0 5px #000;
+	-webkit-box-shadow:0 0 5px #000;
+	-goog-ms-box-shadow:0 0 5px #000;
+	box-shadow:0 0 5px #000;
+	}
+/* -------------------------- footer -------------------------- */
+footer {
+	margin:0;
+	padding:35px 0 100px 0;
+	width:auto;
+	text-align:center;
+	background:gray;
+	border-top:1px solid #BFBFBF;
+	-ms-box-shadow:inset 0 4px 4px -4px #323232;
+	-o-box-shadow:inset 0 4px 4px -4px #323232;
+	-moz-box-shadow:inset 0 4px 4px -4px #323232;
+	-webkit-box-shadow:inset 0 4px 4px -4px #323232;
+	-goog-ms-box-shadow:inset 0 4px 4px -4px #323232;
+	box-shadow:inset 0 4px 4px -4px #323232;
+	}
+footer a {
+	font-size:14px;
+	color: #333;
+	border:none;
+	}

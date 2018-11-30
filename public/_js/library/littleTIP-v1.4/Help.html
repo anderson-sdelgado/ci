@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="949.54">
+  <style type="text/css">
+    p.p1 {margin: 0 0 16px 0; font: 24px Arial}
+    p.p2 {margin: 0 0 13px 0; line-height: 16px; font: 13px Arial; min-height: 15px}
+    p.p3 {margin: 0 0 14px 0; font: 18px Arial}
+    p.p4 {margin: 0 0 13px 0; line-height: 16.0px; font: 13px Arial}
+    p.p5 {margin: 0 0 3px 0; font: 13px Arial}
+    p.p6 {margin: 0; font: 12px Monaco; color: #5c1462; background-color: #eeeeee}
+    p.p7 {margin: 0; font: 12px Monaco; color: #000e82; background-color: #eeeeee}
+    p.p8 {margin: 0; font: 12px Monaco; background-color: #eeeeee; min-height: 16.0px}
+    p.p9 {margin: 0; font: 12px Monaco; background-color: #eeeeee}
+    p.p10 {margin: 0; font: 12px Monaco; color: #33841d; background-color: #eeeeee}
+    p.p11 {margin: 0; font: 12px Monaco; color: #7c150d; background-color: #eeeeee}
+    p.p12 {margin: 0 0 14px 0; font: 18px Arial; min-height: 21px}
+    span.s1 {font: 12px Monaco}
+    span.s2 {color: #000e82}
+    span.s3 {color: #000000}
+    span.s4 {color: #5c1462}
+    span.s5 {color: #676519}
+    span.s6 {color: #246465}
+    span.s7 {color: #7c150d}
+    span.s8 {text-decoration: underline ; color: #0015c3}
+    span.s9 {text-decoration: line-through}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<p class="p1"><b>littleTIP</b></p>
+<br>
+<br>
+<p class="p3"><b>Introdution</b></p>
+
+<p class="p4">littleTIP is a common graphical user interface element, used to provide extra information when a user hovers the mouse cursor over it. Can be used on any <span class="s1">html</span> element with the <span class="s1">title</span> attribute so there's no need to use extra markup.</p>
+
+<br>
+<br>
+
+<p class="p3"><b>Vantages</b></p>
+<p class="p4">littleTIP was developed with the perspective of being an infotip that provides extra information in a simple and effective way, for easy implementation and configuration. Currently some vantages in using littleTIP are:</p>
+<ul class="ul1">
+  <li style="margin: 0 0 3px 0; font: 13px Arial">Easy and simpler to use</li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial">Customizable via CSS</li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial">Cross browser compatible</li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial">Syntax of markup (uses the <span class="s1">title</span> attribute)</li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial">Intellegent position (repositions itself when there's not enough screen space)</li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial">The text has an individual property to separately control its opacity</li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial">Less code, more efficience (uses no extra CSS classes hidden with the CSS stylesheet)</li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial">More search engine (SEO) friendly</li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial">Fallbacks to the normal tooltip if javascript is not available</li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial">Lightweight (minified version as 1.5 Bytes)</li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial">Totally free</li>
+</ul>
+
+<br>
+<br>
+
+<p class="p3"><b>Application</b></p>
+<p class="p4">First include CSS style for littleTIP customization and the javascript files of jQuery and littleTIP. Finally add the desired information in the <span class="s1">html</span> <span class="s1">title</span> attributes. Where is not required the plugin attendance just don't include the information in <span class="s1">title</span> attributes.</p>
+<p class="p4"><b>You're done! There's nothing else to the simple littleTIP work.</b></p>
+<p class="p6">&lt;!DOCTYPE HTML&gt;</p>
+<p class="p7">&lt;html&gt;</p>
+<p class="p7">&lt;head&gt;</p>
+<p class="p8"><br></p>
+<p class="p9">        <span class="s2">&lt;title&gt;</span>littleTIP - jQuery Plugin<span class="s2">&lt;/title&gt;</span></p>
+<p class="p8"><br></p>
+<p class="p10"><span class="s3">        </span><span class="s2">&lt;link</span><span class="s3"> </span><span class="s4">href</span><span class="s5">=</span>'littletip.css'<span class="s3"> </span><span class="s4">media</span><span class="s5">=</span>'screen'<span class="s3"> </span><span class="s4">rel</span><span class="s5">=</span>'stylesheet'<span class="s2">/&gt;</span></p>
+<p class="p8"><br></p>
+<p class="p10"><span class="s3">        </span><span class="s2">&lt;script</span><span class="s3"> </span><span class="s4">src</span><span class="s5">=</span>"http://code.jquery.com/jquery-latest.js"<span class="s2">&gt;&lt;/script&gt;</span></p>
+<p class="p10"><span class="s3">        </span><span class="s2">&lt;script</span><span class="s3"> </span><span class="s4">src</span><span class="s5">=</span>"http://littletip.googlecode.com/svn/trunk/littletip-latest.js"<span class="s2">&gt;&lt;/script&gt;</span></p>
+<p class="p8"><br></p>
+<p class="p7">&lt;/head&gt;</p>
+<p class="p7">&lt;body&gt;</p>
+<p class="p8"><br></p>
+<p class="p10"><span class="s3">        </span><span class="s2">&lt;a</span><span class="s3"> </span><span class="s4">href</span><span class="s5">=</span>"http://www.google.com"<span class="s3"> </span><span class="s4">title</span><span class="s5">=</span>"This is a link example of littleTIP"<span class="s2">&gt;</span><span class="s3">Link</span><span class="s2">&lt;/a&gt;</span></p>
+<p class="p8"><br></p>
+<p class="p10"><span class="s3">        </span><span class="s2">&lt;span</span><span class="s3"> </span><span class="s4">title</span><span class="s5">=</span>"This is a span example of littleTIP"<span class="s2">&gt;</span><span class="s3">Span</span><span class="s2">&lt;/span&gt;</span></p>
+<p class="p8"><br></p>
+<p class="p10"><span class="s3">        </span><span class="s2">&lt;img</span><span class="s3"> </span><span class="s4">scr</span><span class="s5">=</span>"http://www.google.com/image.png"<span class="s3"> </span><span class="s4">width</span><span class="s5">=</span>"50"<span class="s3"> </span><span class="s4">height</span><span class="s5">=</span>"50"<span class="s3"> </span><span class="s4">title</span><span class="s5">=</span>"This is a image example of littleTIP"<span class="s3"> </span><span class="s2">/&gt;</span></p>
+<p class="p8"><br></p>
+<p class="p7">&lt;/body&gt;</p>
+<p class="p7">&lt;/html&gt;</p>
+
+<br>
+<br>
+
+<p class="p3"><b>Styling</b></p>
+<p class="p4">littleTIP has been designed to be fully configurable via CSS. Only needs one CSS id property to the body (#littleTIP), one to the background (#littleTIPbackground) and one to the text (#littleTIPtext). Hence, the appearance is easily configured with any existent CSS attribute.</p>
+<p class="p11">#littleTIP {</p>
+<p class="p9">        max<span class="s5">-</span>width<span class="s5">:</span> <span class="s6">250px</span><span class="s5">;</span></p>
+<p class="p9">        padding<span class="s5">:</span> <span class="s6">5px</span><span class="s5">;</span></p>
+<p class="p9">        <span class="s5">}</span></p>
+<p class="p8"><br></p>
+<p class="p11">#littleTIPbackground {</p>
+<p class="p9">        background<span class="s5">:</span> rgb<span class="s5">(</span><span class="s6">0</span><span class="s5">,</span><span class="s6">0</span><span class="s5">,</span><span class="s6">0</span><span class="s5">);</span></p>
+<p class="p9">        border<span class="s5">:</span> <span class="s6">1px</span> solid rgb<span class="s5">(</span><span class="s6">51</span><span class="s5">,</span><span class="s6">51</span><span class="s5">,</span><span class="s6">51</span><span class="s5">);</span></p>
+<p class="p9">        outline<span class="s5">:</span> <span class="s6">1px</span> solid rgb<span class="s5">(</span><span class="s6">0</span><span class="s5">,</span><span class="s6">0</span><span class="s5">,</span><span class="s6">0</span><span class="s5">);</span></p>
+<p class="p9">        <span class="s5">}</span></p>
+<p class="p8"><br></p>
+<p class="p11">#littleTIPtext {</p>
+<p class="p9">        font<span class="s5">-</span>family<span class="s5">:</span> <span class="s4">Helvetica</span><span class="s5">,</span> sans<span class="s5">-</span>serif<span class="s5">;</span></p>
+<p class="p9">        font<span class="s5">-</span>size<span class="s5">:</span> <span class="s6">12px</span><span class="s5">;</span></p>
+<p class="p9">        text<span class="s5">-</span>align<span class="s5">:</span> left<span class="s5">;</span></p>
+<p class="p9">        <span class="s5">}</span></p>
+
+<br>
+<br>
+
+<p class="p3"><b>Extra Configurations</b></p>
+<p class="p4">All the above steps are enough but if you want diferent values for littleTIP just include a javascript snippet in the <span class="s1">head</span> of your document after the jQuery and littleTIP call. If you include the snippet after the littleTIP call your values will overlap the default values. As last option you can <a href="http://code.google.com/p/littletip/downloads/list">download</a> and change it directly in the javascript file.</p>
+<p class="p6">&lt;!DOCTYPE HTML&gt;</p>
+<p class="p7">&lt;html&gt;</p>
+<p class="p7">&lt;head&gt;</p>
+<p class="p8"><br></p>
+<p class="p9">        <span class="s2">&lt;title&gt;</span>littleTIP - jQuery Plugin<span class="s2">&lt;/title&gt;</span></p>
+<p class="p8"><br></p>
+<p class="p10"><span class="s3">        </span><span class="s2">&lt;link</span><span class="s3"> </span><span class="s4">href</span><span class="s5">=</span>'littletip.css'<span class="s3"> </span><span class="s4">media</span><span class="s5">=</span>'screen'<span class="s3"> </span><span class="s4">rel</span><span class="s5">=</span>'stylesheet'<span class="s2">/&gt;</span></p>
+<p class="p8"><br></p>
+<p class="p10"><span class="s3">        </span><span class="s2">&lt;script</span><span class="s3"> </span><span class="s4">src</span><span class="s5">=</span>"http://code.jquery.com/jquery-latest.js"<span class="s2">&gt;&lt;/script&gt;</span></p>
+<p class="p10"><span class="s3">        </span><span class="s2">&lt;script</span><span class="s3"> </span><span class="s4">src</span><span class="s5">=</span>"http://littletip.googlecode.com/svn/trunk/littletip-latest.js"<span class="s2">&gt;&lt;/script&gt;</span></p>
+<p class="p8"><br></p>
+<p class="p9">        <span class="s2">&lt;script&gt;</span></p>
+<p class="p11"><span class="s3">                </span>// littleTIP options (change default values to fit your needs)</p>
+<p class="p9">                littleTIPdelay           <span class="s5">=</span>   <span class="s6">1000</span>        <span class="s5">;</span>  <span class="s7">// Delay time before appear (in milliseconds)</span></p>
+<p class="p9">                littleTIPfade            <span class="s5">=</span>   <span class="s6">500</span>         <span class="s5">;</span>  <span class="s7">// Fading duration time (in milliseconds)</span></p>
+<p class="p9">                littleTIPbackground      <span class="s5">=</span>   <span class="s6">0.7</span>         <span class="s5">;</span>  <span class="s7">// Background opacity (from 0 to 1)</span></p>
+<p class="p9">                littleTIPtext            <span class="s5">=</span>   <span class="s6">1</span>           <span class="s5">;</span>  <span class="s7">// Text opacity (from 0 to 1)</span></p>
+<p class="p9">                littleTIPx               <span class="s5">=</span>   <span class="s6">15</span>          <span class="s5">;</span>  <span class="s7">// Horizontal distance from cursor (in pixels)</span></p>
+<p class="p9">                littleTIPy               <span class="s5">=</span>   <span class="s6">15</span>          <span class="s5">;</span>  <span class="s7">// Vertical distance from cursor (in pixels)</span></p>
+<p class="p7"><span class="s3">        </span>&lt;/script&gt;</p>
+<p class="p8"><br></p>
+<p class="p7">&lt;/head&gt;</p>
+<p class="p7">&lt;body&gt;</p>
+<p class="p8"><br></p>
+<p class="p10"><span class="s3">        </span><span class="s2">&lt;a</span><span class="s3"> </span><span class="s4">href</span><span class="s5">=</span>"http://www.google.com"<span class="s3"> </span><span class="s4">title</span><span class="s5">=</span>"This is a link example of littleTIP"<span class="s2">&gt;</span><span class="s3">Link</span><span class="s2">&lt;/a&gt;</span></p>
+<p class="p8"><br></p>
+<p class="p10"><span class="s3">        </span><span class="s2">&lt;span</span><span class="s3"> </span><span class="s4">title</span><span class="s5">=</span>"This is a span example of littleTIP"<span class="s2">&gt;</span><span class="s3">Span</span><span class="s2">&lt;/span&gt;</span></p>
+<p class="p8"><br></p>
+<p class="p10"><span class="s3">        </span><span class="s2">&lt;img</span><span class="s3"> </span><span class="s4">scr</span><span class="s5">=</span>"http://www.google.com/image.png"<span class="s3"> </span><span class="s4">title</span><span class="s5">=</span>"This is a image example of littleTIP"<span class="s3"> </span><span class="s2">/&gt;</span></p>
+<p class="p8"><br></p>
+<p class="p7">&lt;/body&gt;</p>
+<p class="p7">&lt;/html&gt;</p>
+
+<br>
+<br>
+
+<p class="p3"><b>License &amp; Download</b></p>
+<p class="p4">The terms for using this plugin can be found <a href="http://creativecommons.org/licenses/by-sa/3.0/"><span class="s8">HERE</span></a></p>
+<p class="p4">The download zip include help, examples, the normal and the minified javascript files. It can be found <a href="http://code.google.com/p/littletip/downloads/list"><span class="s8">HERE</span></a></p>
+
+<br>
+<br>
+
+<p class="p3"><b>Developing</b></p>
+<ul class="ul1">
+  <li style="margin: 0 0 3px 0; font: 13px Arial">Possibility to use several different littleTIP styles</li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial">Possibility to use several fixed positions</li>
+</ul>
+
+<br>
+<br>
+
+<p class="p3"><b>Changelog</b></p>
+<ul class="ul1">
+  <li style="margin: 0 0 3px 0; font: 13px Arial"><span class="s9">v1.0 - Initial Version</span></li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial"><span class="s9">v1.1 - First revision: Markup simplicity improvement</span></li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial"><span class="s9">v1.2 - Second revision: Better syntax properties</span></li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial"><span class="s9">v1.3 - Third revision: Definition for the syntax of functions declaration</span></li>
+  <li style="margin: 0 0 3px 0; font: 13px Arial">v1.4 - Fourth revision: Better syntax and general revision</li>
+</ul>
+
+<br>
+<br>
+<p class="p4"><b>Last updated</b>: Tuesday, 3 January 2012, 16:55:18 WET</p>
+
+<br>
+</body>
+</html>

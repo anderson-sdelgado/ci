@@ -1,0 +1,51 @@
+<div id="lista">
+    <div id="lista-borda">
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">An&aacute;lise Cargos x Processos</div>
+            <div id="lista-titulo-menu">
+                <div id="lista-titulo-menu-voltar" class="botao" onclick="javascript:OpenSelf('<?php echo $this->baseUrl()?>/admin/processos/relacionamento');">Voltar</div>
+            </div>
+        </div>
+        <div id="espaco"></div>
+        <?php echo base64_decode($this->mensagem);?>
+        <div id="formulario">
+            <form name="frmCargos" id="frmCargos" method="post" action="<?php echo $this->baseUrl()?>/admin/processos/relacionamento" enctype="multipart/form-data">
+                <label for="cargos">Cargo:</label>
+                <select name="selectCargos" id="selectCargos">
+                    <option value="">Selecione...</option>
+                    <?php                
+                    foreach($this->cargos as $cargos):
+                    ?>
+                        <option value="<?php echo $cargos['COD_FUNCAO']; ?>"><?php echo $cargos['DESCR_FUNCAO'];?></option>
+                    <?php
+                    endforeach;
+                    ?>
+                </select>
+                <div id="targetMO">
+                    <select name="MO" id="MO">
+                        <option value="">Escolha...</option>
+                        <option value="D">Direta</option>
+                        <option value="I">Indireta</option>
+                    </select>
+                </div>
+                <br /><br />
+                <div id="targetAjaxProc"></div>
+                <div id="targetAjaxCargo"></div>
+                <br /><br />
+                <div id="targetAjaxArq">
+                    <label>UPLOAD:</label><input type="FILE" name="arquivo" id="arquivo" />     
+                    <div>
+                        <label>TIPO ARQUIVO:</label>
+                        <select name="tipo_arquivo">
+                            <option value="p">Procedimento</option>
+                            <option value="o">Outros</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <br /><br />
+                <input type="submit" class="inputBtnSalvar" name="btnSalvar" id="btnSalvar" value="Salvar" />
+            </form>
+        </div>
+    </div>
+</div>

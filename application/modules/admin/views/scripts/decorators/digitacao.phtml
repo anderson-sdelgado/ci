@@ -1,0 +1,11 @@
+<form action="<?php echo $this->escape($this->element->getAction());?>" method="<?php echo $this->escape($this->element->getMethod());?>" 
+      id="<?php echo $this->escape($this->element->getAttrib('id'));?>"  class="<?php echo $this->escape($this->element->getAttrib('class'));?>">    
+    <label class="frmLabel" for="id_cargo"><?php echo ($this->element->id_cargo);?></label>
+    <label class="frmLabel" for="centros"><?php echo ($this->element->centros);?></label>
+    <label class="frmLabel" for="mes_ref"><?php echo ($this->element->mes_ref);?></label>
+    <label class="frmLabel" for="qtd"><?php echo ($this->element->qtd);?></label>
+    <?php echo ($this->element->id);?>
+    <br /><br />
+    <label class="frmLabel" for="submeter"><?php echo ($this->element->submeter);?></label>
+    <br /><br />    
+</form>

@@ -1,0 +1,272 @@
+22/02/2018 15:16 - DONIZETE | ID = 681 | DESCRICAO = PROCESSO TRABALHISTA/CÍVEL | DETALHES = Pagamento de despesas trabalhistas (Deposito recursal, Custas, Sentença e Calculo de liquidação). | EMAIL_COPIA = luide@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;natacha.pastre@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+22/02/2018 15:22 - DONIZETE | ID = 301 | DESCRICAO = PRESTAÇÃO DE CONTAS (DIVERSOS) | DETALHES = Utilizada para prestação de contas de despesas diversas (excluindo-se as relacionadas a despesas de viagens), sejam elas para acerto do fundo fixo, acerto de solicitação de numerário ou reembolso.
+O cadastro do C.I. deverá ser realizado pela área responsável pela despesa.
+A aprovação do C.I. deverá ser realizada pelo Gerente/Assessor da área responsável pela despesa.
+Os comprovantes das despesas deverão ser anexados ao C.I. impresso após sua aprovação, para serem entregues à Tesouraria.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo da área responsável pela despesa.
+PARA:
+Informar o centro de custo da área responsável pela despesa.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever as despesas e seus valores.
+Caso seja um acerto de um Comunicado Interno de Solicitação de Numerário, informar o número deste.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor total das despesas.
+ANEXOS:
+Poderão ser anexados os comprovantes das despesas caso julgue-se necessário. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+22/02/2018 15:23 - DONIZETE | ID = 802 | DESCRICAO = ANTECIPAÇÃO DE VALORES SEM CONTRATO/PEDIDO | DETALHES = Utilizada para liberação de pagamentos antecipados a fornecedores sem contrato/pedido.
+
+O cadastro do C.I. deverá ser realizado pelo Gerente/Assessor da área para  Diretoria.
+A aprovação do C.I. será de responsabilidade dos Diretores.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Nome do fornecedor
+DE:
+Informar o centro de custo da área solicitante.
+PARA:
+Informar o centro de custo da área solicitante.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo da liberação do pagamento, data e valor a ser pago ao fornecedor.
+VALOR TOTAL DA CI EM R$: 
+informar o valor
+ANEXOS:
+Poderá ser qualquer arquivo que se julgue necessário. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;natacha.pastre@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = s
+22/02/2018 15:25 - DONIZETE | ID = 42 | DESCRICAO = COMPLEMENTO DE VERBA DE PROJETO | DETALHES = Utilizada para solicitação de complemento de verba de projeto. 
+O cadastro do C.I. deverá ser realizado pela área responsável pelo projeto.
+A aprovação do C.I. deverá ser realizada pela diretoria.
+
+Instruções para preenchimento dos campos:
+
+EMPRESA:
+Usina Santa Fé S.A.
+
+DE:
+Informar o centro de custo da área responsável pelo projeto.
+
+PARA:
+Informar o centro de custo da planta do projeto.
+
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo da solicitação de complemento de verba do projeto, informando o número do mesmo, seu valor original e o valor do complemento.
+
+VALOR TOTAL DA CI EM R$: 
+Informar o valor do complemento do projeto.
+
+ANEXOS:
+Anexar o relatório do SGI (Acompanhamento por status do projeto - Analítico (OCPF0017)). | EMAIL_COPIA = alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;luide@usinasantafe.com.br;cristiano.alves@usinasantafe.com.br;danilocampos@usinasantafe.com.br;erika.costa@usinasantafe.com.br;ariele.pavan@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+22/02/2018 15:26 - DONIZETE | ID = 61 | DESCRICAO = DOAÇÕES | DETALHES = Utilizada para aprovação de doações de qualquer natureza, seja ela com ou sem valor. 
+O Gestor que receber a solicitação deverá aceitá-la através de ofício, que será anexado no cadastro do C.I.
+A aprovação do C.I. deverá ser realizada pela diretoria.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Informar o nome da entidade/empresa solicitante.
+
+DE:
+Informar o centro de custo da área solicitante.
+
+PARA:
+Informar o centro de custo da área solicitante.
+
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever a solicitação da doação de acordo com o ofício da entidade/empresa solicitante.
+
+VALOR TOTAL DA CI EM R$: 
+Informar o valor da doação
+
+ANEXOS:
+Anexar o ofício da solicitação de doação. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+22/02/2018 15:27 - DONIZETE | ID = 661 | DESCRICAO = EMPRÉSTIMO CONSIGNADO | DETALHES = Depósito do empréstimo consignado descontado dos colaboradores. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;natacha.pastre@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+22/02/2018 15:27 - DONIZETE | ID = 321 | DESCRICAO = EMISSÃO DE CHEQUE OU CARTA AUTORIZAÇÃO DE DÉBITO | DETALHES = Utilizada para solicitação de emissão de cheque para pagamento à colaborador ou emissão de carta de autorização de débito ao banco para baixa de empréstimo consignado do colaborador.
+O cadastro do C.I. deverá ser realizado pelo RH.
+A aprovação do C.I. deverá ser realizada pelo Gerente Financeiro.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo ADMINISTRAÇÃO DE PESSOAL.
+PARA:
+Informar o centro de custo TESOURARIA.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo da emissão do cheque ou carta de autorização de débito.
+VALOR TOTAL DA CI EM R$: 
+Não informar valor.
+ANEXOS: Não necessário. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+22/02/2018 15:28 - DONIZETE | ID = 741 | DESCRICAO = INCLUSÃO DE SEGUROS | DETALHES =  | EMAIL_COPIA = luide@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;natacha.pastre@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+22/02/2018 15:28 - DONIZETE | ID = 222 | DESCRICAO = PAGAMENTO A FORNECEDORES/CLIENTES CONFORME CONTRATO/PEDIDO | DETALHES = Utilizada para liberação de pagamento a fornecedores conforme contrato/pedido de prestação de serviço ou aquisição de produto, após verificação do cumprimento das etapas do cronograma previsto.
+O cadastro do C.I. deverá ser realizado pelo responsável pelo serviço/produto junto ao fornecedor.
+A aprovação do C.I. será de responsabilidade do  Gerente/Assessor da área responsável pelo serviço/produto junto ao fornecedor.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Nome do fornecedor
+DE:
+Informar o centro de custo da área solicitante.
+PARA:
+Informar o centro de custo da área solicitante.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo da liberação do pagamento, informando o nº do contrato, parcela, data e valor a ser pago ao fornecedor.
+VALOR TOTAL DA CI EM R$: 
+Não informar o valor
+ANEXOS:
+Poderá ser qualquer arquivo que se julgue necessário. | EMAIL_COPIA = luide@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;natacha.pastre@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+22/02/2018 15:29 - DONIZETE | ID = 921 | DESCRICAO = PAGAMENTO DE CONSÓRCIO | DETALHES = Pagamentos de parcelas de consórcios já assinados pela a diretoria. | EMAIL_COPIA = luide@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;natacha.pastre@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+22/02/2018 15:29 - DONIZETE | ID = 183 | DESCRICAO = PAGAMENTO DE GUIAS | DETALHES =  | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br | ATIVO = n | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+22/02/2018 15:30 - DONIZETE | ID = 261 | DESCRICAO = PAGAMENTO DE IMPOSTOS/GUIA/TAXAS | DETALHES = Utilizada para solicitação de pagamento de impostos/guias quando o mesmo não estiver atrelado a alguma nota fiscal, seu vencimento for superior a 7 dias corridos e a área responsável pelo mesmo não realizar lançamento de títulos no SGI.
+O cadastro do C.I. deverá ser realizado pela área responsável pelo débito.
+A aprovação do C.I. deverá ser realizada pelo Gerente/Assessor da área responsável pelo débito.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Nome da empresa emitente do boleto/guia
+DE:
+Informar o centro de custo da área responsável pelo débito.
+PARA:
+Informar o centro de custo da área responsável pelo débito.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo da solicitação de pagamento do boleto/guia, bem como seu vencimento e valor.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor do boleto
+ANEXOS:
+Poderá ser anexado o arquivo digitalizado do boleto/guia. | EMAIL_COPIA = luide@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;natacha.pastre@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+22/02/2018 15:30 - DONIZETE | ID = 561 | DESCRICAO = PAGAMENTO DE REEMBOLSO HOSPITALAR/MEDICO/ODONTOLÓGICO | DETALHES = Utilizada para solicitar reembolso de despesas para o colaborador, sendo que estas devem ser referentes a hospitais, médicos e dentistas.
+
+A aprovação da C.I. seguirá a regra de alçadas, sendo que o primeiro nível será sempre direcionado ao Gerente de RH.
+
+Instruções para preenchimento dos campos:
+
+EMPRESA:
+Usina Santa Fé S.A.
+
+DE:
+Informar o centro de custo da área que está representando o colaborador.
+
+PARA:
+Informar o centro de custo "Administração de Pessoal - 3.03.01.001".
+
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Escrever o texto da solicitação com informações suficientes que identifiquem o colaborador e a justificativa de sua necessidade.
+
+VALOR TOTAL DA CI EM R$: 
+Informar o valor do reembolso que está sendo solicitado.
+
+ANEXOS:
+Anexar documentos que comprovem os gastos referentes ao reembolso solicitado. | EMAIL_COPIA = luide@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;natacha.pastre@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+22/02/2018 15:31 - DONIZETE | ID = 62 | DESCRICAO = PAGAMENTO ESCRITÓRIO SÃO PAULO | DETALHES =  | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = s
+22/02/2018 15:32 - DONIZETE | ID = 21 | DESCRICAO = PAGAMENTO FORA DAS DATAS FIXAS | DETALHES = Utilizada para liberação de pagamento a fornecedores de serviço/produto por atraso ou antecipação do vencimento.
+O cadastro do C.I. deverá ser realizado pela área responsável pelo serviço/produto junto ao fornecedor.
+A aprovação do C.I. será de responsabilidade do Gerente Financeiro.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Nome do fornecedor
+DE:
+Informar o centro de custo da área solicitante.
+PARA:
+Informar o centro de custo da área solicitante.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo e a data para pagamento ao fornecedor.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor do pagamento
+ANEXOS:
+Poderá ser anexado o boleto e/ou nota fiscal do fornecedor. | EMAIL_COPIA = luide@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;natacha.pastre@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = n
+22/02/2018 15:32 - DONIZETE | ID = 761 | DESCRICAO = PAGAMENTO PARA CARTÓRIO | DETALHES =  | EMAIL_COPIA = luide@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;natacha.pastre@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+22/02/2018 15:33 - DONIZETE | ID = 2 | DESCRICAO = PAGAMENTO/ANTECIPAÇÃO FORNECEDORES DE CANA | DETALHES = Utilizada para autorização de pagamento antecipado de vencimentos de contrato de fornecedores de cana, ou para pagamento de taxas que compõem o pedido de autorização de queima de laranja junto à Cetesb, que será lançada como antecipação aos fornecedores de cana.
+Cadastro do C.I.: 
+     - Para o pagamento antecipado de vencimentos de contrato de fornecedores de cana, deverá ser realizado pela área ASSESSORIA SUPR. MATÉRIA PRIMA.
+     - Para o pagamento de taxas que compõem o pedido de autorização de queima de laranja junto à Cetesb, deverá ser realizado pela área ASSESSORIA AMBIENTAL.
+Aprovação do C.I.:
+     - Para o pagamento antecipado de vencimentos de contrato de fornecedores de cana, deverá ser realizado pela DIRETORIA.
+     - Para o pagamento de taxas que compõem o pedido de autorização de queima de laranja junto à Cetesb, deverá ser realizado pela GERÊNCIA AGRÍCOLA.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo de acordo com critério descrito acima em Cadastro do C.I.
+PARA:
+Informar o centro de custo de acordo com critério descrito acima em Aprovação do C.I.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o nome do fornecedor e o vencimento do pagamento/antecipação.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor total dos pagamentos/antecipações.
+ANEXOS:
+Deverá ser anexado o memorial de cálculo da antecipação do contrato ou as guias de recolhimento das taxas de queima de laranja. | EMAIL_COPIA = luide@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;natacha.pastre@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+22/02/2018 15:33 - DONIZETE | ID = 782 | DESCRICAO = PAGAMENTO/ANTECIPAÇÃO FORNECEDORES DE CANA CONFORME CONTRATO | DETALHES = Utilizada para autorização de pagamento de valores que constam em contrato de fornecedores de cana e parceiros de cana.
+Cadastro do C.I.: 
+     - Para o pagamento antecipado de vencimentos de contrato de fornecedores de cana, deverá ser realizado pela área CONTROLE AGRICOLA
+Aprovação do C.I.:
+     - Para o pagamento antecipado de vencimentos de contrato de fornecedores de cana, deverá ser realizado pela assessoria de controle agricola.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo de acordo com critério descrito acima em Cadastro do C.I.
+PARA:
+Informar o centro de custo de acordo com critério descrito acima em Aprovação do C.I.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o nome do fornecedor e o vencimento do pagamento/antecipação.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor total dos pagamentos/antecipações.
+ANEXOS:
+Deverá ser anexado o memorial de cálculo da antecipação do contrato ou as guias de recolhimento das taxas de queima de laranja. | EMAIL_COPIA = luide@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;natacha.pastre@usinasantafe.com.br; | ATIVO = n | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+22/02/2018 15:33 - DONIZETE | ID = 641 | DESCRICAO = PENSÃO ALIMENTÍCIA | DETALHES = Depósito de pensão alimentícia descontada dos colaboradores a favor de pensionistas. | EMAIL_COPIA = luide@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;natacha.pastre@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+22/02/2018 15:34 - DONIZETE | ID = 181 | DESCRICAO = PRESTAÇÃO DE CONTAS (DESPESAS DE VIAGENS) | DETALHES = Utilizada para prestação de contas de despesas de viagens, sejam elas para acerto do fundo fixo, acerto de solicitação de numerário ou reembolso.
+O cadastro do C.I. deverá ser realizado pela área responsável pela despesa.
+A aprovação do C.I. deverá ser realizada pelo Gerente/Assessor da área responsável pela despesa.
+Os comprovantes das despesas deverão ser anexados ao C.I. impresso após sua aprovação, para serem entregues à Tesouraria.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo da área responsável pela despesa.
+PARA:
+Informar o centro de custo da área responsável pela despesa.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever de forma detalhada as despesas e seus valores. (Ex.: combustível, pedágio, refeição, etc.)
+Caso seja um acerto de um Comunicado Interno de Solicitação de Numerário, informar o número deste.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor total das despesas.
+ANEXOS:
+Poderão ser anexados os comprovantes das despesas caso julgue-se necessário. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+22/02/2018 15:34 - DONIZETE | ID = 182 | DESCRICAO = SOLICITAÇÃO DE NUMERÁRIO | DETALHES = Utilizada para solicitação de numerário junto a Tesouraria, seja para despesas diversas ou despesas de viagens.
+O cadastro do C.I. deverá ser realizado pela área solicitante do numerário.
+A aprovação do C.I. deverá ser realizada pelo Gerente/Assessor da área solicitante do numerário.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo da área solicitante do numerário.
+PARA:
+Informar o centro de custo da área solicitante do numerário.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever qual a finalidade da solicitação de número.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor da solicitação de numerário.
+ANEXOS:
+Não necessário. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = s
+22/02/2018 15:34 - DONIZETE | ID = 184 | DESCRICAO = TRANSFERÊNCIA ENTRE CONTAS BANCÁRIAS DA USINA SANTA FÉ | DETALHES = Utilizada para solicitação de transferência de saldo entre contas bancárias da Usina Santa Fé.
+O cadastro do C.I. deverá ser realizado pela Tesouraria.
+A aprovação do C.I. deverá ser realizada pelo Gerente Financeiro.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo TESOURARIA.
+PARA:
+Informar o centro de custo TESOURARIA.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o valor da transferência e as contas de débito e crédito.
+VALOR TOTAL DA CI EM R$: 
+Não informar valor.
+ANEXOS: Não necessário. | EMAIL_COPIA = azevedo@usinasantafe.com.br;alexandre@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n

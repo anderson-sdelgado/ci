@@ -1,0 +1,1 @@
+29/06/2015 11:02 - HEITOR | NOME = HEITOR | REMOTE_AGENTE = Chrome | REMOTE_ADDR = 192.168.2.157 | REQUEST_URI = /org/admin/ci/insertfinalidadevalores | MENSAGEM = PARTE_COMPREENDIDO

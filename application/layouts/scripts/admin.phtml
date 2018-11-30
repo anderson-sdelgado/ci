@@ -1,0 +1,26 @@
+<?php echo $this->doctype()?>
+
+<html>
+    <head>
+        <?php echo $this->headTitle();?>
+	<?php echo $this->headLink();?>
+	<?php echo $this->headStyle();?>
+	<?php echo $this->headMeta();?>
+   	<?php echo $this->headScript();?>
+        <script type="text/javascript">
+        <?php
+            $menuNamespace = new Zend_Session_Namespace('MENU');
+            echo PHP_EOL.$menuNamespace->_script;
+        ?>
+        </script>
+    </head>
+    <body>
+        <div id="layout-admin">
+            <div id="layout-admin-header"><?php echo $this->render('admin/header.phtml')?></div>
+            <div id="layout-admin-main" style="display: table;width: 100%">
+                <div id="conteudo"><?php echo $this->layout()->content?></div>
+            </div>
+        </div>
+        <div id="layout-admin-footer">© <?php echo date('Y')?> Usina Santa F&eacute; - Todos os Direitos reservados - <a href="http://www.onclick.com.br" target="_blanck">Desenvolvido por Onclick Sistemas</a> </div>
+    </body>
+</html>

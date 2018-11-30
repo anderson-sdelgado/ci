@@ -1,0 +1,60 @@
+01/09/2015 11:14 - RONALDOGOMES | ID = 821 | DESCRICAO = CADASTRO DE TALHÕES (FORA DO FLUXO DE TRABALHO) | DETALHES = - Cadastrar talhão ainda sem contrato em propriedade que possua contrato para que seja possível abertura de OS de colheita.
+
+- Valor obrigatório (Utilizar valor estimado do contrato, devido ao fluxo exigido) | EMAIL_COPIA = raquel@usinasantafe.com.br;lucianohenrique@usinasantafe.com.br;dalves@usinasantafe.com.br; joaofreitas@usinasantafe.com.br; fabio.tomasetto@usinasantafe.com.br;elvis@usinasantafe.com.br; bruno.fazolo@usinasantafe.com.br;gisele.rateiro@usinasantafe.com.br; monica@usinasantafe.com.br; juliana.correa@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+10/09/2015 13:44 - HEITOR | DESCRICAO = ANTECIPAÇÃO/POSTERGAÇÃO DE DESCONTO - SERVIÇOS PRESTADOS | DETALHES = Antecipação ou postergação de  desconto por eventuais atrasos ou antecipações nas atividades agrícolas para fornecedores. | EMAIL_COPIA =  | ATIVO = s
+16/09/2015 09:26 - RONALDOGOMES | ID = 721 | DESCRICAO = REFEIÇÃO - AUTORIZAÇÃO VISITANTE | DETALHES =  | EMAIL_COPIA = valdinei@usinasantafe.com.br; roseli.santos@usinasantafe.com.br;  | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+21/09/2015 15:18 - RONALDOGOMES | ID = 901 | DESCRICAO = AJUSTE DE CONTRATOS AGRÍCOLAS 
+
+ | DETALHES = - Ajuste de contratos de prestação de serviço quando os anos de desconto diferirem daqueles pré-fixados no contrato.
+
+- Ajuste de contratos de prestação de serviço quando as porcentagens de desconto/ano diferirem daquelas pré-fixadas no contrato.
+
+- Ajuste de contratos de prestação de serviço quando os valores a serem cobrados diferirem daqueles pré-fixados no contrato.
+
+- Ajuste de contratos de prestação de serviço quando a área do serviço realizado diferir da pré-fixada no contrato.
+
+- Cancelamento de contratos de prestação de serviço bem como suas devidas cobranças.
+ | EMAIL_COPIA =  | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = n
+21/09/2015 15:23 - RONALDOGOMES | ID = 901 | DESCRICAO = AJUSTE DE CONTRATOS AGRÍCOLAS | DETALHES = - Ajuste de contratos de prestação de serviço quando os anos de desconto diferirem daqueles pré-fixados no contrato.
+
+- Ajuste de contratos de prestação de serviço quando as porcentagens de desconto/ano diferirem daquelas pré-fixadas no contrato.
+
+- Ajuste de contratos de prestação de serviço quando os valores a serem cobrados diferirem daqueles pré-fixados no contrato.
+
+- Ajuste de contratos de prestação de serviço quando a área do serviço realizado diferir da pré-fixada no contrato.
+
+- Cancelamento de contratos de prestação de serviço bem como suas devidas cobranças. | EMAIL_COPIA = lucianohenrique@usinasantafe.com.br;dalves@usinasantafe.com.br; bruno.fazolo@usinasantafe.com.br;gisele.rateiro@usinasantafe.com.br; monica@usinasantafe.com.br;  | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = n
+21/09/2015 15:24 - RONALDOGOMES | ID = 901 | DESCRICAO = AJUSTE DE CONTRATOS AGRÍCOLAS | DETALHES = - Ajuste de contratos de prestação de serviço quando os anos de desconto diferirem daqueles pré-fixados no contrato.
+
+- Ajuste de contratos de prestação de serviço quando as porcentagens de desconto/ano diferirem daquelas pré-fixadas no contrato.
+
+- Ajuste de contratos de prestação de serviço quando os valores a serem cobrados diferirem daqueles pré-fixados no contrato.
+
+- Ajuste de contratos de prestação de serviço quando a área do serviço realizado diferir da pré-fixada no contrato.
+
+- Cancelamento de contratos de prestação de serviço bem como suas devidas cobranças. | EMAIL_COPIA = lucianohenrique@usinasantafe.com.br;dalves@usinasantafe.com.br; bruno.fazolo@usinasantafe.com.br;gisele.rateiro@usinasantafe.com.br; monica@usinasantafe.com.br;hilquias.lima@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = n
+21/09/2015 15:26 - RONALDOGOMES | ID = 901 | DESCRICAO = AJUSTE DE CONTRATOS AGRÍCOLAS | DETALHES = - Ajuste de contratos de prestação de serviço quando os anos de desconto diferirem daqueles pré-fixados no contrato.
+
+- Ajuste de contratos de prestação de serviço quando as porcentagens de desconto/ano diferirem daquelas pré-fixadas no contrato.
+
+- Ajuste de contratos de prestação de serviço quando os valores a serem cobrados diferirem daqueles pré-fixados no contrato.
+
+- Ajuste de contratos de prestação de serviço quando a área do serviço realizado diferir da pré-fixada no contrato.
+
+- Cancelamento de contratos de prestação de serviço bem como suas devidas cobranças. | EMAIL_COPIA = lucianohenrique@usinasantafe.com.br;dalves@usinasantafe.com.br; bruno.fazolo@usinasantafe.com.br;gisele.rateiro@usinasantafe.com.br; monica@usinasantafe.com.br;hilquias.lima@usinasantafe.com.br;
+denise.santos@usinasantafe.com.br;stefania.estevo@usinasantafe.com.br;
+ronny@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = n
+21/09/2015 15:30 - RONALDOGOMES | ID = 901 | DESCRICAO = AJUSTE DE CONTRATOS AGRÍCOLAS | DETALHES = - Ajuste de contratos de prestação de serviço quando os anos de desconto diferirem daqueles pré-fixados no contrato.
+
+- Ajuste de contratos de prestação de serviço quando as porcentagens de desconto/ano diferirem daquelas pré-fixadas no contrato.
+
+- Ajuste de contratos de prestação de serviço quando os valores a serem cobrados diferirem daqueles pré-fixados no contrato.
+
+- Ajuste de contratos de prestação de serviço quando a área do serviço realizado diferir da pré-fixada no contrato.
+
+- Cancelamento de contratos de prestação de serviço bem como suas devidas cobranças. | EMAIL_COPIA = lucianohenrique@usinasantafe.com.br;dalves@usinasantafe.com.br; bruno.fazolo@usinasantafe.com.br;gisele.rateiro@usinasantafe.com.br; monica@usinasantafe.com.br;hilquias.lima@usinasantafe.com.br;
+denise.santos@usinasantafe.com.br;stefania.estevo@usinasantafe.com.br;
+ronny@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+28/09/2015 10:13 - RONALDOGOMES | ID = 821 | DESCRICAO = CADASTRO DE TALHÕES (FORA DO FLUXO DE TRABALHO) | DETALHES = - Cadastrar talhão ainda sem contrato em propriedade que possua contrato para que seja possível abertura de OS de colheita.
+
+- Valor obrigatório (Utilizar valor estimado do contrato, devido ao fluxo exigido) | EMAIL_COPIA = raquel@usinasantafe.com.br;lucianohenrique@usinasantafe.com.br;dalves@usinasantafe.com.br; joaofreitas@usinasantafe.com.br; fabio.tomasetto@usinasantafe.com.br;elvis@usinasantafe.com.br; bruno.fazolo@usinasantafe.com.br;gisele.rateiro@usinasantafe.com.br; monica@usinasantafe.com.br; juliana.correa@usinasantafe.com.br;jrogerio@usinasantafe.com.br;ronny@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s

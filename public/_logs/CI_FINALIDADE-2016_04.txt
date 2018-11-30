@@ -1,0 +1,1 @@
+06/04/2016 14:35 - RONALDOGOMES | ID = 721 | DESCRICAO = REFEIÇÃO - AUTORIZAÇÃO VISITANTE | DETALHES =  | EMAIL_COPIA = valdinei@usinasantafe.com.br; tania@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n

@@ -1,0 +1,95 @@
+<?php
+    $menuNamespace  = new Zend_Session_Namespace('PERMISSAO');
+    $premissao      = $menuNamespace->_permissao;
+    $linkInsert     = (($premissao[0]['INSERIR'] == 't')? "openModal('".$this->baseUrl()."/admin/ci/insertfinalidade',750,'auto','Cadastro de Finalidade',null,null,'form-finalidade');":"alert('Sem permissão');");   
+?>
+
+<div id="lista">
+    <div id="lista-borda">
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">Finalidade</div>
+            <div id="lista-titulo-menu">
+                <div id="lista-titulo-menu-novo" class="botao" onclick="javascript:<?php echo $linkInsert?>">Novo Cadastro</div>
+            </div>
+        </div>
+        <div id="espaco"></div>        
+        <div id="gride">
+            <table class="listagem" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Decrição</th>
+                        <th>E-mail de acompanhamento</th>
+                        <th>Ativo</th>
+                        <th>Visualizadores</th>
+                        <th>Criadores</th>
+                        <th>Despesas/Adiantamentos</th>
+                        <th width="130">&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    if(count($this->paginator) > 0):
+                        foreach ($this->paginator as $value):
+                            
+                            $linkUpdate     = (($premissao[0]['ALTERAR'] == 't')? "openModal('".$this->baseUrl()."/admin/ci/updatefinalidade/id/". base64_encode($value['ID']) ."',750,'auto','Cadastro de Finalidade',null,null,'form-finalidade');":"alert('Sem permissão');");
+                            $linkDelete     = (($premissao[0]['EXCLUIR'] == 't')? "confirmaModal('".$this->baseUrl()."/admin/ci/deletefinalidade/id/". base64_encode($value['ID']) ."',350,'auto','Deseja realmente apagar o registro?');":"alert('Sem permissão');");
+                            ?>
+                            <tr itemref="clique">
+                                <td class="linha"><?php echo $value['ID']; ?></td>
+                                <td class="linha"><?php echo $value['DESCRICAO']; ?></td>
+                                <td class="linha"><?php echo str_replace(";", "<br/>", $value['EMAIL_COPIA']); ?></td>
+                                <td class="linha"><?php echo $value['ATIVO'] == "s" ? "Sim" : "N&atilde;o"; ?></td>
+                                <td class="linha">
+                                    <?php 
+                                    if($value['USUARIOS']){
+                                        foreach ($value['USUARIOS'] as $aprovadores) {
+                                    ?> <img class="delete_visualizadorfinalidade" alt="Remover" title='Remover <?php echo $aprovadores['NOME'];?> desta finalidade' id="<?php echo base64_encode($aprovadores['ID']) ?>" src="<?php echo PUBLIC_PATH."_img/icones/remover.png"; ?>" /> <?php echo $aprovadores['NOME'];?> <br/><?php
+                                        }
+                                    }
+                                            ?>
+                                </td>
+                                <td class="linha">
+                                    <?php 
+                                    if($value['CRIADORES']){
+                                        foreach ($value['CRIADORES'] as $criadores) {
+                                    ?> <img class="delete_criadorfinalidade" alt="Remover" title='Remover <?php echo $criadores['NOME'];?> desta finalidade' id="<?php echo base64_encode($criadores['ID']) ?>" src="<?php echo PUBLIC_PATH."_img/icones/remover.png"; ?>" /> <?php echo $criadores['NOME'];?> <br/><?php
+                                        }
+                                    }
+                                            ?>
+                                </td>
+                                <td class="linha">
+                                    <?php 
+                                    if($value['DESPESAS']){
+                                        foreach ($value['DESPESAS'] as $despesas) {
+                                            ?> <img class="delete_despesafinalidade" alt="Remover" title='Remover "<?php echo $despesas['DESCRICAO'];?>" desta finalidade' id="<?php echo base64_encode($despesas['ID']) ?>" src="<?php echo PUBLIC_PATH."_img/icones/remover.png"; ?>" /> <a class="editarDespesaFinalidade" style="<?php echo $despesas['ATIVO'] == 't' ? '' : "color: #ABABAB;";?>" href="<?php echo FORM_PATH."admin/ajax/updatedespesa/id/".base64_encode($despesas['ID']); ?>"><?php echo $despesas['DESCRICAO'];?></a><br/><?php
+                                        }
+                                    }
+                                            ?>
+                                </td>
+                                <td class="linha">
+                                    <img class="add_despesafinalidade" alt="Add Despesa" title='Adicionar despesas para esta finalidade' id="<?php echo base64_encode($value['ID']) ?>" src="<?php echo PUBLIC_PATH."_img/icones/despesas.png"; ?>" />
+                                    <img class="add_visualizadorfinalidade" alt="Add Visualizador" title='Adicionar Visualizador para esta finalidade' id="<?php echo base64_encode($value['ID']) ?>" src="<?php echo PUBLIC_PATH."_img/icones/add_aprovadorgeral.png"; ?>" />
+                                    <img class="add_criadorfinalidade" alt="Add Criador" title='Adicionar criador para esta finalidade' id="<?php echo base64_encode($value['ID']) ?>" src="<?php echo PUBLIC_PATH."_img/icones/add_criador.png"; ?>" />
+                                    <img onclick="javascript:<?php echo $linkUpdate?>" src="<?php echo PUBLIC_PATH?>_img/icones/editar.png" border="0" title="Editar os dados" />
+                                    <img onclick="javascript:<?php echo $linkDelete?>" src="<?php echo PUBLIC_PATH?>_img/icones/excluir.png" border="0"  title="Excluir" />
+                                </td>
+                            </tr>
+                        <?php 
+                        endforeach;
+                    else:
+                    ?>
+                        <tr>
+                            <td colspan="8" class='nenhum'>Nenhum Registro encontrado</td>
+                        </tr>
+                    <?php
+                    endif;
+                    ?>
+                    <tr>
+                        <td colspan="8">&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

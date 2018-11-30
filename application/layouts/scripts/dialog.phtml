@@ -1,0 +1,14 @@
+<?php echo $this->doctype()?>
+<html>
+    <head>
+        <?php echo $this->headTitle();?>
+	<?php echo $this->headLink();?>
+	<?php echo $this->headStyle();?>
+	<?php echo $this->headMeta();?>
+   	<?php // echo $this->headScript();?>
+        <script type="text/javascript" src="<?php echo PUBLIC_PATH; ?>_js/admin.js"></script>
+    </head>
+    <body>
+        <div id="conteudo"><?php echo $this->layout()->content?></div>
+    </body>
+</html>

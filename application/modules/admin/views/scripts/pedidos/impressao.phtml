@@ -1,0 +1,224 @@
+<?php
+$Entrega = $this->Entrega;
+$Prazo = $this->Prazo;
+$Fornecedor = $this->Fornecedor;
+$Empresa = $this->Empresa;
+$EmpresaCobranca = $this->EmpresaCobranca;
+$Pedido = $this->Pedido;
+$itens_pedido = $this->itens_pedido;
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link href="<?php echo PUBLIC_PATH; ?>_img/logo/usina_impressao.ico" rel="shortcut icon" type="image/x-icon" >       
+    </head>
+    <body>
+        <table style="width: 1000px; margin: 0 auto; font-family: tahoma, arial, verdana; font-size: 13px;border: 0px;" cellpadding="5" cellspacing="5">
+            <tr>
+                <td style="border: 1px solid #000;">
+                    <table border="0" style="width: 1000px" >
+                        <tr>
+                            <td colspan="6"><?php echo $Empresa["NOME_EMPRESA"]; ?></td>
+                            <td>Pedido de Compra</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="5" ><img src="<?php echo PUBLIC_PATH; ?>_img/logo/usina_impressao.png" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">CNPJ: <?php echo $Empresa["CNPJ_CPF"]; ?></td>
+                            <td colspan="2">Incrição Estadual: <?php echo $Empresa["INSCR_EST"]; ?></td>
+                            <td>Número: <?php echo $Pedido["PEDIDO"]; ?></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Ender: <?php echo $Empresa["ENDERECO"] . ", " . $Empresa["NRO"]; ?></td>
+                            <td colspan="2">Bairro: <?php echo $Empresa["BAIRRO"]; ?></td>
+                            <td><!--Folha: 2--></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Cidade: <?php echo $Empresa["CIDADE"]; ?></td>
+                            <td>Estado: <?php echo $Empresa["ESTADO"]; ?></td>
+                            <td>CEP: <?php echo $Empresa["CEP"]; ?></td>
+                            <td>Pais: <?php echo $Empresa["PAIS"]; ?></td>
+                            <td>Data: <?php echo $Pedido["DT_PEDIDO"]; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Fone: <?php echo $Empresa["FONE"]; ?></td>
+                            <td colspan="2">Fax: <?php echo $Empresa["FAX"]; ?></td>
+                            <td colspan="3">Email: <?php echo $Empresa["EMAIL"]; ?></td>
+                        </tr>
+                        <tr>
+                            <td colspan="6">COMF0011/COMR0002</td>
+                            <td>(Reimpressão)</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000;">
+                    <table border="0" style="width: 1000px">
+                        <tr>
+                            <td style="width: 80px;">Fornecedor:</td>
+                            <td colspan="4"><?php echo $Fornecedor["NOME_FORNEC"]; ?></td>
+                            <td>Código: <?php echo $Fornecedor["CODIGO_FORNEC"]; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Endereço:</td>
+                            <td style="width: 400px;"><?php echo $Fornecedor["ENDERECO"] . ", " . $Fornecedor["NRO"]; ?></td>
+                            <td style="width: 50px;">Bairro:</td>
+                            <td colspan="2"><?php echo $Fornecedor["BAIRRO"]; ?></td>
+                            <td>Cep: <?php echo $Fornecedor["CEP"]; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Cidade:</td>
+                            <td><?php echo $Fornecedor["CIDADE"]; ?></td>
+                            <td>Estado:</td>
+                            <td style="width: 120px;"><?php echo $Fornecedor["ESTADO"]; ?></td>
+                            <td>Pais: <?php echo $Fornecedor["PAIS"]; ?></td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Fone:</td>
+                            <td><?php echo $Fornecedor["FONE"]; ?></td>
+                            <td>Fax:</td>
+                            <td colspan="3"><?php echo $Fornecedor["FAX"]; ?></td>
+                        </tr>
+                        <tr>
+                            <td>CNPJ:</td>
+                            <td><?php echo $Fornecedor["CNPJ_CPF"]; ?></td>
+                            <td colspan="4">Incrição Estadual: <?php echo $Fornecedor["INSCR_EST"]; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Contato:</td>
+                            <td><?php echo $Pedido["CONTAT_FORN"]; ?></td>
+                            <td>Email:</td>
+                            <td colspan="3"><?php echo $Fornecedor["EMAIL"]; ?></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000;">
+                    <table border="0" style="width: 1000px">
+                        <tr>
+                            <td style="width: 145px;">Endereço p/ cobrança:</td>
+                            <td colspan="2"><?php echo $EmpresaCobranca["ENDERECO"] . ", " . $EmpresaCobranca["NRO"]; ?></td>
+                            <td>CEP: <?php echo $EmpresaCobranca["CEP"]; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Cidade:</td>
+                            <td><?php echo $EmpresaCobranca["CIDADE"]; ?></td>
+                            <td>Estado: <?php echo $EmpresaCobranca["ESTADO"]; ?></td>
+                            <td>Pais: <?php echo $EmpresaCobranca["PAIS"]; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Endereço p/ entrega:</td>
+                            <td colspan="3"><?php echo $Entrega["LOCAL_ENTREG"]; ?></td>
+                        </tr>
+                        <tr>
+                            <td>Comprador:</td>
+                            <td colspan="3"><?php echo $Pedido["NOME_COMPRADOR"]; ?></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000;">
+                    <table border="0" style="width: 1000px">
+                        <tr>
+                            <td rowspan="<?php echo count($Prazo) + 1; ?>" style="width: 180px;vertical-align:top; ">Condição de Pagamento:</td>
+                        </tr>
+                        <?php foreach ($Prazo as $prazo) { ?>
+                            <tr>
+                                <td><?php echo $prazo["PERC_PARC"]; ?> %</td>
+                                <td><?php echo $prazo["CONDICAO_PAGAMENTO"]; ?></td>
+                            </tr>
+                        <?php } ?>
+                        <tr>
+                            <td colspan="3">Moeda:REAL</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000;">
+                    <table class="largura_100" style="border-collapse:collapse; width:1000px;" cellspacing="0" border="0">
+                        <thead>
+                            <tr style="text-align: left;">
+                                <th>Ord.</th>
+                                <th style="text-align: center;">Código</th>
+                                <th>Especificações</th>
+                                <th>Unid.</th>
+                                <th>Dt. Entrega</th>
+                                <th style="text-align: right;">Quantidade</th>
+                                <th style="text-align: right;">Preço unitário</th>
+                                <th style="text-align: right;">Valor Total</th>
+                                <th style="text-align: right;">%IPI</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach ($itens_pedido as $key => $item) { ?>
+                                <tr style="height: 30px;">
+                                    <td style="text-align: right;width: 20px;"><?php echo $key + 1; ?></td>
+                                    <td style="text-align: center;"><?php echo $item["COD_PRODUTO"]; ?></td>
+                                    <td>&nbsp;</td>
+                                    <td><?php echo $item["UNIDADE"]; ?></td>
+                                    <td><?php echo $item["PRAZO_ENTREGA"]; ?></td>
+                                    <td style="text-align: right;"><?php echo $item["QTDE"]; ?></td>
+                                    <td style="text-align: right;"><?php echo $item["PRECO_UNIT"]; ?></td>
+                                    <td style="text-align: right;"><?php echo $item["VALOR_TOTAL_ITEM"]; ?></td>
+                                    <td style="text-align: right;"><?php echo $item["PERC_IPI"]; ?></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Descrição:</td>
+                                    <td colspan="7"><?php echo $item["DESCR_PRODUTO"]; ?></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Classificação:</td>
+                                    <td colspan="3"><?php echo $item["CLASSIFICAO"]; ?></td>
+                                    <td colspan="4">Embalagem: <?php echo $item["EMBALAGEM"]; ?></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Marca:</td>
+                                    <td colspan="7"><?php echo $item["MARCA"]; ?></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Obs.:</td>
+                                    <td colspan="7"><?php echo $item["OBS_ITEM"]; ?></td>
+                                </tr>
+                                <tr><td colspan="9">&nbsp;</td></tr>
+                            <?php } ?>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #000;">
+                    <table border="0" style="width: 1000px;text-align: right;">
+                        <tr>
+                            <td>ENCARGOS FINANC.</td>
+                            <td>VALOR DO FRETE</td>
+                            <td>VALOR DO IPI</td>
+                            <td>OUTRAS DESPESAS</td>
+                            <td>TOTAL DO PEDIDO</td>
+                        </tr>
+                        <tr>                            
+                            <td><?php echo $Pedido["PERC_ENCARG_FINANC"]; ?></td>
+                            <td><?php echo $Pedido["VL_FRETE"]; ?></td>
+                            <td><?php echo $Pedido["IPI_INCL_PRECO"]; ?></td>
+                            <td><?php echo $Pedido["OUTRAS_DESP_ACESS"]; ?></td>
+                            <td><?php echo $Pedido["VALOR"]; ?></td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <?php echo nl2br($Pedido["OBS_PEDIDO"]); ?>
+                </td>
+            </tr>
+        </table>
+    </body>
+
+
+</html>

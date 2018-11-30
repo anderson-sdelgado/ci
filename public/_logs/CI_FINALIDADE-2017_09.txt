@@ -1,0 +1,45 @@
+27/09/2017 14:06 - RONALDOGOMES | ID = 185 | DESCRICAO = TRANSFERÊNCIA DE VERBA DE PROJETOS ENTRE CONTAS | DETALHES = Utilizada para solicitação de transferência de verba de projetos entre contas, quando existe insuficiência de saldo em uma conta e disponibilidade em outra no mesmo projeto.
+O cadastro do C.I. deverá ser realizado pela área responsável pelo projeto.
+A aprovação do C.I. deverá ser realizada pelo Gerente/Assessor da área responsável pelo projeto.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+
+DE:
+Informar o centro de custo da área responsável pelo projeto.
+
+PARA:
+Informar o centro de custo da gerência / assessoria responsável pelo projeto.
+
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo da solicitação de transferência de verba, o valor e as contas de débito e crédito.
+
+VALOR TOTAL DA CI EM R$: 
+Não informar valor.
+
+ANEXOS:
+Anexar o relatório do SGI (Acompanhamento por status do projeto -Analítico (OCPF0017)), e outros arquivos caso julgue necessário. | EMAIL_COPIA = alexandre@usinasantafe.com.br;luide@usinasantafe.com.br;danilocampos@usinasantafe.com.br;cristiano.alves@usinasantafe.com.br;erika.costa@usinasantafe.com.br;ariele.pavan@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+27/09/2017 14:06 - RONALDOGOMES | ID = 42 | DESCRICAO = COMPLEMENTO DE VERBA DE PROJETO | DETALHES = Utilizada para solicitação de complemento de verba de projeto. 
+O cadastro do C.I. deverá ser realizado pela área responsável pelo projeto.
+A aprovação do C.I. deverá ser realizada pela diretoria.
+
+Instruções para preenchimento dos campos:
+
+EMPRESA:
+Usina Santa Fé S.A.
+
+DE:
+Informar o centro de custo da área responsável pelo projeto.
+
+PARA:
+Informar o centro de custo da planta do projeto.
+
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo da solicitação de complemento de verba do projeto, informando o número do mesmo, seu valor original e o valor do complemento.
+
+VALOR TOTAL DA CI EM R$: 
+Informar o valor do complemento do projeto.
+
+ANEXOS:
+Anexar o relatório do SGI (Acompanhamento por status do projeto - Analítico (OCPF0017)). | EMAIL_COPIA = alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;luide@usinasantafe.com.br;adeir@usinasantafe.com.br;cristiano.alves@usinasantafe.com.br;danilocampos@usinasantafe.com.br;erika.costa@usinasantafe.com.br;ariele.pavan@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s

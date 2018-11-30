@@ -1,0 +1,19 @@
+<?php $id_usuario_oracle = (Zend_Auth::getInstance()->getIdentity()->ID_USUARIO_ORACLE); ?>
+<div id="div_pedidos">
+    <br/><br/>
+    <label id="lbl-comprador">Comprador:</label>
+    <select id="Compradores" name="id_comprador">
+            <option value="">Todos</option>
+            <?php 
+            foreach ($this->compradores as $comprador){
+                ?><option value="<?php echo $comprador["CODIGO_COMPRADOR"]; ?>" <?php echo $comprador["CODIGO_COMPRADOR"]==$id_usuario_oracle?"selected=selected":""; ?>><?php echo $comprador["NOME_COMPRADOR"]; ?></option><?php
+            }
+            ?>
+    </select>
+    <input type="hidden" value="<?php echo $this->data_atual; ?>" id="data_atual" />
+    <input type="hidden" value="d" id="periodo" />
+    <input type="hidden" id="ordenacao" value="decrescente" />
+    <input type="hidden" id="ordenar_por" value="DT_PEDIDO" />
+    <div id="lista-pedidos"></div>
+<div id="dialog"></div>
+</div>

@@ -1,0 +1,22 @@
+07/10/2016 13:37 - RONALDOGOMES | ID = 61 | DESCRICAO = DOAÇÕES | DETALHES = Utilizada para aprovação de doações de qualquer natureza, seja ela com ou sem valor. 
+O Gestor que receber a solicitação deverá aceitá-la através de ofício, que será anexado no cadastro do C.I.
+A aprovação do C.I. deverá ser realizada pela diretoria.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Informar o nome da entidade/empresa solicitante.
+
+DE:
+Informar o centro de custo da área solicitante.
+
+PARA:
+Informar o centro de custo da área solicitante.
+
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever a solicitação da doação de acordo com o ofício da entidade/empresa solicitante.
+
+VALOR TOTAL DA CI EM R$: 
+Informar o valor da doação
+
+ANEXOS:
+Anexar o ofício da solicitação de doação. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;adeir@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s

@@ -1,0 +1,1 @@
+25/06/2018 15:22 - GUSTAVOGIRO | NOME = GUSTAVOGIRO | REMOTE_AGENTE = Chrome | REMOTE_ADDR = 192.168.0.108 | REQUEST_URI = /org/admin/ci/avaliarci/id/MjQ3NjY= | MENSAGEM = CI Já avaliada pelo usuário GUSTAVOGIRO

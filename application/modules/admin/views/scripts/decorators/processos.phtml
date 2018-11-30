@@ -1,0 +1,18 @@
+<form action="<?php echo $this->escape($this->element->getAction());?>" method="<?php echo $this->escape($this->element->getMethod());?>" id="<?php echo $this->escape($this->element->getAttrib('id'));?>"  class="<?php echo $this->escape($this->element->getAttrib('class'));?>">
+    <div style="width: 50%;float: left;height: 620px;display: table;">
+        <label for="codigo"><?php echo ($this->element->codigo);?></label><br />
+        <label for="desc_sumaria"><?php echo ($this->element->descricao_sumaria);?></label><br />
+        <label for="desc_detalhada"><?php echo ($this->element->descricao_detalhada);?></label><br />
+        <label for="submeter"><?php echo ($this->element->submeter);?></label><br />
+    </div>    
+    <div style="width: 50%;float: left;height: 620px;display: table;">
+        <label for="link">Descri&ccedil;&atilde;o</label><?php echo ($this->element->descricao);?><br/>
+        <label for="link">Link</label><?php echo ($this->element->link);?><img id="add-link" src="<?php echo PUBLIC_PATH;?>/_img/icones/add.png" alt="Add" title="Adicionar link" />
+        <br /><br />
+        <div id="div-links">
+            
+        </div>
+    </div>
+    
+    <?php echo ($this->element->id);?>
+</form>

@@ -1,0 +1,118 @@
+<div id="lista">
+    <div id="lista-borda">
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">Cadastro de Usuários - Permissões</div>
+            <div id="lista-titulo-menu">
+                <div id="lista-titulo-menu-voltar" class="botao" onclick="javascript:OpenSelf('<?php echo $this->baseUrl()?>/admin/cadastro/usuario');">Voltar</div>
+            </div>
+        </div>
+
+        <div id="espaco"></div>
+        <div style="margin-left: 15px;font-size: 15px;font-weight: 900;color: #9f9595;"><?php echo $this->nome_usuario;?></div>
+
+
+
+        <div id="permissao-sistema" class="div-menu">
+            <div id="permissao-sistema-conteudo">
+
+                <?php echo base64_decode($this->mensagemPermissaoSistema);?>
+
+                <form id="permissao-sistema" enctype="application/x-www-form-urlencoded" action="<?php echo $this->baseUrl()?>/admin/usuario/permissao" method="post" class="cadastro">
+
+                    <div id="formulario" style="height: 400px;overflow: auto;">
+                    <br>
+                    <?php foreach ($this->Permissao as $cont=>$dados):
+                        if(Zend_Auth::getInstance()->getIdentity()->TIPO == 'MASTER'):?>
+
+                                <table width="98%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;border: 1px solid #E6E8FA" >
+                                    <tr bgcolor="#E6E8FA">
+                                        <td width="10%" align="center"><input id="todas" value="<?php echo $dados['DESCRICAO'];?>" type="checkbox" /></td>
+                                        <td width="90%"><?php echo $dados['DESCRICAO'];?></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;" >
+                                                <tr bgcolor="#E6E8FA">
+                                                    <td width="60%"></td>
+                                                    <td align="center">Visualizar</td>
+                                                    <td align="center">Inserir</td>
+                                                    <td align="center">Alterar</td>
+                                                    <td align="center">Excluir</td>
+                                                </tr>
+                                                <?php foreach ($dados['FILHO'] as $cont2=>$dados2):?>
+                                                <tr>
+                                                    <td width="70%"     style="border-bottom: 1px solid #E6E8FA;"><?php echo $dados2['DESCRICAO'];?></td>
+                                                    <td align="center"  style="border-bottom: 1px solid #E6E8FA;"><input itemid="<?php echo $dados['DESCRICAO'];?>" id="sub_menu" name="sub_menu[]" value="<?php echo $dados['ID'];?>|<?php echo $dados2['ID'];?>|VISUALIZAR" type="checkbox" <?php echo (($dados2['VISUALIZAR']=='t')?'checked="checked"':'');?> /> </td>
+                                                    <td align="center"  style="border-bottom: 1px solid #E6E8FA;"><input itemid="<?php echo $dados['DESCRICAO'];?>" id="sub_menu" name="sub_menu[]" value="<?php echo $dados['ID'];?>|<?php echo $dados2['ID'];?>|INSERIR"    type="checkbox" <?php echo (($dados2['INSERIR']=='t')?'checked="checked"':'');?> /></td>
+                                                    <td align="center"  style="border-bottom: 1px solid #E6E8FA;"><input itemid="<?php echo $dados['DESCRICAO'];?>" id="sub_menu" name="sub_menu[]" value="<?php echo $dados['ID'];?>|<?php echo $dados2['ID'];?>|ALTERAR"    type="checkbox" <?php echo (($dados2['ALTERAR']=='t')?'checked="checked"':'');?> /></td>
+                                                    <td align="center"  style="border-bottom: 1px solid #E6E8FA;"><input itemid="<?php echo $dados['DESCRICAO'];?>" id="sub_menu" name="sub_menu[]" value="<?php echo $dados['ID'];?>|<?php echo $dados2['ID'];?>|EXCLUIR"    type="checkbox" <?php echo (($dados2['EXCLUIR']=='t')?'checked="checked"':'');?> /></td>
+                                                </tr>
+                                                <?php endforeach;?>
+                                                <tr>
+                                                    <td colspan="5">&nbsp;</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br>
+                        
+                        <?php
+                            else:
+                            
+                            if($dados['ID'] <> 12):
+                            ?>
+                                <table width="98%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;border: 1px solid #E6E8FA" >
+                                    <tr bgcolor="#E6E8FA">
+                                        <td width="10%" align="center"><input id="todas" value="<?php echo $dados['DESCRICAO'];?>" type="checkbox" /></td>
+                                        <td width="90%"><?php echo $dados['DESCRICAO'];?></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;" >
+                                                <tr bgcolor="#E6E8FA">
+                                                    <td width="60%"></td>
+                                                    <td align="center">Visualizar</td>
+                                                    <td align="center">Inserir</td>
+                                                    <td align="center">Alterar</td>
+                                                    <td align="center">Excluir</td>
+                                                </tr>
+                                                <?php foreach ($dados['FILHO'] as $cont2=>$dados2):?>
+                                                <tr>
+                                                    <td width="70%"     style="border-bottom: 1px solid #E6E8FA;"><?php echo $dados2['DESCRICAO'];?></td>
+                                                    <td align="center"  style="border-bottom: 1px solid #E6E8FA;"><input itemid="<?php echo $dados['DESCRICAO'];?>" id="sub_menu" name="sub_menu[]" value="<?php echo $dados['ID'];?>|<?php echo $dados2['ID'];?>|VISUALIZAR" type="checkbox" <?php echo (($dados2['VISUALIZAR']=='t')?'checked="checked"':'');?> /> </td>
+                                                    <td align="center"  style="border-bottom: 1px solid #E6E8FA;"><input itemid="<?php echo $dados['DESCRICAO'];?>" id="sub_menu" name="sub_menu[]" value="<?php echo $dados['ID'];?>|<?php echo $dados2['ID'];?>|INSERIR"    type="checkbox" <?php echo (($dados2['INSERIR']=='t')?'checked="checked"':'');?> /></td>
+                                                    <td align="center"  style="border-bottom: 1px solid #E6E8FA;"><input itemid="<?php echo $dados['DESCRICAO'];?>" id="sub_menu" name="sub_menu[]" value="<?php echo $dados['ID'];?>|<?php echo $dados2['ID'];?>|ALTERAR"    type="checkbox" <?php echo (($dados2['ALTERAR']=='t')?'checked="checked"':'');?> /></td>
+                                                    <td align="center"  style="border-bottom: 1px solid #E6E8FA;"><input itemid="<?php echo $dados['DESCRICAO'];?>" id="sub_menu" name="sub_menu[]" value="<?php echo $dados['ID'];?>|<?php echo $dados2['ID'];?>|EXCLUIR"    type="checkbox" <?php echo (($dados2['EXCLUIR']=='t')?'checked="checked"':'');?> /></td>
+                                                </tr>
+                                                <?php endforeach;?>
+                                                <tr>
+                                                    <td colspan="5">&nbsp;</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br>  
+                                                                
+                        <?php 
+                                endif;
+                            endif;
+                        endforeach;
+                        ?>
+                        <div style="text-align: right;">
+                            <hr style="color: #0070a3;background-color: #0070a3;"/>
+                            <input type="submit" name="btnSavar" value="Salvar"  class="inputBtnSalvar"/>&nbsp;
+                            <input type="button" name="btnCancelar" value="Cancelar" onclick="javascript:OpenSelf('<?php echo $this->baseUrl()?>/admin/cadastro/usuario');"  class="inputBtnSalvar"/>&nbsp;
+                            <input type="hidden" name="id" value="<?php echo $this->usuario?>" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <br>
+    </div>
+</div>

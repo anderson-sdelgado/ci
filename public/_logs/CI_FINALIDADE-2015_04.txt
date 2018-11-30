@@ -1,0 +1,47 @@
+01/04/2015 10:57 - HEITOR | ID = 641 | DESCRICAO = PENSÃO ALIMENTÍCIA | DETALHES = Depósito de pensão alimentícia descontada dos colaboradores a favor de pensionistas. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;adeir@usinasantafe.com.br;lucimara@usinasantafe.com.br;ronald.siqueira@usinasantafe.com.br; roger@usinasantafe.com.br; andre.azevedo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+08/04/2015 18:35 - HEITOR | ID = 21 | DESCRICAO = PAGAMENTO FORA DAS DATAS FIXAS | DETALHES = Utilizada para liberação de pagamento a fornecedores de serviço/produto por atraso ou antecipação do vencimento.
+O cadastro do C.I. deverá ser realizado pela área responsável pelo serviço/produto junto ao fornecedor.
+A aprovação do C.I. será de responsabilidade do Gerente Financeiro.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Nome do fornecedor
+DE:
+Informar o centro de custo da área solicitante.
+PARA:
+Informar o centro de custo da área solicitante.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo e a data para pagamento ao fornecedor.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor do pagamento
+ANEXOS:
+Poderá ser anexado o boleto e/ou nota fiscal do fornecedor. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;adeir@usinasantafe.com.br;lucimara@usinasantafe.com.br;ronald.siqueira@usinasantafe.com.br; roger@usinasantafe.com.br; andre.azevedo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+13/04/2015 15:22 - RONALDOGOMES | ID = 821 | DESCRICAO = CADASTRO DE TALHÕES (FORA DO FLUXO DE TRABALHO) | DETALHES = - Cadastrar talhão ainda sem contrato em propriedade que possua contrato para que seja possível abertura de OS de colheita.
+
+- Valor obrigatório (Utilizar valor estimado do contrato, devido ao fluxo exigido) | EMAIL_COPIA = raquel@usinasantafe.com.br, lucianohenrique@usinasantafe.com.br, dalves@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+15/04/2015 11:15 - HEITOR | DESCRICAO = SAÍDA POR QUEBRA, EVAPORAÇÃO OU INVENTÁRIO DE ETANOL E AÇUCAR. | DETALHES =  | EMAIL_COPIA =  | ATIVO = s
+15/04/2015 11:20 - HEITOR | ID = 841 | DESCRICAO = SAÍDA POR QUEBRA, EVAPORAÇÃO OU INVENTÁRIO DE ETANOL E AÇÚCAR. | DETALHES = Utilizada para aprovação de lançamentos de quebra, evaporação ou inventário de etanol e açúcar.
+
+O cadastro do C.I. deverá ser realizado pelo responsável pelos controles  operacionais do estoque de etanol ou açúcar.
+
+A aprovação do C.I. será de responsabilidade de responsabilidade do Gestor da area (até 20 mil), e dos Diretores acima desse valor.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+USINA SANTA FÉ S.A
+DE:
+Informar o centro de custo da área solicitante.
+PARA:
+Informar o centro de custo da área solicitante.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo do lançamento da quebra, evaporação ou inventário
+
+VALOR TOTAL DA CI EM R$: 
+informar o valor, multiplicando a quantidade pelo preço médio do produto.
+ANEXOS:
+Poderá ser qualquer arquivo que se julgue necessário. | EMAIL_COPIA = grupocontabil@usinasantafe.com.br;fabio@usinasantafe.com.br;santana@usinasantafe.com.br;rose@usinasantafe.com.br;tiagolima@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+27/04/2015 08:38 - RONALDOGOMES | ID = 661 | DESCRICAO = EMPRÉSTIMO CONSIGNADO | DETALHES = Depósito do empréstimo consignado descontado dos colaboradores. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;adeir@usinasantafe.com.br;lucimara@usinasantafe.com.br;ronald.siqueira@usinasantafe.com.br; roger@usinasantafe.com.br; andre.azevedo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+27/04/2015 09:56 - HEITOR | ID = 821 | DESCRICAO = CADASTRO DE TALHÕES (FORA DO FLUXO DE TRABALHO) | DETALHES = - Cadastrar talhão ainda sem contrato em propriedade que possua contrato para que seja possível abertura de OS de colheita.
+
+- Valor obrigatório (Utilizar valor estimado do contrato, devido ao fluxo exigido) | EMAIL_COPIA = raquel@usinasantafe.com.br;lucianohenrique@usinasantafe.com.br;dalves@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+29/04/2015 13:33 - HEITOR | ID = 681 | DESCRICAO = PROCESSO TRABALHISTA/CÍVEL | DETALHES = Pagamento de despesas trabalhistas (Deposito recursal, Custas, Sentença e Calculo de liquidação). | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;adeir@usinasantafe.com.br;lucimara@usinasantafe.com.br;ronald.siqueira@usinasantafe.com.br; roger@usinasantafe.com.br; andre.azevedo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s

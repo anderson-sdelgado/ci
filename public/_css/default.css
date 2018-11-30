@@ -1,0 +1,162 @@
+/**
+  *Document   : jmduque
+  *Created on : 08/07/2011, 11:33:27
+  *Author     : julio
+  *Description: Folha para de estilo unica para o layout default
+
+  *TODO customize this sample style
+  *Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+  */
+body {
+    font-family: tahoma, arial, verdana;
+    font-size: 10pt;
+    position: relative;
+    /*background-image: url('../_img/background/login/vermelho/fundo.jpg');*/
+    background-repeat:repeat-x;
+    background-position: 50% 0%;
+    _background-position: center top 0 0;
+    background-color: #FFFFFF;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin:0 auto;
+}
+
+#index-login-logo{height: 100px;}
+#index-login-formulario{float: left;}
+#index-login-formulario .zend_form{display: table;width: 330px;margin-top: 20px;}
+#index-login-formulario .zend_form #username-label, #password-label{width: 25%;font-weight: 900;}
+#index-login-formulario .zend_form dt,dd{margin: 10px 0px 5px 0px; float: left;}
+
+#index-login-formulario .zend_form #username-element{width: 70%; }
+#index-login-formulario .zend_form #password-element{width: 70%;}
+#index-login-formulario .zend_form #submeter-element{width: 70%;}
+#index-login-formulario .zend_form #submeter-label{float: left;width: 25%; visibility: hidden; }
+#index-login-formulario #form-login .zend_form input[type="text"], input[type="password"] {
+    height: 23px;
+    width: 110px !important;
+}
+#index-login-formulario #form-login .zend_form #submeter {
+    float: right;
+    margin-left: 130px;
+    margin-top: -65px;
+    position: static;
+}
+#logocommit{
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+}
+
+#login_esquerda{
+    float: left;
+    width: 38%;
+    background-repeat: no-repeat;
+    height: 140px;
+    margin:0;
+}
+
+#acesso_direito{
+    float: left;
+    width: 63%;
+/*    color: #ebebeb;*/
+    font: bold 14pt "Calibri", Arial;
+    margin: 15px 0px 20px 30px;
+    width: 150px;
+}
+
+#layout-default-content{
+/*    border: 1px solid;*/
+    margin: 0 auto;
+    width:780px;
+    height: 588px;
+/*    padding: 58px 76px 0 76px;*/
+/*    color: #ebebeb;*/
+    color: #333333;
+    font: 12px Arial, Helvetica, sans-serif;
+    background: url(../_img/background/login/acesso_fundo.png) no-repeat left top;
+    clear: both;
+    margin-top: -100px;
+}
+#acesso_fundo{
+    padding: 180px 0px 0px 150px;
+}
+#acesso_fundo img {
+    border:none;
+}
+
+#acesso_fundo h2 {
+    font-weight: bold;
+    margin: 20px 0px 5px 0px;
+/*    color: #ebebeb;*/
+    font: bold 23pt "Calibri", Arial;
+    text-align: center;
+    width:330px;
+    clear: both;
+    position: relative;
+    left: 80px;
+}
+
+#login_esquerda{
+    background-image: url('../_img/background/login/credencial.png');
+    background-position: right;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width:110px;
+}
+
+/* Adicionado para modificar tela login */
+body {
+    margin:0px;
+/*    overflow: hidden;*/
+}
+#bg_image {
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+position: fixed;
+z-index: 0;
+overflow: hidden;
+}
+#conteudo-default{
+    
+    z-index: 1;
+    position: absolute;
+    margin: 0px auto;
+    width: 100%;
+/*    overflow: hidden;*/
+}
+#logo-onclick{
+    position:fixed;
+    bottom:5px;
+    right:10px;
+}
+#div-confirmar{
+    width: 600px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    border: 1px solid #999999;
+    font:  19px "Calibri", Arial;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+h1{
+    text-align: center;
+    font: bold 25px "Calibri", Arial;
+}
+.lbl-info_pedido{
+    width: 100px;
+    float: left;
+}
+.info-pedido{
+    margin: 10px 0px 10px 0px;
+}
+#btn-confirmar{
+    margin: 10px 0px 0px 100px;
+}
+#textarea-confirmar{
+    width: 400px;
+    height: 200px;
+}

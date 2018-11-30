@@ -1,0 +1,34 @@
+<div id="minhaconta">
+
+    <div id="lista">
+        <div id="lista-borda">
+            <div id="lista-titulo" class="div-menu-titulo" itemref="minhaconta-pessoal-conteudo" title="Clique para mostar/esconder">
+                <div id="lista-titulo-texto">Dados Pessoais</div>
+            </div>
+            <div id="minhaconta-pessoal-conteudo"><?php echo base64_decode($this->mensagemPessoal); echo $this->formularioPessoal;?></div>
+            <br>
+        </div>
+    </div>
+
+    <div id="lista">
+        <div id="lista-borda">
+            <div id="lista-titulo" class="div-menu-titulo" itemref="minhaconta-acesso-conteudo" title="Clique para mostar/esconder">
+                <div id="lista-titulo-texto">Dados de Acesso</div>
+            </div>
+            <div id="minhaconta-acesso-conteudo" style="display: <?php echo ((strlen($this->mensagemAcesso)>0)?'block':'none')?>"><?php echo base64_decode($this->mensagemAcesso);  echo $this->formularioAcesso;?></div>
+            <br>
+        </div>
+    </div>
+
+    <div id="lista">
+        <div id="lista-borda">
+            <div id="lista-titulo" class="div-menu-titulo" itemref="minhaconta-parametros-conteudo" title="Clique para mostar/esconder">
+                <div id="lista-titulo-texto">Parâmetros do sistema</div>
+            </div>
+            <div id="minhaconta-parametros-conteudo" style="display: <?php echo ((strlen($this->mensagemParametros)>0)?'block':'none')?>"><?php echo base64_decode($this->mensagemParametros); echo $this->formularioParametros;?></div>
+            <br>
+        </div>
+    </div>
+    
+    <br>
+</div>

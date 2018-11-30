@@ -1,0 +1,204 @@
+<?php
+$menuNamespace  = new Zend_Session_Namespace('PERMISSAO');
+$premissao      = $menuNamespace->_permissao;
+?>
+<script type="text/javascript">
+/*
+ *ajax para 
+ */
+google.load('visualization', '1', {packages:['orgchart']});
+google.setOnLoadCallback(ajaxRel,'');
+
+ajaxRel(function(resultado){
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Name');
+    data.addColumn('string', 'Manager');
+    var total = parseInt(resultado.length);
+    var data_organograma = '';
+    var retorno  = new Array();
+    var anterior = 0;
+    for(var i=0; i<total; i++){
+//        fetchColab(resultado[i]['COD_FUNCAO'],data_organograma);
+        if(anterior!=resultado[i]['COD_FUNCAO']){
+            retorno  = getOrcadoRealizado(resultado[i]['COD_FUNCAO'],data_organograma);
+            anterior = resultado[i]['COD_FUNCAO'];
+        }        
+        data.addRows([
+          [{v:resultado[i]['NOME_COLAB'], 
+            f:'<div class="modal" itemid='+resultado[i]['COD_FUNCAO']+' title="'+resultado[i]['CARGO']+'">'
+                    +resultado[i]['NOME_COLAB']+
+                    '<div style="color:red; font-style:italic">'
+                        +resultado[i]['CARGO']+
+                    '</div>'+
+                        '<table>'+
+                            '<tr>'+
+                                '<td align=left>Orçado:</td><td align=left class="colabOrcado_'+resultado[i]['COD_FUNCAO']+'">'+retorno[0]+'</td>'+
+                            '</tr>'+
+                            '<tr>'+
+                                '<td align=left>Realizado:</td><td align=left class="colabReal_'+resultado[i]['COD_FUNCAO']+'">'+retorno[1]+'</td>'+
+                            '</tr>'+
+                        '</table>'+
+               '</div>'}, 
+            resultado[i]['NOME_SUP']
+          ]
+        ]);
+       // }
+    }
+    
+    var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+
+    chart.draw(data, {allowHtml:true,allowCollapse:true});
+        for (var i = 1; i < data.getNumberOfRows(); i++) {
+            chart.collapse(i, true);
+        }
+    },''); 
+ 
+function ajaxRel(callback,data)
+{
+    $(function(){
+        if(data != '' && typeof(data) != "undefined")
+            var strUrl = "<?php echo FORM_PATH; ?>admin/ajax/relatorios/data/"+data;
+        else
+            var strUrl = "<?php echo FORM_PATH; ?>admin/ajax/relatorios/";
+        jQuery.ajax({
+           url:strUrl, 
+           success:callback, 
+           dataType: "json" 
+        });
+    });
+}
+/*
+function fetchColab(id_cargo,data_organograma){
+    $(function(){
+        if(data_organograma != '')
+            var strUrl = "<?php echo FORM_PATH; ?>admin/ajax/colab/id_cargo/"+id_cargo+"/data/"+data_organograma;
+        else
+            var strUrl = "<?php echo FORM_PATH; ?>admin/ajax/colab/id_cargo/"+id_cargo;
+        
+        jQuery.ajax({
+           url:strUrl, 
+           success:function(data){
+               if(typeof data[0] !== 'undefined') {
+//                    var res          = data[0]['TOTALCOLAB'];
+                    var orcado       = data[0]['ORCADO'];
+                    var real         = data[0]['REAL'];
+//                    var sal          = data[0]['TOTALSAL'];
+//                    var media        = data[0]['MEDIA'];
+               }
+               if(orcado != null){
+                   $('.colabOrcado_'+id_cargo).html(orcado);
+                   $('.colabReal_'+id_cargo).html(real);
+               }else{
+                   $('.colabOrcado_'+id_cargo).each(function(){
+                       $(this).prev().remove();
+                   })
+                   $('.colabReal_'+id_cargo).each(function(){
+                       $(this).prev().remove();
+                   })
+               }
+           }, 
+           dataType: "json" 
+        });
+    });
+}
+*/
+function getOrcadoRealizado(id_cargo,data_organograma){
+    var orcado  = "";
+    var real    = "";
+    
+    if(data_organograma != '')
+        var strUrl = "<?php echo FORM_PATH; ?>admin/ajax/colab/id_cargo/"+id_cargo+"/data/"+data_organograma;
+    else
+        var strUrl = "<?php echo FORM_PATH; ?>admin/ajax/colab/id_cargo/"+id_cargo;
+    $.ajax({type: "POST",
+        url: strUrl,
+        async: false,
+        success:function(data){
+            if(typeof data[0] !== 'undefined') {
+                 orcado       = data[0]['ORCADO'];
+                 real         = data[0]['REAL'];
+
+            }
+        }, 
+           dataType: "json"
+    });
+    return Array(orcado,real);
+}
+$(document).ready(function(){
+    $("#data_organograma").mask("99/99/9999");
+    var data_organograma = '';
+    $('#form-organograma #btnOrg').click(function(){
+        $('#chart_div').html('<img src="<?php echo PUBLIC_PATH; ?>/_img/icones/load.gif" alt="Carregando..." style="display: block;margin: 0px auto;" />');
+        data_organograma = $("#data_organograma").val();
+        data_organograma = data_organograma.replace(/\//gi,"-");
+                
+    ajaxRel(function(resultado){
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Name');
+        data.addColumn('string', 'Manager');
+        var total = parseInt(resultado.length);
+
+        for(var i=0; i<total; i++){
+//            fetchColab(resultado[i]['COD_FUNCAO'],data_organograma);
+//            console.log(resultado[i]['ORCADO']);
+            var retorno = getOrcadoRealizado(resultado[i]['COD_FUNCAO'],data_organograma);
+            data.addRows([
+            [{v:resultado[i]['NOME_COLAB'], 
+                f:'<div class="modal" itemid='+resultado[i]['COD_FUNCAO']+' title="'+resultado[i]['CARGO']+'">'
+                        +resultado[i]['NOME_COLAB']+
+                        '<div style="color:red; font-style:italic">'
+                            +resultado[i]['CARGO']+
+                        '</div>'+
+                            '<table>'+
+                                '<tr>'+
+                                    '<td align=left>Orçado:</td><td align=left class="colabOrcado_'+resultado[i]['COD_FUNCAO']+'">'+retorno[0]+'</td>'+
+                                '</tr>'+
+                                '<tr>'+
+                                    '<td align=left>Realizado:</td><td align=left class="colabReal_'+resultado[i]['COD_FUNCAO']+'">'+retorno[1]+'</td>'+
+                                '</tr>'+
+                            '</table>'+
+                '</div>'}, 
+                resultado[i]['NOME_SUP']
+            ]
+            ]);
+        // }
+        }
+
+        var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+
+        chart.draw(data, {allowHtml:true,allowCollapse:true});
+        for (var i = 1; i < data.getNumberOfRows(); i++) {
+            chart.collapse(i, true);
+        }
+    },data_organograma);
+    });
+});
+</script>
+
+<div id="lista">
+    <div id="lista-borda">
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">Organograma Usina Santa F&eacute;</div>
+            <div id="lista-titulo-menu">
+                <div id="lista-titulo-menu-voltar" class="botao" onclick="javascript:OpenSelf('<?php echo $this->baseUrl()?>/admin/relatorios');">Voltar</div>
+            </div>
+        </div>
+        <div id="espaco">
+            
+        </div>
+        <?php echo base64_decode($this->mensagem);?>
+        <div id="msn-ajax"></div>
+        <form id="form-organograma">
+            <label for="data_organograma" >Informe uma Data:</label>
+            <input type="text" size="10" maxlength="10" id="data_organograma" name="data" />
+            <input type="button" id="btnOrg" value="Gerar Organograma" />
+        </form>
+        <div id="chart_div" style="width: 100%; height: 800px;display:block;">
+            <img src="<?php echo PUBLIC_PATH; ?>/_img/icones/load.gif" alt="Carregando..." style="display: block;margin: 0px auto;" />
+        </div>
+        <div id="dialog">
+            
+        </div>
+        <br />
+    </div>
+</div>

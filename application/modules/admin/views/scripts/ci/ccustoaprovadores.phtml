@@ -1,0 +1,67 @@
+<div id="gride">
+    <?php
+    if (!empty($this->centro)):
+        ?>
+        <table class="listagemRel" style='width:60%;margin:0 auto;'>
+            <thead>
+                <tr>
+                    <th colspan="3">Centro Custo x Aprovadores</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class='secundaria'>
+                    <td>CENTRO DE CUSTO</td>
+                    <td>COLABORADORES</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <?php
+                $total = count($this->subordinados);
+                foreach ($this->centro as $key => $centros):
+                    $classe_ccusto = $key % 2 == 0 ? 'principal' : 'principal';
+                    ?>
+                <tr id="<?php echo $centros['CD_CCUSTO']; ?>">
+                        <td class='<?php echo $classe_ccusto; ?>'><?php echo $centros['NOME_CCUSTO']." - ".$centros['CD_CCUSTO']; ?></td>
+                        <td class='<?php echo $classe_ccusto; ?>'>
+                            <?php                             
+                            $i = 0;
+                            $class = '';
+                            $j=0;
+                            foreach ($this->subordinados as $sub):
+//                                Zend_Debug::dump($sub);
+                                $class = $i % 2 == 0 ? 'principal' : 'secundaria';
+                                if ($sub['CD_CCUSTO'] == $centros['CUSTO']) {
+                                    $i++;                                    
+                                    ?> <img class="delete_aprovador" alt="Remover" title='Remover <?php echo $sub['NOME'];?> dos aprovadores do centro de custo "<?php echo $centros['NOME_CCUSTO']; ?>"' id="<?php echo base64_encode($sub['ID']) ?>" src="<?php echo PUBLIC_PATH."_img/icones/remover.png"; ?>" /> <?php echo $sub['NOME'];?> <br/><?php
+                                }//fim if CD_CCUSTO
+                                $j++;
+                            endforeach;//fim foreach subordinados                            
+                            ?>
+                        </td>
+                        <td class='<?php echo $classe_ccusto; ?>'><img class="add_aprovador" alt="Add Aprovador" title='Adicionar Aprovador ao centro de custo "<?php echo $centros['NOME_CCUSTO']; ?>"' id="<?php echo base64_encode($centros['CUSTO']) ?>" src="<?php echo PUBLIC_PATH."_img/icones/add_aprovador.png"; ?>" /> </td>
+                    </tr>
+                    <?php
+                    if($i>0){ ?>
+
+                    <tr class="<?php echo $class; ?>">
+                      <td>TOTAL CCUSTO</td>
+                      <td><?php echo $i; ?></td>
+                      <td>&nbsp;</td>
+                    </tr>
+                 <?php }
+                endforeach;//fim foreach centros de custo
+                ?>
+            </tbody>
+            <tfoot>
+                <tr class="secundaria">
+                    <td>TOTAL GERAL</td>
+                    <td><?php echo $total;?></td>
+                    <td>&nbsp;</td>
+                </tr>
+            </tfoot>
+        </table>
+    <?php
+    else:
+        echo '<script>alert("Sem Permissão!");window.history.back();</script>';
+    endif;
+    ?>
+</div>

@@ -1,0 +1,98 @@
+<?php
+    $menuNamespace  = new Zend_Session_Namespace('PERMISSAO');
+    $premissao      = $menuNamespace->_permissao;
+    $linkInsert     = (($premissao[0]['INSERIR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/ci/cadastro');":"alert('Sem permissão');");
+    $Helper_mascaras = new Commit_Controller_Action_Helper_Mascaras();
+?>
+
+<div id="lista">
+    <div id="lista-borda">
+        <?php if(!$this->gerar_xls){ ?>
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">Consultar C.I.</div>
+            <div id="lista-titulo-menu">
+                <div id="lista-titulo-menu-gerar_xls" class="botao" >Gerar Excel</div>
+                <div id="lista-titulo-menu-novo" class="botao" onclick="javascript:<?php echo $linkInsert?>">Novo Cadastro</div>
+            </div>
+        </div>
+        <div id="espaco"></div>
+        <div id="pesquisa-ci">
+            <?php echo $this->form_pesquisa; ?>
+        </div>
+        <?php } ?>
+        <div id="gride">
+            <table class="listagem" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>N° CI</th>
+                        <th>Data</th>
+                        <th>Empresa</th>
+                        <th>De</th>
+                        <th>Para</th>
+                        <th>Finalidade</th>
+                        <th>Valor</th>
+                        <th>Solicitante / Pré-aprovador</th>
+                        <th>Status</th>
+                        <?php if(!$this->gerar_xls){ ?>
+                        <th width="60"></th>
+                        <?php } ?>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    if(count($this->paginator) > 0):
+                        foreach ($this->paginator as $value):
+                            $linkImprimir   = (($premissao[0]['ALTERAR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/ci/imprimir/id/". base64_encode($value['ID']) ."');":"alert('Sem permissão');");
+                            $linkUpdate     = (($premissao[0]['ALTERAR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/ci/update/id/". base64_encode($value['ID']) ."');":"alert('Sem permissão');");
+                            $linkCancelar   = (($premissao[0]['ALTERAR'] == 't')? "openModal('".$this->baseUrl()."/admin/ci/cancelarci/id/". base64_encode($value['ID']) ."',550,'auto','Cancelar CI N&#176; ".$value['ID']."',null,null,'form-cancelar');":"alert('Sem permissão');");   
+//                            $linkCancelar   = (($premissao[0]['ALTERAR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/ci/cancelarci/id/". base64_encode($value['ID']) ."');":"alert('Sem permissão');");
+                            ?>
+                    <tr class="linha_ci" id="<?php echo base64_encode($value['ID']);?>">
+                        <td class="linha"><?php echo $value['ID'];?></td>
+                        <td class="linha"><?php echo $value['DATA'];?></td>
+                        <td class="linha"><?php echo $value['EMPRESA'];?></td>
+                        <td class="linha"><?php echo $value['CCUSTO_DE'];?></td>
+                        <td class="linha"><?php echo $value['CCUSTO_PARA'];?></td>
+                        <td class="linha"><?php echo (strlen($value['FINALIDADE'])>82)?substr($value['FINALIDADE'], 0, 80)."...":$value['FINALIDADE']; ?></td>
+                        <td class="linha"><?php echo $Helper_mascaras->ValorMoeda($value['VALOR'],1);?></td>
+                        <td class="linha"><?php echo $value['USUARIO'];?></td>
+                        <td class="linha"><?php echo $value['STATUS'];?></td>
+                        <?php if(!$this->gerar_xls){ ?>
+                        <td class="linha linha-menu">
+                            <?php if($value['ID_STATUS']==3){ ?>
+                            <img onclick="javascript:<?php echo $linkImprimir;?>" src="<?php echo PUBLIC_PATH?>_img/icones/ci_imprimir.png" border="0" title="Gerar PDF" alt="PDF" />
+                            <?php } ?>
+                            <?php if($this->usuario_logado == $value['USUARIO_LOGIN'] && ($value['ID_STATUS']==1 || $value['ID_STATUS']==6)){ ?>
+                            <img onclick="javascript:<?php echo $linkUpdate?>" src="<?php echo PUBLIC_PATH?>_img/icones/editar.png" border="0" title="Editar os dados da CI" />
+                            <?php } ?>
+                            <?php if(($this->usuario_logado == $value['USUARIO_LOGIN'] || !is_null($value['ID_CI_LOG'])) && ($value['ID_STATUS']==1 || $value['ID_STATUS']==3 || $value['ID_STATUS']==2 || $value['ID_STATUS']==7 || $value['ID_STATUS']==6)){ ?>
+                            <img onclick="javascript:<?php echo $linkCancelar?>" src="<?php echo PUBLIC_PATH?>_img/icones/cancelar.png" border="0" title="Cancelar CI" />
+                            <?php } ?>
+                        </td>
+                        <?php } ?>
+                    </tr>
+                        <?php 
+                        endforeach;
+                    else:
+                    ?>
+                        <tr>
+                            <td colspan="10" class='nenhum'>Nenhum Registro encontrado</td>
+                        </tr>
+                    <?php
+                    endif;
+                    ?>
+                    <tr>
+                        <td colspan="10">&nbsp;</td>
+                    </tr>
+                </tbody>
+                <?php if(!$this->gerar_xls){ ?>
+                <tfoot>
+                    <tr>
+                        <td colspan="10"><?php echo $this->paginator?></td>
+                    </tr>
+                </tfoot>
+                <?php } ?>
+            </table>
+        </div>
+    </div>
+</div>

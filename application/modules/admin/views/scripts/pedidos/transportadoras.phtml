@@ -1,0 +1,13 @@
+<div id="div_transportadoras">
+    <br/><br/>
+    <label id="lbl-comprador">Transportadora:</label>
+    <select id="transportadora" name="transportadora">
+            <option value="">Selecione a Transportadora...</option>
+            <?php 
+            foreach ($this->transportadoras as $transportadora){
+                ?><option value="<?php echo $transportadora["CODIGO_FORNEC"]; ?>" ><?php echo $transportadora["NOME_FORNEC"]; ?></option><?php
+            }
+            ?>
+    </select>
+</div>
+<div id="msgTransportadora"></div>

@@ -1,0 +1,65 @@
+<div id="menu-admin">
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" height="150">
+        <tr>
+            <td colspan="2" height="80" id="logocommit">
+                <div id="corner"> 
+                    <?php
+                    $controller = Zend_Controller_Front::getInstance()->getRequest()->getControllerName();
+                    if($controller=="index"){
+                        echo 'Sistema de Gest&atilde;o por processo';
+                    }
+                    elseif($controller=="pedidos"){
+                        echo 'Controle de Envio de Pedidos';
+                    }
+                    elseif($controller=="relatorios"){
+                        echo 'Sistema de Gest&atilde;o por processo';
+                    }
+                    else{
+                        echo 'Sistema de Gest&atilde;o por processo';
+                    } 
+                    ?>
+                </div>
+            </td>
+        </tr>
+        <tr id="menu-admin-backgorund">
+            <td valign="top">
+                
+                <?php
+
+                $urlSair        = $this->baseUrl().'/admin/index/sair';
+                $urlMinhaConta  = $this->baseUrl().'/admin/index/minhaconta';
+
+                $objMenu     = new Admin_Model_Menu();
+
+                $objMenuHTML = new Commit_Controller_Action_Helper_Menu($objMenu->getMenu());
+                $MainMenu = $objMenuHTML->getMenuHTML();
+                $subMenu  = $objMenuHTML->getSubMenuHTML();
+                
+                ?>
+                <table width='<?php 
+//                echo ((Zend_Auth::getInstance()->getIdentity()->TIPO=='1')?'100%':'750');
+                echo '100%';
+                    ?>'>
+                    <tr>
+                        <td><?php echo $MainMenu;?></td>
+                    </tr>
+                    <tr>
+                        <td><?php echo $subMenu;?></td>
+                    </tr>
+                </table>    
+                    
+            </td>
+            <td width="150" valign="top">
+                <table cellpadding="0" cellspacing="0" border="0" width="150">
+                    <tr>
+                        <td>
+                            <!--<div id="btn-minhaconta" class="btn" onclick="OpenSelf('<?php echo $urlMinhaConta?>');">Minha Conta</div>
+                            <div id="btn-separador-nulo"></div>-->
+                            <div id="btn-sair" class="btn" onclick="OpenSelf('<?php echo $urlSair?>');">Sair</div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,166 @@
+<?php $Helper_mascaras = new Commit_Controller_Action_Helper_Mascaras(); ?>
+<form id="form-Enviar" method="POST" action="<?php echo FORM_PATH; ?>admin/pedidos/enviar" >
+    <div>
+        <input id="Enviar_Selecionados" type="submit" class="botao" value="Enviar Selecionados" />
+        <input id="Inativar_Selecionados" type="button" class="botao2" value="Inativar Selecionados" />
+    </div>
+    
+    
+    <br/><br/><br/>
+    <?php if($this->periodo){ ?>
+    <div id="Div-data">
+        <img src="<?php echo PUBLIC_PATH; ?>_img/icones/anterior.png" class="alterar-data" id="<?php echo $this->data_anterior; ?>" title="<?php echo $this->data_anterior; ?>" alt="Anterior" />
+        <label id="lbl-data"><?php echo $this->data_atual; ?></label>
+        <input type="hidden" id="data_pedido" value="<?php echo $this->data_atual; ?>" />
+        <img src="<?php echo PUBLIC_PATH; ?>_img/icones/proxima.png" class="alterar-data" id="<?php echo $this->proxima_data; ?>"  title="<?php echo $this->proxima_data; ?>" alt="Próxima"/>
+    </div>
+    <?php } ?>
+<table class="tbl_pedidos">
+        <thead>
+            <tr>
+                <th style="width: 40px;height: 33px;padding: 0px;">
+                    <ul id="ul_listar">&nbsp;
+                        <li id="li_todos">Todos</li>
+                        <li id="li_nao_enviados">Não Enviados</li>
+                        <li id="li_nao_confimados">Não Confirmados</li>
+                        <li id="li_desmarcar">Desmarcar Todos</li>
+                    </ul>
+                </th>
+                <?php if($this->periodo <> "d"){ ?>
+                <th><div class="div-head">
+                    <img id="dt_pedido-crescente" title="Crescente" class="ordenar" src="<?php echo PUBLIC_PATH; ?>_img/icones/crescente.png" />
+                    <img id="dt_pedido-decrescente" title="Decrescente" class="ordenar decrescente" src="<?php echo PUBLIC_PATH; ?>_img/icones/decrescente.png" />
+                    Data
+                </div></th>
+                <?php }
+                if($this->comprador == null){ ?>
+                <th><div class="div-head">
+                    <img id="nome_comprador-crescente" title="Crescente" class="ordenar" src="<?php echo PUBLIC_PATH; ?>_img/icones/crescente.png" />
+                    <img id="nome_comprador-decrescente" title="Decrescente" class="ordenar decrescente" src="<?php echo PUBLIC_PATH; ?>_img/icones/decrescente.png" />
+                    Comprador
+                </div></th><!-- Aparecer somente quando listar todos compradores -->
+                <?php } ?>
+                <th style="width: 70px;"><div class="div-head">
+                    <img id="pedido-crescente" title="Crescente" class="ordenar" src="<?php echo PUBLIC_PATH; ?>_img/icones/crescente.png" />
+                    <img id="pedido-decrescente" title="Decrescente" class="ordenar decrescente" src="<?php echo PUBLIC_PATH; ?>_img/icones/decrescente.png" />
+                    Pedido
+                </div></th>
+                <th style="width: 90px;"><div class="div-head">
+                    <img id="codigo_fornec-crescente" title="Crescente" class="ordenar" src="<?php echo PUBLIC_PATH; ?>_img/icones/crescente.png" />
+                    <img id="codigo_fornec-decrescente" title="Decrescente" class="ordenar decrescente" src="<?php echo PUBLIC_PATH; ?>_img/icones/decrescente.png" />
+                    Cód. Forn
+                </div></th>
+                <th><div class="div-head">
+                    <img id="nome_fornec-crescente" title="Crescente" class="ordenar" src="<?php echo PUBLIC_PATH; ?>_img/icones/crescente.png" />
+                    <img id="nome_fornec-decrescente" title="Decrescente" class="ordenar decrescente" src="<?php echo PUBLIC_PATH; ?>_img/icones/decrescente.png" />
+                    Descrição
+                </div></th>
+                <th><div class="div-head">
+                    <img id="email_fornec-crescente" title="Crescente" class="ordenar" src="<?php echo PUBLIC_PATH; ?>_img/icones/crescente.png" />
+                    <img id="email_fornec-decrescente" title="Decrescente" class="ordenar decrescente" src="<?php echo PUBLIC_PATH; ?>_img/icones/decrescente.png" />
+                    Email Fornecedor
+                </div></th>
+                <th style="width: 60px;"><div class="div-head">
+                    <img id="valor-crescente" title="Crescente" class="ordenar" src="<?php echo PUBLIC_PATH; ?>_img/icones/crescente.png" />
+                    <img id="valor-decrescente" title="Decrescente" class="ordenar decrescente" src="<?php echo PUBLIC_PATH; ?>_img/icones/decrescente.png" />
+                    Valor
+                </div></th>
+                <th style="width: 50px;"><div class="div-head">
+                    <img id="enviado-crescente" title="Crescente" class="ordenar" src="<?php echo PUBLIC_PATH; ?>_img/icones/crescente.png" />
+                    <img id="enviado-decrescente" title="Decrescente" class="ordenar decrescente" src="<?php echo PUBLIC_PATH; ?>_img/icones/decrescente.png" />
+                    Env
+                </div></th>
+                <th style="width: 50px;"><div class="div-head">
+                    <img id="confirmado-crescente" title="Crescente" class="ordenar" src="<?php echo PUBLIC_PATH; ?>_img/icones/crescente.png" />
+                    <img id="confirmado-decrescente" title="Decrescente" class="ordenar decrescente" src="<?php echo PUBLIC_PATH; ?>_img/icones/decrescente.png" />
+                    Conf
+                </div></th>
+                <th style="width: 50px;">Obs</th>
+                <th style="width: 72px;">&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php 
+            $valor_incorreto = array();
+            if(count($this->pedidos)>0){
+                foreach ($this->pedidos as $pedido) {
+                    
+                    if($pedido["VALOR"] == 0){
+                        $valor_incorreto[$pedido["PEDIDO"]]["VALOR"] = true;
+                    }
+                    if($pedido["EMAIL_FORNEC"] == null){
+                        $valor_incorreto[$pedido["PEDIDO"]]["EMAIL_FORNEC"] = true;
+                    }
+                    if($pedido["DT_PEDIDO"] == null){
+                        $valor_incorreto[$pedido["PEDIDO"]]["DT_PEDIDO"] = true;
+                    }
+                    if($pedido["NOME_COMPRADOR"] == null){
+                        $valor_incorreto[$pedido["PEDIDO"]]["NOME_COMPRADOR"] = true;
+                    }
+                    if($pedido["CODIGO_FORNEC"] == null){
+                        $valor_incorreto[$pedido["PEDIDO"]]["CODIGO_FORNEC"] = true;
+                    }
+                    if($pedido["NOME_FORNEC"] == null){
+                        $valor_incorreto[$pedido["PEDIDO"]]["NOME_FORNEC"] = true;
+                    }
+                    if($pedido["PEDIDO"] == 0){
+                        $valor_incorreto[$pedido["PEDIDO"]]["PEDIDO"] = true;
+                    }
+                    $style = "";
+                    if($pedido["ATIVO"]=="N"){
+                        $style = 'style="background-color: #EEEEEE;"';
+                    }
+                    
+                    ?>
+            <tr class="linha_pedido" id="<?php echo $pedido["PEDIDO"]; ?>" <?php echo $style; ?> >
+                <td class="td_selecionar"><input id="<?php echo $pedido["CODIGO_FORNEC"]."|".$pedido["PEDIDO"]."|".(isset($pedido["ENVIADO"]) ? $pedido["ENVIADO"]:'n')."|".(isset($pedido["CONFIRMADO"]) ? $pedido["CONFIRMADO"]:'n'); ?>" type="checkbox" name="pedidos[<?php echo $pedido["PC_ID"]; ?>]" <?php if(isset($valor_incorreto[$pedido["PEDIDO"]])){echo "disabled='disabled'";} ?> ></td>
+                <?php if($this->periodo <> "d"){ ?>
+                <td class="<?php if(isset($valor_incorreto[$pedido["PEDIDO"]]["DT_PEDIDO"])){echo "valor-incorreto";} ?>"><?php echo $pedido["DT_PEDIDO"]; ?></td>
+                <?php }
+                if($this->comprador == null){ ?>
+                <td class="<?php if(isset($valor_incorreto[$pedido["PEDIDO"]]["NOME_COMPRADOR"])){echo "valor-incorreto";} ?>"><?php echo $pedido["NOME_COMPRADOR"]; ?></td>
+                <?php } ?>
+                <td class="<?php if(isset($valor_incorreto[$pedido["PEDIDO"]]["PEDIDO"])){echo "valor-incorreto";} ?>"><?php echo $pedido["PEDIDO"]; ?></td>
+                <td class="<?php if(isset($valor_incorreto[$pedido["PEDIDO"]]["CODIGO_FORNEC"])){echo "valor-incorreto";} ?>"><?php echo $pedido["CODIGO_FORNEC"]; ?></td>
+                <td class="<?php if(isset($valor_incorreto[$pedido["PEDIDO"]]["NOME_FORNEC"])){echo "valor-incorreto";} ?>"><?php echo $pedido["NOME_FORNEC"]; ?></td>
+                <td class="<?php if(isset($valor_incorreto[$pedido["PEDIDO"]]["EMAIL_FORNEC"])){echo "valor-incorreto";} ?>"><?php echo $pedido["EMAIL_FORNEC"]; ?></td>
+                <td class="valor <?php if(isset($valor_incorreto[$pedido["PEDIDO"]]["VALOR"])){echo "valor-incorreto";} ?>"><?php echo $Helper_mascaras->ValorMoeda($pedido["VALOR"],1); ?></td>
+                <td class="enviou"><?php echo $pedido["ENVIADO"]=="s"?"Sim":"Não"; ?></td>
+                <td><?php echo $pedido["CONFIRMADO"]=="s"?"Sim":"Não"; ?></td>
+                <td class="observacao" title="<?php echo ($pedido["OBSERVACAO"]); ?>"><?php 
+                if(strlen($pedido["OBSERVACAO"])>0 && $pedido["OBSERVACAO_LIDA"]=="s"){
+                    echo "Lida";
+                }elseif(strlen($pedido["OBSERVACAO"])>0){
+                    echo "Não Lida";
+                }else{ 
+                    echo "&nbsp;";
+                }?></td>
+                <td class="link"><a href="<?php 
+                
+                $LINK = $pedido["PEDIDO"]."_".$pedido["FORN_CNPJ_CPF"]."_".$pedido["CNPJ_CPF"];
+        
+                echo $LINK = FORM_PATH."confirmar/?id=".base64_encode(strrev(base64_encode($LINK)));
+                
+                ?>" target="_blank" title="Visualizar pedido"><img alt="Visualizar pedido" src="<?php echo PUBLIC_PATH."_img/icones/pedido.png" ?>" /></a> 
+                    <img class="add_email alittletipel" title="<?php echo (isset($pedido["EMAIL_COPIA"]) ? $pedido["EMAIL_COPIA"]:'Adicionar email cópia'); ?>" src="<?php echo PUBLIC_PATH."_img/icones/add_email.gif" ?>" /> 
+                    <img class="add_obs" title="<?php echo (isset($pedido["OBSERVACAO_COMPRADOR"]) ? $pedido["OBSERVACAO_COMPRADOR"]:'Adicionar observação'); ?>" src="<?php echo PUBLIC_PATH."_img/icones/observacao.png" ?>" /></td>
+            </tr>
+            <?php }
+            }else{ ?>
+            <tr>
+                <td colspan="12" class="nenhum-registro">
+                    Nenhum Registro Encontrado!!!
+                </td>
+            </tr>    
+            <?php } ?>
+        </tbody>
+    </table>
+    </form>    
+<div id="div_observacao" ></div>
+
+<div id="dialog-envio" ></div>
+<div id="dialog-incorreto" ></div>
+<input id="numero-total" type="hidden" value="0"/>
+<input id="numero-enviados" type="hidden" value="0"/>
+<input id="nao-enviados" type="hidden" value=""/>
+<input id="qtde-nao-enviados" type="hidden" value="0"/>

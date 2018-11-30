@@ -1,0 +1,8 @@
+<form action="<?php echo $this->escape($this->element->getAction());?>" method="<?php echo $this->escape($this->element->getMethod());?>" 
+      id="<?php echo $this->escape($this->element->getAttrib('id'));?>"  class="<?php echo $this->escape($this->element->getAttrib('class'));?>"
+      enctype="multipart/form-data">
+    <label class="frmLabel" for="arquivo"><?php echo ($this->element->arquivo);?></label>
+    <br /><br />
+    <label class="frmLabel" for="submeter"><?php echo ($this->element->submeter);?></label>
+    <br /><br />
+</form>

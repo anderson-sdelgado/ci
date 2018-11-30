@@ -1,0 +1,54 @@
+<style>
+<!--
+label{display: block;color: #797979;font-weight: 700;line-height: 1.4em;}
+input{padding: 6px;color: #949494;font-family: Arial,  Verdana, Helvetica, sans-serif;font-size: 11px;border: 1px solid #cecece;}
+input #submeter{width: 100px;}
+.sub{font-weight: bold;}
+.titulo{font-weight: bold;font-size: 18px;}
+-->
+</style>
+<br><br>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td>
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" style="border: 1px #C0C0C0 solid;">
+				<tr>
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center" class="titulo">PÁGINA COM PROBLEMA</td>
+				</tr>
+				<tr>
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" align="right">Mensagem</td>
+					<td width="2%" align="center">:</td>
+					<td width="78%" class="sub"><?php echo $this->message;?></td>
+				</tr>
+				<tr>
+					<td align="right">URL</td>
+					<td align="center">:</td>
+					<td class="sub">http://<?php echo$_SERVER['SERVER_NAME'].$_SERVER ['REQUEST_URI']?></td>
+				</tr>
+				<tr>
+					<td align="right">ERRO</td>
+					<td align="center">:</td>
+                                        <td class="sub" style="font-size: 9px;"><?php echo $this->errors;?></td>
+				</tr>
+				<tr>
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="right"></td>
+					<td align="center"></td>
+					<td><input type="button" name="Voltar" value="Voltar" onclick="javascript:history.go(-1);"></td>
+				</tr>
+				<tr>
+					<td colspan="3">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>

@@ -1,0 +1,196 @@
+<?php
+echo $this->doctype();
+$CI = $this->CI;
+$Helper_mascaras = new Commit_Controller_Action_Helper_Mascaras();
+//ini_set('max_execution_time', '120');
+ob_start();
+?>
+<html>
+    <head>
+        <?php echo $this->headTitle(); ?>
+        <?php echo $this->headLink(); ?>
+        <?php echo $this->headStyle(); ?>
+        <?php // echo $this->headMeta();?>
+<?php echo $this->headScript(); ?>
+        <style>            
+/*            #detalhes-ci tr td{
+                padding: 0px 0px 5px 5px;
+            }
+            #detalhes-ci tr:first-child td:first-child{
+                padding: 0px;
+            }*/
+        </style>
+    </head>
+    <body>
+        <div id="conteudo" style="width: 780px; margin: 12px auto;padding: 5px; border: 0px solid; height: 1000px;">
+            <table id="detalhes-ci" cellpadding="0" cellspacing="0" style="float: left;">               
+                <tr>
+                    <td colspan="3" style="height: 10px;">
+                        <table class="cabecalho_ci" style="width: 100%;">
+                            <tr>
+                                <td style="border: 1px solid; width: 180px; border-right: 0px solid;"><img src="<?php echo PUBLIC_PATH; ?>_img/logo/usina.png" /></td>
+                                <td style="border: 1px solid;font-size: 18px;text-align: center;">COMUNICADO INTERNO</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 10px;"></td>
+                </tr>
+                <tr>
+                    <td style="padding: 0px 0px 5px 5px;"><b>N° CI:</b><br/><?php echo $CI["ID"]; ?></td>
+                    <td style="padding: 0px 0px 5px 5px;"><b>EMPRESA:</b><br/><?php echo $CI["EMPRESA"]; ?></td>
+                    <td style="padding: 0px 0px 5px 5px;"><b>DATA:</b><br/><?php echo $CI["DATA"]; ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 10px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="padding: 0px 0px 5px 5px;"><b>DE:</b><br/><?php echo $CI["CCUSTO_DE"]." - ".$CI["CD_CCUSTO_DE"]; ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 10px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="padding: 0px 0px 5px 5px;"><b>PARA:</b><br/><?php echo $CI["CCUSTO_PARA"]." - ".$CI["CD_CCUSTO_PARA"]; ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 10px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="padding: 0px 0px 5px 5px;"><b>FINALIDADE:</b><br/><?php echo $CI["FINALIDADE"]; ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 10px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="padding: 0px 0px 5px 5px;"><b>MOTIVO:</b><br/><?php echo nl2br($CI["MOTIVO_CI"]); ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 20px;"></td>
+                </tr>
+                <?php
+                $total_despesas = 0;
+                $total_adiantamentos = 0;
+                foreach ($this->despesas as $despesa) {
+                    if($despesa["VALOR"] > 0){
+                        $achou_despesa = 1;
+                        if($despesa["TIPO"] == 1){
+                            $total_despesas+= $despesa["VALOR"];
+                        }else{
+                            $total_adiantamentos+= $despesa["VALOR"];
+                        }
+                ?>
+                    <tr>
+                        <td style="text-transform: uppercase;"><b><?php echo ($despesa["DESCRICAO"]); ?>:</b></td>
+                        <td colspan="2"><span style="float: left; display: inline-block;width: 20px;margin: 0px;padding: 0px;">R$</span><span style="width:80px;float: left; text-align: right; display: inline-block;margin: 0px;padding: 0px;"> <?php echo $Helper_mascaras->ValorMoeda($despesa["VALOR"],1); ?> </span>
+                            <!--<span style="float: left;margin-left: 5px;"> ( <?php echo $despesa["TIPO"] == 1 ? "+" : "-" ?> ) </span>-->
+                        </td>
+                    </tr>
+                <?php }} ?>
+                <?php if(isset($achou_despesa)){ ?>
+                <tr>
+                    <td colspan="3" style="height: 30px;"></td>
+                </tr>
+                <tr>
+                    <td style="text-transform: uppercase;"><b>TOTAL DESPESAS:</b></td>
+                    <td colspan="2" style="font-weight: bold;"><span style="float: left; display: inline-block;width: 20px;">R$</span><span style="width:80px;float: left; text-align: right;display: inline-block;"><?php echo $Helper_mascaras->ValorMoeda($total_despesas,1); ?> </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-transform: uppercase;"><b>TOTAL ADIANTAMENTO:</b></td>
+                    <td colspan="2" style="font-weight: bold;"><span style="float: left; display: inline-block;width: 20px;">R$</span><span style="width:80px;float: left; text-align: right;display: inline-block;"><?php echo $Helper_mascaras->ValorMoeda($total_adiantamentos,1); ?> </span>
+                        <span style="float: left;margin-left: 5px; display: inline-block;width: 40px;"> ( - ) </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2" style="height: 2px;float: left;text-align: left;">
+                        ---------------------------------
+                    </td>
+                </tr>
+                <?php } ?>
+                <tr>
+                    <td><b>VALOR<?php if(isset($achou_despesa)){ ?> TOTAL CI<?php } ?>:</b></td>
+                    <td colspan="2" style="font-weight: bold;"><span style="float: left;">R$ </span> <span style="width:80px;float: left; text-align: right;display: inline-block;"><?php echo $Helper_mascaras->ValorMoeda($CI['VALOR'],1); ?> </span></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 20px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="padding: 0px 0px 5px 5px;"><b>NOME DO SOLICITANTE:</b> <?php echo $CI["USUARIO"]; ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 20px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="padding: 0px 0px 5px 5px;"><b>STATUS:</b> <?php echo $CI["STATUS"]; ?></td>
+                </tr>
+                <?php 
+                $motivo_reprovacao = null;
+                if(count($this->LogCI)>0){
+                    foreach ($this->LogCI as $value1) {
+                        if(strlen($value1["MOTIVO_CANCELAMENTO"])>0 && $value1["ID_STATUS"] == 4){
+                            $motivo_reprovacao = $value1["MOTIVO_CANCELAMENTO"];
+                        }
+                    }
+                } 
+                if($motivo_reprovacao && $CI["ID_STATUS"] == 4){?>
+                <tr>
+                    <td colspan="3" style="height: 20px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>MOTIVO REPROVA&Ccedil;&Atilde;O:</b><br/><?php echo $motivo_reprovacao; ?></td>
+                </tr>
+                <?php }  ?>
+                <tr>
+                    <td colspan="3" style="height: 20px;"></td>
+                </tr>
+            </table>
+            <?php if(count($this->LogCI)>0){ ?>
+            <table class="listagemLink">
+                <thead>
+                    <tr>
+                        <th colspan="4" style="border-bottom: 1px solid #EEE;text-align: center;font-size: 13px;font-weight: bold;">APROVADO ELETRONICAMENTE POR:</th>
+                    </tr>
+                    <tr>
+                        <th>Data</th>
+                        <th>Aprovador</th>
+                        <th>Observa&ccedil;&atilde;o</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <?php foreach ($this->LogCI as $value) { ?>
+                    <tr>
+                        <td><?php echo $value["DATA"]; ?></td>
+                        <td><?php echo $value["APROVADOR"]; ?></td>
+                        <td><?php echo $value["MOTIVO_CANCELAMENTO"]; ?></td>
+                        <td><?php echo $value["STATUS"]; ?></td>
+                    </tr>
+                <?php } ?>
+                </tbody>
+            </table>
+            <br/><br/>
+            <?php } ?>
+            <?php 
+            if(count($this->Anexos)>0){ ?>
+            <div style="float: left;font-weight: bold;">
+                * Existem documentos anexados a este CI.
+            </div>
+            <?php } ?>
+        </div>        
+    </body>
+</html>
+<?php
+//exit;
+$content = ob_get_clean();
+
+require_once("dompdf/dompdf_config.inc.php");
+
+$nome_pdf = $CI["ID"] . '.pdf';
+
+$dompdf = new DOMPDF();
+$dompdf->load_html(utf8_decode($content));
+$dompdf->render();
+$dompdf->stream($nome_pdf);

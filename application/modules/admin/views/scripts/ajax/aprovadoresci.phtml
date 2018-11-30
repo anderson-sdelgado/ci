@@ -1,0 +1,20 @@
+<table class="listagemAprovadores">
+    <thead>
+        <tr>
+            <th>NOME DOS RESPONS&Aacute;VEIS PELA LIBERA&Ccedil;&Atilde;O:</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php
+        if(count($this->aprovadores)>0){
+        foreach ($this->aprovadores as $value) {?>
+        <tr>
+            <td><?php echo $value["NOME"]; ?></td>
+        </tr><?php }}else{
+        ?>
+        <tr>
+            <td><?php echo 'Não existem aprovadores relacionados a esta "finalidade / valor" ou "centro de custo / valor"'; ?></td>
+        </tr>
+        <?php } ?>
+    </tbody>
+</table>

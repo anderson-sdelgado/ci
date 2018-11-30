@@ -1,0 +1,33 @@
+21/08/2017 11:38 - RONALDOGOMES | ID = 301 | DESCRICAO = PRESTAÇÃO DE CONTAS (DIVERSOS) | DETALHES = Utilizada para prestação de contas de despesas diversas (excluindo-se as relacionadas a despesas de viagens), sejam elas para acerto do fundo fixo, acerto de solicitação de numerário ou reembolso.
+O cadastro do C.I. deverá ser realizado pela área responsável pela despesa.
+A aprovação do C.I. deverá ser realizada pelo Gerente/Assessor da área responsável pela despesa.
+Os comprovantes das despesas deverão ser anexados ao C.I. impresso após sua aprovação, para serem entregues à Tesouraria.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo da área responsável pela despesa.
+PARA:
+Informar o centro de custo da área responsável pela despesa.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever as despesas e seus valores.
+Caso seja um acerto de um Comunicado Interno de Solicitação de Numerário, informar o número deste.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor total das despesas.
+ANEXOS:
+Poderão ser anexados os comprovantes das despesas caso julgue-se necessário. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;adeir@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+25/08/2017 10:43 - RONALDOGOMES | ID = 901 | DESCRICAO = AJUSTE DE CONTRATOS AGRÍCOLAS | DETALHES = - Ajuste de contratos de prestação de serviço quando os anos de desconto diferirem daqueles pré-fixados no contrato.
+
+- Ajuste de contratos de prestação de serviço quando as porcentagens de desconto/ano diferirem daquelas pré-fixadas no contrato.
+
+- Ajuste de contratos de prestação de serviço quando os valores a serem cobrados diferirem daqueles pré-fixados no contrato.
+
+- Ajuste de contratos de prestação de serviço quando a área do serviço realizado diferir da pré-fixada no contrato.
+
+- Cancelamento de contratos de prestação de serviço bem como suas devidas cobranças. | EMAIL_COPIA = lucianohenrique@usinasantafe.com.br;dalves@usinasantafe.com.br; gisele.rateiro@usinasantafe.com.br; monica@usinasantafe.com.br;
+denise.santos@usinasantafe.com.br;stefania.estevo@usinasantafe.com.br;
+ronny@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+25/08/2017 10:43 - RONALDOGOMES | ID = 821 | DESCRICAO = CADASTRO DE TALHÕES (FORA DO FLUXO DE TRABALHO) | DETALHES = - Cadastrar talhão ainda sem contrato em propriedade que possua contrato para que seja possível abertura de OS de colheita.
+
+- Valor obrigatório (Utilizar valor estimado do contrato, devido ao fluxo exigido) | EMAIL_COPIA = raquel@usinasantafe.com.br;lucianohenrique@usinasantafe.com.br;joaofreitas@usinasantafe.com.br; fabio.tomasetto@usinasantafe.com.br;elvis@usinasantafe.com.br; gisele.rateiro@usinasantafe.com.br; monica@usinasantafe.com.br; ronny@usinasantafe.com.br;anderson.santos@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s

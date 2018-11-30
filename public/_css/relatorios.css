@@ -1,0 +1,177 @@
+/**
+  *Document   : jmduque
+  *Created on :05/09/2011, 11:33:27
+  *Author     : julio
+  *Description: Folha para de estilo unica para os relatorios
+  */
+
+html, body{
+  background: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+#relatorio{
+    width:550px;
+    border: 1px solid green;
+    position: relative;
+    margin: 0 auto;
+}
+.node {
+    border:1px solid red;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+.ampliar{
+    text-decoration: none;
+}
+.novalinha{
+    clear: both;
+    width: 5px;
+    height: 5px;
+}
+.listagemRel,.listagemRelArq,.listagemRelFunc{
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+}
+.listagemRel thead tr th{
+    border: 2px solid #2f527c;
+    background-color: #4f81be;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 5px;
+}
+.listagemRel tbody tr td{
+    border: 1px solid #FFFFFF;
+    text-align: center;
+}
+.listagemRel .principal, .listagemRel .principal td{
+    background-color: #e9eef4;
+    padding: 10px;
+    font-size: 12px;
+    height: 20px;
+}
+.listagemRel tfoot tr td.principal,.listagemRel tfoot tr td.secundaria{
+    background-color: #e9eef4;
+    padding: 10px;
+    font-size: 12px;
+    height: 20px;
+    border: 1px solid #FFFFFF;
+}
+.listagemRel tfoot tr td.secundaria{
+    text-align: center;
+}
+.listagemRel .secundaria, .listagemRel .secundaria td{
+    background-color: #d1d8ea;
+    padding: 10px;
+    font-size: 12px;
+    height: 20px;
+}
+
+.listagemRelArq thead tr th{
+    border: 2px solid #96393a;
+    background-color: #c0504c;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.listagemRelArq tbody tr td{
+    border: 1px solid #FFFFFF;
+    text-align: center;
+}
+.listagemRelArq .principal, .listagemRelArq .principal td{
+    background-color: #e9eef4;
+    padding: 10px;
+    font-size: 12px;
+}
+.listagemRelArq .secundaria, .listagemRelArq .secundaria td{
+    background-color: #d1d8ea;
+    padding: 10px;
+    font-size: 12px;
+}
+.listagemRel tfoot tr td{
+    text-align: center;
+    font-weight: bold;
+}
+.subRel{
+    width:100%;
+}
+.subRel tr td{
+    padding: 10px;
+}
+a.ajaxProc, a.ajaxProc:hover{
+    font-size: 12px;
+}
+p#descricao{
+    background-color: #4f81be;
+    padding: 10px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+p#descricao span{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+    
+}
+#tbl_processos td{
+    text-align: left;
+}
+.borda_zero{
+    border: 0px !important;
+}
+
+#frmRel{
+    margin: 0 auto;
+    text-align: left;
+}
+fieldset.rel{
+    border: 1px solid #4f81be;
+    padding: 10px;
+    width:600px;
+    margin: 0 auto;
+}
+fieldset.rel legend{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.relFunc{
+    border:2px solid #203A84;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+#pdf:hover{
+    cursor: pointer;
+}
+.relFunc thead tr th,.evento { background-color: #4F81BE; color: #FFFFFF; font-weight: bold; font-size: 12px; padding: 5px; border-left: 2px solid #203A84;border-bottom: 1px solid #7CA4D4;}
+.relFunc thead tr:first-child th{ border-bottom: 2px solid #203A84;}
+.relFunc .borda_total{ border-right: 2px solid #7CA4D4;}
+.relFunc thead tr:last-child th:last-child{ border-right: 2px solid #203A84;}
+
+.evento{ text-align: center}
+/*.relFunc thead tr td table { border-collapse: collapse; }
+.relFunc thead tr td table tr td{ padding: 10px; background-color: #4F81BE; color: #FFFFFF; font-weight: bold; font-size: 12px; width:120px; text-align: center}
+.relFunc tbody tr td table { border-collapse: collapse; width: 100%; border: none;}*/
+.relFunc tbody tr td{  border-collapse: collapse;  text-align: right; width: 20px; padding: 3px; }
+.relFunc tbody tr td:first-child{ text-align: left; }
+.relFunc .linha_impar{background-color: #FFFFFF;}
+.relFunc .linha_par{background-color: #DCE6EF;}
+.relFunc tfoot tr td{  border-collapse: collapse;  text-align: right; padding: 3px; color: #203A84;  background-color: #FFFFFF;color: #203AC4; font-weight: bold; border-top:  2px solid #203A84;  }
+.relFunc tfoot tr td:first-child{ text-align: left; }
+.relFunc tr td{border-left: 2px solid #203A84 ; border-right:  2px solid #203A84 ;}
+.relFunc tbody tr td{border-top: 1px solid #AABBCA ;}
+.valor_negativo{ color: #D8000C !important;}
+.tbl_total thead tr:first-child th:first-child{background-color: #FFFFFF;color: #000000;border-bottom-color: #FFFFFF;vertical-align: bottom;text-align: center;}
+
+.relGestor {border:2px solid #000000; border-collapse: collapse; width: 90%; margin: 0 auto;}
+.relGestor tr td {border: 1px solid #000000;}
+.relGestor tr td.gestor { padding: 30px;}
+.relGestor tr td table { width: 100%; border: none;}
+.relGestor tr td table tr td{  text-align: center; width: 20px; border:none; width:20px; }
+.eventoGestor {background-color: #4F81BE; color: #FFFFFF; font-weight: bold; font-size: 12px; padding: 10px; border:1px solid #000000;text-align: center}

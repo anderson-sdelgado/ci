@@ -1,0 +1,17 @@
+29/02/2016 09:25 - RONALDOGOMES | ID = 21 | DESCRICAO = PAGAMENTO FORA DAS DATAS FIXAS | DETALHES = Utilizada para liberação de pagamento a fornecedores de serviço/produto por atraso ou antecipação do vencimento.
+O cadastro do C.I. deverá ser realizado pela área responsável pelo serviço/produto junto ao fornecedor.
+A aprovação do C.I. será de responsabilidade do Gerente Financeiro.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Nome do fornecedor
+DE:
+Informar o centro de custo da área solicitante.
+PARA:
+Informar o centro de custo da área solicitante.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo e a data para pagamento ao fornecedor.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor do pagamento
+ANEXOS:
+Poderá ser anexado o boleto e/ou nota fiscal do fornecedor. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;adeir@usinasantafe.com.br;lucimara@usinasantafe.com.br;ronald.siqueira@usinasantafe.com.br; andre.azevedo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = n

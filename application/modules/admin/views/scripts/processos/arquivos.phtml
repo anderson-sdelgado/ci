@@ -1,0 +1,78 @@
+<?php
+    $menuNamespace  = new Zend_Session_Namespace('PERMISSAO');
+    $premissao      = $menuNamespace->_permissao;
+    $linkInsert     = (($premissao[0]['INSERIR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/processos/addarquivos');":"alert('Sem permissão');");   
+?>
+
+<div id="lista">
+    <div id="lista-borda">
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">Rel. Arquivos Cargos x Processos</div>
+        </div>
+        <div id="espaco"></div>
+        <div id="pesquisa">
+            <form method="POST" id="formulario-pesquisa" name="formulario-pesquisa">
+                <table>
+                    <tr class="titulo">
+                        <td>Desc. Cargo: </td>
+                        <td><input type="text" name="desc" id="desc" value="<?php echo $this->desc?>" />
+                            <input type="submit" name="btnPesquisar" value="Pesquisar" class="inputBtnPesquisar" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="gride">
+            <table class="listagem" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Cargo</th>
+                        <th>Processo</th>
+                        <th>Menu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    if(count($this->paginator) > 0):
+                        $anterior = '';
+                        foreach ($this->paginator as $value):
+                            $linkUpdate     = (($premissao[0]['ALTERAR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/processos/addarquivos/idcargo/". base64_encode($value['COD_FUNCAO'])."/idprocesso/".base64_encode($value['PROCESSOS_ID'])."');":"alert('Sem permissão');");
+                            //$linkDelete     = (($premissao[0]['EXCLUIR'] == 't')? "if(confirm('Deseja realmente apagar o registro?')) {OpenSelf('".$this->baseUrl()."/admin/processos/delete/id/". base64_encode($value['ID']) ."');}":"alert('Sem permissão');");
+                            ?>
+                            <tr itemref="clique">
+                                <td class="linha">
+                                    <?php 
+                                    if($value['DESCR_FUNCAO'] != $anterior)
+                                        echo $value['DESCR_FUNCAO']
+                                    ?>
+                                </td>
+                                <td class="linha"><?php echo $value['DESCRICAO_SUMARIA']?></td>
+                                <td class="linha">
+                                    <img onclick="javascript:<?php echo $linkUpdate?>" src="<?php echo PUBLIC_PATH?>_img/icones/editar.png" border="0" title="Editar os dados do processo" />
+                                    <!--<img onclick="javascript:<?php echo $linkDelete?>" src="<?php echo PUBLIC_PATH?>_img/icones/excluir.png" border="0"  title="Excluir o processo" />-->
+                                </td>
+                            </tr>
+                        <?php 
+                            $anterior = $value['DESCR_FUNCAO'];
+                        endforeach;
+                    else:
+                    ?>
+                        <tr>
+                            <td colspan="3" class='nenhum'>Nenhum Registro encontrado</td>
+                        </tr>
+                    <?php
+                    endif;
+                    ?>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><?php echo $this->paginator?></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,433 @@
+27/03/2015 10:33 - ROBERTO | enviada1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 11000 Aprovada','roberto@usinasantafe.com.br','ROBERTO MALZONI FILHO','suzana@usinasantafe.com.br','SUZANA DE OLIVEIRA NASCIMENTO'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 11000<br/>
+            Empresa: Usina Santa Fé S.A.<br/>
+            Data da inclusão: 02/03/2015 14:02<br/>
+            De: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Para: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Finalidade: <br/>CANCELAMENTO DE VERBA ORÇAMENTÁRIA<br/><br/>
+            Motivo: <br/>Pacote: OUTRAS DESPESAS
+Conta Orc. 6.1.09.9.0662: DOAÇÕES E AUXÍLIOS
+Foi orçado um valor de 102.000,00 com a finalidade de atender exigências do EIA/RIMA para convênios com os municípios de influência. Porém, não ocorreram todas as doações previstas, ou por falta de solicitação dos municípios ou por contenção de despesas por parte da Usina, uma vez que o prazo para o cumprimento dessa exigência foi estendido de forma que poderá ser realizado no próximo orçamento, resultando numa sobra de verba de R$ 57.000,00 a qual não mais será utilizada.
+Conta Orc. 6.1.09.2.0615: PROPAGANDA E PUBLICIDADE
+Foi orçado o valor de R$ 50.000 com o objetivo de atender a divulgação dos programas socioambientais constantes das exigências do EIA/RIMA. Devido à prorrogação do prazo para cumprimento desta exigência, solicitação da Licença de Operação, foi gasto o valor de R$ 9.461,60, resultando numa sobra de R$ 40.538,60, sendo possível cancelar o valor de R$ 38.000,00.
+Conta Orc. 6.1.09.1.0326: REFLORESTAMENTOS AMBIENTAIS
+Foi orçado o valor de R$ 36.500,00 para os serviços de reflorestamentos internos da empresa, mas foi gasto somente o valor de R$ 4.540,00, devido à suspensão dos Termos de Compromisso de Recuperação Ambiental até a aprovação do PRA (Plano de Regularização Ambiental). Portanto, R$ 31.960,00 não mais serão utilizados.
+Conta Orc. 6.1.09.2.0518: AUDITORIA, ASSESSORIA E CONSULT.
+Foi orçado o valor de R$ 341.020,00, sendo efetivamente utilizado R$ 179.351,55, uma vez que a Secretaria do Meio Ambiente ainda não se manifestou sobre a solicitação de Licença de Instalação do EIA/RIMA, onde estão contidos vários programas socioambientais que terão que ser realizados antes da solicitação da Licença de Operação. Portanto, a sobra foi de R$ 177.000,00, podendo ser cancelado.
+Conta Orc. 6.1.09.2.0627 - PUBLICAÇÕES LEGAIS
+Foi orçado R$ 2.250,00 e gastos R$ 1.374,00, portanto, o valor a ser cancelado será de R$ 876,00.
+Conta Orc. 6.1.09.9.0613 - VIAGENS E ESTADIAS
+Foi orçado R$ 15.100,00 e gastos R$ 4.857,83, já que os consultores não foram solicitados para elaboração dos programas socioambientais. Portanto, o valor a ser cancelado será de R$ 9.000,00.
+Conta Orc. 6.1.09.2.0639 - CURSOS E TREINAMENTOS
+Foi orçado R$ 2.980,00, porém não houve a realização de cursos por parte da equipe de meio ambiente.
+Conta Orc. 6.1.09.1.0664 - BRINDES E BÔNUS
+Foi orçado R$ 5.000,00 e gastos R$ 3.803,83, onde se teve uma sobra de R$ 1.196,17, valor que deverá ser cancelado.
+Conta Orc. 6.1.09.9.0603 - LOCAÇÃO/ALUGUÉIS EQUIPAMENTOS
+Foi orçado R$ 1.000,00 e não houve gastos para esta finalidade.
+
+Total a cancelar Pacote OUTRAS DESPESAS: R$ 318.912,17
+
+Pacote: MANUTENÇÃO
+Conta Orc. 6.1.06.2.0502: Serviços de Reparo e Manutenção
+Foi orçado o valor de R$ 8.632,31, para os serviços de reparo e manutenção de veículos, mas foi gasto somente o valor de R$ 1.595,70. Portanto, R$ 6.000,00 não mais serão utilizados.
+Conta Orc. 6.1.06.1.0309: Peças e Acessórios
+Foi orçado o valor de R$ 9.111,26 para as peças a serem utilizadas na manutenção de veículos, mas foi gasto somente o valor de R$ 6.042,49. Portanto, R$ 2.100,00 não mais serão utilizados.
+
+Total a cancelar Pacote MANUTENÇÃO: R$ 8.100,00
+
+Pacote: BENEFÍCIOS
+Conta Orc. 6.1.02.1.0323 - MAT. E UTENSÍLIOS SEGURANÇA
+Foi orçado R$ 5.471,00 e gasto R$ 2.333,98. Portanto, houve uma sobra de 3.137,02, e poderá ser cancelado o valor de R$ 2.800,00.
+Conta Orc. 6.1.02.1.0605 - UNIFORMES
+Foi orçado R$ 3.065,00 e gasto R$ 598,27. Portanto, houve uma sobra de R$ 2.466,73, o qual poderá ser cancelado.
+
+Total a cancelar Pacote BENEFÍCIOS: R$ 5.266,73<br/><br/>
+            Valor: 332.278,90<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            ROBERTO MALZONI FILHO<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 11000 Aprovada','roberto@usinasantafe.com.br','ROBERTO MALZONI FILHO','eduardo@usinasantafe.com.br','EDUARDO FERRAZ MALZONI'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 11000<br/>
+            Empresa: Usina Santa Fé S.A.<br/>
+            Data da inclusão: 02/03/2015 14:02<br/>
+            De: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Para: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Finalidade: <br/>CANCELAMENTO DE VERBA ORÇAMENTÁRIA<br/><br/>
+            Motivo: <br/>Pacote: OUTRAS DESPESAS
+Conta Orc. 6.1.09.9.0662: DOAÇÕES E AUXÍLIOS
+Foi orçado um valor de 102.000,00 com a finalidade de atender exigências do EIA/RIMA para convênios com os municípios de influência. Porém, não ocorreram todas as doações previstas, ou por falta de solicitação dos municípios ou por contenção de despesas por parte da Usina, uma vez que o prazo para o cumprimento dessa exigência foi estendido de forma que poderá ser realizado no próximo orçamento, resultando numa sobra de verba de R$ 57.000,00 a qual não mais será utilizada.
+Conta Orc. 6.1.09.2.0615: PROPAGANDA E PUBLICIDADE
+Foi orçado o valor de R$ 50.000 com o objetivo de atender a divulgação dos programas socioambientais constantes das exigências do EIA/RIMA. Devido à prorrogação do prazo para cumprimento desta exigência, solicitação da Licença de Operação, foi gasto o valor de R$ 9.461,60, resultando numa sobra de R$ 40.538,60, sendo possível cancelar o valor de R$ 38.000,00.
+Conta Orc. 6.1.09.1.0326: REFLORESTAMENTOS AMBIENTAIS
+Foi orçado o valor de R$ 36.500,00 para os serviços de reflorestamentos internos da empresa, mas foi gasto somente o valor de R$ 4.540,00, devido à suspensão dos Termos de Compromisso de Recuperação Ambiental até a aprovação do PRA (Plano de Regularização Ambiental). Portanto, R$ 31.960,00 não mais serão utilizados.
+Conta Orc. 6.1.09.2.0518: AUDITORIA, ASSESSORIA E CONSULT.
+Foi orçado o valor de R$ 341.020,00, sendo efetivamente utilizado R$ 179.351,55, uma vez que a Secretaria do Meio Ambiente ainda não se manifestou sobre a solicitação de Licença de Instalação do EIA/RIMA, onde estão contidos vários programas socioambientais que terão que ser realizados antes da solicitação da Licença de Operação. Portanto, a sobra foi de R$ 177.000,00, podendo ser cancelado.
+Conta Orc. 6.1.09.2.0627 - PUBLICAÇÕES LEGAIS
+Foi orçado R$ 2.250,00 e gastos R$ 1.374,00, portanto, o valor a ser cancelado será de R$ 876,00.
+Conta Orc. 6.1.09.9.0613 - VIAGENS E ESTADIAS
+Foi orçado R$ 15.100,00 e gastos R$ 4.857,83, já que os consultores não foram solicitados para elaboração dos programas socioambientais. Portanto, o valor a ser cancelado será de R$ 9.000,00.
+Conta Orc. 6.1.09.2.0639 - CURSOS E TREINAMENTOS
+Foi orçado R$ 2.980,00, porém não houve a realização de cursos por parte da equipe de meio ambiente.
+Conta Orc. 6.1.09.1.0664 - BRINDES E BÔNUS
+Foi orçado R$ 5.000,00 e gastos R$ 3.803,83, onde se teve uma sobra de R$ 1.196,17, valor que deverá ser cancelado.
+Conta Orc. 6.1.09.9.0603 - LOCAÇÃO/ALUGUÉIS EQUIPAMENTOS
+Foi orçado R$ 1.000,00 e não houve gastos para esta finalidade.
+
+Total a cancelar Pacote OUTRAS DESPESAS: R$ 318.912,17
+
+Pacote: MANUTENÇÃO
+Conta Orc. 6.1.06.2.0502: Serviços de Reparo e Manutenção
+Foi orçado o valor de R$ 8.632,31, para os serviços de reparo e manutenção de veículos, mas foi gasto somente o valor de R$ 1.595,70. Portanto, R$ 6.000,00 não mais serão utilizados.
+Conta Orc. 6.1.06.1.0309: Peças e Acessórios
+Foi orçado o valor de R$ 9.111,26 para as peças a serem utilizadas na manutenção de veículos, mas foi gasto somente o valor de R$ 6.042,49. Portanto, R$ 2.100,00 não mais serão utilizados.
+
+Total a cancelar Pacote MANUTENÇÃO: R$ 8.100,00
+
+Pacote: BENEFÍCIOS
+Conta Orc. 6.1.02.1.0323 - MAT. E UTENSÍLIOS SEGURANÇA
+Foi orçado R$ 5.471,00 e gasto R$ 2.333,98. Portanto, houve uma sobra de 3.137,02, e poderá ser cancelado o valor de R$ 2.800,00.
+Conta Orc. 6.1.02.1.0605 - UNIFORMES
+Foi orçado R$ 3.065,00 e gasto R$ 598,27. Portanto, houve uma sobra de R$ 2.466,73, o qual poderá ser cancelado.
+
+Total a cancelar Pacote BENEFÍCIOS: R$ 5.266,73<br/><br/>
+            Valor: 332.278,90<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            ROBERTO MALZONI FILHO<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 11000 Aprovada','roberto@usinasantafe.com.br','ROBERTO MALZONI FILHO','sylvio@usinasantafe.com.br','FRANCISCO SYLVIO MALZONI GAVOTTI'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 11000<br/>
+            Empresa: Usina Santa Fé S.A.<br/>
+            Data da inclusão: 02/03/2015 14:02<br/>
+            De: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Para: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Finalidade: <br/>CANCELAMENTO DE VERBA ORÇAMENTÁRIA<br/><br/>
+            Motivo: <br/>Pacote: OUTRAS DESPESAS
+Conta Orc. 6.1.09.9.0662: DOAÇÕES E AUXÍLIOS
+Foi orçado um valor de 102.000,00 com a finalidade de atender exigências do EIA/RIMA para convênios com os municípios de influência. Porém, não ocorreram todas as doações previstas, ou por falta de solicitação dos municípios ou por contenção de despesas por parte da Usina, uma vez que o prazo para o cumprimento dessa exigência foi estendido de forma que poderá ser realizado no próximo orçamento, resultando numa sobra de verba de R$ 57.000,00 a qual não mais será utilizada.
+Conta Orc. 6.1.09.2.0615: PROPAGANDA E PUBLICIDADE
+Foi orçado o valor de R$ 50.000 com o objetivo de atender a divulgação dos programas socioambientais constantes das exigências do EIA/RIMA. Devido à prorrogação do prazo para cumprimento desta exigência, solicitação da Licença de Operação, foi gasto o valor de R$ 9.461,60, resultando numa sobra de R$ 40.538,60, sendo possível cancelar o valor de R$ 38.000,00.
+Conta Orc. 6.1.09.1.0326: REFLORESTAMENTOS AMBIENTAIS
+Foi orçado o valor de R$ 36.500,00 para os serviços de reflorestamentos internos da empresa, mas foi gasto somente o valor de R$ 4.540,00, devido à suspensão dos Termos de Compromisso de Recuperação Ambiental até a aprovação do PRA (Plano de Regularização Ambiental). Portanto, R$ 31.960,00 não mais serão utilizados.
+Conta Orc. 6.1.09.2.0518: AUDITORIA, ASSESSORIA E CONSULT.
+Foi orçado o valor de R$ 341.020,00, sendo efetivamente utilizado R$ 179.351,55, uma vez que a Secretaria do Meio Ambiente ainda não se manifestou sobre a solicitação de Licença de Instalação do EIA/RIMA, onde estão contidos vários programas socioambientais que terão que ser realizados antes da solicitação da Licença de Operação. Portanto, a sobra foi de R$ 177.000,00, podendo ser cancelado.
+Conta Orc. 6.1.09.2.0627 - PUBLICAÇÕES LEGAIS
+Foi orçado R$ 2.250,00 e gastos R$ 1.374,00, portanto, o valor a ser cancelado será de R$ 876,00.
+Conta Orc. 6.1.09.9.0613 - VIAGENS E ESTADIAS
+Foi orçado R$ 15.100,00 e gastos R$ 4.857,83, já que os consultores não foram solicitados para elaboração dos programas socioambientais. Portanto, o valor a ser cancelado será de R$ 9.000,00.
+Conta Orc. 6.1.09.2.0639 - CURSOS E TREINAMENTOS
+Foi orçado R$ 2.980,00, porém não houve a realização de cursos por parte da equipe de meio ambiente.
+Conta Orc. 6.1.09.1.0664 - BRINDES E BÔNUS
+Foi orçado R$ 5.000,00 e gastos R$ 3.803,83, onde se teve uma sobra de R$ 1.196,17, valor que deverá ser cancelado.
+Conta Orc. 6.1.09.9.0603 - LOCAÇÃO/ALUGUÉIS EQUIPAMENTOS
+Foi orçado R$ 1.000,00 e não houve gastos para esta finalidade.
+
+Total a cancelar Pacote OUTRAS DESPESAS: R$ 318.912,17
+
+Pacote: MANUTENÇÃO
+Conta Orc. 6.1.06.2.0502: Serviços de Reparo e Manutenção
+Foi orçado o valor de R$ 8.632,31, para os serviços de reparo e manutenção de veículos, mas foi gasto somente o valor de R$ 1.595,70. Portanto, R$ 6.000,00 não mais serão utilizados.
+Conta Orc. 6.1.06.1.0309: Peças e Acessórios
+Foi orçado o valor de R$ 9.111,26 para as peças a serem utilizadas na manutenção de veículos, mas foi gasto somente o valor de R$ 6.042,49. Portanto, R$ 2.100,00 não mais serão utilizados.
+
+Total a cancelar Pacote MANUTENÇÃO: R$ 8.100,00
+
+Pacote: BENEFÍCIOS
+Conta Orc. 6.1.02.1.0323 - MAT. E UTENSÍLIOS SEGURANÇA
+Foi orçado R$ 5.471,00 e gasto R$ 2.333,98. Portanto, houve uma sobra de 3.137,02, e poderá ser cancelado o valor de R$ 2.800,00.
+Conta Orc. 6.1.02.1.0605 - UNIFORMES
+Foi orçado R$ 3.065,00 e gasto R$ 598,27. Portanto, houve uma sobra de R$ 2.466,73, o qual poderá ser cancelado.
+
+Total a cancelar Pacote BENEFÍCIOS: R$ 5.266,73<br/><br/>
+            Valor: 332.278,90<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            ROBERTO MALZONI FILHO<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 11000 Aprovada','roberto@usinasantafe.com.br','ROBERTO MALZONI FILHO','fernando@usinasantafe.com.br','FERNANDO LUIZ DE MATTOS OLIVEIRA'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 11000<br/>
+            Empresa: Usina Santa Fé S.A.<br/>
+            Data da inclusão: 02/03/2015 14:02<br/>
+            De: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Para: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Finalidade: <br/>CANCELAMENTO DE VERBA ORÇAMENTÁRIA<br/><br/>
+            Motivo: <br/>Pacote: OUTRAS DESPESAS
+Conta Orc. 6.1.09.9.0662: DOAÇÕES E AUXÍLIOS
+Foi orçado um valor de 102.000,00 com a finalidade de atender exigências do EIA/RIMA para convênios com os municípios de influência. Porém, não ocorreram todas as doações previstas, ou por falta de solicitação dos municípios ou por contenção de despesas por parte da Usina, uma vez que o prazo para o cumprimento dessa exigência foi estendido de forma que poderá ser realizado no próximo orçamento, resultando numa sobra de verba de R$ 57.000,00 a qual não mais será utilizada.
+Conta Orc. 6.1.09.2.0615: PROPAGANDA E PUBLICIDADE
+Foi orçado o valor de R$ 50.000 com o objetivo de atender a divulgação dos programas socioambientais constantes das exigências do EIA/RIMA. Devido à prorrogação do prazo para cumprimento desta exigência, solicitação da Licença de Operação, foi gasto o valor de R$ 9.461,60, resultando numa sobra de R$ 40.538,60, sendo possível cancelar o valor de R$ 38.000,00.
+Conta Orc. 6.1.09.1.0326: REFLORESTAMENTOS AMBIENTAIS
+Foi orçado o valor de R$ 36.500,00 para os serviços de reflorestamentos internos da empresa, mas foi gasto somente o valor de R$ 4.540,00, devido à suspensão dos Termos de Compromisso de Recuperação Ambiental até a aprovação do PRA (Plano de Regularização Ambiental). Portanto, R$ 31.960,00 não mais serão utilizados.
+Conta Orc. 6.1.09.2.0518: AUDITORIA, ASSESSORIA E CONSULT.
+Foi orçado o valor de R$ 341.020,00, sendo efetivamente utilizado R$ 179.351,55, uma vez que a Secretaria do Meio Ambiente ainda não se manifestou sobre a solicitação de Licença de Instalação do EIA/RIMA, onde estão contidos vários programas socioambientais que terão que ser realizados antes da solicitação da Licença de Operação. Portanto, a sobra foi de R$ 177.000,00, podendo ser cancelado.
+Conta Orc. 6.1.09.2.0627 - PUBLICAÇÕES LEGAIS
+Foi orçado R$ 2.250,00 e gastos R$ 1.374,00, portanto, o valor a ser cancelado será de R$ 876,00.
+Conta Orc. 6.1.09.9.0613 - VIAGENS E ESTADIAS
+Foi orçado R$ 15.100,00 e gastos R$ 4.857,83, já que os consultores não foram solicitados para elaboração dos programas socioambientais. Portanto, o valor a ser cancelado será de R$ 9.000,00.
+Conta Orc. 6.1.09.2.0639 - CURSOS E TREINAMENTOS
+Foi orçado R$ 2.980,00, porém não houve a realização de cursos por parte da equipe de meio ambiente.
+Conta Orc. 6.1.09.1.0664 - BRINDES E BÔNUS
+Foi orçado R$ 5.000,00 e gastos R$ 3.803,83, onde se teve uma sobra de R$ 1.196,17, valor que deverá ser cancelado.
+Conta Orc. 6.1.09.9.0603 - LOCAÇÃO/ALUGUÉIS EQUIPAMENTOS
+Foi orçado R$ 1.000,00 e não houve gastos para esta finalidade.
+
+Total a cancelar Pacote OUTRAS DESPESAS: R$ 318.912,17
+
+Pacote: MANUTENÇÃO
+Conta Orc. 6.1.06.2.0502: Serviços de Reparo e Manutenção
+Foi orçado o valor de R$ 8.632,31, para os serviços de reparo e manutenção de veículos, mas foi gasto somente o valor de R$ 1.595,70. Portanto, R$ 6.000,00 não mais serão utilizados.
+Conta Orc. 6.1.06.1.0309: Peças e Acessórios
+Foi orçado o valor de R$ 9.111,26 para as peças a serem utilizadas na manutenção de veículos, mas foi gasto somente o valor de R$ 6.042,49. Portanto, R$ 2.100,00 não mais serão utilizados.
+
+Total a cancelar Pacote MANUTENÇÃO: R$ 8.100,00
+
+Pacote: BENEFÍCIOS
+Conta Orc. 6.1.02.1.0323 - MAT. E UTENSÍLIOS SEGURANÇA
+Foi orçado R$ 5.471,00 e gasto R$ 2.333,98. Portanto, houve uma sobra de 3.137,02, e poderá ser cancelado o valor de R$ 2.800,00.
+Conta Orc. 6.1.02.1.0605 - UNIFORMES
+Foi orçado R$ 3.065,00 e gasto R$ 598,27. Portanto, houve uma sobra de R$ 2.466,73, o qual poderá ser cancelado.
+
+Total a cancelar Pacote BENEFÍCIOS: R$ 5.266,73<br/><br/>
+            Valor: 332.278,90<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            ROBERTO MALZONI FILHO<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 11000 Aprovada','roberto@usinasantafe.com.br','ROBERTO MALZONI FILHO','roberto@usinasantafe.com.br','ROBERTO MALZONI FILHO'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 11000<br/>
+            Empresa: Usina Santa Fé S.A.<br/>
+            Data da inclusão: 02/03/2015 14:02<br/>
+            De: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Para: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Finalidade: <br/>CANCELAMENTO DE VERBA ORÇAMENTÁRIA<br/><br/>
+            Motivo: <br/>Pacote: OUTRAS DESPESAS
+Conta Orc. 6.1.09.9.0662: DOAÇÕES E AUXÍLIOS
+Foi orçado um valor de 102.000,00 com a finalidade de atender exigências do EIA/RIMA para convênios com os municípios de influência. Porém, não ocorreram todas as doações previstas, ou por falta de solicitação dos municípios ou por contenção de despesas por parte da Usina, uma vez que o prazo para o cumprimento dessa exigência foi estendido de forma que poderá ser realizado no próximo orçamento, resultando numa sobra de verba de R$ 57.000,00 a qual não mais será utilizada.
+Conta Orc. 6.1.09.2.0615: PROPAGANDA E PUBLICIDADE
+Foi orçado o valor de R$ 50.000 com o objetivo de atender a divulgação dos programas socioambientais constantes das exigências do EIA/RIMA. Devido à prorrogação do prazo para cumprimento desta exigência, solicitação da Licença de Operação, foi gasto o valor de R$ 9.461,60, resultando numa sobra de R$ 40.538,60, sendo possível cancelar o valor de R$ 38.000,00.
+Conta Orc. 6.1.09.1.0326: REFLORESTAMENTOS AMBIENTAIS
+Foi orçado o valor de R$ 36.500,00 para os serviços de reflorestamentos internos da empresa, mas foi gasto somente o valor de R$ 4.540,00, devido à suspensão dos Termos de Compromisso de Recuperação Ambiental até a aprovação do PRA (Plano de Regularização Ambiental). Portanto, R$ 31.960,00 não mais serão utilizados.
+Conta Orc. 6.1.09.2.0518: AUDITORIA, ASSESSORIA E CONSULT.
+Foi orçado o valor de R$ 341.020,00, sendo efetivamente utilizado R$ 179.351,55, uma vez que a Secretaria do Meio Ambiente ainda não se manifestou sobre a solicitação de Licença de Instalação do EIA/RIMA, onde estão contidos vários programas socioambientais que terão que ser realizados antes da solicitação da Licença de Operação. Portanto, a sobra foi de R$ 177.000,00, podendo ser cancelado.
+Conta Orc. 6.1.09.2.0627 - PUBLICAÇÕES LEGAIS
+Foi orçado R$ 2.250,00 e gastos R$ 1.374,00, portanto, o valor a ser cancelado será de R$ 876,00.
+Conta Orc. 6.1.09.9.0613 - VIAGENS E ESTADIAS
+Foi orçado R$ 15.100,00 e gastos R$ 4.857,83, já que os consultores não foram solicitados para elaboração dos programas socioambientais. Portanto, o valor a ser cancelado será de R$ 9.000,00.
+Conta Orc. 6.1.09.2.0639 - CURSOS E TREINAMENTOS
+Foi orçado R$ 2.980,00, porém não houve a realização de cursos por parte da equipe de meio ambiente.
+Conta Orc. 6.1.09.1.0664 - BRINDES E BÔNUS
+Foi orçado R$ 5.000,00 e gastos R$ 3.803,83, onde se teve uma sobra de R$ 1.196,17, valor que deverá ser cancelado.
+Conta Orc. 6.1.09.9.0603 - LOCAÇÃO/ALUGUÉIS EQUIPAMENTOS
+Foi orçado R$ 1.000,00 e não houve gastos para esta finalidade.
+
+Total a cancelar Pacote OUTRAS DESPESAS: R$ 318.912,17
+
+Pacote: MANUTENÇÃO
+Conta Orc. 6.1.06.2.0502: Serviços de Reparo e Manutenção
+Foi orçado o valor de R$ 8.632,31, para os serviços de reparo e manutenção de veículos, mas foi gasto somente o valor de R$ 1.595,70. Portanto, R$ 6.000,00 não mais serão utilizados.
+Conta Orc. 6.1.06.1.0309: Peças e Acessórios
+Foi orçado o valor de R$ 9.111,26 para as peças a serem utilizadas na manutenção de veículos, mas foi gasto somente o valor de R$ 6.042,49. Portanto, R$ 2.100,00 não mais serão utilizados.
+
+Total a cancelar Pacote MANUTENÇÃO: R$ 8.100,00
+
+Pacote: BENEFÍCIOS
+Conta Orc. 6.1.02.1.0323 - MAT. E UTENSÍLIOS SEGURANÇA
+Foi orçado R$ 5.471,00 e gasto R$ 2.333,98. Portanto, houve uma sobra de 3.137,02, e poderá ser cancelado o valor de R$ 2.800,00.
+Conta Orc. 6.1.02.1.0605 - UNIFORMES
+Foi orçado R$ 3.065,00 e gasto R$ 598,27. Portanto, houve uma sobra de R$ 2.466,73, o qual poderá ser cancelado.
+
+Total a cancelar Pacote BENEFÍCIOS: R$ 5.266,73<br/><br/>
+            Valor: 332.278,90<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            ROBERTO MALZONI FILHO<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 11000 Aprovada','roberto@usinasantafe.com.br','ROBERTO MALZONI FILHO','tom@usinasantafe.com.br','tom@usinasantafe.com.br'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 11000<br/>
+            Empresa: Usina Santa Fé S.A.<br/>
+            Data da inclusão: 02/03/2015 14:02<br/>
+            De: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Para: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Finalidade: <br/>CANCELAMENTO DE VERBA ORÇAMENTÁRIA<br/><br/>
+            Motivo: <br/>Pacote: OUTRAS DESPESAS
+Conta Orc. 6.1.09.9.0662: DOAÇÕES E AUXÍLIOS
+Foi orçado um valor de 102.000,00 com a finalidade de atender exigências do EIA/RIMA para convênios com os municípios de influência. Porém, não ocorreram todas as doações previstas, ou por falta de solicitação dos municípios ou por contenção de despesas por parte da Usina, uma vez que o prazo para o cumprimento dessa exigência foi estendido de forma que poderá ser realizado no próximo orçamento, resultando numa sobra de verba de R$ 57.000,00 a qual não mais será utilizada.
+Conta Orc. 6.1.09.2.0615: PROPAGANDA E PUBLICIDADE
+Foi orçado o valor de R$ 50.000 com o objetivo de atender a divulgação dos programas socioambientais constantes das exigências do EIA/RIMA. Devido à prorrogação do prazo para cumprimento desta exigência, solicitação da Licença de Operação, foi gasto o valor de R$ 9.461,60, resultando numa sobra de R$ 40.538,60, sendo possível cancelar o valor de R$ 38.000,00.
+Conta Orc. 6.1.09.1.0326: REFLORESTAMENTOS AMBIENTAIS
+Foi orçado o valor de R$ 36.500,00 para os serviços de reflorestamentos internos da empresa, mas foi gasto somente o valor de R$ 4.540,00, devido à suspensão dos Termos de Compromisso de Recuperação Ambiental até a aprovação do PRA (Plano de Regularização Ambiental). Portanto, R$ 31.960,00 não mais serão utilizados.
+Conta Orc. 6.1.09.2.0518: AUDITORIA, ASSESSORIA E CONSULT.
+Foi orçado o valor de R$ 341.020,00, sendo efetivamente utilizado R$ 179.351,55, uma vez que a Secretaria do Meio Ambiente ainda não se manifestou sobre a solicitação de Licença de Instalação do EIA/RIMA, onde estão contidos vários programas socioambientais que terão que ser realizados antes da solicitação da Licença de Operação. Portanto, a sobra foi de R$ 177.000,00, podendo ser cancelado.
+Conta Orc. 6.1.09.2.0627 - PUBLICAÇÕES LEGAIS
+Foi orçado R$ 2.250,00 e gastos R$ 1.374,00, portanto, o valor a ser cancelado será de R$ 876,00.
+Conta Orc. 6.1.09.9.0613 - VIAGENS E ESTADIAS
+Foi orçado R$ 15.100,00 e gastos R$ 4.857,83, já que os consultores não foram solicitados para elaboração dos programas socioambientais. Portanto, o valor a ser cancelado será de R$ 9.000,00.
+Conta Orc. 6.1.09.2.0639 - CURSOS E TREINAMENTOS
+Foi orçado R$ 2.980,00, porém não houve a realização de cursos por parte da equipe de meio ambiente.
+Conta Orc. 6.1.09.1.0664 - BRINDES E BÔNUS
+Foi orçado R$ 5.000,00 e gastos R$ 3.803,83, onde se teve uma sobra de R$ 1.196,17, valor que deverá ser cancelado.
+Conta Orc. 6.1.09.9.0603 - LOCAÇÃO/ALUGUÉIS EQUIPAMENTOS
+Foi orçado R$ 1.000,00 e não houve gastos para esta finalidade.
+
+Total a cancelar Pacote OUTRAS DESPESAS: R$ 318.912,17
+
+Pacote: MANUTENÇÃO
+Conta Orc. 6.1.06.2.0502: Serviços de Reparo e Manutenção
+Foi orçado o valor de R$ 8.632,31, para os serviços de reparo e manutenção de veículos, mas foi gasto somente o valor de R$ 1.595,70. Portanto, R$ 6.000,00 não mais serão utilizados.
+Conta Orc. 6.1.06.1.0309: Peças e Acessórios
+Foi orçado o valor de R$ 9.111,26 para as peças a serem utilizadas na manutenção de veículos, mas foi gasto somente o valor de R$ 6.042,49. Portanto, R$ 2.100,00 não mais serão utilizados.
+
+Total a cancelar Pacote MANUTENÇÃO: R$ 8.100,00
+
+Pacote: BENEFÍCIOS
+Conta Orc. 6.1.02.1.0323 - MAT. E UTENSÍLIOS SEGURANÇA
+Foi orçado R$ 5.471,00 e gasto R$ 2.333,98. Portanto, houve uma sobra de 3.137,02, e poderá ser cancelado o valor de R$ 2.800,00.
+Conta Orc. 6.1.02.1.0605 - UNIFORMES
+Foi orçado R$ 3.065,00 e gasto R$ 598,27. Portanto, houve uma sobra de R$ 2.466,73, o qual poderá ser cancelado.
+
+Total a cancelar Pacote BENEFÍCIOS: R$ 5.266,73<br/><br/>
+            Valor: 332.278,90<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            ROBERTO MALZONI FILHO<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 11000 Aprovada','roberto@usinasantafe.com.br','ROBERTO MALZONI FILHO','osvaldo.flores@usinasantafe.com.br','osvaldo.flores@usinasantafe.com.br'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 11000<br/>
+            Empresa: Usina Santa Fé S.A.<br/>
+            Data da inclusão: 02/03/2015 14:02<br/>
+            De: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Para: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Finalidade: <br/>CANCELAMENTO DE VERBA ORÇAMENTÁRIA<br/><br/>
+            Motivo: <br/>Pacote: OUTRAS DESPESAS
+Conta Orc. 6.1.09.9.0662: DOAÇÕES E AUXÍLIOS
+Foi orçado um valor de 102.000,00 com a finalidade de atender exigências do EIA/RIMA para convênios com os municípios de influência. Porém, não ocorreram todas as doações previstas, ou por falta de solicitação dos municípios ou por contenção de despesas por parte da Usina, uma vez que o prazo para o cumprimento dessa exigência foi estendido de forma que poderá ser realizado no próximo orçamento, resultando numa sobra de verba de R$ 57.000,00 a qual não mais será utilizada.
+Conta Orc. 6.1.09.2.0615: PROPAGANDA E PUBLICIDADE
+Foi orçado o valor de R$ 50.000 com o objetivo de atender a divulgação dos programas socioambientais constantes das exigências do EIA/RIMA. Devido à prorrogação do prazo para cumprimento desta exigência, solicitação da Licença de Operação, foi gasto o valor de R$ 9.461,60, resultando numa sobra de R$ 40.538,60, sendo possível cancelar o valor de R$ 38.000,00.
+Conta Orc. 6.1.09.1.0326: REFLORESTAMENTOS AMBIENTAIS
+Foi orçado o valor de R$ 36.500,00 para os serviços de reflorestamentos internos da empresa, mas foi gasto somente o valor de R$ 4.540,00, devido à suspensão dos Termos de Compromisso de Recuperação Ambiental até a aprovação do PRA (Plano de Regularização Ambiental). Portanto, R$ 31.960,00 não mais serão utilizados.
+Conta Orc. 6.1.09.2.0518: AUDITORIA, ASSESSORIA E CONSULT.
+Foi orçado o valor de R$ 341.020,00, sendo efetivamente utilizado R$ 179.351,55, uma vez que a Secretaria do Meio Ambiente ainda não se manifestou sobre a solicitação de Licença de Instalação do EIA/RIMA, onde estão contidos vários programas socioambientais que terão que ser realizados antes da solicitação da Licença de Operação. Portanto, a sobra foi de R$ 177.000,00, podendo ser cancelado.
+Conta Orc. 6.1.09.2.0627 - PUBLICAÇÕES LEGAIS
+Foi orçado R$ 2.250,00 e gastos R$ 1.374,00, portanto, o valor a ser cancelado será de R$ 876,00.
+Conta Orc. 6.1.09.9.0613 - VIAGENS E ESTADIAS
+Foi orçado R$ 15.100,00 e gastos R$ 4.857,83, já que os consultores não foram solicitados para elaboração dos programas socioambientais. Portanto, o valor a ser cancelado será de R$ 9.000,00.
+Conta Orc. 6.1.09.2.0639 - CURSOS E TREINAMENTOS
+Foi orçado R$ 2.980,00, porém não houve a realização de cursos por parte da equipe de meio ambiente.
+Conta Orc. 6.1.09.1.0664 - BRINDES E BÔNUS
+Foi orçado R$ 5.000,00 e gastos R$ 3.803,83, onde se teve uma sobra de R$ 1.196,17, valor que deverá ser cancelado.
+Conta Orc. 6.1.09.9.0603 - LOCAÇÃO/ALUGUÉIS EQUIPAMENTOS
+Foi orçado R$ 1.000,00 e não houve gastos para esta finalidade.
+
+Total a cancelar Pacote OUTRAS DESPESAS: R$ 318.912,17
+
+Pacote: MANUTENÇÃO
+Conta Orc. 6.1.06.2.0502: Serviços de Reparo e Manutenção
+Foi orçado o valor de R$ 8.632,31, para os serviços de reparo e manutenção de veículos, mas foi gasto somente o valor de R$ 1.595,70. Portanto, R$ 6.000,00 não mais serão utilizados.
+Conta Orc. 6.1.06.1.0309: Peças e Acessórios
+Foi orçado o valor de R$ 9.111,26 para as peças a serem utilizadas na manutenção de veículos, mas foi gasto somente o valor de R$ 6.042,49. Portanto, R$ 2.100,00 não mais serão utilizados.
+
+Total a cancelar Pacote MANUTENÇÃO: R$ 8.100,00
+
+Pacote: BENEFÍCIOS
+Conta Orc. 6.1.02.1.0323 - MAT. E UTENSÍLIOS SEGURANÇA
+Foi orçado R$ 5.471,00 e gasto R$ 2.333,98. Portanto, houve uma sobra de 3.137,02, e poderá ser cancelado o valor de R$ 2.800,00.
+Conta Orc. 6.1.02.1.0605 - UNIFORMES
+Foi orçado R$ 3.065,00 e gasto R$ 598,27. Portanto, houve uma sobra de R$ 2.466,73, o qual poderá ser cancelado.
+
+Total a cancelar Pacote BENEFÍCIOS: R$ 5.266,73<br/><br/>
+            Valor: 332.278,90<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            ROBERTO MALZONI FILHO<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 11000 Aprovada','roberto@usinasantafe.com.br','ROBERTO MALZONI FILHO','alexandre@usinasantafe.com.br','alexandre@usinasantafe.com.br'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 11000<br/>
+            Empresa: Usina Santa Fé S.A.<br/>
+            Data da inclusão: 02/03/2015 14:02<br/>
+            De: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Para: 3.01.01.015 - ASSESSORIA AMBIENTAL<br/>
+            Finalidade: <br/>CANCELAMENTO DE VERBA ORÇAMENTÁRIA<br/><br/>
+            Motivo: <br/>Pacote: OUTRAS DESPESAS
+Conta Orc. 6.1.09.9.0662: DOAÇÕES E AUXÍLIOS
+Foi orçado um valor de 102.000,00 com a finalidade de atender exigências do EIA/RIMA para convênios com os municípios de influência. Porém, não ocorreram todas as doações previstas, ou por falta de solicitação dos municípios ou por contenção de despesas por parte da Usina, uma vez que o prazo para o cumprimento dessa exigência foi estendido de forma que poderá ser realizado no próximo orçamento, resultando numa sobra de verba de R$ 57.000,00 a qual não mais será utilizada.
+Conta Orc. 6.1.09.2.0615: PROPAGANDA E PUBLICIDADE
+Foi orçado o valor de R$ 50.000 com o objetivo de atender a divulgação dos programas socioambientais constantes das exigências do EIA/RIMA. Devido à prorrogação do prazo para cumprimento desta exigência, solicitação da Licença de Operação, foi gasto o valor de R$ 9.461,60, resultando numa sobra de R$ 40.538,60, sendo possível cancelar o valor de R$ 38.000,00.
+Conta Orc. 6.1.09.1.0326: REFLORESTAMENTOS AMBIENTAIS
+Foi orçado o valor de R$ 36.500,00 para os serviços de reflorestamentos internos da empresa, mas foi gasto somente o valor de R$ 4.540,00, devido à suspensão dos Termos de Compromisso de Recuperação Ambiental até a aprovação do PRA (Plano de Regularização Ambiental). Portanto, R$ 31.960,00 não mais serão utilizados.
+Conta Orc. 6.1.09.2.0518: AUDITORIA, ASSESSORIA E CONSULT.
+Foi orçado o valor de R$ 341.020,00, sendo efetivamente utilizado R$ 179.351,55, uma vez que a Secretaria do Meio Ambiente ainda não se manifestou sobre a solicitação de Licença de Instalação do EIA/RIMA, onde estão contidos vários programas socioambientais que terão que ser realizados antes da solicitação da Licença de Operação. Portanto, a sobra foi de R$ 177.000,00, podendo ser cancelado.
+Conta Orc. 6.1.09.2.0627 - PUBLICAÇÕES LEGAIS
+Foi orçado R$ 2.250,00 e gastos R$ 1.374,00, portanto, o valor a ser cancelado será de R$ 876,00.
+Conta Orc. 6.1.09.9.0613 - VIAGENS E ESTADIAS
+Foi orçado R$ 15.100,00 e gastos R$ 4.857,83, já que os consultores não foram solicitados para elaboração dos programas socioambientais. Portanto, o valor a ser cancelado será de R$ 9.000,00.
+Conta Orc. 6.1.09.2.0639 - CURSOS E TREINAMENTOS
+Foi orçado R$ 2.980,00, porém não houve a realização de cursos por parte da equipe de meio ambiente.
+Conta Orc. 6.1.09.1.0664 - BRINDES E BÔNUS
+Foi orçado R$ 5.000,00 e gastos R$ 3.803,83, onde se teve uma sobra de R$ 1.196,17, valor que deverá ser cancelado.
+Conta Orc. 6.1.09.9.0603 - LOCAÇÃO/ALUGUÉIS EQUIPAMENTOS
+Foi orçado R$ 1.000,00 e não houve gastos para esta finalidade.
+
+Total a cancelar Pacote OUTRAS DESPESAS: R$ 318.912,17
+
+Pacote: MANUTENÇÃO
+Conta Orc. 6.1.06.2.0502: Serviços de Reparo e Manutenção
+Foi orçado o valor de R$ 8.632,31, para os serviços de reparo e manutenção de veículos, mas foi gasto somente o valor de R$ 1.595,70. Portanto, R$ 6.000,00 não mais serão utilizados.
+Conta Orc. 6.1.06.1.0309: Peças e Acessórios
+Foi orçado o valor de R$ 9.111,26 para as peças a serem utilizadas na manutenção de veículos, mas foi gasto somente o valor de R$ 6.042,49. Portanto, R$ 2.100,00 não mais serão utilizados.
+
+Total a cancelar Pacote MANUTENÇÃO: R$ 8.100,00
+
+Pacote: BENEFÍCIOS
+Conta Orc. 6.1.02.1.0323 - MAT. E UTENSÍLIOS SEGURANÇA
+Foi orçado R$ 5.471,00 e gasto R$ 2.333,98. Portanto, houve uma sobra de 3.137,02, e poderá ser cancelado o valor de R$ 2.800,00.
+Conta Orc. 6.1.02.1.0605 - UNIFORMES
+Foi orçado R$ 3.065,00 e gasto R$ 598,27. Portanto, houve uma sobra de R$ 2.466,73, o qual poderá ser cancelado.
+
+Total a cancelar Pacote BENEFÍCIOS: R$ 5.266,73<br/><br/>
+            Valor: 332.278,90<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            ROBERTO MALZONI FILHO<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)

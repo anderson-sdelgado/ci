@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+        <script type="text/javascript" src="<?php echo PUBLIC_PATH; ?>_js/jquery/jquery_new.min.js"></script>
+        <script type="text/javascript">                   
+            $(document).ready(function(){      
+                           <?php if(count($this->mensagem) > 0){ ?>
+                           var ci = <?php if($this->ci){echo "'".base64_encode($this->ci)."'";}  else { echo "''";} ?>;
+                           window.parent.$("#msg-upload").html('<?php if($this->mensagem == "OK"){  
+                               echo "<br/><br/><h1>Os arquivos foram enviados com sucesso</h1>";
+                           }else{ echo "<h1>$this->mensagem</h1>"; }?>');
+                           window.parent.$("#limpar").click();        
+                           window.parent.$('#div-anexos').load(
+                                '<?php echo FORM_PATH; ?>admin/ci/anexos/',
+                           {
+                               id : ci
+                           }
+                       );
+                           <?php } ?>
+                    });
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

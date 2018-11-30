@@ -1,0 +1,156 @@
+<div id="gride">
+    <?php
+    if (!empty($this->centro)):
+        ?>
+        <table class="listagemRel" style='width:98%;margin:0 auto;'>
+            <thead>
+                <tr>
+                    <th colspan="8">QUADRO DE FUNCION&Aacute;RIOS AFASTADOS - <?php echo $this->cargo[0]['DESCR_FUNCAO']; ?></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class='secundaria'>
+                    <td>CENTRO DE CUSTO</td>
+                    <td>CARGO</td>
+                    <td>COLABORADORES</td>
+                    <td>IN&Iacute;CIO</td>
+                    <td>FIM</td>
+                    <td>AFASTAMENTO</td>
+                    <td>AUS&Ecirc;NCIA</td>
+                    <td>OBSERVA&Ccedil;&Atilde;O</td>
+                </tr>
+                <?php
+                $total = 0;
+                $total = count($this->subordinados);
+                foreach ($this->centro as $key => $centros):
+                    $n_subordinados = 1;
+                    $count_sub = 0;
+                    $count_colab = 0;
+                    $rowspan = 0;
+                    foreach ($this->subordinados as $value) {
+                        if (str_replace(".", "", $value["CD_CCUSTO"]) == $centros["CUSTO"])
+                            $n_subordinados++;
+                    }
+                    
+	  	    $rowspan = "rowspan='$n_subordinados'";
+                    $classe_ccusto = $key % 2 == 0 ? 'principal' : 'principal';
+					 if($n_subordinados > 1){
+                    ?>
+                    <tr>
+                        <td <?php echo $rowspan; ?> class='<?php echo $classe_ccusto; ?>'><?php echo $centros['NOME_CCUSTO']; ?></td>                        
+                    <?php 
+                    $i = 0;
+                    $ant = '';
+                    $ant_colab = '';
+                    $cargo = '';
+                    $class = '';
+                    $j=1;
+                    $contador_teste = 0;
+                    foreach ($this->subordinados as $sub):
+                        $class = $i % 2 == 0 ? 'principal' : 'secundaria';
+                        if (str_replace(".", "", $sub['CD_CCUSTO']) == $centros['CUSTO']) {
+                            if (empty($sub['CD_CARGO']))
+                                $cargo = '&nbsp;';
+                            else
+                                $cargo = $sub['NOME_CARGO'];
+                            
+                            
+                            //nao exibe mesmo nome do caro se for igual ao anterior
+                            if($ant != $cargo){
+                                
+                                
+                                $count_sub = 0;
+                                foreach ($this->subordinados as $sub_cargo){                                
+                                    if($sub_cargo['CD_CARGO'] == $sub['CD_CARGO'] && str_replace(".", "", $sub_cargo['CD_CCUSTO']) == $centros['CUSTO']){
+                                        $count_sub++;
+                                    }
+                                }
+                                if($count_sub == 0){
+                                    $count_sub = 1;
+                                }
+//                                echo "<br/>".$contador_teste++.": $count_sub";
+                                echo "<tr class='$class'>
+                                        <td rowspan='$count_sub' >$cargo</td>";
+			    }else{
+                                echo "<tr class='$class'>";
+                            }
+                            
+                            
+                            if (empty($sub['CD_CARGO']))
+                                $colab = '&nbsp;';
+                            else
+                                $colab = $sub['NOME_COLAB'];
+                            
+                            
+                            
+                            
+                            if($ant_colab != $colab){
+                                
+                                
+                                $count_colab = 0;
+                                foreach ($this->subordinados as $sub_colab){                                
+                                    if($sub_colab['CD_COLAB'] == $sub['CD_COLAB'] && str_replace(".", "", $sub_cargo['CD_CCUSTO']) == $centros['CUSTO']){
+                                        $count_colab++;
+                                    }
+                                }
+                                if($count_colab == 0){
+                                    $count_colab = 1;
+                                }
+                                echo "
+                                        <td rowspan='$count_colab' >$colab</td>";
+			    }                     
+                            
+
+                            echo '<td >'.$sub['INICIO_AFASTAMENTO'].'</td>
+                                  <td >'.$sub['FIM_AFASTAMENTO'].'</td>
+                                  <td >'.$sub['AFASTAMENTO'].'</td>
+                                  <td >'.$sub['AUSENCIA'].'</td>
+                                  <td >'.$sub['OBS'].'</td>';
+
+                            echo '</tr>';
+                            $i++;
+                            $ant = $cargo;
+                            $ant_colab = $colab;
+                            if($j==$total){
+                                echo '<tr class="'.$class.'">
+                                        <td>TOTAL CCUSTO</td>
+                                        <td>&nbsp;</td>
+                                        <td colspan=6>'.$i.'</td>
+                                    </tr>';
+                            }
+                        }//fim if CD_CCUSTO
+                        else{
+                            if($j==$total){
+                                echo '
+                                  <tr class="'.$class.'">
+                                    <td>TOTAL CCUSTO</td>
+                                    <td>&nbsp;</td>
+                                    <td colspan=6>'.$i.'</td>
+                                  </tr>';
+                            }
+                        }
+                        $j++;
+                    endforeach;//fim foreach subordinados
+//                    if ($i == 0) {
+//                        echo '<td>teste</td>';
+//                    }
+                    ?> 
+                    </tr>
+                    <?php }
+                endforeach;//fim foreach centros de custo
+                ?>
+            </tbody>
+            <tfoot>
+                <tr class="secundaria">
+                    <td>TOTAL RELAT&Oacute;RIO</td>
+                    <td>&nbsp;</td>
+                    <td colspan="6"><?php echo $total;?></td>
+                </tr>
+            </tfoot>
+        </table>
+    <?php
+    else:
+        echo '<script>alert("Sem Permissão!");window.history.back();</script>';
+    endif;
+    ?>
+</div>

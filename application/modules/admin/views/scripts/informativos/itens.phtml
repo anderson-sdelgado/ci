@@ -1,0 +1,69 @@
+<?php
+    $menuNamespace  = new Zend_Session_Namespace('PERMISSAO');
+    $premissao      = $menuNamespace->_permissao;
+    if($this->id_informativo){
+        $linkInsert     = (($premissao[0]['INSERIR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/informativos/additem/id/$this->id_informativo');":"alert('Sem permissão');");
+    }else{
+        $linkInsert     = (($premissao[0]['INSERIR'] == 't')? "alert('Faça uma pesquisa de Informativo primeiro');":"alert('Sem permissão');");
+    }
+?>
+
+<div id="lista">
+    <div id="lista-borda">
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto"><?php echo $this->Informativo; ?></div>
+            <div id="lista-titulo-menu">
+                <div id="lista-titulo-menu-novo" class="botao" onclick="javascript:<?php echo $linkInsert?>">Novo Cadastro</div>
+                <div id="lista-titulo-menu-voltar" class="botao" onclick="javascript:OpenSelf('<?php echo $this->baseUrl().'/admin/informativos/cadastro';?>');">Voltar</div>
+            </div>
+        </div>
+        <div id="espaco"></div>
+        <div id="pesquisa-informativos">
+            <?php echo $this->formulario; ?>
+        </div>
+        <div id="gride">
+            <table class="listagem" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Descri&ccedil;&atilde;o Sum&aacute;ria</th>
+                        <th>Menu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    if(count($this->paginator) > 0):
+                        foreach ($this->paginator as $value):
+                            
+                            $linkUpdate     = (($premissao[0]['ALTERAR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/informativos/updateitem/id/". base64_encode($value['ID']) ."');":"alert('Sem permissão');");
+                            $linkDelete     = (($premissao[0]['EXCLUIR'] == 't')? "if(confirm('Deseja realmente apagar o registro?')) {OpenSelf('".$this->baseUrl()."/admin/informativos/deleteitem/id/". base64_encode($value['ID']) ."');}":"alert('Sem permissão');");
+                            ?>
+                            <tr itemref="clique">
+                                <td class="linha"><?php echo str_replace("***","'",$value['DESCRICAO_SUMARIA']);?></td>
+                                <td class="linha">
+                                    <img onclick="javascript:<?php echo $linkUpdate?>" src="<?php echo PUBLIC_PATH?>_img/icones/editar.png" border="0" title="Editar" />
+                                    <img onclick="javascript:<?php echo $linkDelete?>" src="<?php echo PUBLIC_PATH?>_img/icones/excluir.png" border="0"  title="Excluir" />
+                                </td>
+                            </tr>
+                        <?php 
+                        endforeach;
+                    else:
+                    ?>
+                        <tr>
+                            <td colspan="2" class='nenhum'>Nenhum Registro encontrado</td>
+                        </tr>
+                    <?php
+                    endif;
+                    ?>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><?php echo $this->paginator?></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>

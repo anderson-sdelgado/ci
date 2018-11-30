@@ -1,0 +1,76 @@
+<?php
+    $menuNamespace  = new Zend_Session_Namespace('PERMISSAO');
+    $premissao      = $menuNamespace->_permissao;
+    $linkInsert     = (($premissao[0]['INSERIR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/informativos/insert');":"alert('Sem permissão');");   
+
+    ?>
+
+<div id="lista">
+    <div id="lista-borda">
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">Pesquisa de quadros informativos</div>
+            <div id="lista-titulo-menu">
+                <div id="lista-titulo-menu-novo" class="botao" onclick="javascript:<?php echo $linkInsert?>">Novo Cadastro</div>
+            </div>
+        </div>
+        <div id="espaco"></div>
+        <div id="pesquisa">
+            <form method="POST" id="formulario-pesquisa" name="formulario-pesquisa">
+                <table>
+                    <tr class="titulo">
+                        <td>Descri&ccedil;&atilde;o: </td>
+                        <td><input type="text" name="descricao" id="descricao" value="<?php echo $this->descricao?>" />
+                            <input type="submit" name="btnPesquisar" value="Pesquisar" class="inputBtnPesquisar" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="gride">
+            <table class="listagem" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Descri&ccedil;&atilde;o</th>
+                        <th style="width: 100px;">&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    if(count($this->paginator) > 0):
+                        foreach ($this->paginator as $value):
+                            
+                            $linkItens      = (($premissao[0]['ALTERAR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/informativos/itens/id/". base64_encode($value['ID']) ."');":"alert('Sem permissão');");
+                            $linkUpdate     = (($premissao[0]['ALTERAR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/informativos/update/id/". base64_encode($value['ID']) ."');":"alert('Sem permissão');");
+                            $linkDelete     = (($premissao[0]['EXCLUIR'] == 't')? "if(confirm('Deseja realmente apagar o registro?')) {OpenSelf('".$this->baseUrl()."/admin/informativos/delete/id/". base64_encode($value['ID']) ."');}":"alert('Sem permissão');");
+                            ?>
+                            <tr itemref="clique">
+                                <td class="linha"><?php echo str_replace("***","'",$value['DESCRICAO']);?></td>
+                                <td class="linha">
+                                    <img onclick="javascript:<?php echo $linkItens?>" src="<?php echo PUBLIC_PATH?>_img/icones/itens.png" border="0" title="Adicionar registros ao quadro de informativos" />
+                                    <img onclick="javascript:<?php echo $linkUpdate?>" src="<?php echo PUBLIC_PATH?>_img/icones/editar.png" border="0" title="Editar os dados deste quadro" />
+                                    <img onclick="javascript:<?php echo $linkDelete?>" src="<?php echo PUBLIC_PATH?>_img/icones/excluir.png" border="0"  title="Excluir deste quadro" />
+                                </td>
+                            </tr>
+                        <?php 
+                        endforeach;
+                    else:
+                    ?>
+                        <tr>
+                            <td colspan="2" class='nenhum'>Nenhum Registro encontrado</td>
+                        </tr>
+                    <?php
+                    endif;
+                    ?>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><?php echo $this->paginator?></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>

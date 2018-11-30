@@ -1,0 +1,28 @@
+18/05/2015 11:05 - RONALDOGOMES | ID = 541 | DESCRICAO = DESATIVAÇÃO DE TALHÃO-REFORMA | DETALHES = Utilizada para autorizar a desativação de talhões para reforma.
+
+Instruções para preenchimento dos campos:
+
+EMPRESA:
+Usina Santa Fé S.A.
+
+DE:
+Informar o centro de custo da área que está solicitando a desativação do talhão.
+
+PARA:
+Informar o centro de custo da área responsável por aprovar ou não a desativação do talhão.
+
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Escrever texto da solicitação da desativação do talhão.
+
+VALOR TOTAL DA CI EM R$: 
+N/A.
+
+ANEXOS:
+Anexar o formulário que contêm informações dos talhões que deverão ser desativados. | EMAIL_COPIA = ralny.pereira@usinasantafe.com.br;robson.manfrim@usinasantafe.com.br;joaogiro@usinasantafe.com.br;matheus.lopes@usinasantafe.com.br;alexandre@usinasantafe.com.br;cristiano.alves@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+20/05/2015 15:05 - HEITOR | DESCRICAO = DIVERGÊNCIA DE RECEBIMENTO RELACIONADO AO R.E (REGISTRO DE EXPORTAÇÃO) | DETALHES = Esse valor é correspondente a diferença entre o valor registrado de R.E e o valor efetivamente recebido | EMAIL_COPIA = azevedo@usinasantafe.com.br;luide@usinasantafe.com.br;Caio.Bufarah@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;adriana@usinasantafe.com.br;comercial@usinasantafe.com.br | ATIVO = s
+20/05/2015 15:07 - HEITOR | ID = 861 | DESCRICAO = DIVERGÊNCIA DE RECEBIMENTO RELACIONADO AO R.E (REGISTRO DE EXPORTAÇÃO) | DETALHES = Esse valor é correspondente a diferença entre o valor registrado de R.E e o valor efetivamente recebido.
+
+O valor é obrigatório e todas as CIs são aprovadas pela Diretoria, independente do centro de custo da abertura. | EMAIL_COPIA = azevedo@usinasantafe.com.br;luide@usinasantafe.com.br;Caio.Bufarah@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;adriana@usinasantafe.com.br;comercial@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+20/05/2015 15:11 - HEITOR | ID = 861 | DESCRICAO = DIVERGÊNCIA DE RECEBIMENTO RELACIONADO AO R.E (REGISTRO DE EXPORTAÇÃO) | DETALHES = Esse valor é correspondente a diferença entre o valor registrado de R.E e o valor efetivamente recebido.
+
+O valor é obrigatório e todas as CIs são aprovadas pela Diretoria, independente do centro de custo da abertura. | EMAIL_COPIA = azevedo@usinasantafe.com.br;luide@usinasantafe.com.br;Caio.Bufarah@usinasantafe.com.br;andre.azevedo@usinasantafe.com.br;adriana@usinasantafe.com.br;comercial@usinasantafe.com.br;heitor@Usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s

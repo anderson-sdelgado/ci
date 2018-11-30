@@ -1,0 +1,95 @@
+
+<?php
+    $menuNamespace  = new Zend_Session_Namespace('PERMISSAO');
+    $premissao      = $menuNamespace->_permissao;
+?>
+
+<div id="lista">
+    <div id="lista-borda">
+        <?php if(!$this->gerar_xls){ ?>
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">Consultar envios de C.I.</div>            
+        </div>
+        <div id="espaco"></div>
+        <div id="pesquisa-ci">
+            <?php echo $this->form_pesquisa; ?>
+        </div>
+        <?php } ?>
+        <div id="gride">
+            <table class="listagem" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome De</th>
+                        <th>Nome Para</th>
+                        <th>Email Para</th>
+                        <th>Assunto</th>
+                        <th>Enviado</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    if(count($this->todos) > 0):
+                        foreach ($this->todos as $value):
+                        $linkEnviar   = (($premissao[0]['ALTERAR'] == 't')? "confirmaModal('".$this->baseUrl()."/enviar?id=". base64_encode($value['ID']) ."',550,'auto','<b>Enviar email?</b> <br/><br/>Assunto: ".$value['ASSUNTO']."<br/><br/>Para: ".$value['PARA_EMAIL']."');":"alert('Sem permissão');");    
+//                        $linkImprimir   = (($premissao[0]['ALTERAR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/ci/imprimir/id/". base64_encode($value['ID']) ."');":"alert('Sem permissão');");
+                            ?>
+                    <tr class="linha_ci" id="<?php echo base64_encode($value['ID']);?>">
+                        <td class="linha"><?php echo $value["ID"]; ?></td>
+                        <td class="linha"><?php echo $value["DE_NOME"]; ?></td>
+                        <td class="linha"><?php echo $value["PARA_NOME"]; ?></td>
+                        <td class="linha"><?php echo $value["PARA_EMAIL"]; ?></td>
+                        <td class="linha"><?php echo $value["ASSUNTO"]; ?></td>
+                        <td class="linha"><?php echo strtoupper($value["ENVIADO"]) == 'S' ? "Sim": "N&atilde;o"; ?></td>
+                        <td class="linha linha-menu">
+                            <img class="enviar_email" onclick="javascript:<?php echo $linkEnviar;?>" src="<?php echo PUBLIC_PATH?>_img/icones/enviar_email.png" border="0" title="Enviar email manualmente" alt="Enviar" />
+                            
+                        </td>
+                    </tr>
+                        <?php 
+                        endforeach;
+                    else:
+                    ?>
+                        <tr>
+                            <td colspan="7" class='nenhum'>Nenhum Registro encontrado</td>
+                        </tr>
+                    <?php
+                    endif;
+                    ?>
+                    <tr>
+                        <td colspan="7">&nbsp;</td>
+                    </tr>
+                </tbody>
+                <?php if(!$this->gerar_xls){ ?>
+                <tfoot>
+                    <tr>
+                        <td colspan="7"><?php echo $this->todos?></td>
+                    </tr>
+                </tfoot>
+                <?php } ?>
+            </table>
+        </div>
+    </div>
+</div>
+<!--
+<table border=1 cellpadding=5 >
+    <tr>
+        <th>ID</th>
+        <th>Nome De</th>
+        <th>Nome Para</th>
+        <th>Email Para</th>
+        <th>Assunto</th>
+        <th>Enviado</th>
+    </tr>
+       <?php foreach ($this->todos as $value) { ?>
+    <tr>
+        <td><?php echo $value["ID"]; ?></td>
+        <td><?php echo $value["DE_NOME"]; ?></td>
+        <td><?php echo $value["PARA_NOME"]; ?></td>
+        <td><?php echo $value["PARA_EMAIL"]; ?></td>
+        <td><?php echo $value["ASSUNTO"]; ?></td>
+        <td><?php echo $value["ENVIADO"]; ?></td>
+    </tr>
+       <?php } ?>
+</table>-->

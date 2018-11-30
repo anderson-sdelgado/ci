@@ -1,0 +1,18 @@
+<style>
+<!--
+#Paginador {text-decoration: none;font-size: 16px; text-align: center;width: 100%;height: 30px;table-layout: auto;}
+#Paginador .red {font-size: 16px;color: #FF6600;font-weight: bold;float: none;}
+#Paginador A.pagina:LINK, A.pagina:VISITED, A.pagina:HOVER{font-size: 12px;color: #b5b5b5;}
+-->
+</style>
+<?php if ($this->pageCount): 
+
+    $extra = $this->headMeta("view")->view->extra;
+?>	
+    <table id="Paginador">
+        <tr>
+            <td valign="middle"><?php if (isset($this->previous)): ?><img alt="Voltar" src="<?php echo PUBLIC_PATH?>_img/icones/paginador04.png" onclick="javascript:window.self.location.href = '<?php echo $this->url()."/?page=".$this->previous."&p=$extra";?>';" style="cursor: pointer;"><?php else: ?><img alt="Voltar" src="<?php echo PUBLIC_PATH?>_img/icones/paginador01.png" ><?php endif; ?></td>
+            <td valign="middle"><?php foreach ($this->pagesInRange as $page): if ($page != $this->current): ?><a href='<?php echo $this->url()."/?page=$page&p=$extra";?>' class="pagina"><?php echo $page?></a> | <?php else:?><label class="red"><?php echo $page?></label> | <?php endif; endforeach;?></td><td valign="middle"><?php if (isset($this->next)): ?><img alt="Proximo" src="<?php echo PUBLIC_PATH?>_img/icones/paginador03.png" onclick="javascript:window.self.location.href= '<?php echo $this->url()."/?page=".$this->next."&p=$extra";?>';" style="cursor: pointer;"><?php else: ?><img alt="Proximo" src="<?php echo PUBLIC_PATH?>_img/icones/paginador02.png" ><?php endif; ?></td>
+        </tr>
+    </table>
+<?php endif; ?>

@@ -1,0 +1,248 @@
+/**
+  *Document   : Santa Fé
+  *Created on :19/04/2012, 17:33:27
+  *Author     : julio
+  *Description: Folha para de estilo para pedidos
+  */
+  #conteudo{
+/*      width: 98%;
+      margin:0 auto;*/
+  }
+  #inicial{
+      text-align: center;
+  }
+  #div_pedidos{
+      width: 95%;
+      margin:0 auto;
+      margin-bottom: 30px;
+  }
+  #div_pedidos label{
+      padding-bottom: 15px;
+/*      color: #666666;*/
+  }
+  #div_pedidos input[type="text"]{
+      width: 80px;
+  }
+  #form-filtros input, select, label, font{
+      float: left;
+  }
+  #form-filtros{
+      width: 750px;
+  }
+  #form-filtros #lbl-enviado,#form-filtros #lbl-confirmado,#form-filtros #lbl-ativo{
+      margin-left: 50px; 
+  }
+  .font-de{
+      width: 22px;
+  }
+  .font-ate{
+      width: 28px;
+  }
+  .lbl-conteudo{
+      font-weight: normal;
+      width: auto;
+  }
+  
+#Enviar_Selecionados{
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#Inativar_Selecionados{
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tbl_pedidos{
+      width: 100%; 
+      border-collapse: collapse;
+  }
+  .tbl_pedidos input[type="checkbox"]{
+      width: auto;
+  }
+  .tbl_pedidos tbody tr:hover{
+      background-color: #FBEC88;
+      cursor: pointer;
+  }
+  h1{
+      text-align: center;
+      font-weight: bold;
+  }
+  #Div-data{
+      margin: 0px 0px 10px 20px;
+      display: table;
+  }
+  #Div-data img, #Div-data label{
+      float: left;
+  }
+  #lbl-data{
+      text-align: center;
+      line-height: 20px;
+  }
+  
+  #alterar_comprador{
+      margin-left: 5px;
+      cursor: pointer;
+  }
+  
+  /* 
+	Cusco Sky table styles
+	written by Braulio Soncco http://www.buayacorp.com
+*/
+
+.tbl_pedidos th,.tbl_pedidos td {
+	border: 1px solid #D4E0EE;
+	border-collapse: collapse;
+        font: 11px Verdana,Arial,Helvetica,sans-serif;
+/*	font-family: "Trebuchet MS", Arial, sans-serif;*/
+/*        background-color: #F9F9F9;*/
+/*	color: #555;*/
+}
+
+.tbl_pedidos caption {
+	font-size: 150%;
+	font-weight: bold;
+	margin: 5px;
+}
+
+.tbl_pedidos td,.tbl_pedidos th {
+	padding: 4px;
+}
+
+.tbl_pedidos thead th {
+	text-align: center;
+	background: #E6EDF5;
+        color: #223571;
+	font-size: 100% !important;
+        margin: 0 auto;
+}
+
+.tbl_pedidos tbody th {
+	font-weight: bold;
+}
+
+.tbl_pedidos tbody tr { background: #FCFDFE; }
+
+.tbl_pedidos tbody tr.odd { background: #F7F9FC; }
+
+.tbl_pedidos table a:link {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+.tbl_pedidos table a:visited {
+	color: #718ABE;
+	text-decoration: none;
+}
+
+.tbl_pedidos table a:hover {
+	color: #718ABE;
+	text-decoration: underline !important;
+}
+
+.tbl_pedidos tfoot th,.tbl_pedidos tfoot td {
+	font-size: 85%;
+}
+#selectCompradores{
+    width: 217px;
+}
+.td_selecionar{
+    text-align: center;
+}
+#ul_listar{
+    background-image:url("../_img/icones/check.jpg");
+    padding: 0px;
+    margin: -16px 0px 0px 0px;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    cursor: pointer;
+    line-height: 32px;
+}
+#ul_listar li{
+    background-image:url("../_img/background/fundo_menu_separador.png");
+    padding:5px;
+    position:relative;
+    background-color: #FFF;
+    width: 120px;
+    display: none;
+    line-height: normal;
+    border: 1px solid #718ABE; margin: -1px 0;
+/*    top:61px;
+    _top:77px;
+    height:20px;
+    _height:47px;
+*/    float:left;/*
+    _margin-left:-3px;*/
+}
+#ul_listar li:hover{
+    font-weight:bold;
+    cursor: pointer;
+    background-color: #E6EDF5;
+}
+#ul_listar:hover li{
+    
+    display: block;
+  }
+  .alterar-data, .ordenar{
+      cursor: pointer;
+      float: left;
+      margin-right: 5px;
+  }
+  .decrescente{
+      position: absolute;
+      left: 0px;
+      top: 11px;
+  }
+  .div-head{
+      position: relative;
+      display: table;
+/*      float: left;*/
+        margin: 0 auto;
+  }
+  #conteudo{
+      min-height: 100%;
+  }
+  #tbl-historico{
+      display: none;
+  }
+  
+  .ui-progressbar-value {
+      background: none;
+      background-image: url("../_img/icones/pbar-ani2.gif");
+      height: 22px;
+  }
+  #enviados{
+/*      display: table;*/
+      text-align: left;
+  }
+  .valor{
+      text-align: right;
+  }
+  .nenhum-registro{
+      text-align: center;
+      height: 100px;
+      font-weight: bold;
+      background-color: #FFF;
+      cursor: auto;
+  }
+  .valor-incorreto{
+      background-color: #FF6347;
+  }
+  #msgTransportadora{
+      display: block;
+      width: 100%;
+      float: left;
+      padding-top: 20px;
+  }
+  .msg-erro{
+      color: #F00;
+      font-weight: bold;
+      width: 100%;
+  }
+  #email_copia{
+      height: 100px;
+  }
+  #lbl-observacao_comprador{
+      width: 100%;
+  }

@@ -1,0 +1,30 @@
+<?php echo $this->doctype()?>
+
+<html>
+    <head>
+        <?php echo $this->headTitle();?>
+	<?php echo $this->headLink();?>
+	<?php echo $this->headStyle();?>
+	<?php echo $this->headMeta();?>
+   	<?php echo $this->headScript();?>
+    </head>
+    <body>
+
+<div id="bg_image"> 
+<img src="<?php echo PUBLIC_PATH?>/_img/background/login/fundo.jpg" style="width: 100%; height: 100%;"> 
+</div>
+    <div id="conteudo-default">
+        <div id="logocommit">
+            <img alt="Usina Santa Fé" src="<?php echo PUBLIC_PATH?>_img/logo/usina.png" />
+        </div>
+
+        <div id="layout-default">
+            <?php echo $this->layout()->content?>
+        </div>
+<!--        <div id="layout-default-footer">
+            <div id="layout-default-footer-texto"><a href="http://www.onclick.com.br" title="http://www.onclick.com.br" ><?php echo date('Y');?> &COPY; Onclick Sistemas </a></div>
+        </div>-->
+        <a href="http://onclick.com.br" target="_blank" ><img alt="Onclick Sistemas"  id="logo-onclick" src="<?php echo PUBLIC_PATH?>/_img/logo/logo_onclick.png" height="15%" ></a>
+    </div>
+    </body>
+</html>

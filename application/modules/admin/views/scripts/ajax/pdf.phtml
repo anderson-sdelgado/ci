@@ -1,0 +1,270 @@
+<?php
+
+ini_set('max_execution_time', '120');
+ob_start();
+
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link href="<?php echo PUBLIC_PATH; ?>_css/relatorios.css"  media="screen" rel="stylesheet" type="text/css" />       
+        <link href="<?php echo PUBLIC_PATH; ?>_css/admin.css"  media="screen" rel="stylesheet" type="text/css" />
+    </head>
+    <body style="width: 738px; margin: 0px auto; font: 10px Verdana,Arial,Helvetica,sans-serif ;font-weight:normal;  border: 0px;">
+        <p id="descricao">
+            <span>Descri&ccedil;&atilde;o Sum&aacute;ria do Cargo:</span>
+            <?php echo str_replace("***", "'", $this->cargo[0]['DESCR_SUMARIA']); ?>
+        </p>
+        <br /><br />
+        <div id="gride">
+            <?php
+            if (!empty($this->centro)):
+                ?>
+                <table class="listagemRel">
+                    <thead>
+                        <tr>
+                            <th colspan="6">QUADRO DE FUNCION&Aacute;RIOS - <?php echo $this->cargo[0]['DESCR_FUNCAO']; ?></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='secundaria'>
+                            <td>CENTRO DE CUSTO</td>
+                            <td>CARGO</td>
+                            <td>QUANTIDADE REAL</td>
+                            <td>QUANTIDADE ORÇADA</td>
+                            <td>DIF (REAL - ORÇ)</td>
+                            <td>CLASSIF. DA MO</td>
+                        </tr>
+                        <?php
+                        $total_real = 0;
+                        $total_orcado = 0;
+                        $total_diferenca = 0;
+                        foreach ($this->centro as $key => $centros):
+                            $total_real_centro = 0;
+                            $total_orcado_centro = 0;
+                            $total_dif_centro = 0;
+                            $n_subordinados = 1;
+                            $rowspan = "";
+                            foreach ($this->subordinados as $value) {
+                                if ($value["CD_CCUSTO"] == $centros["CUSTO"])
+                                    $n_subordinados++;
+                            }
+                            if ($n_subordinados < 2) {
+                                $n_subordinados = 2;
+                            }
+                            $rowspan = "rowspan='$n_subordinados'";
+        //                        $classe_ccusto = $key%2==0 ? 'principal' : 'secundaria';
+                            $classe_ccusto = $key % 2 == 0 ? 'principal' : 'principal';
+                            ?>
+                            <tr>
+                                <td <?php echo $rowspan; ?> class='<?php echo $classe_ccusto; ?>'><?php echo $centros['NOME_CCUSTO']; ?></td>
+                            </tr>            
+                            <?php
+                            $i = 0;
+                            foreach ($this->subordinados as $sub):
+
+                                if ($sub['CD_CCUSTO'] == $centros['CUSTO']) {
+                                    if (empty($sub['CARGO']))
+                                        $cargo = '&nbsp;';
+                                    else
+                                        $cargo = $sub['CARGO'];
+
+                                    if (empty($sub['QT_REAL'])) {
+                                        $qt_real = '0';
+                                    } else {
+                                        $qt_real = $sub['QT_REAL'];
+                                        $total_real += $qt_real;
+                                        $total_real_centro += $qt_real;
+                                    }
+
+                                    if (empty($sub['QT_ORCADA'])) {
+                                        $qt_orcada = '0';
+                                    } else {
+                                        $qt_orcada = $sub['QT_ORCADA'];
+                                        $total_orcado += $qt_orcada;
+                                        $total_orcado_centro += $qt_orcada;
+                                    }
+
+                                    if (empty($sub['QT_ORCADA']) && empty($sub['QT_REAL'])) {
+                                        $diferenca = '0';
+                                    } else {
+                                        $diferenca = $sub['QT_REAL'] - $sub['QT_ORCADA'];
+                                        $total_diferenca += $diferenca;
+                                        $total_dif_centro += $diferenca;
+                                    }
+
+                                    if (empty($sub['MO'])) {
+                                        $mo = '&nbsp;';
+                                    } else {
+                                        $mo = $sub['MO'];
+
+                                        switch ($mo) {
+                                            case 'I':
+                                                $mo = 'Indireta';
+                                                break;
+                                            case 'D':
+                                                $mo = 'Direta';
+                                                break;
+                                        }
+                                    }
+
+                                    $class = $i % 2 == 0 ? 'principal' : 'secundaria';
+
+                                    echo '<tr class="' . $class . '">';
+                                    echo '<td><a href="#" class="linkCargo" title="' . $cargo . '" id="'.$sub['COD_FUNCAO'].'">' . $cargo . '</a></td>';
+                                    echo '<td>' . $qt_real . '</td>';
+                                    echo '<td>' . $qt_orcada . '</td>';
+                                    echo '<td>' . $diferenca . '</td>';
+                                    echo '<td>' . $mo . '</td>';
+                                    echo '</tr>';
+
+
+                                    $i++;
+                                }//fim if CD_CCUSTO
+                            endforeach;//fim foreach subordinados
+                            if ($i == 0) {
+                                echo '<tr class="principal"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>';
+                            }
+                            echo '<tr class="' . $class . '">';
+                            echo '<td>TOTAL '.$centros['NOME_CCUSTO'].'</td>
+                                          <td>&nbsp;</td>
+                                          <td>'.$total_real_centro.'</td>
+                                          <td>'.$total_orcado_centro.'</td>
+                                          <td>'.$total_dif_centro.'</td>
+                                          <td></td>
+                                  </tr>';
+                        endforeach;//fim foreach centros de custo
+                        ?>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td class='principal' colspan="2">TOTAL</td>
+                            <td class='secundaria'><?php echo $total_real; ?></td>
+                            <td class='secundaria'><?php echo $total_orcado; ?></td>
+                            <td class='secundaria'><?php echo $total_diferenca; ?></td>
+                            <td class='principal'>&nbsp;</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            <?php
+        endif;
+        ?>
+            <br />
+            <table id="tbl_processos" class="listagemRel">
+                <thead>
+                    <tr>
+                        <th>PROCESSOS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    $i = 0;
+                    if (count($this->processos) > 0) {
+                        foreach ($this->processos as $proc):
+                            $class = $i % 2 == 0 ? 'principal' : 'secundaria';
+                            echo '<tr  class="' . $class . '">';
+                            echo '<td><a href="#" title="' . $proc['CODIGO'] . ' - ' . str_replace("***", "'", $proc['DESCRICAO_SUMARIA']) . '" id="' . $proc['ID'] . '" class="ajaxProc">' . $proc['CODIGO'] . ' - ' . str_replace("***", "'", $proc['DESCRICAO_SUMARIA']) . '</a></td>';
+                            echo '</tr>';
+                            $i++;
+                        endforeach;
+                    }else {
+                        ?>
+                        <tr>
+                            <td class="nenhum" >Nenhum processo vinculado!</td>
+                        </tr>      
+                    <?php
+                    }
+                    ?>
+                </tbody>
+            </table>
+            <div id="detProcesso"></div>
+            <div id="detCargo"></div>
+
+            <br />
+            <table class="listagemRelArq" cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th colspan="4">ARQUIVOS</th>
+                    </tr>
+                    <tr>
+                        <th colspan="2" style="width: 50%;">PROCEDIMENTOS</th>
+                        <th colspan="2" style="width: 50%;">OUTROS DOCUMENTOS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    $i_p = 0;
+                    $i_o = 0;
+                    $procedimento = array();
+                    $outros = array();
+                    if (count($this->arquivos) > 0) {
+                        foreach ($this->arquivos as $arquivos):
+                            if ($arquivos['TIPO'] == "p") {
+                                $procedimento[$i_p] = $arquivos;
+                                $i_p++;
+                            }
+                            if ($arquivos['TIPO'] == "o") {
+                                $outros[$i_o] = $arquivos;
+                                $i_o++;
+                            }
+                        endforeach;
+                        $maior = ($i_p > $i_o) ? $i_p : $i_o;
+                        for ($i = 0; $i < $maior; $i++) {
+                            $class = $i % 2 == 0 ? 'principal' : 'secundaria';
+                            ?>
+                            <tr class="<?php echo $class; ?>">
+                                <?php 
+                                if (@$procedimento[$i]) {
+                                    $caminho_p = PUBLIC_PATH . '_upload/' . $procedimento[$i]['COD_FUNCAO'] . '/' . $procedimento[$i]['ARQUIVO']; ?>
+                                    <td class="linha"><?php echo $procedimento[$i]['ARQUIVO']; ?></td>
+                                    <td class="linha">
+                                        <a href="<?php echo $caminho_p; ?>" title="Download" target="_blank" class="download">
+                                            <img src="<?php echo PUBLIC_PATH . '/_img/icones/download.png' ?>" title="Download" alt="Download" />
+                                        </a>
+                                    </td>
+                                <?php 
+                                } else { ?> 
+                                    <td colspan="2" class="linha"></td> 
+                                <?php 
+                                } 
+                                if (@$outros[$i]) {
+                                    $caminho_o = PUBLIC_PATH . '_upload/' . $outros[$i]['COD_FUNCAO'] . '/' . $outros[$i]['ARQUIVO']; ?>
+                                    <td class="linha"><?php echo $outros[$i]['ARQUIVO']; ?></td>
+                                    <td class="linha">
+                                        <a href="<?php echo $caminho_o; ?>" title="Download" target="_blank" class="download">
+                                            <img src="<?php echo PUBLIC_PATH . '/_img/icones/download.png' ?>" title="Download" alt="Download" />
+                                        </a>
+                                    </td>
+                                <?php 
+                                } else { ?> 
+                                    <td colspan="2" class="linha"></td> 
+                                <?php 
+                                } ?>
+                            </tr>
+                        <?php
+                        }
+                    } else {
+                        ?>
+                        <tr>
+                            <td colspan="4" class="nenhum">Nenhum arquivo vinculado!</td>
+                        </tr>      
+                    <?php
+                    }
+                    ?>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
+<?php
+$content = ob_get_clean();
+
+require_once("dompdf/dompdf_config.inc.php");
+
+$nome_pdf = $this->cargo[0]['DESCR_FUNCAO'].".pdf";
+
+$dompdf = new DOMPDF();
+$dompdf->load_html(utf8_decode($content));
+$dompdf->render();
+$dompdf->stream($nome_pdf);
+

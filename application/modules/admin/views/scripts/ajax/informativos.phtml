@@ -1,0 +1,42 @@
+<?php
+$checked    = '';
+?>
+
+    <?php
+    $i=0;
+    $id_inf = 0;
+    $count = 0;
+    $fecha = false;
+    foreach ($this->processos as $value) {
+        if($value["ID"]<>$id_inf){
+            $id_inf = $value["ID"];
+            $count++;
+            $fecha = ($count%2 == 0)? true : false;
+            if($id_inf>0){ ?></div><?php 
+            
+            }?>
+            <label for="processos"><?php echo $value["DESCRICAO"] ?>:</label>
+            <div id="checkprocessos">
+        <?php
+        }
+
+//        Zend_Debug::dump($value);
+        if($value["INFORMATIVOS_ITEM"] === $value['ID_INFORMATIVOS_ITEM']){
+            $checked = 'checked';
+        }else{
+            $checked = '';
+        }
+        ?>
+        <div class='checks'>
+            <input type="checkbox" name="checkInformativos[]"
+                class="checkProcessos" value="<?php echo $value["INFORMATIVOS_ITEM"]; ?>" <?php echo $checked; ?> /> <h3 class="float"><?php echo substr(str_replace("***","'",$value['DESCRICAO_SUMARIA']),0,46);?></h3>
+        </div>
+        <?php
+//        $i++;
+//        if($i>3){
+//            echo '<br /><br />';
+//            $i=0;
+//        }
+        
+    }
+    ?>

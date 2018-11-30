@@ -1,0 +1,185 @@
+<?php $Helper_mascaras = new Commit_Controller_Action_Helper_Mascaras(); ?>
+<br />
+<p id="descricao">
+    <span>RELAT&Oacute;RIO DE ACOMPANHAMENTO DE HORAS EXTRAS POR CARGO</span><br />
+    DATA REF.: <?php echo $this->data;?><br />
+    DATA EMISS&Atilde;O: <?php echo date('d/m/Y');?><br />
+    USU&Aacute;RIO: <?php echo $id_usuario = Zend_Auth::getInstance()->getIdentity()->LOGIN;?>
+</p>
+<br /><br />
+<?php
+
+if(!empty($this->hora)):
+    $cd_ccusto_ant = '';
+    $cd_colab_ant = '';
+    $total = count($this->evento);
+    $orcado = $this->orcado;
+    $colabs = $this->colabs;
+    $ccustos = $this->ccustos;
+    //valores totais do gestor
+    $realizado_gestor = array();
+    $orcado_gestor = 0;
+    $realizado_ccusto = array();
+    
+    $colspan = count($this->eventos) +1;
+    //para cada centro de custo
+    foreach($this->hora as $cdccusto => $hora):
+        //var_dump($hora);
+        ?>
+        <table border="1" class="relFunc">
+            <thead>
+                <tr>
+                    <th colspan="<?php echo $colspan+3;?>">CENTRO DE CUSTO - <?php echo $ccustos[$cdccusto];?></th>
+                </tr>
+                <tr>
+                    <th>&nbsp;</th>
+                    <?php
+                    //listagem de todos os eventos cadastrados no sistema
+                    foreach($this->eventos as $evento):
+                  ?><th class="evento"><?php echo $evento;?></th><?php
+                    endforeach;
+                    ?>
+                    <th colspan="3" class="evento">TOTAL</th>
+                </tr>
+                <tr>
+                    <th>FUNCIONARIO</th>
+                    <?php
+                    for($i=0;$i<$colspan-1;$i++):
+                        ?>
+                        <th>
+                            REALIZADO
+                        </th>
+                        <?php
+                    endfor;
+                    ?>
+                    <th class="borda_total">REAL TOT</th>
+                    <th class="borda_total">ORÇ TOT</th>
+                    <th class="borda_total">DIF TOT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                foreach($hora as $cd_colab => $evento_func):
+//        Zend_Debug::dump($evento_func);
+                $qtde_func = count($evento_func['NOMES_FUNC']);
+                ?>
+                    <tr>
+                        <td><?php echo $colabs[$cd_colab];?></td>
+                        <?php
+                        $realizado_row = 0;
+                        if(@$orcado[$cdccusto][$cd_colab]){
+                            $orcado_row = $orcado[$cdccusto][$cd_colab];
+                        }else{
+                            $orcado_row = 0;
+                        }
+                        @$orcado_gestor += $orcado_row*$qtde_func;
+                        //listagem de todos os eventos cadastrados no sistema
+                        foreach($this->eventos as $cod_evento => $evento):                                    
+                                        if(@$evento_func[$cod_evento]['REALIZADO']){
+                                            $realizado = str_replace(",",".",$evento_func[$cod_evento]['REALIZADO']);
+                                        }else{
+                                            $realizado = 0;
+                                        }                                            
+                                            @$realizado_row += $realizado;
+                                            @$realizado_ccusto[$cdccusto][$cod_evento] += $realizado;
+                                            @$realizado_ccusto[$cdccusto]["TOTAL"] += $realizado;
+                                            @$realizado_gestor[$cod_evento] += $realizado;
+                                            @$realizado_gestor["TOTAL"] += $realizado;
+                                         ?> <td> <?php   
+                                            echo $Helper_mascaras->ValorMoeda($realizado,1);
+                                        ?> </td> <?php
+                        endforeach;
+                        ?>
+                       <td><?php echo $Helper_mascaras->ValorMoeda($realizado_row,1); ?></td>
+                       <td><?php echo $Helper_mascaras->ValorMoeda($orcado_row*$qtde_func,1); ?></td>
+                       <td <?php  echo ($realizado_row - ($orcado_row*$qtde_func) < 0) ? "class='valor_negativo'" : ""; ?>>
+                            <?php echo $Helper_mascaras->ValorMoeda($realizado_row - ($orcado_row*$qtde_func),1); ?>
+                       </td>
+                    </tr>
+                <?php
+                endforeach;
+                ?>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>TOTAL DO CENTRO DE CUSTO</td>
+                    <?php
+                    foreach($this->eventos as $cod_evento => $evento):
+                                     ?> <td> <?php   
+                                        echo $Helper_mascaras->ValorMoeda(@$realizado_ccusto[$cdccusto][$cod_evento],1);
+                                    ?> </td> <?php
+                    endforeach; ?> 
+                    <td> 
+                        <?php echo $Helper_mascaras->ValorMoeda(@$realizado_ccusto[$cdccusto]["TOTAL"],1); ?> 
+                    </td>
+                    <td> 
+                        <?php echo $Helper_mascaras->ValorMoeda(@$orcado[$cdccusto]["TOTAL"],1); ?> 
+                    </td>
+                    <td <?php  echo (@$realizado_ccusto[$cdccusto]["TOTAL"]-@$orcado[$cdccusto]["TOTAL"] < 0) ? "class='valor_negativo'" : ""; ?>> 
+                        <?php echo $Helper_mascaras->ValorMoeda(@$realizado_ccusto[$cdccusto]["TOTAL"]-@$orcado[$cdccusto]["TOTAL"],1); ?> 
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <br />
+    <?php
+    endforeach;    
+    ?>
+    </table>
+    <br /><br />
+    <table class="relFunc tbl_total">
+        <thead>
+            <tr>
+                <th rowspan="2">TOTAL DO GESTOR</th>
+                <?php
+                //listagem de todos os eventos cadastrados no sistema
+                foreach($this->eventos as $evento):
+              ?><th class="evento"><?php echo $evento;?></th><?php
+                endforeach;
+                ?>
+                <th colspan="3" class="evento">TOTAL</th>
+            </tr>
+            <tr>
+                <?php
+                for($i=0;$i<$colspan-1;$i++):
+                    ?>
+                    <th>
+                        REALIZADO
+                    </th>
+                    <?php
+                endfor;
+                ?>
+                <th>REAL TOT</th>
+                <th>ORÇ TOT</th>
+                <th>DIF TOT</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&nbsp;</td>
+                <?php
+                foreach($this->eventos as $cod_evento => $evento):
+                    ?> <td> <?php   
+                       echo $Helper_mascaras->ValorMoeda(@$realizado_gestor[$cod_evento],1);
+                    ?> </td> <?php
+                endforeach; ?>
+                <td><?php echo $Helper_mascaras->ValorMoeda(@$realizado_gestor["TOTAL"],1); ?></td>
+                <td><?php echo $Helper_mascaras->ValorMoeda(@$orcado_gestor,1); ?></td>
+                <td <?php  echo (@$realizado_gestor["TOTAL"]-@$orcado_gestor < 0) ? "class='valor_negativo'" : ""; ?>>
+                     <?php echo $Helper_mascaras->ValorMoeda(@$realizado_gestor["TOTAL"]-@$orcado_gestor,1); ?> 
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+    
+
+    <?php
+else:
+//    echo '<script>alert("Sem Dados!");window.history.back();</script>';
+    echo '<b>Nenhum registro Encontrado!</b>';
+endif;
+?>
+
+<br/>
+<br/>

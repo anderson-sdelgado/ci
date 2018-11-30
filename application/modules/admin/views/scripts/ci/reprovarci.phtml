@@ -1,0 +1,142 @@
+<?php
+echo $this->doctype();
+$CI = $this->CI;
+$Helper_mascaras = new Commit_Controller_Action_Helper_Mascaras();
+?>
+<html>
+    <head>
+        <?php echo $this->headTitle(); ?>
+        <?php echo $this->headLink(); ?>
+        <?php echo $this->headStyle(); ?>
+        <?php // echo $this->headMeta();?>
+<?php if($this->mensagem && strpos(base64_decode($this->mensagem), '<div id="PluginFlashMessenger" class="success">') <= 0 ){echo $this->headScript();} ?>
+    </head>
+    <body>
+        <div id="conteudo">
+            <?php echo base64_decode($this->mensagem); ?>
+            <table id="detalhes-ci" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td><b>N° CI:</b><br/><?php echo $CI["ID"]; ?></td>
+                    <td><b>EMPRESA:</b><br/><?php echo $CI["EMPRESA"]; ?></td>
+                    <td><b>DATA:</b><br/><?php echo $CI["DATA"]; ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 10px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>DE:</b><br/><?php echo $CI["CCUSTO_DE"]; ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 10px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>PARA:</b><br/><?php echo $CI["CCUSTO_PARA"]; ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 10px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>FINALIDADE:</b><br/><?php echo $CI["FINALIDADE"]; ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 10px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>MOTIVO:</b><br/><?php echo nl2br($CI["MOTIVO_CI"]); ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 20px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>VALOR:</b> R$<?php echo $Helper_mascaras->ValorMoeda($CI['VALOR'],1); ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 20px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>NOME DO SOLICITANTE:</b> <?php echo $CI["USUARIO"]; ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 20px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>STATUS:</b> <?php echo $CI["STATUS"]; ?></td>
+                </tr>
+                <?php 
+                $motivo_reprovacao = null;
+                if(count($this->LogCI)>0){
+                    foreach ($this->LogCI as $value1) {
+                        if(strlen($value1["MOTIVO_CANCELAMENTO"])>0){
+                            $motivo_reprovacao = $value1["MOTIVO_CANCELAMENTO"];
+                        }
+                    }
+                } ?>
+                <tr>
+                    <td colspan="3" style="height: 20px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><b>MOTIVO REPROVAÇÃO:</b><br/><?php echo $motivo_reprovacao; ?></td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="height: 20px;"><?php echo $this->form; ?></td>
+                </tr>
+            </table>
+            <?php if(count($this->LogCI)>0){ ?>
+            <table class="listagemLink">
+                <thead>
+                    <tr>
+                        <th colspan="3" style="border-bottom: 1px solid #EEE;text-align: center;font-size: 13px;font-weight: bold;">Log de Aprovações</th>
+                    </tr>
+                    <tr>
+                        <th>Data</th>
+                        <th>Aprovador</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <?php foreach ($this->LogCI as $value) { ?>
+                    <tr>
+                        <td><?php echo $value["DATA"]; ?></td>
+                        <td><?php echo $value["APROVADOR"]; ?></td>
+                        <td><?php echo $value["STATUS"]; ?></td>
+                    </tr>
+                <?php } ?>
+                </tbody>
+            </table>
+            <br/>
+            <?php } ?>
+            <?php if(count($this->Anexos)>0){ ?>
+            <table class="listagemLink" cellspacing="0">
+    <thead>
+        <tr>
+            <th colspan="4" style="border-bottom: 1px solid #EEE;text-align: center;font-size: 13px;font-weight: bold;">Anexos</th>
+        </tr>
+        <tr>
+            <th>Arquivo</th>
+            <th>Tamanho</th>
+            <th style="width: 30px;">&nbsp;</th>
+            <th style="width: 30px;">&nbsp;</th>
+        </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($this->Anexos as $key => $value) { ?>    
+        <tr>
+            <td style="min-width: 300px;"><?php echo $value["DESCRICAO"]; ?></td>
+            <td><?php echo $value["TAMANHO"]." KB"; ?></td>
+            <td><img id="<?php echo base64_encode($key); ?>" class="download-anexo" alt="Download" title='Baixar "<?php echo $value["NOME_ORIGINAL"]; ?>"' src="<?php echo PUBLIC_PATH;?>/_img/icones/download.png" /></td>
+            <td><?php if($this->visualizar){ echo "&nbsp;";}else{
+                ?><img id="<?php echo base64_encode($key); ?>" class="delete-anexo" alt="Excluir" title="Excluir Anexo" src="<?php echo PUBLIC_PATH;?>/_img/icones/excluir.png" /><?php
+            } ?>
+            </td>
+        </tr>
+    <?php } ?>
+    </tbody>
+</table>
+<form  id="form_download" name="form_download" method="post" enctype='multipart/form-data' action="<?php echo FORM_PATH; ?>admin/ci/download" >
+    <input id="anexo" name="anexo" type="hidden" value="" />
+</form>
+
+            <?php } ?>
+        </div>
+    </body>
+</html>

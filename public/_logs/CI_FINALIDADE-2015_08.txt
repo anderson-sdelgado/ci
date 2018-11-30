@@ -1,0 +1,26 @@
+24/08/2015 13:36 - HEITOR | ID = 201 | DESCRICAO = FÉRIAS DE COLABORADOR | DETALHES = Utilizada para liberação de colaborador ao gozo de férias. 
+O cadastro do C.I. deverá ser realizado pelo responsável ou Coordenador da área a qual o colaborador esteja alocado.
+A aprovação do C.I. será de responsabilidade do  Coord. Adm. Desenv. Pessoas ou Gerente de Recursos Humanos.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo da área solicitante.
+PARA:
+Informar o centro de custo da área solicitante.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Informar matrícula e nome do(s) colaborador(es), data de início e quantidade de dias de gozo de férias.
+VALOR TOTAL DA CI EM R$: 
+Não informar valor
+ANEXOS:
+Poderá ser anexado arquivo com a relação de colaboradores quando a quantidade for expressiva, contento matrícula e nome do(s) colaborador(es), data de início e quantidade de dias de gozo de férias, mencionando no campo MOTIVO o arquivo anexo. | EMAIL_COPIA = marta@usinasantafe.com.br;kleber@usinasantafe.com.br;valderes@usinasantafe.com.br;rose@usinasantafe.com.br;alexandre@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+26/08/2015 13:09 - RONALDOGOMES | ID = 821 | DESCRICAO = CADASTRO DE TALHÕES (FORA DO FLUXO DE TRABALHO) | DETALHES = - Cadastrar talhão ainda sem contrato em propriedade que possua contrato para que seja possível abertura de OS de colheita.
+
+- Valor obrigatório (Utilizar valor estimado do contrato, devido ao fluxo exigido) | EMAIL_COPIA = raquel@usinasantafe.com.br;lucianohenrique@usinasantafe.com.br;dalves@usinasantafe.com.br; joaofreitas@usinasantafe.com.br; fabio.tomasetto@usinasantafe.com.br; elvis@usinasantafe.com.br; bruno.fazolo@usinasantafe.com.br; gisele.rateiro@usinasantafe.com.br; l | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+26/08/2015 16:05 - RONALDOGOMES | ID = 821 | DESCRICAO = CADASTRO DE TALHÕES (FORA DO FLUXO DE TRABALHO) | DETALHES = - Cadastrar talhão ainda sem contrato em propriedade que possua contrato para que seja possível abertura de OS de colheita.
+
+- Valor obrigatório (Utilizar valor estimado do contrato, devido ao fluxo exigido) | EMAIL_COPIA = raquel@usinasantafe.com.br;lucianohenrique@usinasantafe.com.br;dalves@usinasantafe.com.br; joaofreitas@usinasantafe.com.br; fabio.tomasetto@usinasantafe.com.br; elvis@usinasantafe.com.br; bruno.fazolo@usinasantafe.com.br; gisele.rateiro@usinasantafe.com.br; monica@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+31/08/2015 13:28 - HEITOR | ID = 821 | DESCRICAO = CADASTRO DE TALHÕES (FORA DO FLUXO DE TRABALHO) | DETALHES = - Cadastrar talhão ainda sem contrato em propriedade que possua contrato para que seja possível abertura de OS de colheita.
+
+- Valor obrigatório (Utilizar valor estimado do contrato, devido ao fluxo exigido) | EMAIL_COPIA = raquel@usinasantafe.com.br;lucianohenrique@usinasantafe.com.br;dalves@usinasantafe.com.br; joaofreitas@usinasantafe.com.br; fabio.tomasetto@usinasantafe.com.br;elvis@usinasantafe.com.br; bruno.fazolo@usinasantafe.com.br;gisele.rateiro@usinasantafe.com.br; monica@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s

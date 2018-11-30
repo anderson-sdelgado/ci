@@ -1,0 +1,116 @@
+/**
+  *Document   : jmduque
+  *Created on :05/09/2011, 11:33:27
+  *Author     : julio
+  *Description: Folha para de estilo unica para os relatorios
+  */
+
+html, body{
+  background: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+#relatorio{
+    width:550px;
+    border: 1px solid green;
+    position: relative;
+    margin: 0 auto;
+}
+.node {
+    border:1px solid red;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+.ampliar{
+    text-decoration: none;
+}
+.novalinha{
+    clear: both;
+    width: 5px;
+    height: 5px;
+}
+.listagemRel,.listagemRelArq{
+    margin: 0;
+    padding: 5px; 
+    width: 100%;
+}
+.listagemRel thead tr th{
+    border: 1px solid #2f527c;
+    background-color: #4f81be;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 5px;
+}
+.listagemRel tbody tr td{
+    border: 1px solid #FFFFFF;
+    text-align: center;
+}
+.listagemRel .principal, .listagemRel .principal td{
+    background-color: #e9eef4;
+    padding: 10px;
+    font-size: 12px;
+    height: 20px;
+}
+.listagemRel .secundaria, .listagemRel .secundaria td{
+    background-color: #d1d8ea;
+    padding: 10px;
+    font-size: 12px;
+    height: 20px;
+}
+
+.listagemRelArq thead tr th{
+    border: 1px solid #96393a;
+    background-color: #c0504c;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.listagemRelArq tbody tr td{
+    border: 1px solid #FFFFFF;
+    text-align: center;
+}
+.listagemRelArq .principal, .listagemRelArq .principal td{
+    background-color: #e9eef4;
+    padding: 10px;
+    font-size: 12px;
+}
+.listagemRelArq .secundaria, .listagemRelArq .secundaria td{
+    background-color: #d1d8ea;
+    padding: 10px;
+    font-size: 12px;
+}
+.listagemRel tfoot tr td{
+    text-align: center;
+    font-weight: bold;
+}
+.subRel{
+    width:100%;
+}
+.subRel tr td{
+    padding: 10px;
+}
+a.ajaxProc, a.ajaxProc:hover{
+    font-size: 12px;
+}
+p#descricao{
+    background-color: #4f81be;
+    padding: 10px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+p#descricao span{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+    
+}
+#tbl_processos td{
+    text-align: left;
+}
+.borda_zero{
+    border: none !important;
+}

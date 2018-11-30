@@ -1,0 +1,56 @@
+<div id="lista">
+    <div id="lista-borda">
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">
+                Cargo: <?php echo $this->cargo; ?> - Processo: <?php echo $this->processo; ?>
+            </div>
+            <div id="lista-titulo-menu">
+                <div id="lista-titulo-menu-voltar" class="botao" onclick="javascript:OpenSelf('<?php echo $this->baseUrl()?>/admin/processos/arquivos');">Voltar</div>
+            </div>
+        </div>
+        <div id="espaco"></div>
+        <div id="mensagem"><?php echo base64_decode($this->mensagem);?></div>
+        <div id="formulario">
+            <?php echo $this->formulario?>
+        </div>
+        <div id="espaco"></div>
+        <div id="gride">
+            <div id="msgArquivo"></div>
+            <table class="listagem" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th colspan="2">Arquivos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <?php
+                if(!empty($this->arquivos)):
+                    foreach($this->arquivos as $arquivos):
+                        $caminho = PUBLIC_PATH.'_upload/'.$arquivos['COD_FUNCAO'].'_'.$arquivos['PROCESSOS_ID'].'/'.$arquivos['ARQUIVO'];
+                    ?>
+                        <tr>
+                            <td class="linha"><?php echo $arquivos['ARQUIVO']; ?></td>
+                            <td class="linha">
+                                <a href="<?php echo $caminho; ?>" title="Download" target="_blank" class="download">
+                                    <img src="<?php echo PUBLIC_PATH.'/_img/icones/download.png' ?>" title="Download" alt="Download" />
+                                </a>
+                                <a href="<?php echo $caminho; ?>" title="Excluir Arquivo" id="<?php echo base64_encode($arquivos['ARQUIVO']); ?>" class="arqExclui" target="_blank">
+                                    <img src="<?php echo PUBLIC_PATH.'/_img/icones/delete_trash.png' ?>" title="Excluir Arquivo" alt="Excluir Arquivo" />
+                                </a>
+                            </td>
+                        </tr>
+                    <?php
+                    endforeach;
+                else:
+                ?>
+                    <tr>
+                        <td colspan="2" class="nenhum">Nenhum arquivo!</td>
+                    </tr>
+                <?php
+                endif;
+                ?>
+                </tbody>
+            </table>            
+        </div>        
+    </div>
+</div>

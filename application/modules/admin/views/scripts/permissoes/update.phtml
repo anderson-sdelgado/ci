@@ -1,0 +1,158 @@
+<?php $Helper_mascaras = new Commit_Controller_Action_Helper_Mascaras(); ?>
+<div id="lista">
+    <div id="lista-borda">
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">Permissões - Usu&aacute;rio <?php echo $this->login; ?></div>
+            <div id="lista-titulo-menu">
+                <div id="lista-titulo-menu-voltar" class="botao" onclick="javascript:OpenSelf('<?php echo $this->baseUrl()?>/admin/permissoes/cadastro');">Voltar</div>
+            </div>
+        </div>
+        <div id="espaco"></div>
+        <div id="permissao-sistema" class="div-menu">
+            <div id="permissao-sistema-conteudo">
+                <?php echo base64_decode($this->mensagemPermissaoSistema);?>
+                <form id="permissao-sistema" enctype="application/x-www-form-urlencoded" action="<?php echo $this->baseUrl()?>/admin/permissoes/update" method="post" class="cadastro">
+                    <div id="formulario">
+                    <br />
+                    <?php 
+                    foreach ($this->Permissao as $cont=>$dados):
+                    ?>
+                        <table class="listagem" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th align="center"><input id="todas" value="<?php echo $dados['ID'];?>" type="checkbox" name="menu[]" <?php echo (($dados['VISUALIZAR']=='t')?'checked="checked"':'');?> /></th>
+                                    <th><?php echo $dados['DESCRICAO'];?></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                if(!empty($dados['FILHO'])){
+                                ?>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <table class="sublistagem">
+                                                <thead>
+                                                    <tr>
+                                                        <td>&nbsp;</td>
+                                                        <td>Visualizar</td>
+                                                        <td>Inserir</td>
+                                                        <td>Alterar</td>
+                                                        <td>Excluir</td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <?php
+                                                    foreach ($dados['FILHO'] as $cont2=>$dados2):?>
+                                                        <tr>
+                                                            <td style="border-bottom: 1px solid #E6E8FA;"><?php echo $dados2['DESCRICAO'];?></td>
+                                                            <td align="center"  style="border-bottom: 1px solid #E6E8FA;"><input itemid="<?php echo $dados['ID'];?>" id="sub_menu" name="sub_menu[]" value="<?php echo $dados['ID'];?>|<?php echo $dados2['ID'];?>|VISUALIZAR" type="checkbox" <?php echo (($dados2['VISUALIZAR']=='t')?'checked="checked"':'');?> /> </td>
+                                                            <td align="center"  style="border-bottom: 1px solid #E6E8FA;"><input itemid="<?php echo $dados['ID'];?>" id="sub_menu" name="sub_menu[]" value="<?php echo $dados['ID'];?>|<?php echo $dados2['ID'];?>|INSERIR"    type="checkbox" <?php echo (($dados2['INSERIR']=='t')?'checked="checked"':'');?> /></td>
+                                                            <td align="center"  style="border-bottom: 1px solid #E6E8FA;"><input itemid="<?php echo $dados['ID'];?>" id="sub_menu" name="sub_menu[]" value="<?php echo $dados['ID'];?>|<?php echo $dados2['ID'];?>|ALTERAR"    type="checkbox" <?php echo (($dados2['ALTERAR']=='t')?'checked="checked"':'');?> /></td>
+                                                            <td align="center"  style="border-bottom: 1px solid #E6E8FA;"><input itemid="<?php echo $dados['ID'];?>" id="sub_menu" name="sub_menu[]" value="<?php echo $dados['ID'];?>|<?php echo $dados2['ID'];?>|EXCLUIR"    type="checkbox" <?php echo (($dados2['EXCLUIR']=='t')?'checked="checked"':'');?> /></td>
+                                                        </tr>
+                                                    <?php 
+                                                    endforeach;
+                                                    ?>
+                                                    <tr>
+                                                        <td colspan="5">&nbsp;</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                <?php
+                                }
+                                ?>                                    
+                            </tbody>
+                        </table>
+                        <br>
+                    <?php
+                    endforeach;
+                    ?>
+                    <table class="listagem" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th align="center"><input type="checkbox" <?php if($this->dados["VISUALIZA_CI"]=='t'){ echo 'checked="checked"';} ?> name="visualiza_ci" id="visualiza_ci"></th>
+                                <th>Visualiza todas as CIs?</th>
+                            </tr>                            
+                        </thead>
+                    </table>
+                        <br/>
+                    <table class="listagem" cellspacing="0">
+                        <thead>                            
+                            <tr>
+                                <th align="center"><input type="checkbox" <?php if($this->dados["APROVADOR"]=='t'){ echo 'checked="checked"';} ?> name="aprovador" id="aprovador"></th>
+                                <th>Aprovador?</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td>                                    
+                                    <table class="sublistagem">
+                                        <thead>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                                <td style="text-align: left;">De:</td>
+                                                <td style="text-align: left;">Até:</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                    <td style="border-bottom: 1px solid #E6E8FA;">&nbsp;</td>
+                                                    <td style="border-bottom: 1px solid #E6E8FA;"><input type="text" id="valor_inicio" name="valor_inicio" value="<?php echo $Helper_mascaras->ValorMoeda($this->dados["VALOR_INICIAL"],1); ?>" /></td>
+                                                    <td style="border-bottom: 1px solid #E6E8FA;"><input type="text" id="valor_fim" name="valor_fim" value="<?php echo $Helper_mascaras->ValorMoeda($this->dados["VALOR_FINAL"],1); ?>" /></td>
+                                                    <td style="border-bottom: 1px solid #E6E8FA;">&nbsp;</td>
+                                                    <td style="border-bottom: 1px solid #E6E8FA;">&nbsp;</td>
+                                                </tr>
+                                            <tr>
+                                                <td colspan="5">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                        <br/>
+                    <table class="listagem" cellspacing="0">
+                        <thead>                            
+                            <tr>
+                                <th align="center"></th>
+                                <th>Pré-aprovador</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <select name="pre_aprovador">
+                                        <option>Selecione um usuário...</option>
+                                        <?php foreach ($this->usuarios as $value) { ?>
+                                        <option value="<?php echo $value["ID"]; ?>" <?php echo $this->dados["PRE_APROVADOR"] == $value["ID"] ? "selected='selected'" : ""; ?> ><?php echo $value["NOME"]; ?></option>
+                                        <?php } ?> 
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br/>
+                    <div style="text-align: right;">
+                        <hr style="color: #0070a3;background-color: #0070a3;"/>
+                        <input type="submit" name="btnSavar" value="Salvar"  class="inputBtnSalvar"/>&nbsp;
+                        <input type="button" name="btnCancelar" value="Cancelar" onclick="javascript:OpenSelf('<?php echo $this->baseUrl()?>/admin/permissoes/');"  class="inputBtnSalvar"/>&nbsp;
+                        <input type="hidden" name="id" value="<?php echo $this->usuario?>" />
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>

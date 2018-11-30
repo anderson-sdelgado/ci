@@ -1,0 +1,601 @@
+html, body{
+    /*background: #FFFFFF;*/
+}
+#menu-admin{
+    vertical-align: top;
+}
+#menu-admin #menu-admin-backgorund{
+    background-repeat: repeat-x;
+    background-image: url('../_img/background/fundo_admin_menu.png');
+}
+#menu-admin .btn{
+    float: left;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 1.4em;
+    cursor: pointer;
+    margin: 8px 0px;
+    padding:3px 1px 1px 35px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 0px solid #787878;
+}
+#menu-admin #btn-minhaconta{
+    width: 100px;
+    background-image: url('../_img/icones/conta.png');
+    background-color: #1f5a7c;
+}
+#menu-admin #btn-sair{
+    width: 60px;
+    background-image: url('../_img/icones/desligar.png');
+    background-color: #1f5a7c;
+}
+#menu-admin #logocommit{
+/*    background-image: url('../_img/logo/logo_usina.png');*/
+    text-align: center;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: 3px;
+}
+#menu-admin #logocommit #corner{
+    margin: 0px auto;
+    padding: 0px 15px 0px 15px;
+    display: table;
+    height:30px;
+    background-color: #003366;
+}
+#menu-admin #logoempresa{
+    float: right;
+    background-image: url('../_img/logo/logo_mini.png');
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 84px;
+}
+#menu-admin #btn-separador{
+    width: 6px;
+    height: 30px;
+    float: left;
+}
+#menu-admin #btn-separador-nulo{
+    width: 6px;
+    height: 30px;
+    float: left;
+}
+#MainMenu{
+    margin-left: 10px;
+    display: table;
+    width: 99%;
+}
+.MainSubMenu{
+    margin-left: 10px;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+.btn-menu{
+    float: left;
+    color: #000000;
+    font-weight: 700;
+    line-height: 1.4em;
+    cursor: pointer;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: center;
+    margin: 10px 5px;
+    width: 8%;
+}
+.btn-menu-sub{
+    float: left;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: center;
+    margin: 3px 0px;
+    height: 22px;
+    line-height: 22px;
+    min-width: 6%;
+}
+#layout-admin #layout-admin-main #conteudo{
+    width: 100%;
+    float: left;
+    border: 0px #e6e6e6 solid;
+    overflow: auto;
+    margin-top:  10px;
+}
+#layout-admin #layout-admin-main #conteudo #inicial{
+    margin:0 auto;
+    padding:0;
+    height: 455px;
+    width: 1024px;
+    background-image: url('../_img/background/fundo_index.jpg');
+    background-repeat: no-repeat;
+}
+
+#layout-admin #layout-admin-main #painel{
+    width: 35%;
+    float: right;
+    overflow: auto;
+    margin-top:  10px;
+}
+
+.div-titulo{
+    background-color: #0070a3;
+    width: 97%;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 14px;
+    padding-left: 8px;
+    margin-top: 5px;
+}
+.div-corpo{
+    width: 96%;
+    margin: 0 auto;
+    padding-left: 8px;
+    border: 2px solid #0070a3;
+}
+form.cadastro{
+    margin-left: 20px;
+}
+form .hint{
+    color: #cac8c8;
+}
+.div-menu-titulo{
+    cursor: pointer;
+}
+#lista{
+    padding: 10px;
+}
+#lista #lista-borda{
+    box-shadow: 0px 0px 1em #d0cece;
+    -webkit-box-shadow: 0px 0px 1em #d0cece;
+    -moz-box-shadow: 0px 0px 1em #d0cece;
+    border-bottom: 1px solid #d0cece;
+    padding: 10px;
+}
+#lista #lista-borda #lista-titulo{
+    overflow: hidden;
+    color: #000000;
+    height: 36px;
+    background-repeat: repeat-x;
+    background-image: url('../_img/background/fundo_admin_cadastro.png');
+    margin: -10px;
+}
+#lista #lista-borda #lista-titulo #lista-titulo-texto{
+    font-size: 16px;
+    margin-left: 20px;
+    height: 34px;
+    line-height: 34px;
+    font-weight: 0;
+    text-shadow: #FFF 1px 2px 5px;
+    float: left;
+}
+#lista #lista-borda #lista-titulo #lista-titulo-menu{
+    float: right;
+    margin-right: 10px;
+    height: 34px;
+}
+#lista #lista-borda #lista-titulo #lista-titulo-menu #lista-titulo-menu-pesquisa{
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../_img/icones/psq.png');
+    background-position: 4px;
+    padding-left: 30px;
+}
+#lista #lista-borda #lista-titulo #lista-titulo-menu #lista-titulo-menu-novo{
+    background-repeat: no-repeat;
+    background-image: url('../_img/icones/add.png');
+    background-position: 4px;
+    padding-left: 30px;
+}
+#lista #lista-borda #lista-titulo #lista-titulo-menu #lista-titulo-menu-gerar_xls{
+    background-repeat: no-repeat;
+    background-image: url('../_img/icones/xls.gif');
+    background-position: 4px;
+    padding-left: 30px;
+}
+#lista #lista-borda #lista-titulo #lista-titulo-menu #lista-titulo-menu-voltar{
+    background-repeat: no-repeat;
+    background-image: url('../_img/icones/voltar.png');
+    background-position: 4px;
+    padding-left: 30px;
+}
+#lista #lista-borda #lista-titulo #lista-titulo-menu #visualizar_grafico{
+    background-repeat: no-repeat;
+    background-image: url('../_img/icones/grafico.png');
+    background-position: 4px;
+    padding-left: 30px;
+}
+#lista #pesquisa #lista-titulo-menu-relatorio{
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid;
+    float: right;
+    margin-top: 5px;
+    background-color: #025C7F;
+    color: #FFF;
+    font-weight: 900;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../_img/icones/report.png');
+    background-position: 4px;
+    padding-left: 30px;
+}
+#lista #lista-borda #lista-titulo #lista-titulo-menu .botao{
+    width: 130px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid;
+    float: left;
+    margin-top: 5px;
+    background-color: #434c4b;
+    color: #FFF;
+    font-weight: 900;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#lista #espaco{
+    height: 30px;
+}
+#lista #pesquisa{
+    background-color: #e6e6e6;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+#lista #pesquisa table, #lista #pesquisa-ci table, #lista #pesquisa-informativos table{
+    margin-right: 10px;
+}
+#lista #pesquisa-ci, #lista #pesquisa-informativos{
+    background-color: #e6e6e6;
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    /*border-bottom: 1px solid #FFFFFF;*/
+}
+#lista #pesquisa-ci input[type=text], #lista #pesquisa-informativos input[type=text]{
+    height: 20px;
+    margin-bottom: 0px;
+}
+#lista #pesquisa-ci select, #lista #pesquisa-informativos select{
+    height: 22px;
+    font-size: 13px;
+}
+#lista #pesquisa input[type=text]{
+    height: 20px;
+    /*margin:10px;*/
+    width: 150px;    
+}
+#lista #pesquisa table{
+    float: right;
+}
+#lista #gride{
+    border: 0px solid;
+}
+#lista #pesquisa .titulo{
+    height: 30px;
+    font-size: 12px;
+    font-weight: 900;
+    background-color: #e6e6e6;
+}
+#lista #gride .linha{
+    height: 25px;
+    font-size: 12px;
+    font-weight: 200;
+    border-bottom: 1px solid #e6e6e6;
+}
+#lista #gride .linha img{
+    cursor: pointer;
+}
+#permissao-sistema .listagem{
+    width:75%;
+    margin: 0 auto;
+}
+#permissao-sistema .listagem tr th:first-child{
+    width:20px;
+}
+
+#permissao-sistema .listagem .sublistagem{
+    width:100%;
+    margin: 0 auto;
+}
+#permissao-sistema .listagem .sublistagem tr td:first-child{
+    width:20%;
+    margin: 0 auto;
+}
+#lista #gride .listagem{
+    width:100%;
+    margin: 0 auto;
+    border-top: 1px solid #FFFFFF;
+}
+#lista #gride .listagem thead tr th{
+    font-weight: bold;
+    background-color: #e6e6e6;
+    padding: 10px 5px 5px 3px;
+}
+#lista #gride .listagem tbody tr td{    
+    padding-left: 3px;
+}
+
+#lista #gride .listagem tfoot tr td{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.listagemAprovadores{
+    width:100%;
+    margin: 0 auto;
+    border-top: 1px solid #FFFFFF;
+}
+.listagemAprovadores thead tr th{
+    font-weight: bold;
+    background-color: #FFFFFF;
+    padding: 10px 5px 5px 0px;
+}
+.listagemAprovadores tbody tr td{  
+    border-bottom: 1px solid #E6E6E6;  
+    padding: 3px;
+}
+
+.listagemAprovadores tfoot tr td{
+    text-align: center;
+    margin: 0 auto;
+}
+.listagemAprovadores tr {
+}
+
+.nenhum{
+    font-weight: bold;
+    height: 100px;
+    text-align: center !important;
+    padding: 10px;
+}
+
+fieldset.formulario{
+    border: 1px #d4d3d3 solid;
+    padding: 10px
+}
+
+label{
+    float: left;
+    width: 120px;
+    font-weight: bold;
+}
+input[type="text"], textarea{
+    width: 180px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+#motivo-label label, #valor-label label{
+    width: auto;
+    margin-right: 5px;
+}
+.frmLabel{
+    width: 180px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+.frmImg{
+    margin-bottom: 5px;
+    height: 16px;
+    width: 16px;
+    margin-left:10px;
+    cursor: pointer;
+}
+.frmImg img{
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
+.live{
+    clear: both;
+}
+#data_organograma{
+    width: 100px;
+}
+textarea{
+    width: 550px;
+    height: 250px;
+}
+br{
+    clear: left;
+}
+.checkProcessos,.checkCustos{
+    width:20px;
+    float:left;
+    margin: 0;
+    padding:0;
+}
+#checkprocessos,#checkcustos{
+    margin-left:120px;
+}
+
+#checkprocessos{
+    width: 90%;
+    display: table;
+    /*border: 1px solid;*/
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#formulario table.listagem{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+#add-link:hover, .delete-link:hover, .links-processo:hover, .add_aprovador:hover, .add_aprovadorgeral:hover, .delete_aprovador:hover, .links-informativos:hover, .download-anexo:hover, .delete-anexo:hover{
+    cursor: pointer;
+}
+#add-link{
+    margin: 4px 4px -4px 4px;
+}
+#form-processos table.listagem thead tr th{
+    padding: 5px;
+    /*border-left: 1px solid #E6E6E6;*/
+}
+#form-processos table.listagem{
+    width: 90%;
+    /*border-left: 1px solid #E6E6E6;*/
+}
+#form-processos table.listagem tr td{
+    border-bottom: 1px solid #E6E6E6;
+    /*border-right: 1px solid #E6E6E6;*/
+}
+
+table.listagemLink thead tr th{
+    padding: 5px;
+    background-color: #E6E6E6;
+}
+table.listagemLink{
+    width: 100%;
+    border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+}
+table.listagemLink a{
+    color: #000000;
+}
+
+table.listagemLink tr td{
+    padding: 5px;
+    border-bottom: 1px solid #E6E6E6;
+}
+#formulario table.listagem thead tr{
+    background-color: #E6E8FA;
+}
+#formulario table.sublistagem thead tr{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#msgArquivo{
+    display: none;
+}
+a.download,a.arqExclui{
+    text-decoration: none;
+}
+.float{
+    float: left;
+    margin-right: 20px;
+}
+.checks{
+    width:32%;
+    float: left;
+    margin-bottom: 5px;
+}
+#targetAjaxArq{
+    display: none;
+    padding-left:50px;
+}
+#selectCargos{
+    float: left;
+}
+#targetMO, #targetMo select{
+    display: none;
+    float: left;
+    margin-left:20px;
+}
+
+#btnLayout{
+    height: 50px;
+    float: left;
+}
+#importacaoLayout{
+    display: none;
+    float:left;
+    margin-left: 150px;
+}
+#importacaoLayout table{
+    border:1px solid black;
+    border-collapse: collapse;
+    clear: both;
+    
+}
+#importacaoLayout table thead tr th{
+    background-color: #e5e5e5;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+#importacaoLayout table tbody tr td{
+    font-weight: normal;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.linha_ci:hover{
+    background-color: #FFFFCC;
+    cursor: pointer;
+}
+#detalhes-ci{
+    width: 100%;
+}
+.editarDespesaFinalidade{
+    color: #000000;
+    text-decoration: none;
+}
+.editarDespesaFinalidade:hover{
+    cursor: pointer;
+    color: #0000FF;
+    text-decoration: underline;
+}
+.google-visualization-orgchart-linenode{
+    min-width: 0px;
+}
+.google-visualization-orgchart-table * {
+    padding: 0px !important;
+}
+.google-visualization-orgchart-node-medium {
+    padding: 5px !important;
+}
+#tabela_anexar tr td{
+    padding: 5px 10px 5px 0px;    
+}
+div.fileinputs {
+	position: relative;
+}
+
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+input.file {
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}
+/*.div_permissao_finalidade{
+    margin-top: 10px;
+}
+.div_permissao_finalidade label{
+    width: 100%;
+}
+.div_permissao_finalidade label input{
+    margin-right: 5px;
+}*/
+.delete_visualizadorfinalidade{
+    height: 10px;
+}

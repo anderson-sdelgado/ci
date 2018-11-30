@@ -1,0 +1,95 @@
+<?php
+$checked    = '';
+?>
+<label for="processos">Processos:</label>
+<div id="checkprocessos">
+    <?php
+    $i=0;
+    foreach ($this->processos as $value) {
+        if($value["ID"] === $value['PROCESSOS_ID']){
+            $checked = 'checked';
+        }else{
+            $checked = '';
+        }
+        ?>
+        <div class='checks'>
+            <input type="checkbox" name="checkprocessos[]"
+                class="checkProcessos" value="<?php echo $value["ID"]; ?>" <?php echo $checked; ?> /> <h3 class="float"><?php echo $value['CODIGO'].' - '.substr(str_replace("***","'",$value['DESCRICAO_SUMARIA']),0,46);?></h3>
+        </div>
+        <?php
+//        $i++;
+//        if($i>=3){
+//            echo '<br /><br />';
+//            $i=0;
+//        }
+    }
+    ?>
+</div>
+<?php $checked = ''; ?>
+<label for="custos">Centro Custo:</label>
+<div id="checkcustos">
+    <?php
+    $i=0;
+    foreach ($this->custos as $value) {
+        //var_dump($value);
+        if($this->id_cargo === $value['CARGO']){
+            $checked = 'checked';
+        }else{
+            $checked = '';
+        }
+        ?>
+        <div class='checks'>
+            <input type="checkbox" name="checkcustos[]"
+                   class="checkCustos" value="<?php echo $value["CD_CCUSTO"]; ?>" <?php echo $checked; ?> /> <h3 class="float"><?php echo $value["CD_CCUSTO"]; ?> - <?php echo $value['NOME_CCUSTO'];?></h3>
+        </div>
+        <?php
+//        $i++;
+//        if($i>=3){
+//            echo '<br /><br />';
+//            $i=0;
+//        }
+    }
+    ?>
+</div>
+<br /><br /><br />
+<div id="gride">
+    <div id="msgArquivo"></div>
+    <table class="listagem">
+        <thead>
+            <tr>
+                <th>Arquivos</th>
+                <th>TIPO</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+        <?php
+        if(!empty($this->resposta)):
+            foreach($this->resposta as $arquivos):
+                $caminho = PUBLIC_PATH.'_upload/'.$arquivos['COD_FUNCAO'].'/'.$arquivos['ARQUIVO'];
+            ?>
+                <tr>
+                    <td class="linha"><?php echo $arquivos['ARQUIVO']; ?></td>
+                    <td class="linha"><?php echo ($arquivos['TIPO'] == "p") ? "Procedimento": ""; echo ($arquivos['TIPO'] == "o") ? "Outros Documentos": ""; ?></td>
+                    <td class="linha" style="text-align: right;">
+                        <a href="<?php echo $caminho; ?>" title="Download" target="_blank" class="download">
+                            <img src="<?php echo PUBLIC_PATH.'/_img/icones/download.png' ?>" title="Download" alt="Download" />
+                        </a>
+                        <a href="<?php echo $caminho; ?>" title="Excluir Arquivo" id="<?php echo base64_encode($arquivos['ARQUIVO']); ?>" class="arqExclui" target="_blank">
+                            <img src="<?php echo PUBLIC_PATH.'/_img/icones/delete_trash.png' ?>" title="Excluir Arquivo" alt="Excluir Arquivo" />
+                        </a>
+                    </td>
+                </tr>
+            <?php
+            endforeach;
+        else:
+        ?>
+            <tr>
+                <td colspan="2" class="nenhum">Nenhum arquivo!</td>
+            </tr>
+        <?php
+        endif;
+        ?>
+        </tbody>
+    </table>            
+</div>

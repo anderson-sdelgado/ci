@@ -1,0 +1,54 @@
+<div id="lista">
+    <div id="lista-borda">
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">Importa&ccedil;&atilde;o Horas Extras</div>
+            <div id="lista-titulo-menu">
+                <div id="lista-titulo-menu-voltar" class="botao" onclick="javascript:OpenSelf('<?php echo $this->baseUrl()?>/admin/eventos/horas');">Voltar</div>
+            </div>
+        </div>
+        <div id="espaco"></div>
+        <?php echo base64_decode($this->mensagem);?>
+        <br />
+        <br />
+        <input type="button" name="btnLayout" id="btnLayout" title="Clique Aqui para exibir o layout de Importa&ccedil;&atilde;o" alt="1" value="Clique Aqui para exibir o layout de Importa&ccedil;&atilde;o" />
+        
+        <div id="importacaoLayout">
+            <b>Layout (Separado por ponto e virgula ";")</b>
+            <br /><br />
+            <table>
+                <thead>
+                    <tr>
+                        <th>Campos</th>
+                        <th>Exemplo de preenchimento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>C&oacute;d. do Cargo</td>
+                        <td>1931 (Administrador de T.I)</td>
+                    </tr>
+                    <tr>
+                        <td>C&oacute;d. do Centro de Custo</td>
+                        <td>3.01.03.008 (Inform&aacute;tica)</td>
+                    </tr>
+                    <tr>
+                        <td>M&ecirc;s Ref.</td>
+                        <td>06/2012</td>
+                    </tr>
+                    <tr>
+                        <td>Quantidade (Centesimal)</td>
+                        <td>15,9</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <b>Exemplo de linha: 1931;3.01.03.008;06/2012;15,9</b>
+        </div>
+        <br />
+        <br />
+        
+        <div id="formulario">
+            <?php echo $this->formulario?>
+        </div>
+    </div>
+</div>

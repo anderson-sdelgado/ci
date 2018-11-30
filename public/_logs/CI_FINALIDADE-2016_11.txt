@@ -1,0 +1,72 @@
+23/11/2016 09:46 - RONALDOGOMES | ID = 261 | DESCRICAO = PAGAMENTO DE IMPOSTOS/GUIA/TAXAS | DETALHES = Utilizada para solicitação de pagamento de impostos/guias quando o mesmo não estiver atrelado a alguma nota fiscal, seu vencimento for superior a 7 dias corridos e a área responsável pelo mesmo não realizar lançamento de títulos no SGI.
+O cadastro do C.I. deverá ser realizado pela área responsável pelo débito.
+A aprovação do C.I. deverá ser realizada pelo Gerente/Assessor da área responsável pelo débito.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Nome da empresa emitente do boleto/guia
+DE:
+Informar o centro de custo da área responsável pelo débito.
+PARA:
+Informar o centro de custo da área responsável pelo débito.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo da solicitação de pagamento do boleto/guia, bem como seu vencimento e valor.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor do boleto
+ANEXOS:
+Poderá ser anexado o arquivo digitalizado do boleto/guia. | EMAIL_COPIA = luide@usinasantafe.com.br;azevedo@usinasantafe.com.br;elissandra@usinasantafe.com.br;adriana@usinasantafe.com.br;adeir@usinasantafe.com.br;ronald.siqueira@usinasantafe.com.br;  andre.azevedo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+23/11/2016 10:03 - RONALDOGOMES | ID = 221 | DESCRICAO = LANÇAMENTOS NA FOLHA DE PAGAMENTO | DETALHES = Utilizada para realizar lançamentos ou ajustes junto à folha de pagamento, como adiantamento de salário, antecipação de 13º salário e complemento de pagamento de salário por ajuste de marcação do ponto eletrônico.
+O cadastro do C.I. deverá ser realizado pelo Coordenador da área a qual o colaborador esteja alocado.
+A aprovação do C.I. será de responsabilidade do  Gerente/ Assessor da área a qual o colaborador esteja alocado.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo da área solicitante.
+PARA:
+Informar o centro de custo da área solicitante.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever a solicitação e informar matrícula e nome do(s) colaborador(es).
+VALOR TOTAL DA CI EM R$: 
+Não informar valor
+ANEXOS:
+Poderá ser anexado arquivo com a relação de colaboradores (matrícula e nome) quando a quantidade for expressiva, mencionando no campo MOTIVO o arquivo anexo. | EMAIL_COPIA = marta@usinasantafe.com.br;kleber@usinasantafe.com.br;rose@usinasantafe.com.br;adrianapacola@usinasantafe.com.br;valderes@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+29/11/2016 09:13 - RONALDOGOMES | ID = 181 | DESCRICAO = PRESTAÇÃO DE CONTAS (DESPESAS DE VIAGENS) | DETALHES = Utilizada para prestação de contas de despesas de viagens, sejam elas para acerto do fundo fixo, acerto de solicitação de numerário ou reembolso.
+O cadastro do C.I. deverá ser realizado pela área responsável pela despesa.
+A aprovação do C.I. deverá ser realizada pelo Gerente/Assessor da área responsável pela despesa.
+Os comprovantes das despesas deverão ser anexados ao C.I. impresso após sua aprovação, para serem entregues à Tesouraria.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo da área responsável pela despesa.
+PARA:
+Informar o centro de custo da área responsável pela despesa.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever de forma detalhada as despesas e seus valores. (Ex.: combustível, pedágio, refeição, etc.)
+Caso seja um acerto de um Comunicado Interno de Solicitação de Numerário, informar o número deste.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor total das despesas.
+ANEXOS:
+Poderão ser anexados os comprovantes das despesas caso julgue-se necessário. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;adeir@usinasantafe.com.br;elissandra@usinasantafe.com.br;ronaldo@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s
+30/11/2016 08:55 - RONALDOGOMES | ID = 181 | DESCRICAO = PRESTAÇÃO DE CONTAS (DESPESAS DE VIAGENS) | DETALHES = Utilizada para prestação de contas de despesas de viagens, sejam elas para acerto do fundo fixo, acerto de solicitação de numerário ou reembolso.
+O cadastro do C.I. deverá ser realizado pela área responsável pela despesa.
+A aprovação do C.I. deverá ser realizada pelo Gerente/Assessor da área responsável pela despesa.
+Os comprovantes das despesas deverão ser anexados ao C.I. impresso após sua aprovação, para serem entregues à Tesouraria.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+DE:
+Informar o centro de custo da área responsável pela despesa.
+PARA:
+Informar o centro de custo da área responsável pela despesa.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever de forma detalhada as despesas e seus valores. (Ex.: combustível, pedágio, refeição, etc.)
+Caso seja um acerto de um Comunicado Interno de Solicitação de Numerário, informar o número deste.
+VALOR TOTAL DA CI EM R$: 
+Informar o valor total das despesas.
+ANEXOS:
+Poderão ser anexados os comprovantes das despesas caso julgue-se necessário. | EMAIL_COPIA = luide@usinasantafe.com.br;alexandre@usinasantafe.com.br;azevedo@usinasantafe.com.br;adeir@usinasantafe.com.br;elissandra@usinasantafe.com.br; | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s

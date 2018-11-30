@@ -1,0 +1,94 @@
+<?php $Helper_mascaras = new Commit_Controller_Action_Helper_Mascaras(); ?>
+<div id="div_pedidos">
+    <br/>
+    <label id="lbl-comprador">Comprador:</label><label id="nome-comprador" class="lbl-conteudo"><?php echo $this->comprador; ?></label>
+    <input id="btn-historico" type="button" value="Histórico de Envios" class="botao" style="float: right;" />
+    <br/>
+    <label id="lbl-pedido">Pedido:</label><label id="pedido" class="lbl-conteudo"><?php echo $this->pedido; ?></label>
+    <br/>
+    <label id="lbl-data_pedido">Data Pedido:</label><label id="data_pedido" class="lbl-conteudo"><?php echo $this->data_pedido; ?></label>
+    <br/>
+    <label id="lbl-fornecedor">Fornecedor:</label><label id="fornecedor" class="lbl-conteudo"><?php echo $this->fornecedor; ?></label>
+    <br/>
+    <label id="lbl-valor">Valor:</label><label id="valor" class="lbl-conteudo"><?php echo $Helper_mascaras->ValorMoeda($this->valor,1); ?></label>    
+    <br/><br/>
+    <table class="tbl_pedidos">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Descrição Produto</th>
+                <th>Unid Med</th>
+                <th>Preço Unitário</th>
+                <th>Quantidade</th>
+                <th>Valor do Item</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($this->itens_pedido as $item) { ?>  
+            <tr>
+                <td><?php echo $item["COD_PRODUTO"]; ?></td>
+                <td><?php echo $item["DESCR_PRODUTO"]; ?></td>
+                <td><?php echo $item["UNIDADE"]; ?></td>
+                <td class="valor"><?php echo $Helper_mascaras->ValorMoeda($item["PRECO_UNIT"],1); ?></td>
+                <td class="valor"><?php echo $item["QTDE"]; ?></td>
+                <td class="valor"><?php echo $Helper_mascaras->ValorMoeda($item["VALOR_TOTAL_ITEM"],1); ?></td>
+            </tr>
+            <?php } ?>
+        </tbody>
+    </table>
+    <br/><br/>
+    <?php 
+    $ENVIOS     = array();
+    $Historico  = array();
+    foreach ($this->Historico as $value) {
+        if(isset($ENVIOS[$value["DATA_ENVIO"]]["ENVIOS"])&&$value["CONFIRMACAO"]>1){
+            $ENVIOS[$value["DATA_ENVIO"]]["ENVIOS"]++;            
+        }else{
+            $ENVIOS[$value["DATA_ENVIO"]]["ENVIOS"] = 1;
+            $ENVIOS[$value["DATA_ENVIO"]]["COMPRADOR"] = $value["COMPRADOR"];
+        }
+        if(!(isset($Historico[$value["DATA_ENVIO"]]) && $value["CONFIRMACAO"]==1)){
+            $Historico[$value["DATA_ENVIO"]][] = $value;
+        }
+        
+    } ?>
+    <table class="tbl_pedidos" id="tbl-historico">
+        <thead>
+            <tr>
+                <th colspan="4">HISTÓRICO DE ENVIOS</th>
+            </tr>
+            <tr>
+                <th>Envio</th>
+                <th>Comprador</th>
+                <th>Confirmação</th>
+                <th>Observação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($ENVIOS as $data_envio =>$envios) {
+                
+              if($envios["ENVIOS"]>1){  ?>
+            <tr>
+                <td rowspan="<?php echo $envios["ENVIOS"]+1; ?>"><?php echo $data_envio; ?></td>
+                <td rowspan="<?php echo $envios["ENVIOS"]+1; ?>"><?php echo $envios["COMPRADOR"]; ?></td>
+            </tr>
+            <?php foreach ($Historico[$data_envio] as $historico) { ?>
+            <tr>
+                <td><?php echo $historico["DATA_CONFIRMACAO"]; ?></td>
+                <td><?php echo $historico["OBSERVACAO"]; ?></td>
+            </tr>
+            <?php } ?>
+            <?php }else{ ?>
+            <?php foreach ($Historico[$data_envio] as $historico) { ?>
+            <tr>
+                <td><?php echo $historico["DATA_ENVIO"]; ?></td>
+                <td><?php echo $historico["COMPRADOR"]; ?></td>
+                <td><?php echo $historico["DATA_CONFIRMACAO"]; ?></td>
+                <td><?php echo $historico["OBSERVACAO"]; ?></td>
+            </tr>
+            <?php } ?>
+            <?php } ?>
+            <?php } ?>
+        </tbody>
+    </table>
+</div>

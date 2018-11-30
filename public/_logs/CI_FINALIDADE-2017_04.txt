@@ -1,0 +1,67 @@
+07/04/2017 13:52 - RONALDOGOMES | ID = 541 | DESCRICAO = DESATIVAÇÃO DE TALHÃO-REFORMA | DETALHES = Utilizada para autorizar a desativação de talhões para reforma.
+
+Instruções para preenchimento dos campos:
+
+EMPRESA:
+Usina Santa Fé S.A.
+
+DE:
+Informar o centro de custo da área que está solicitando a desativação do talhão.
+
+PARA:
+Informar o centro de custo da área responsável por aprovar ou não a desativação do talhão.
+
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Escrever texto da solicitação da desativação do talhão.
+
+VALOR TOTAL DA CI EM R$: 
+N/A.
+
+ANEXOS:
+Anexar o formulário que contêm informações dos talhões que deverão ser desativados. | EMAIL_COPIA = joaogiro@usinasantafe.com.br;alexandre@usinasantafe.com.br;cristiano.alves@usinasantafe.com.br;danilocampos@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+07/04/2017 13:53 - RONALDOGOMES | ID = 961 | DESCRICAO = RECEBIMENTO DE CRÉDITOS / LANÇAMENTOS CONTÁBEIS | DETALHES =  | EMAIL_COPIA = tadeu.machado@usinasantafe.com.br;erika.costa@usinasantafe.com.br;DaniloCampos@usinasantafe.com.br;cristiano.alves@usinasantafe.com.br;fabio@usinasantafe.com.br;marcos@usinasantafe.com.br;rosemeire.sgoti@usinasantafe.com.br;santana@usinasantafe.com.br;expedicao.nucleofiscal@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+07/04/2017 13:53 - RONALDOGOMES | ID = 581 | DESCRICAO = SOLICITAÇÃO DE EMISSÃO DE NF NÃO REFERENTE A VENDA | DETALHES = Utilizada para solicitar emissão de Nota Fiscal para retirar material e/ou equipamento da usina, que não seja referente a venda.
+
+A C.I. deverá ser aprovada pelo Gerente ou Coordenador do centro de custo responsável pelo material e/ou equipamento que sairá da usina.
+
+Instruções para preenchimento dos campos:
+
+EMPRESA:
+Usina Santa Fé S.A.
+
+DE:
+Informar o centro de custo do responsável indicado para providenciar a NF.
+
+PARA:
+Informar o centro de custo do responsável pelo material e/ou equipamento.
+
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Escrever texto que contenha informações referentes ao motivo da retirada do material e/ou equipamento da usina.
+
+VALOR TOTAL DA CI EM R$: 
+Não informar valores.
+
+ANEXOS:
+Anexar o "FORM-001-ACO-Dados para Emissão NF não Ref a Vendas" PREENCHIDO !! | EMAIL_COPIA = tadeu.machado@usinasantafe.com.br;marcos@usinasantafe.com.br;diego.zanelato@usinasantafe.com.br;jorge.ricardo@usinasantafe.com.br;luispavao@usinasantafe.com.br;luisfernando@usinasantafe.com.br;willian.siqueira@usinasantafe.com.br | ATIVO = n | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+07/04/2017 13:54 - RONALDOGOMES | ID = 541 | DESCRICAO = DESATIVAÇÃO DE TALHÃO-REFORMA | DETALHES = Utilizada para autorizar a desativação de talhões para reforma.
+
+Instruções para preenchimento dos campos:
+
+EMPRESA:
+Usina Santa Fé S.A.
+
+DE:
+Informar o centro de custo da área que está solicitando a desativação do talhão.
+
+PARA:
+Informar o centro de custo da área responsável por aprovar ou não a desativação do talhão.
+
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Escrever texto da solicitação da desativação do talhão.
+
+VALOR TOTAL DA CI EM R$: 
+N/A.
+
+ANEXOS:
+Anexar o formulário que contêm informações dos talhões que deverão ser desativados. | EMAIL_COPIA = joaogiro@usinasantafe.com.br;alexandre@usinasantafe.com.br;cristiano.alves@usinasantafe.com.br;danilocampos@usinasantafe.com.br;tadeu.machado@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+07/04/2017 16:16 - RONALDOGOMES | ID = 961 | DESCRICAO = RECEBIMENTO DE CRÉDITOS / LANÇAMENTOS CONTÁBEIS | DETALHES =  | EMAIL_COPIA = tadeu.machado@usinasantafe.com.br;erika.costa@usinasantafe.com.br;DaniloCampos@usinasantafe.com.br;cristiano.alves@usinasantafe.com.br;fabio@usinasantafe.com.br;marcos@usinasantafe.com.br;santana@usinasantafe.com.br;expedicao.nucleofiscal@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n

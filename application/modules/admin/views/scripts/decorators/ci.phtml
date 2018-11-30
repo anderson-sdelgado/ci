@@ -1,0 +1,126 @@
+<?php
+
+$id = Zend_Auth::getInstance()->getIdentity()->ID;        
+$objUsuario = new Admin_Model_Usuario();
+$usuario = $objUsuario->fetchIdOracle($id);
+
+?>
+<table>
+    <tr>
+        <td>
+            <form action="<?php echo $this->escape($this->element->getAction());?>" method="<?php echo $this->escape($this->element->getMethod());?>" id="<?php echo $this->escape($this->element->getAttrib('id'));?>"  class="<?php echo $this->escape($this->element->getAttrib('class'));?>">
+                <table cellpadding="0" cellspacing="0" border="0" style=" width: 550px;">
+                    <tr>
+                        <td colspan="2"><?php echo ($this->element->empresa);?></td>
+                        <td><?php echo ($this->element->data_ci);?></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="height: 10px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><?php echo ($this->element->finalidade);?></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="height: 10px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><?php echo ($this->element->ccusto_de);?></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="height: 10px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><?php echo ($this->element->ccusto_para);?></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="height: 10px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><?php echo ($this->element->motivo);?></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="height: 20px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" id="td-despesasCI"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><?php echo ($this->element->valor);?></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="height: 20px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><b>NOME DO SOLICITANTE:</b><br/><?php echo $usuario[0]["NOME"]; ?></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="height: 20px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" ><div id="div-aprovadores"></div></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="height: 10px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="right">
+                            <?php echo ($this->element->submeter);?>
+                            <?php echo ($this->element->id);?>
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+        </td>
+        <td style="width: 30px;" >&nbsp;</td>
+        <td style="vertical-align: top;" >
+            <div id="div-detalhes_finalidade" style="margin-top: 10px;margin-bottom: 30px;border:1px solid #B6B6B6; padding: 10px;">                 	
+                <b>Detalhes da Finalidade:</b><br/><br/>
+                Selecione uma Finalidade para visualizar os detalhes
+            </div>
+            <form  id="form_anexo" style="border:1px solid #B6B6B6; padding: 10px;" name="form_anexo" method="post" enctype='multipart/form-data' action="<?php echo FORM_PATH; ?>admin/ci/anexar" target="upload_target">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td><b>Anexos</b><br/><br/></td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <table id="tabela_anexar">
+                                <tr>
+                                    <th>Descri&ccedil;&atilde;o do Arquivo</th>
+                                    <th>Arquivo</th>
+                                </tr>
+                                <tr><td><input type="text" name="desc_arquivo[]" value="" /></td><td><input type="file" name="arquivo[]" value="arquivo[]"  >&nbsp;<input type="button" value="+" class="add_anexo"/></td></tr>
+                            </table>
+                        </td>
+                        <td><input type="reset" name="limpar" id="limpar" style="display: none" /></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <input type="button" value="Salvar anexos" id="btn_anexo" name="btn_anexo"/>           
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <?php echo ($this->element->id);?>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <div id="div-anexos" style="margin-top: 30px;"></div>
+                        </td>
+                    </tr>
+                    </tbody>
+            
+                </table>
+            </form>
+            <iframe id="upload_target" name="upload_target" src="" style="display:none;"></iframe>
+            <div id="msg-upload"></div>
+        </td>
+    </tr>
+</table>
+

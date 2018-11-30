@@ -1,0 +1,397 @@
+02/02/2016 13:48 - DOUGLAS | enviada1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 14743 Aprovada','douglas@usinasantafe.com.br','DOUGLAS DE OLIVEIRA','tom@usinasantafe.com.br','WELLINGTON FURTADO PIMENTA NEVES'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 14743<br/>
+            Empresa: USINA SANTA FÉ S/A<br/>
+            Data da inclusão: 01/02/2016 13:02<br/>
+            De: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Para: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Finalidade: <br/>PROCESSO TRABALHISTA/CÍVEL<br/><br/>
+            Motivo: <br/>Serve a presente para solicitar o pagamento das custas processuais, cujo processo leva o nº 0011825-93.2013.5.15.0081, Reclamante Ailton Alcasser Monte.
+
+Processo tramitou perante a Vara do Trabalho de Matão. Processo foi finalizado, sendo que o valor a ser pago pela Usina foi de R$ 17.929,68.
+
+Restando apenas as custas judiciais para quitar, no valor de R$ 163,94, conforme despacho abaixo:
+
+5. TRT - 15ª Região 
+Disponibilização:  terça-feira, 26 de janeiro de 2016. 
+Arquivo: 123 Publicação: 64 
+
+VARA DO TRABALHO DE MATÃO 
+Decisão Processo Nº RTOrd-0011825-93.2013.5.15.0081 AUTOR AILTON ALCASSER MONTE ADVOGADO EVERALDO JOSÉ RIBEIRO(OAB: 136674/SP) RÉU USINA SANTA FE S/A. ADVOGADO JOÃO OTAVIO SPILARI GOES(OAB: 309819/SP) ADVOGADO JOSE EDUARDO DE ALMEIDA BERNARDO(OAB: 105968/SP) ADVOGADO FAIZ MASSAD(OAB: 12071/SP) Intimado(s)/Citado(s): - AILTON ALCASSER MONTE - USINA SANTA FE S/A. PODER JUDICIÁRIO JUSTIÇA DO TRABALHO PODER JUDICIÁRIO FEDERAL JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO Vara do Trabalho de Matão Rua Jundiaí, 1270, Nova Matão, MATAO - SP - CEP: 15990-510 TEL.: (16) 33849948 - EMAIL: PROCESSO: 0011825-93.2013.5.15.0081 CLASSE: AÇÃO TRABALHISTA - RITO ORDINÁRIO (985) AUTOR: AILTON ALCASSER MONTE RÉU: USINA SANTA FE S/A. SENTENÇA DE LIQUIDAÇÃO AUTUAÇÃO: 09/12/2013 Vistos Diante da concordância expressa do reclamante conforme ID 1824652, exclua-se o processo da pauta do dia 01/09/2016. Posto isso, homologo o cálculo apresentado pelo(a) reclamada sob ID 6e7302e, para produzir os jurídicos e legais efeitos. FIXO O DÉBITO DA(O) RECLAMADA(O) EM R$ 19.427,35, sendo: Crédito bruto do(a) reclamante em R$ 17.929,68, sendo: R$ 14.696,46 (principal) e R$ 3.233,22 (juros de mora), valores vigentes em 01/10/2015, já satisfeito conforme ID 4a139db e ID 5f4d833. A(o) reclamada(o) deverá comprovar nos autos o recolhimento das contribuições previdenciárias, no importe total de R$ 1.337,67 (em 01/10/2015), através da competente guia GPS sendo: R$ 1.337,67, código 1708 e identificador PIS, PASEP ou NIT do empregado e R$ 0,00, código 2909 e identificador CNPJ do empregador. Facultada a retenção do autor, no importe de R$ 1.337,67. Custas, pela(o) reclamada(o), no importe de R$ 160,00, valor vigente em 13/06/2014, que deverá ser recolhida através da guia GRU, código 18740-2, código TRT5 - 080011. Valores isentos de contribuição fiscal, por estar o valor das verbas tributadas abaixo do piso da base de cálculo do IRRF, nos termos do artigo 12-A, § 1º, da Lei º. 7.713/1988, acrescido pela Lei nº. 12.350/2010, artigo 44. A(O) reclamada(o) responderá pelas despesas devidas na execução (artigo 789-A, da CLT), a serem calculadas ao final. Todos os valores serão atualizados à época do efetivo pagamento com correção monetária e juros de mora, conforme disposto na Lei nº. 8.177/1991, artigo 39. OS JUROS DE MORA DEVERÃO SER COMPUTADOS NA OCASIÃO DO EFETIVO PAGAMENTO, PARA SE EVITAR APLICAÇÃO CUMULATIVA. INTIME-SE a(o) reclamada(o) para o pagamento da contribuição previdenciária e cuitasda fase de conhecimento, no prazo de 10 dias improrrogável, sob pena de a execução. Desnecessária a intimação da União, uma vez que o salário contribuição está abaixo do piso estipulado pela Portaria, nº. 582/2013, de 11/12/2013, do Ministério da Fazenda, publicada no Diário Oficial da União em 13/12/2013. Intime-se o(a) reclamante. Matão, 15/12/2015. ALAN CEZAR RUNHO Juiz(íza) do Trabalho MTF 
+
+DATA PARA PAGAMENTO: 05/02/2016
+VALOR: R$ 163,94
+<br/><br/>
+            Valor: 163,94<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            DOUGLAS DE OLIVEIRA<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 14743 Aprovada','douglas@usinasantafe.com.br','DOUGLAS DE OLIVEIRA','marcelo.godoi@usinasantafe.com.br','MARCELO ALTA DE GODOI'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 14743<br/>
+            Empresa: USINA SANTA FÉ S/A<br/>
+            Data da inclusão: 01/02/2016 13:02<br/>
+            De: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Para: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Finalidade: <br/>PROCESSO TRABALHISTA/CÍVEL<br/><br/>
+            Motivo: <br/>Serve a presente para solicitar o pagamento das custas processuais, cujo processo leva o nº 0011825-93.2013.5.15.0081, Reclamante Ailton Alcasser Monte.
+
+Processo tramitou perante a Vara do Trabalho de Matão. Processo foi finalizado, sendo que o valor a ser pago pela Usina foi de R$ 17.929,68.
+
+Restando apenas as custas judiciais para quitar, no valor de R$ 163,94, conforme despacho abaixo:
+
+5. TRT - 15ª Região 
+Disponibilização:  terça-feira, 26 de janeiro de 2016. 
+Arquivo: 123 Publicação: 64 
+
+VARA DO TRABALHO DE MATÃO 
+Decisão Processo Nº RTOrd-0011825-93.2013.5.15.0081 AUTOR AILTON ALCASSER MONTE ADVOGADO EVERALDO JOSÉ RIBEIRO(OAB: 136674/SP) RÉU USINA SANTA FE S/A. ADVOGADO JOÃO OTAVIO SPILARI GOES(OAB: 309819/SP) ADVOGADO JOSE EDUARDO DE ALMEIDA BERNARDO(OAB: 105968/SP) ADVOGADO FAIZ MASSAD(OAB: 12071/SP) Intimado(s)/Citado(s): - AILTON ALCASSER MONTE - USINA SANTA FE S/A. PODER JUDICIÁRIO JUSTIÇA DO TRABALHO PODER JUDICIÁRIO FEDERAL JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO Vara do Trabalho de Matão Rua Jundiaí, 1270, Nova Matão, MATAO - SP - CEP: 15990-510 TEL.: (16) 33849948 - EMAIL: PROCESSO: 0011825-93.2013.5.15.0081 CLASSE: AÇÃO TRABALHISTA - RITO ORDINÁRIO (985) AUTOR: AILTON ALCASSER MONTE RÉU: USINA SANTA FE S/A. SENTENÇA DE LIQUIDAÇÃO AUTUAÇÃO: 09/12/2013 Vistos Diante da concordância expressa do reclamante conforme ID 1824652, exclua-se o processo da pauta do dia 01/09/2016. Posto isso, homologo o cálculo apresentado pelo(a) reclamada sob ID 6e7302e, para produzir os jurídicos e legais efeitos. FIXO O DÉBITO DA(O) RECLAMADA(O) EM R$ 19.427,35, sendo: Crédito bruto do(a) reclamante em R$ 17.929,68, sendo: R$ 14.696,46 (principal) e R$ 3.233,22 (juros de mora), valores vigentes em 01/10/2015, já satisfeito conforme ID 4a139db e ID 5f4d833. A(o) reclamada(o) deverá comprovar nos autos o recolhimento das contribuições previdenciárias, no importe total de R$ 1.337,67 (em 01/10/2015), através da competente guia GPS sendo: R$ 1.337,67, código 1708 e identificador PIS, PASEP ou NIT do empregado e R$ 0,00, código 2909 e identificador CNPJ do empregador. Facultada a retenção do autor, no importe de R$ 1.337,67. Custas, pela(o) reclamada(o), no importe de R$ 160,00, valor vigente em 13/06/2014, que deverá ser recolhida através da guia GRU, código 18740-2, código TRT5 - 080011. Valores isentos de contribuição fiscal, por estar o valor das verbas tributadas abaixo do piso da base de cálculo do IRRF, nos termos do artigo 12-A, § 1º, da Lei º. 7.713/1988, acrescido pela Lei nº. 12.350/2010, artigo 44. A(O) reclamada(o) responderá pelas despesas devidas na execução (artigo 789-A, da CLT), a serem calculadas ao final. Todos os valores serão atualizados à época do efetivo pagamento com correção monetária e juros de mora, conforme disposto na Lei nº. 8.177/1991, artigo 39. OS JUROS DE MORA DEVERÃO SER COMPUTADOS NA OCASIÃO DO EFETIVO PAGAMENTO, PARA SE EVITAR APLICAÇÃO CUMULATIVA. INTIME-SE a(o) reclamada(o) para o pagamento da contribuição previdenciária e cuitasda fase de conhecimento, no prazo de 10 dias improrrogável, sob pena de a execução. Desnecessária a intimação da União, uma vez que o salário contribuição está abaixo do piso estipulado pela Portaria, nº. 582/2013, de 11/12/2013, do Ministério da Fazenda, publicada no Diário Oficial da União em 13/12/2013. Intime-se o(a) reclamante. Matão, 15/12/2015. ALAN CEZAR RUNHO Juiz(íza) do Trabalho MTF 
+
+DATA PARA PAGAMENTO: 05/02/2016
+VALOR: R$ 163,94
+<br/><br/>
+            Valor: 163,94<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            DOUGLAS DE OLIVEIRA<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 14743 Aprovada','douglas@usinasantafe.com.br','DOUGLAS DE OLIVEIRA','douglas@usinasantafe.com.br','DOUGLAS DE OLIVEIRA'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 14743<br/>
+            Empresa: USINA SANTA FÉ S/A<br/>
+            Data da inclusão: 01/02/2016 13:02<br/>
+            De: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Para: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Finalidade: <br/>PROCESSO TRABALHISTA/CÍVEL<br/><br/>
+            Motivo: <br/>Serve a presente para solicitar o pagamento das custas processuais, cujo processo leva o nº 0011825-93.2013.5.15.0081, Reclamante Ailton Alcasser Monte.
+
+Processo tramitou perante a Vara do Trabalho de Matão. Processo foi finalizado, sendo que o valor a ser pago pela Usina foi de R$ 17.929,68.
+
+Restando apenas as custas judiciais para quitar, no valor de R$ 163,94, conforme despacho abaixo:
+
+5. TRT - 15ª Região 
+Disponibilização:  terça-feira, 26 de janeiro de 2016. 
+Arquivo: 123 Publicação: 64 
+
+VARA DO TRABALHO DE MATÃO 
+Decisão Processo Nº RTOrd-0011825-93.2013.5.15.0081 AUTOR AILTON ALCASSER MONTE ADVOGADO EVERALDO JOSÉ RIBEIRO(OAB: 136674/SP) RÉU USINA SANTA FE S/A. ADVOGADO JOÃO OTAVIO SPILARI GOES(OAB: 309819/SP) ADVOGADO JOSE EDUARDO DE ALMEIDA BERNARDO(OAB: 105968/SP) ADVOGADO FAIZ MASSAD(OAB: 12071/SP) Intimado(s)/Citado(s): - AILTON ALCASSER MONTE - USINA SANTA FE S/A. PODER JUDICIÁRIO JUSTIÇA DO TRABALHO PODER JUDICIÁRIO FEDERAL JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO Vara do Trabalho de Matão Rua Jundiaí, 1270, Nova Matão, MATAO - SP - CEP: 15990-510 TEL.: (16) 33849948 - EMAIL: PROCESSO: 0011825-93.2013.5.15.0081 CLASSE: AÇÃO TRABALHISTA - RITO ORDINÁRIO (985) AUTOR: AILTON ALCASSER MONTE RÉU: USINA SANTA FE S/A. SENTENÇA DE LIQUIDAÇÃO AUTUAÇÃO: 09/12/2013 Vistos Diante da concordância expressa do reclamante conforme ID 1824652, exclua-se o processo da pauta do dia 01/09/2016. Posto isso, homologo o cálculo apresentado pelo(a) reclamada sob ID 6e7302e, para produzir os jurídicos e legais efeitos. FIXO O DÉBITO DA(O) RECLAMADA(O) EM R$ 19.427,35, sendo: Crédito bruto do(a) reclamante em R$ 17.929,68, sendo: R$ 14.696,46 (principal) e R$ 3.233,22 (juros de mora), valores vigentes em 01/10/2015, já satisfeito conforme ID 4a139db e ID 5f4d833. A(o) reclamada(o) deverá comprovar nos autos o recolhimento das contribuições previdenciárias, no importe total de R$ 1.337,67 (em 01/10/2015), através da competente guia GPS sendo: R$ 1.337,67, código 1708 e identificador PIS, PASEP ou NIT do empregado e R$ 0,00, código 2909 e identificador CNPJ do empregador. Facultada a retenção do autor, no importe de R$ 1.337,67. Custas, pela(o) reclamada(o), no importe de R$ 160,00, valor vigente em 13/06/2014, que deverá ser recolhida através da guia GRU, código 18740-2, código TRT5 - 080011. Valores isentos de contribuição fiscal, por estar o valor das verbas tributadas abaixo do piso da base de cálculo do IRRF, nos termos do artigo 12-A, § 1º, da Lei º. 7.713/1988, acrescido pela Lei nº. 12.350/2010, artigo 44. A(O) reclamada(o) responderá pelas despesas devidas na execução (artigo 789-A, da CLT), a serem calculadas ao final. Todos os valores serão atualizados à época do efetivo pagamento com correção monetária e juros de mora, conforme disposto na Lei nº. 8.177/1991, artigo 39. OS JUROS DE MORA DEVERÃO SER COMPUTADOS NA OCASIÃO DO EFETIVO PAGAMENTO, PARA SE EVITAR APLICAÇÃO CUMULATIVA. INTIME-SE a(o) reclamada(o) para o pagamento da contribuição previdenciária e cuitasda fase de conhecimento, no prazo de 10 dias improrrogável, sob pena de a execução. Desnecessária a intimação da União, uma vez que o salário contribuição está abaixo do piso estipulado pela Portaria, nº. 582/2013, de 11/12/2013, do Ministério da Fazenda, publicada no Diário Oficial da União em 13/12/2013. Intime-se o(a) reclamante. Matão, 15/12/2015. ALAN CEZAR RUNHO Juiz(íza) do Trabalho MTF 
+
+DATA PARA PAGAMENTO: 05/02/2016
+VALOR: R$ 163,94
+<br/><br/>
+            Valor: 163,94<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            DOUGLAS DE OLIVEIRA<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 14743 Aprovada','douglas@usinasantafe.com.br','DOUGLAS DE OLIVEIRA','luide@usinasantafe.com.br','luide@usinasantafe.com.br'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 14743<br/>
+            Empresa: USINA SANTA FÉ S/A<br/>
+            Data da inclusão: 01/02/2016 13:02<br/>
+            De: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Para: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Finalidade: <br/>PROCESSO TRABALHISTA/CÍVEL<br/><br/>
+            Motivo: <br/>Serve a presente para solicitar o pagamento das custas processuais, cujo processo leva o nº 0011825-93.2013.5.15.0081, Reclamante Ailton Alcasser Monte.
+
+Processo tramitou perante a Vara do Trabalho de Matão. Processo foi finalizado, sendo que o valor a ser pago pela Usina foi de R$ 17.929,68.
+
+Restando apenas as custas judiciais para quitar, no valor de R$ 163,94, conforme despacho abaixo:
+
+5. TRT - 15ª Região 
+Disponibilização:  terça-feira, 26 de janeiro de 2016. 
+Arquivo: 123 Publicação: 64 
+
+VARA DO TRABALHO DE MATÃO 
+Decisão Processo Nº RTOrd-0011825-93.2013.5.15.0081 AUTOR AILTON ALCASSER MONTE ADVOGADO EVERALDO JOSÉ RIBEIRO(OAB: 136674/SP) RÉU USINA SANTA FE S/A. ADVOGADO JOÃO OTAVIO SPILARI GOES(OAB: 309819/SP) ADVOGADO JOSE EDUARDO DE ALMEIDA BERNARDO(OAB: 105968/SP) ADVOGADO FAIZ MASSAD(OAB: 12071/SP) Intimado(s)/Citado(s): - AILTON ALCASSER MONTE - USINA SANTA FE S/A. PODER JUDICIÁRIO JUSTIÇA DO TRABALHO PODER JUDICIÁRIO FEDERAL JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO Vara do Trabalho de Matão Rua Jundiaí, 1270, Nova Matão, MATAO - SP - CEP: 15990-510 TEL.: (16) 33849948 - EMAIL: PROCESSO: 0011825-93.2013.5.15.0081 CLASSE: AÇÃO TRABALHISTA - RITO ORDINÁRIO (985) AUTOR: AILTON ALCASSER MONTE RÉU: USINA SANTA FE S/A. SENTENÇA DE LIQUIDAÇÃO AUTUAÇÃO: 09/12/2013 Vistos Diante da concordância expressa do reclamante conforme ID 1824652, exclua-se o processo da pauta do dia 01/09/2016. Posto isso, homologo o cálculo apresentado pelo(a) reclamada sob ID 6e7302e, para produzir os jurídicos e legais efeitos. FIXO O DÉBITO DA(O) RECLAMADA(O) EM R$ 19.427,35, sendo: Crédito bruto do(a) reclamante em R$ 17.929,68, sendo: R$ 14.696,46 (principal) e R$ 3.233,22 (juros de mora), valores vigentes em 01/10/2015, já satisfeito conforme ID 4a139db e ID 5f4d833. A(o) reclamada(o) deverá comprovar nos autos o recolhimento das contribuições previdenciárias, no importe total de R$ 1.337,67 (em 01/10/2015), através da competente guia GPS sendo: R$ 1.337,67, código 1708 e identificador PIS, PASEP ou NIT do empregado e R$ 0,00, código 2909 e identificador CNPJ do empregador. Facultada a retenção do autor, no importe de R$ 1.337,67. Custas, pela(o) reclamada(o), no importe de R$ 160,00, valor vigente em 13/06/2014, que deverá ser recolhida através da guia GRU, código 18740-2, código TRT5 - 080011. Valores isentos de contribuição fiscal, por estar o valor das verbas tributadas abaixo do piso da base de cálculo do IRRF, nos termos do artigo 12-A, § 1º, da Lei º. 7.713/1988, acrescido pela Lei nº. 12.350/2010, artigo 44. A(O) reclamada(o) responderá pelas despesas devidas na execução (artigo 789-A, da CLT), a serem calculadas ao final. Todos os valores serão atualizados à época do efetivo pagamento com correção monetária e juros de mora, conforme disposto na Lei nº. 8.177/1991, artigo 39. OS JUROS DE MORA DEVERÃO SER COMPUTADOS NA OCASIÃO DO EFETIVO PAGAMENTO, PARA SE EVITAR APLICAÇÃO CUMULATIVA. INTIME-SE a(o) reclamada(o) para o pagamento da contribuição previdenciária e cuitasda fase de conhecimento, no prazo de 10 dias improrrogável, sob pena de a execução. Desnecessária a intimação da União, uma vez que o salário contribuição está abaixo do piso estipulado pela Portaria, nº. 582/2013, de 11/12/2013, do Ministério da Fazenda, publicada no Diário Oficial da União em 13/12/2013. Intime-se o(a) reclamante. Matão, 15/12/2015. ALAN CEZAR RUNHO Juiz(íza) do Trabalho MTF 
+
+DATA PARA PAGAMENTO: 05/02/2016
+VALOR: R$ 163,94
+<br/><br/>
+            Valor: 163,94<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            DOUGLAS DE OLIVEIRA<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 14743 Aprovada','douglas@usinasantafe.com.br','DOUGLAS DE OLIVEIRA','alexandre@usinasantafe.com.br','alexandre@usinasantafe.com.br'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 14743<br/>
+            Empresa: USINA SANTA FÉ S/A<br/>
+            Data da inclusão: 01/02/2016 13:02<br/>
+            De: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Para: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Finalidade: <br/>PROCESSO TRABALHISTA/CÍVEL<br/><br/>
+            Motivo: <br/>Serve a presente para solicitar o pagamento das custas processuais, cujo processo leva o nº 0011825-93.2013.5.15.0081, Reclamante Ailton Alcasser Monte.
+
+Processo tramitou perante a Vara do Trabalho de Matão. Processo foi finalizado, sendo que o valor a ser pago pela Usina foi de R$ 17.929,68.
+
+Restando apenas as custas judiciais para quitar, no valor de R$ 163,94, conforme despacho abaixo:
+
+5. TRT - 15ª Região 
+Disponibilização:  terça-feira, 26 de janeiro de 2016. 
+Arquivo: 123 Publicação: 64 
+
+VARA DO TRABALHO DE MATÃO 
+Decisão Processo Nº RTOrd-0011825-93.2013.5.15.0081 AUTOR AILTON ALCASSER MONTE ADVOGADO EVERALDO JOSÉ RIBEIRO(OAB: 136674/SP) RÉU USINA SANTA FE S/A. ADVOGADO JOÃO OTAVIO SPILARI GOES(OAB: 309819/SP) ADVOGADO JOSE EDUARDO DE ALMEIDA BERNARDO(OAB: 105968/SP) ADVOGADO FAIZ MASSAD(OAB: 12071/SP) Intimado(s)/Citado(s): - AILTON ALCASSER MONTE - USINA SANTA FE S/A. PODER JUDICIÁRIO JUSTIÇA DO TRABALHO PODER JUDICIÁRIO FEDERAL JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO Vara do Trabalho de Matão Rua Jundiaí, 1270, Nova Matão, MATAO - SP - CEP: 15990-510 TEL.: (16) 33849948 - EMAIL: PROCESSO: 0011825-93.2013.5.15.0081 CLASSE: AÇÃO TRABALHISTA - RITO ORDINÁRIO (985) AUTOR: AILTON ALCASSER MONTE RÉU: USINA SANTA FE S/A. SENTENÇA DE LIQUIDAÇÃO AUTUAÇÃO: 09/12/2013 Vistos Diante da concordância expressa do reclamante conforme ID 1824652, exclua-se o processo da pauta do dia 01/09/2016. Posto isso, homologo o cálculo apresentado pelo(a) reclamada sob ID 6e7302e, para produzir os jurídicos e legais efeitos. FIXO O DÉBITO DA(O) RECLAMADA(O) EM R$ 19.427,35, sendo: Crédito bruto do(a) reclamante em R$ 17.929,68, sendo: R$ 14.696,46 (principal) e R$ 3.233,22 (juros de mora), valores vigentes em 01/10/2015, já satisfeito conforme ID 4a139db e ID 5f4d833. A(o) reclamada(o) deverá comprovar nos autos o recolhimento das contribuições previdenciárias, no importe total de R$ 1.337,67 (em 01/10/2015), através da competente guia GPS sendo: R$ 1.337,67, código 1708 e identificador PIS, PASEP ou NIT do empregado e R$ 0,00, código 2909 e identificador CNPJ do empregador. Facultada a retenção do autor, no importe de R$ 1.337,67. Custas, pela(o) reclamada(o), no importe de R$ 160,00, valor vigente em 13/06/2014, que deverá ser recolhida através da guia GRU, código 18740-2, código TRT5 - 080011. Valores isentos de contribuição fiscal, por estar o valor das verbas tributadas abaixo do piso da base de cálculo do IRRF, nos termos do artigo 12-A, § 1º, da Lei º. 7.713/1988, acrescido pela Lei nº. 12.350/2010, artigo 44. A(O) reclamada(o) responderá pelas despesas devidas na execução (artigo 789-A, da CLT), a serem calculadas ao final. Todos os valores serão atualizados à época do efetivo pagamento com correção monetária e juros de mora, conforme disposto na Lei nº. 8.177/1991, artigo 39. OS JUROS DE MORA DEVERÃO SER COMPUTADOS NA OCASIÃO DO EFETIVO PAGAMENTO, PARA SE EVITAR APLICAÇÃO CUMULATIVA. INTIME-SE a(o) reclamada(o) para o pagamento da contribuição previdenciária e cuitasda fase de conhecimento, no prazo de 10 dias improrrogável, sob pena de a execução. Desnecessária a intimação da União, uma vez que o salário contribuição está abaixo do piso estipulado pela Portaria, nº. 582/2013, de 11/12/2013, do Ministério da Fazenda, publicada no Diário Oficial da União em 13/12/2013. Intime-se o(a) reclamante. Matão, 15/12/2015. ALAN CEZAR RUNHO Juiz(íza) do Trabalho MTF 
+
+DATA PARA PAGAMENTO: 05/02/2016
+VALOR: R$ 163,94
+<br/><br/>
+            Valor: 163,94<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            DOUGLAS DE OLIVEIRA<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 14743 Aprovada','douglas@usinasantafe.com.br','DOUGLAS DE OLIVEIRA','azevedo@usinasantafe.com.br','azevedo@usinasantafe.com.br'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 14743<br/>
+            Empresa: USINA SANTA FÉ S/A<br/>
+            Data da inclusão: 01/02/2016 13:02<br/>
+            De: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Para: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Finalidade: <br/>PROCESSO TRABALHISTA/CÍVEL<br/><br/>
+            Motivo: <br/>Serve a presente para solicitar o pagamento das custas processuais, cujo processo leva o nº 0011825-93.2013.5.15.0081, Reclamante Ailton Alcasser Monte.
+
+Processo tramitou perante a Vara do Trabalho de Matão. Processo foi finalizado, sendo que o valor a ser pago pela Usina foi de R$ 17.929,68.
+
+Restando apenas as custas judiciais para quitar, no valor de R$ 163,94, conforme despacho abaixo:
+
+5. TRT - 15ª Região 
+Disponibilização:  terça-feira, 26 de janeiro de 2016. 
+Arquivo: 123 Publicação: 64 
+
+VARA DO TRABALHO DE MATÃO 
+Decisão Processo Nº RTOrd-0011825-93.2013.5.15.0081 AUTOR AILTON ALCASSER MONTE ADVOGADO EVERALDO JOSÉ RIBEIRO(OAB: 136674/SP) RÉU USINA SANTA FE S/A. ADVOGADO JOÃO OTAVIO SPILARI GOES(OAB: 309819/SP) ADVOGADO JOSE EDUARDO DE ALMEIDA BERNARDO(OAB: 105968/SP) ADVOGADO FAIZ MASSAD(OAB: 12071/SP) Intimado(s)/Citado(s): - AILTON ALCASSER MONTE - USINA SANTA FE S/A. PODER JUDICIÁRIO JUSTIÇA DO TRABALHO PODER JUDICIÁRIO FEDERAL JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO Vara do Trabalho de Matão Rua Jundiaí, 1270, Nova Matão, MATAO - SP - CEP: 15990-510 TEL.: (16) 33849948 - EMAIL: PROCESSO: 0011825-93.2013.5.15.0081 CLASSE: AÇÃO TRABALHISTA - RITO ORDINÁRIO (985) AUTOR: AILTON ALCASSER MONTE RÉU: USINA SANTA FE S/A. SENTENÇA DE LIQUIDAÇÃO AUTUAÇÃO: 09/12/2013 Vistos Diante da concordância expressa do reclamante conforme ID 1824652, exclua-se o processo da pauta do dia 01/09/2016. Posto isso, homologo o cálculo apresentado pelo(a) reclamada sob ID 6e7302e, para produzir os jurídicos e legais efeitos. FIXO O DÉBITO DA(O) RECLAMADA(O) EM R$ 19.427,35, sendo: Crédito bruto do(a) reclamante em R$ 17.929,68, sendo: R$ 14.696,46 (principal) e R$ 3.233,22 (juros de mora), valores vigentes em 01/10/2015, já satisfeito conforme ID 4a139db e ID 5f4d833. A(o) reclamada(o) deverá comprovar nos autos o recolhimento das contribuições previdenciárias, no importe total de R$ 1.337,67 (em 01/10/2015), através da competente guia GPS sendo: R$ 1.337,67, código 1708 e identificador PIS, PASEP ou NIT do empregado e R$ 0,00, código 2909 e identificador CNPJ do empregador. Facultada a retenção do autor, no importe de R$ 1.337,67. Custas, pela(o) reclamada(o), no importe de R$ 160,00, valor vigente em 13/06/2014, que deverá ser recolhida através da guia GRU, código 18740-2, código TRT5 - 080011. Valores isentos de contribuição fiscal, por estar o valor das verbas tributadas abaixo do piso da base de cálculo do IRRF, nos termos do artigo 12-A, § 1º, da Lei º. 7.713/1988, acrescido pela Lei nº. 12.350/2010, artigo 44. A(O) reclamada(o) responderá pelas despesas devidas na execução (artigo 789-A, da CLT), a serem calculadas ao final. Todos os valores serão atualizados à época do efetivo pagamento com correção monetária e juros de mora, conforme disposto na Lei nº. 8.177/1991, artigo 39. OS JUROS DE MORA DEVERÃO SER COMPUTADOS NA OCASIÃO DO EFETIVO PAGAMENTO, PARA SE EVITAR APLICAÇÃO CUMULATIVA. INTIME-SE a(o) reclamada(o) para o pagamento da contribuição previdenciária e cuitasda fase de conhecimento, no prazo de 10 dias improrrogável, sob pena de a execução. Desnecessária a intimação da União, uma vez que o salário contribuição está abaixo do piso estipulado pela Portaria, nº. 582/2013, de 11/12/2013, do Ministério da Fazenda, publicada no Diário Oficial da União em 13/12/2013. Intime-se o(a) reclamante. Matão, 15/12/2015. ALAN CEZAR RUNHO Juiz(íza) do Trabalho MTF 
+
+DATA PARA PAGAMENTO: 05/02/2016
+VALOR: R$ 163,94
+<br/><br/>
+            Valor: 163,94<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            DOUGLAS DE OLIVEIRA<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 14743 Aprovada','douglas@usinasantafe.com.br','DOUGLAS DE OLIVEIRA','elissandra@usinasantafe.com.br','elissandra@usinasantafe.com.br'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 14743<br/>
+            Empresa: USINA SANTA FÉ S/A<br/>
+            Data da inclusão: 01/02/2016 13:02<br/>
+            De: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Para: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Finalidade: <br/>PROCESSO TRABALHISTA/CÍVEL<br/><br/>
+            Motivo: <br/>Serve a presente para solicitar o pagamento das custas processuais, cujo processo leva o nº 0011825-93.2013.5.15.0081, Reclamante Ailton Alcasser Monte.
+
+Processo tramitou perante a Vara do Trabalho de Matão. Processo foi finalizado, sendo que o valor a ser pago pela Usina foi de R$ 17.929,68.
+
+Restando apenas as custas judiciais para quitar, no valor de R$ 163,94, conforme despacho abaixo:
+
+5. TRT - 15ª Região 
+Disponibilização:  terça-feira, 26 de janeiro de 2016. 
+Arquivo: 123 Publicação: 64 
+
+VARA DO TRABALHO DE MATÃO 
+Decisão Processo Nº RTOrd-0011825-93.2013.5.15.0081 AUTOR AILTON ALCASSER MONTE ADVOGADO EVERALDO JOSÉ RIBEIRO(OAB: 136674/SP) RÉU USINA SANTA FE S/A. ADVOGADO JOÃO OTAVIO SPILARI GOES(OAB: 309819/SP) ADVOGADO JOSE EDUARDO DE ALMEIDA BERNARDO(OAB: 105968/SP) ADVOGADO FAIZ MASSAD(OAB: 12071/SP) Intimado(s)/Citado(s): - AILTON ALCASSER MONTE - USINA SANTA FE S/A. PODER JUDICIÁRIO JUSTIÇA DO TRABALHO PODER JUDICIÁRIO FEDERAL JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO Vara do Trabalho de Matão Rua Jundiaí, 1270, Nova Matão, MATAO - SP - CEP: 15990-510 TEL.: (16) 33849948 - EMAIL: PROCESSO: 0011825-93.2013.5.15.0081 CLASSE: AÇÃO TRABALHISTA - RITO ORDINÁRIO (985) AUTOR: AILTON ALCASSER MONTE RÉU: USINA SANTA FE S/A. SENTENÇA DE LIQUIDAÇÃO AUTUAÇÃO: 09/12/2013 Vistos Diante da concordância expressa do reclamante conforme ID 1824652, exclua-se o processo da pauta do dia 01/09/2016. Posto isso, homologo o cálculo apresentado pelo(a) reclamada sob ID 6e7302e, para produzir os jurídicos e legais efeitos. FIXO O DÉBITO DA(O) RECLAMADA(O) EM R$ 19.427,35, sendo: Crédito bruto do(a) reclamante em R$ 17.929,68, sendo: R$ 14.696,46 (principal) e R$ 3.233,22 (juros de mora), valores vigentes em 01/10/2015, já satisfeito conforme ID 4a139db e ID 5f4d833. A(o) reclamada(o) deverá comprovar nos autos o recolhimento das contribuições previdenciárias, no importe total de R$ 1.337,67 (em 01/10/2015), através da competente guia GPS sendo: R$ 1.337,67, código 1708 e identificador PIS, PASEP ou NIT do empregado e R$ 0,00, código 2909 e identificador CNPJ do empregador. Facultada a retenção do autor, no importe de R$ 1.337,67. Custas, pela(o) reclamada(o), no importe de R$ 160,00, valor vigente em 13/06/2014, que deverá ser recolhida através da guia GRU, código 18740-2, código TRT5 - 080011. Valores isentos de contribuição fiscal, por estar o valor das verbas tributadas abaixo do piso da base de cálculo do IRRF, nos termos do artigo 12-A, § 1º, da Lei º. 7.713/1988, acrescido pela Lei nº. 12.350/2010, artigo 44. A(O) reclamada(o) responderá pelas despesas devidas na execução (artigo 789-A, da CLT), a serem calculadas ao final. Todos os valores serão atualizados à época do efetivo pagamento com correção monetária e juros de mora, conforme disposto na Lei nº. 8.177/1991, artigo 39. OS JUROS DE MORA DEVERÃO SER COMPUTADOS NA OCASIÃO DO EFETIVO PAGAMENTO, PARA SE EVITAR APLICAÇÃO CUMULATIVA. INTIME-SE a(o) reclamada(o) para o pagamento da contribuição previdenciária e cuitasda fase de conhecimento, no prazo de 10 dias improrrogável, sob pena de a execução. Desnecessária a intimação da União, uma vez que o salário contribuição está abaixo do piso estipulado pela Portaria, nº. 582/2013, de 11/12/2013, do Ministério da Fazenda, publicada no Diário Oficial da União em 13/12/2013. Intime-se o(a) reclamante. Matão, 15/12/2015. ALAN CEZAR RUNHO Juiz(íza) do Trabalho MTF 
+
+DATA PARA PAGAMENTO: 05/02/2016
+VALOR: R$ 163,94
+<br/><br/>
+            Valor: 163,94<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            DOUGLAS DE OLIVEIRA<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 14743 Aprovada','douglas@usinasantafe.com.br','DOUGLAS DE OLIVEIRA','adriana@usinasantafe.com.br','adriana@usinasantafe.com.br'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 14743<br/>
+            Empresa: USINA SANTA FÉ S/A<br/>
+            Data da inclusão: 01/02/2016 13:02<br/>
+            De: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Para: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Finalidade: <br/>PROCESSO TRABALHISTA/CÍVEL<br/><br/>
+            Motivo: <br/>Serve a presente para solicitar o pagamento das custas processuais, cujo processo leva o nº 0011825-93.2013.5.15.0081, Reclamante Ailton Alcasser Monte.
+
+Processo tramitou perante a Vara do Trabalho de Matão. Processo foi finalizado, sendo que o valor a ser pago pela Usina foi de R$ 17.929,68.
+
+Restando apenas as custas judiciais para quitar, no valor de R$ 163,94, conforme despacho abaixo:
+
+5. TRT - 15ª Região 
+Disponibilização:  terça-feira, 26 de janeiro de 2016. 
+Arquivo: 123 Publicação: 64 
+
+VARA DO TRABALHO DE MATÃO 
+Decisão Processo Nº RTOrd-0011825-93.2013.5.15.0081 AUTOR AILTON ALCASSER MONTE ADVOGADO EVERALDO JOSÉ RIBEIRO(OAB: 136674/SP) RÉU USINA SANTA FE S/A. ADVOGADO JOÃO OTAVIO SPILARI GOES(OAB: 309819/SP) ADVOGADO JOSE EDUARDO DE ALMEIDA BERNARDO(OAB: 105968/SP) ADVOGADO FAIZ MASSAD(OAB: 12071/SP) Intimado(s)/Citado(s): - AILTON ALCASSER MONTE - USINA SANTA FE S/A. PODER JUDICIÁRIO JUSTIÇA DO TRABALHO PODER JUDICIÁRIO FEDERAL JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO Vara do Trabalho de Matão Rua Jundiaí, 1270, Nova Matão, MATAO - SP - CEP: 15990-510 TEL.: (16) 33849948 - EMAIL: PROCESSO: 0011825-93.2013.5.15.0081 CLASSE: AÇÃO TRABALHISTA - RITO ORDINÁRIO (985) AUTOR: AILTON ALCASSER MONTE RÉU: USINA SANTA FE S/A. SENTENÇA DE LIQUIDAÇÃO AUTUAÇÃO: 09/12/2013 Vistos Diante da concordância expressa do reclamante conforme ID 1824652, exclua-se o processo da pauta do dia 01/09/2016. Posto isso, homologo o cálculo apresentado pelo(a) reclamada sob ID 6e7302e, para produzir os jurídicos e legais efeitos. FIXO O DÉBITO DA(O) RECLAMADA(O) EM R$ 19.427,35, sendo: Crédito bruto do(a) reclamante em R$ 17.929,68, sendo: R$ 14.696,46 (principal) e R$ 3.233,22 (juros de mora), valores vigentes em 01/10/2015, já satisfeito conforme ID 4a139db e ID 5f4d833. A(o) reclamada(o) deverá comprovar nos autos o recolhimento das contribuições previdenciárias, no importe total de R$ 1.337,67 (em 01/10/2015), através da competente guia GPS sendo: R$ 1.337,67, código 1708 e identificador PIS, PASEP ou NIT do empregado e R$ 0,00, código 2909 e identificador CNPJ do empregador. Facultada a retenção do autor, no importe de R$ 1.337,67. Custas, pela(o) reclamada(o), no importe de R$ 160,00, valor vigente em 13/06/2014, que deverá ser recolhida através da guia GRU, código 18740-2, código TRT5 - 080011. Valores isentos de contribuição fiscal, por estar o valor das verbas tributadas abaixo do piso da base de cálculo do IRRF, nos termos do artigo 12-A, § 1º, da Lei º. 7.713/1988, acrescido pela Lei nº. 12.350/2010, artigo 44. A(O) reclamada(o) responderá pelas despesas devidas na execução (artigo 789-A, da CLT), a serem calculadas ao final. Todos os valores serão atualizados à época do efetivo pagamento com correção monetária e juros de mora, conforme disposto na Lei nº. 8.177/1991, artigo 39. OS JUROS DE MORA DEVERÃO SER COMPUTADOS NA OCASIÃO DO EFETIVO PAGAMENTO, PARA SE EVITAR APLICAÇÃO CUMULATIVA. INTIME-SE a(o) reclamada(o) para o pagamento da contribuição previdenciária e cuitasda fase de conhecimento, no prazo de 10 dias improrrogável, sob pena de a execução. Desnecessária a intimação da União, uma vez que o salário contribuição está abaixo do piso estipulado pela Portaria, nº. 582/2013, de 11/12/2013, do Ministério da Fazenda, publicada no Diário Oficial da União em 13/12/2013. Intime-se o(a) reclamante. Matão, 15/12/2015. ALAN CEZAR RUNHO Juiz(íza) do Trabalho MTF 
+
+DATA PARA PAGAMENTO: 05/02/2016
+VALOR: R$ 163,94
+<br/><br/>
+            Valor: 163,94<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            DOUGLAS DE OLIVEIRA<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 14743 Aprovada','douglas@usinasantafe.com.br','DOUGLAS DE OLIVEIRA','adeir@usinasantafe.com.br','adeir@usinasantafe.com.br'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 14743<br/>
+            Empresa: USINA SANTA FÉ S/A<br/>
+            Data da inclusão: 01/02/2016 13:02<br/>
+            De: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Para: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Finalidade: <br/>PROCESSO TRABALHISTA/CÍVEL<br/><br/>
+            Motivo: <br/>Serve a presente para solicitar o pagamento das custas processuais, cujo processo leva o nº 0011825-93.2013.5.15.0081, Reclamante Ailton Alcasser Monte.
+
+Processo tramitou perante a Vara do Trabalho de Matão. Processo foi finalizado, sendo que o valor a ser pago pela Usina foi de R$ 17.929,68.
+
+Restando apenas as custas judiciais para quitar, no valor de R$ 163,94, conforme despacho abaixo:
+
+5. TRT - 15ª Região 
+Disponibilização:  terça-feira, 26 de janeiro de 2016. 
+Arquivo: 123 Publicação: 64 
+
+VARA DO TRABALHO DE MATÃO 
+Decisão Processo Nº RTOrd-0011825-93.2013.5.15.0081 AUTOR AILTON ALCASSER MONTE ADVOGADO EVERALDO JOSÉ RIBEIRO(OAB: 136674/SP) RÉU USINA SANTA FE S/A. ADVOGADO JOÃO OTAVIO SPILARI GOES(OAB: 309819/SP) ADVOGADO JOSE EDUARDO DE ALMEIDA BERNARDO(OAB: 105968/SP) ADVOGADO FAIZ MASSAD(OAB: 12071/SP) Intimado(s)/Citado(s): - AILTON ALCASSER MONTE - USINA SANTA FE S/A. PODER JUDICIÁRIO JUSTIÇA DO TRABALHO PODER JUDICIÁRIO FEDERAL JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO Vara do Trabalho de Matão Rua Jundiaí, 1270, Nova Matão, MATAO - SP - CEP: 15990-510 TEL.: (16) 33849948 - EMAIL: PROCESSO: 0011825-93.2013.5.15.0081 CLASSE: AÇÃO TRABALHISTA - RITO ORDINÁRIO (985) AUTOR: AILTON ALCASSER MONTE RÉU: USINA SANTA FE S/A. SENTENÇA DE LIQUIDAÇÃO AUTUAÇÃO: 09/12/2013 Vistos Diante da concordância expressa do reclamante conforme ID 1824652, exclua-se o processo da pauta do dia 01/09/2016. Posto isso, homologo o cálculo apresentado pelo(a) reclamada sob ID 6e7302e, para produzir os jurídicos e legais efeitos. FIXO O DÉBITO DA(O) RECLAMADA(O) EM R$ 19.427,35, sendo: Crédito bruto do(a) reclamante em R$ 17.929,68, sendo: R$ 14.696,46 (principal) e R$ 3.233,22 (juros de mora), valores vigentes em 01/10/2015, já satisfeito conforme ID 4a139db e ID 5f4d833. A(o) reclamada(o) deverá comprovar nos autos o recolhimento das contribuições previdenciárias, no importe total de R$ 1.337,67 (em 01/10/2015), através da competente guia GPS sendo: R$ 1.337,67, código 1708 e identificador PIS, PASEP ou NIT do empregado e R$ 0,00, código 2909 e identificador CNPJ do empregador. Facultada a retenção do autor, no importe de R$ 1.337,67. Custas, pela(o) reclamada(o), no importe de R$ 160,00, valor vigente em 13/06/2014, que deverá ser recolhida através da guia GRU, código 18740-2, código TRT5 - 080011. Valores isentos de contribuição fiscal, por estar o valor das verbas tributadas abaixo do piso da base de cálculo do IRRF, nos termos do artigo 12-A, § 1º, da Lei º. 7.713/1988, acrescido pela Lei nº. 12.350/2010, artigo 44. A(O) reclamada(o) responderá pelas despesas devidas na execução (artigo 789-A, da CLT), a serem calculadas ao final. Todos os valores serão atualizados à época do efetivo pagamento com correção monetária e juros de mora, conforme disposto na Lei nº. 8.177/1991, artigo 39. OS JUROS DE MORA DEVERÃO SER COMPUTADOS NA OCASIÃO DO EFETIVO PAGAMENTO, PARA SE EVITAR APLICAÇÃO CUMULATIVA. INTIME-SE a(o) reclamada(o) para o pagamento da contribuição previdenciária e cuitasda fase de conhecimento, no prazo de 10 dias improrrogável, sob pena de a execução. Desnecessária a intimação da União, uma vez que o salário contribuição está abaixo do piso estipulado pela Portaria, nº. 582/2013, de 11/12/2013, do Ministério da Fazenda, publicada no Diário Oficial da União em 13/12/2013. Intime-se o(a) reclamante. Matão, 15/12/2015. ALAN CEZAR RUNHO Juiz(íza) do Trabalho MTF 
+
+DATA PARA PAGAMENTO: 05/02/2016
+VALOR: R$ 163,94
+<br/><br/>
+            Valor: 163,94<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            DOUGLAS DE OLIVEIRA<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 14743 Aprovada','douglas@usinasantafe.com.br','DOUGLAS DE OLIVEIRA','lucimara@usinasantafe.com.br','lucimara@usinasantafe.com.br'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 14743<br/>
+            Empresa: USINA SANTA FÉ S/A<br/>
+            Data da inclusão: 01/02/2016 13:02<br/>
+            De: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Para: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Finalidade: <br/>PROCESSO TRABALHISTA/CÍVEL<br/><br/>
+            Motivo: <br/>Serve a presente para solicitar o pagamento das custas processuais, cujo processo leva o nº 0011825-93.2013.5.15.0081, Reclamante Ailton Alcasser Monte.
+
+Processo tramitou perante a Vara do Trabalho de Matão. Processo foi finalizado, sendo que o valor a ser pago pela Usina foi de R$ 17.929,68.
+
+Restando apenas as custas judiciais para quitar, no valor de R$ 163,94, conforme despacho abaixo:
+
+5. TRT - 15ª Região 
+Disponibilização:  terça-feira, 26 de janeiro de 2016. 
+Arquivo: 123 Publicação: 64 
+
+VARA DO TRABALHO DE MATÃO 
+Decisão Processo Nº RTOrd-0011825-93.2013.5.15.0081 AUTOR AILTON ALCASSER MONTE ADVOGADO EVERALDO JOSÉ RIBEIRO(OAB: 136674/SP) RÉU USINA SANTA FE S/A. ADVOGADO JOÃO OTAVIO SPILARI GOES(OAB: 309819/SP) ADVOGADO JOSE EDUARDO DE ALMEIDA BERNARDO(OAB: 105968/SP) ADVOGADO FAIZ MASSAD(OAB: 12071/SP) Intimado(s)/Citado(s): - AILTON ALCASSER MONTE - USINA SANTA FE S/A. PODER JUDICIÁRIO JUSTIÇA DO TRABALHO PODER JUDICIÁRIO FEDERAL JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO Vara do Trabalho de Matão Rua Jundiaí, 1270, Nova Matão, MATAO - SP - CEP: 15990-510 TEL.: (16) 33849948 - EMAIL: PROCESSO: 0011825-93.2013.5.15.0081 CLASSE: AÇÃO TRABALHISTA - RITO ORDINÁRIO (985) AUTOR: AILTON ALCASSER MONTE RÉU: USINA SANTA FE S/A. SENTENÇA DE LIQUIDAÇÃO AUTUAÇÃO: 09/12/2013 Vistos Diante da concordância expressa do reclamante conforme ID 1824652, exclua-se o processo da pauta do dia 01/09/2016. Posto isso, homologo o cálculo apresentado pelo(a) reclamada sob ID 6e7302e, para produzir os jurídicos e legais efeitos. FIXO O DÉBITO DA(O) RECLAMADA(O) EM R$ 19.427,35, sendo: Crédito bruto do(a) reclamante em R$ 17.929,68, sendo: R$ 14.696,46 (principal) e R$ 3.233,22 (juros de mora), valores vigentes em 01/10/2015, já satisfeito conforme ID 4a139db e ID 5f4d833. A(o) reclamada(o) deverá comprovar nos autos o recolhimento das contribuições previdenciárias, no importe total de R$ 1.337,67 (em 01/10/2015), através da competente guia GPS sendo: R$ 1.337,67, código 1708 e identificador PIS, PASEP ou NIT do empregado e R$ 0,00, código 2909 e identificador CNPJ do empregador. Facultada a retenção do autor, no importe de R$ 1.337,67. Custas, pela(o) reclamada(o), no importe de R$ 160,00, valor vigente em 13/06/2014, que deverá ser recolhida através da guia GRU, código 18740-2, código TRT5 - 080011. Valores isentos de contribuição fiscal, por estar o valor das verbas tributadas abaixo do piso da base de cálculo do IRRF, nos termos do artigo 12-A, § 1º, da Lei º. 7.713/1988, acrescido pela Lei nº. 12.350/2010, artigo 44. A(O) reclamada(o) responderá pelas despesas devidas na execução (artigo 789-A, da CLT), a serem calculadas ao final. Todos os valores serão atualizados à época do efetivo pagamento com correção monetária e juros de mora, conforme disposto na Lei nº. 8.177/1991, artigo 39. OS JUROS DE MORA DEVERÃO SER COMPUTADOS NA OCASIÃO DO EFETIVO PAGAMENTO, PARA SE EVITAR APLICAÇÃO CUMULATIVA. INTIME-SE a(o) reclamada(o) para o pagamento da contribuição previdenciária e cuitasda fase de conhecimento, no prazo de 10 dias improrrogável, sob pena de a execução. Desnecessária a intimação da União, uma vez que o salário contribuição está abaixo do piso estipulado pela Portaria, nº. 582/2013, de 11/12/2013, do Ministério da Fazenda, publicada no Diário Oficial da União em 13/12/2013. Intime-se o(a) reclamante. Matão, 15/12/2015. ALAN CEZAR RUNHO Juiz(íza) do Trabalho MTF 
+
+DATA PARA PAGAMENTO: 05/02/2016
+VALOR: R$ 163,94
+<br/><br/>
+            Valor: 163,94<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            DOUGLAS DE OLIVEIRA<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 14743 Aprovada','douglas@usinasantafe.com.br','DOUGLAS DE OLIVEIRA','ronald.siqueira@usinasantafe.com.br','ronald.siqueira@usinasantafe.com.br'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 14743<br/>
+            Empresa: USINA SANTA FÉ S/A<br/>
+            Data da inclusão: 01/02/2016 13:02<br/>
+            De: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Para: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Finalidade: <br/>PROCESSO TRABALHISTA/CÍVEL<br/><br/>
+            Motivo: <br/>Serve a presente para solicitar o pagamento das custas processuais, cujo processo leva o nº 0011825-93.2013.5.15.0081, Reclamante Ailton Alcasser Monte.
+
+Processo tramitou perante a Vara do Trabalho de Matão. Processo foi finalizado, sendo que o valor a ser pago pela Usina foi de R$ 17.929,68.
+
+Restando apenas as custas judiciais para quitar, no valor de R$ 163,94, conforme despacho abaixo:
+
+5. TRT - 15ª Região 
+Disponibilização:  terça-feira, 26 de janeiro de 2016. 
+Arquivo: 123 Publicação: 64 
+
+VARA DO TRABALHO DE MATÃO 
+Decisão Processo Nº RTOrd-0011825-93.2013.5.15.0081 AUTOR AILTON ALCASSER MONTE ADVOGADO EVERALDO JOSÉ RIBEIRO(OAB: 136674/SP) RÉU USINA SANTA FE S/A. ADVOGADO JOÃO OTAVIO SPILARI GOES(OAB: 309819/SP) ADVOGADO JOSE EDUARDO DE ALMEIDA BERNARDO(OAB: 105968/SP) ADVOGADO FAIZ MASSAD(OAB: 12071/SP) Intimado(s)/Citado(s): - AILTON ALCASSER MONTE - USINA SANTA FE S/A. PODER JUDICIÁRIO JUSTIÇA DO TRABALHO PODER JUDICIÁRIO FEDERAL JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO Vara do Trabalho de Matão Rua Jundiaí, 1270, Nova Matão, MATAO - SP - CEP: 15990-510 TEL.: (16) 33849948 - EMAIL: PROCESSO: 0011825-93.2013.5.15.0081 CLASSE: AÇÃO TRABALHISTA - RITO ORDINÁRIO (985) AUTOR: AILTON ALCASSER MONTE RÉU: USINA SANTA FE S/A. SENTENÇA DE LIQUIDAÇÃO AUTUAÇÃO: 09/12/2013 Vistos Diante da concordância expressa do reclamante conforme ID 1824652, exclua-se o processo da pauta do dia 01/09/2016. Posto isso, homologo o cálculo apresentado pelo(a) reclamada sob ID 6e7302e, para produzir os jurídicos e legais efeitos. FIXO O DÉBITO DA(O) RECLAMADA(O) EM R$ 19.427,35, sendo: Crédito bruto do(a) reclamante em R$ 17.929,68, sendo: R$ 14.696,46 (principal) e R$ 3.233,22 (juros de mora), valores vigentes em 01/10/2015, já satisfeito conforme ID 4a139db e ID 5f4d833. A(o) reclamada(o) deverá comprovar nos autos o recolhimento das contribuições previdenciárias, no importe total de R$ 1.337,67 (em 01/10/2015), através da competente guia GPS sendo: R$ 1.337,67, código 1708 e identificador PIS, PASEP ou NIT do empregado e R$ 0,00, código 2909 e identificador CNPJ do empregador. Facultada a retenção do autor, no importe de R$ 1.337,67. Custas, pela(o) reclamada(o), no importe de R$ 160,00, valor vigente em 13/06/2014, que deverá ser recolhida através da guia GRU, código 18740-2, código TRT5 - 080011. Valores isentos de contribuição fiscal, por estar o valor das verbas tributadas abaixo do piso da base de cálculo do IRRF, nos termos do artigo 12-A, § 1º, da Lei º. 7.713/1988, acrescido pela Lei nº. 12.350/2010, artigo 44. A(O) reclamada(o) responderá pelas despesas devidas na execução (artigo 789-A, da CLT), a serem calculadas ao final. Todos os valores serão atualizados à época do efetivo pagamento com correção monetária e juros de mora, conforme disposto na Lei nº. 8.177/1991, artigo 39. OS JUROS DE MORA DEVERÃO SER COMPUTADOS NA OCASIÃO DO EFETIVO PAGAMENTO, PARA SE EVITAR APLICAÇÃO CUMULATIVA. INTIME-SE a(o) reclamada(o) para o pagamento da contribuição previdenciária e cuitasda fase de conhecimento, no prazo de 10 dias improrrogável, sob pena de a execução. Desnecessária a intimação da União, uma vez que o salário contribuição está abaixo do piso estipulado pela Portaria, nº. 582/2013, de 11/12/2013, do Ministério da Fazenda, publicada no Diário Oficial da União em 13/12/2013. Intime-se o(a) reclamante. Matão, 15/12/2015. ALAN CEZAR RUNHO Juiz(íza) do Trabalho MTF 
+
+DATA PARA PAGAMENTO: 05/02/2016
+VALOR: R$ 163,94
+<br/><br/>
+            Valor: 163,94<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            DOUGLAS DE OLIVEIRA<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)1704-1704 ORA-01704: string literal too long INSERT INTO CI_ENVIO (ASSUNTO,DE_EMAIL,DE_NOME,PARA_EMAIL,PARA_NOME,DE_TEXTO,ID) VALUES ('CI N° 14743 Aprovada','douglas@usinasantafe.com.br','DOUGLAS DE OLIVEIRA','andre.azevedo@usinasantafe.com.br','andre.azevedo@usinasantafe.com.br'*,'Prezado (a) Senhor (a) <br/><br/>
+
+            Informamos que a CI(Comunicação Interna) abaixo foi Aprovada.<br/><br/>
+
+            N° CI: 14743<br/>
+            Empresa: USINA SANTA FÉ S/A<br/>
+            Data da inclusão: 01/02/2016 13:02<br/>
+            De: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Para: 3.01.01.002 - ASSESSORIA JURIDICA<br/>
+            Finalidade: <br/>PROCESSO TRABALHISTA/CÍVEL<br/><br/>
+            Motivo: <br/>Serve a presente para solicitar o pagamento das custas processuais, cujo processo leva o nº 0011825-93.2013.5.15.0081, Reclamante Ailton Alcasser Monte.
+
+Processo tramitou perante a Vara do Trabalho de Matão. Processo foi finalizado, sendo que o valor a ser pago pela Usina foi de R$ 17.929,68.
+
+Restando apenas as custas judiciais para quitar, no valor de R$ 163,94, conforme despacho abaixo:
+
+5. TRT - 15ª Região 
+Disponibilização:  terça-feira, 26 de janeiro de 2016. 
+Arquivo: 123 Publicação: 64 
+
+VARA DO TRABALHO DE MATÃO 
+Decisão Processo Nº RTOrd-0011825-93.2013.5.15.0081 AUTOR AILTON ALCASSER MONTE ADVOGADO EVERALDO JOSÉ RIBEIRO(OAB: 136674/SP) RÉU USINA SANTA FE S/A. ADVOGADO JOÃO OTAVIO SPILARI GOES(OAB: 309819/SP) ADVOGADO JOSE EDUARDO DE ALMEIDA BERNARDO(OAB: 105968/SP) ADVOGADO FAIZ MASSAD(OAB: 12071/SP) Intimado(s)/Citado(s): - AILTON ALCASSER MONTE - USINA SANTA FE S/A. PODER JUDICIÁRIO JUSTIÇA DO TRABALHO PODER JUDICIÁRIO FEDERAL JUSTIÇA DO TRABALHO TRIBUNAL REGIONAL DO TRABALHO Vara do Trabalho de Matão Rua Jundiaí, 1270, Nova Matão, MATAO - SP - CEP: 15990-510 TEL.: (16) 33849948 - EMAIL: PROCESSO: 0011825-93.2013.5.15.0081 CLASSE: AÇÃO TRABALHISTA - RITO ORDINÁRIO (985) AUTOR: AILTON ALCASSER MONTE RÉU: USINA SANTA FE S/A. SENTENÇA DE LIQUIDAÇÃO AUTUAÇÃO: 09/12/2013 Vistos Diante da concordância expressa do reclamante conforme ID 1824652, exclua-se o processo da pauta do dia 01/09/2016. Posto isso, homologo o cálculo apresentado pelo(a) reclamada sob ID 6e7302e, para produzir os jurídicos e legais efeitos. FIXO O DÉBITO DA(O) RECLAMADA(O) EM R$ 19.427,35, sendo: Crédito bruto do(a) reclamante em R$ 17.929,68, sendo: R$ 14.696,46 (principal) e R$ 3.233,22 (juros de mora), valores vigentes em 01/10/2015, já satisfeito conforme ID 4a139db e ID 5f4d833. A(o) reclamada(o) deverá comprovar nos autos o recolhimento das contribuições previdenciárias, no importe total de R$ 1.337,67 (em 01/10/2015), através da competente guia GPS sendo: R$ 1.337,67, código 1708 e identificador PIS, PASEP ou NIT do empregado e R$ 0,00, código 2909 e identificador CNPJ do empregador. Facultada a retenção do autor, no importe de R$ 1.337,67. Custas, pela(o) reclamada(o), no importe de R$ 160,00, valor vigente em 13/06/2014, que deverá ser recolhida através da guia GRU, código 18740-2, código TRT5 - 080011. Valores isentos de contribuição fiscal, por estar o valor das verbas tributadas abaixo do piso da base de cálculo do IRRF, nos termos do artigo 12-A, § 1º, da Lei º. 7.713/1988, acrescido pela Lei nº. 12.350/2010, artigo 44. A(O) reclamada(o) responderá pelas despesas devidas na execução (artigo 789-A, da CLT), a serem calculadas ao final. Todos os valores serão atualizados à época do efetivo pagamento com correção monetária e juros de mora, conforme disposto na Lei nº. 8.177/1991, artigo 39. OS JUROS DE MORA DEVERÃO SER COMPUTADOS NA OCASIÃO DO EFETIVO PAGAMENTO, PARA SE EVITAR APLICAÇÃO CUMULATIVA. INTIME-SE a(o) reclamada(o) para o pagamento da contribuição previdenciária e cuitasda fase de conhecimento, no prazo de 10 dias improrrogável, sob pena de a execução. Desnecessária a intimação da União, uma vez que o salário contribuição está abaixo do piso estipulado pela Portaria, nº. 582/2013, de 11/12/2013, do Ministério da Fazenda, publicada no Diário Oficial da União em 13/12/2013. Intime-se o(a) reclamante. Matão, 15/12/2015. ALAN CEZAR RUNHO Juiz(íza) do Trabalho MTF 
+
+DATA PARA PAGAMENTO: 05/02/2016
+VALOR: R$ 163,94
+<br/><br/>
+            Valor: 163,94<br/><br/>
+
+            Clique no link para analisar esta e outras CI : <a href="http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/">http://wntvmit.usinasantafe.com.br/org/admin/ci/aprovar/</a><br/><br/>
+
+            Atenciosamente<br/><br/>
+
+            DOUGLAS DE OLIVEIRA<br/>
+            USINA SANTA FE S/A',ID_CI_ENVIO.nextval)

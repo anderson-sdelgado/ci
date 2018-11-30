@@ -1,0 +1,26 @@
+<table class="listagemLink" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Anexos</th>
+            <th>Tamanho</th>
+            <th style="width: 30px;">&nbsp;</th>
+            <th style="width: 30px;">&nbsp;</th>
+        </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($this->Anexos as $key => $value) { ?>    
+        <tr>
+            <td style="min-width: 300px;"><?php echo $value["DESCRICAO"]; ?></td>
+            <td><?php echo $value["TAMANHO"]." KB"; ?></td>
+            <td><img id="<?php echo base64_encode($key); ?>" class="download-anexo" alt="Download" title='Baixar "<?php echo $value["NOME_ORIGINAL"]; ?>"' src="<?php echo PUBLIC_PATH;?>/_img/icones/download.png" /></td>
+            <td><?php if($this->visualizar){ echo "&nbsp;";}else{
+                ?><img id="<?php echo base64_encode($key); ?>" class="delete-anexo" alt="Excluir" title="Excluir Anexo" src="<?php echo PUBLIC_PATH;?>/_img/icones/excluir.png" /><?php
+            } ?>
+            </td>
+        </tr>
+    <?php } ?>
+    </tbody>
+</table>
+<form  id="form_download" name="form_download" method="post" enctype='multipart/form-data' action="<?php echo FORM_PATH; ?>admin/ci/download" >
+    <input id="anexo" name="anexo" type="hidden" value="" />
+</form>

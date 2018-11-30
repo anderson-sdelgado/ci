@@ -1,0 +1,66 @@
+<?php $id_usuario_oracle = (Zend_Auth::getInstance()->getIdentity()->ID_USUARIO_ORACLE); ?>
+<div id="div_pedidos">
+    <form id="form-filtros"><br/>
+        <label id="lbl-comprador">Comprador:</label>
+        <select id="selectCompradores" name="id_comprador">
+            <option value="">Todos</option>
+            <?php
+            foreach ($this->compradores as $comprador) {
+                ?><option value="<?php echo $comprador["CODIGO_COMPRADOR"]; ?>" <?php echo $comprador["CODIGO_COMPRADOR"] == $id_usuario_oracle ? "selected=selected" : ""; ?>><?php echo $comprador["NOME_COMPRADOR"]; ?></option><?php
+        }
+            ?>
+        </select>
+        <label id="lbl-ativo">Ativo?</label>
+        <select name="ativo" id="ativo">
+            <option value="" >Todos</option>
+            <option value="S" selected="selected">Sim</option>
+            <option value="N">Não</option>
+        </select>
+<br/>
+        <label id="lbl-fornecedor">Fornecedor:</label><font class="font-de">De:</font><input type="text" name="de_fornecedor" id="de_fornecedor" /><font class="font-ate">&nbsp;At&eacute;:</font><input type="text" name="ate_fornecedor" id="ate_fornecedor" />
+        <label id="lbl-enviado">Enviado?</label>
+        <select name="enviado" id="enviado">
+            <option value="" >Todos</option>
+            <option value="s">Sim</option>
+            <option value="n">Não</option>
+        </select>
+<br/>
+        <label id="lbl-pedido">Pedido:</label><font class="font-de">De:</font><input type="text" name="de_pedido" id="de_pedido"/><font class="font-ate">&nbsp;At&eacute;:</font><input type="text" name="ate_pedido" id="ate_pedido"/>
+        
+        <label id="lbl-confirmado">Confirmado?</label>
+        <select name="confirmado" id="confirmado">
+            <option value="" >Todos</option>
+            <option value="s">Sim</option>
+            <option value="n">Não</option>
+        </select>
+        
+        <br/>
+        <label id="lbl-data_pedido">Data Pedido:</label><font class="font-de">De:</font><input type="text" name="de_data_pedido" id="de_data_pedido" class="data" /><font class="font-ate">&nbsp;At&eacute;:</font><input type="text" name="ate_data_pedido" id="ate_data_pedido" class="data" />
+<!--        <br/>-->
+        
+        
+        <br/>
+<!--        
+
+        <br/>
+        <label id="lbl-observacao">Com observação?</label>
+        <select name="observacao" id="observacao">
+            <option value="" >Todos</option>
+            <option value="s">Sim</option>
+            <option value="n">Não</option>
+        </select>
+        <br/>-->
+        <input type="button" id="Buscar" value="Buscar" class="botao" />
+
+    </form>
+
+    <input type="hidden" id="ordenacao" value="decrescente" />
+    <input type="hidden" id="ordenar_por" value="DT_PEDIDO" />
+
+
+    <div id="lista-pedidos">
+
+    </div>
+
+</div>
+<div id="dialog"></div>

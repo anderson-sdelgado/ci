@@ -1,0 +1,50 @@
+<?php
+    $menuNamespace  = new Zend_Session_Namespace('PERMISSAO');
+    $premissao      = $menuNamespace->_permissao;
+    $linkInsert     = (($premissao[0]['INSERIR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/processos/cadastro');":"alert('Sem permissão');");   
+?>
+
+<div id="lista">
+    <div id="lista-borda">
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">Permiss&otilde;es</div>
+        </div>
+        <div id="espaco"></div>
+        <div id="gride">
+            <table class="listagem" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Usu&aacute;rio</th>
+                        <th>Menu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    if(count($this->paginator) > 0):
+                        foreach ($this->paginator as $value):
+                            $linkUpdate     = (($premissao[0]['ALTERAR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/permissoes/update/id/". base64_encode($value['USER_ID']) ."');":"alert('Sem permissão');");
+                            ?>
+                            <tr itemref="clique">
+                                <td class="linha"><?php echo $value['USERNAME']?></td>
+                                <td class="linha">
+                                    <img onclick="javascript:<?php echo $linkUpdate?>" src="<?php echo PUBLIC_PATH?>_img/icones/editar.png" border="0" title="Editar os dados do usuário" />
+                                </td>
+                            </tr>
+                        <?php 
+                        endforeach;
+                    else:
+                    ?>
+                        <tr>
+                            <td colspan="2" class='nenhum'>Nenhum Registro encontrado</td>
+                        </tr>
+                    <?php
+                    endif;
+                    ?>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

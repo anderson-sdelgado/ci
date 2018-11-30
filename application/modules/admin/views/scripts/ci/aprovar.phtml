@@ -1,0 +1,77 @@
+<?php
+    $menuNamespace  = new Zend_Session_Namespace('PERMISSAO');
+    $premissao      = $menuNamespace->_permissao;
+    $linkInsert     = (($premissao[0]['INSERIR'] == 't')? "OpenSelf('".$this->baseUrl()."/admin/ci/cadastro');":"alert('Sem permissão');");
+    $Helper_mascaras = new Commit_Controller_Action_Helper_Mascaras();
+?>
+
+<div id="lista">
+    <div id="lista-borda">
+        <div id="lista-titulo">
+            <div id="lista-titulo-texto">Consultar C.I.</div>
+            <div id="lista-titulo-menu">
+                <div id="lista-titulo-menu-novo" class="botao" onclick="javascript:<?php echo $linkInsert?>">Novo Cadastro</div>
+            </div>
+        </div>
+        <div id="espaco"></div>
+        <div id="pesquisa-ci">
+            <?php echo $this->form_pesquisa; ?>            
+        </div>
+        <div id="gride">
+            <table class="listagem" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>N° CI</th>
+                        <th>Data</th>
+                        <th>Empresa</th>
+                        <th>De</th>
+                        <th>Para</th>
+                        <th>Finalidade</th>
+                        <th>Valor</th>
+                        <th>Solicitante / Pré-aprovador</th>
+                        <th>Status</th>
+                        <th>Menu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    if(count($this->paginator) > 0):
+                        foreach ($this->paginator as $value): ?>
+                            <tr class="linha_ci" id="<?php echo base64_encode($value['ID']);?>">
+                                <td class="linha"><?php echo $value['ID']?></td>
+                                <td class="linha"><?php echo $value['DATA']?></td>
+                                <td class="linha"><?php echo $value['EMPRESA']?></td>
+                                <td class="linha"><?php echo $value['CCUSTO_DE']?></td>
+                                <td class="linha"><?php echo $value['CCUSTO_PARA']?></td>
+                                <td class="linha"><?php echo (strlen($value['FINALIDADE'])>82)?substr($value['FINALIDADE'], 0, 80)."...":$value['FINALIDADE']; ?></td>
+                                <!--<td class="linha"><?php echo (strlen($value['MOTIVO_CI'])>82)?substr($value['MOTIVO_CI'], 0, 80)."...":$value['MOTIVO_CI']; ?></td>-->
+                                <td class="linha"><?php echo $Helper_mascaras->ValorMoeda($value['VALOR'],1);?></td>
+                                <td class="linha"><?php echo $value['USUARIO']?></td>
+                                <td class="linha"><?php echo $value['STATUS']?></td>
+                                <td class="linha linha-menu">
+                                    <img class="btn-avaliar" src="<?php echo PUBLIC_PATH?>_img/icones/avaliar.png" border="0" title="Avaliar CI" alt="Avaliar" />
+                                </td>
+                            </tr>
+                        <?php 
+                        endforeach;
+                    else:
+                    ?>
+                        <tr>
+                            <td colspan="10" class='nenhum'>Nenhum Registro encontrado</td>
+                        </tr>
+                    <?php
+                    endif;
+                    ?>
+                    <tr>
+                        <td colspan="10">&nbsp;</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="10"><?php echo $this->paginator?></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>

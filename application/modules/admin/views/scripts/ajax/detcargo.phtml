@@ -1,0 +1,27 @@
+<table id="tbl_processos" class="listagemRel">
+    <thead>
+        <tr>
+            <th>DESCRI&Ccedil;&Atilde;O SUM&Aacute;RIA</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <?php
+            $resposta = json_decode($this->resposta);
+            ?>
+            <td class="principal"><?php echo ($resposta[0]->DESCR_SUMARIA);?></td>
+        </tr>
+    </tbody>
+</table>
+<table id="tbl_processos" class="listagemRel">
+    <thead>
+        <tr>
+            <th>DESCRI&Ccedil;&Atilde;O DETALHADA</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="principal"><?php echo ($resposta[0]->DESCR_DETALH);?></td>
+        </tr>
+    </tbody>
+</table>

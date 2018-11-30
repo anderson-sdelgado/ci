@@ -1,0 +1,1 @@
+07/12/2017 07:34 - RONALDOGOMES | ID = 941 | DESCRICAO = ACERTO CONTÁBIL FORNECEDOR/PARCEIRO | DETALHES =  | EMAIL_COPIA = gisele.rateiro@usinasantafe.com.br;sylvio@usinasantafe.com.br;douglas@usinasantafe.com.br;grupocontabil@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = s | VALOR_OBRIGATORIO = s

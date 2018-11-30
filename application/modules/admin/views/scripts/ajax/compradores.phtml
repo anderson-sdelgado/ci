@@ -1,0 +1,7 @@
+<option value="">Comprador...</option>
+<option value="">Todos</option>
+<?php 
+foreach ($this->compradores as $comprador){
+    ?><option value="<?php echo $comprador["CODIGO_COMPRADOR"]; ?>"><?php echo $comprador["NOME_COMPRADOR"]; ?></option><?php
+}
+?>
