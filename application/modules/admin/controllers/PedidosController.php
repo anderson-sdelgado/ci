@@ -22,7 +22,7 @@ class Admin_PedidosController extends Zend_Controller_Action
                                ->appendStylesheet(PUBLIC_PATH. '_css/pedidos.css');
         $this->view->headScript()->appendFile(PUBLIC_PATH. '_js/admin.js')
                                  ->appendFile($head->getJsGeral('admin'))
-                                 ->appendFile(PUBLIC_PATH. '_js/pedidos.js');
+                                 ->appendFile(PUBLIC_PATH. '_js/pedidos.js?v=3');
     }
 
     /**
@@ -190,7 +190,7 @@ class Admin_PedidosController extends Zend_Controller_Action
         $this->_helper->layout()->disableLayout();
         $id_pedido          = ($this->_request->getParam("pedido",null));
         $id_transportadora  = ($this->_request->getParam("transportadora",null));
-        $flag_frente        = ($this->_request->getParam("frente",null));
+        $flag_frete        = ($this->_request->getParam("frete",null));
         
         $objPedidocontrole  = new Admin_Model_Pedidocontrole();
         $Pedidocontrole     = $objPedidocontrole->find($id_pedido);
@@ -219,7 +219,7 @@ class Admin_PedidosController extends Zend_Controller_Action
                       "ID_FORNECEDOR"       => $Pedido["CODIGO_FORNEC"],
                       "LINK"                => $LINK,
                       "ID_TRANSPORTADORA"   => $id_transportadora,
-                      "FLAG_FRENTE"         => $flag_frente,
+                      "FLAG_FRETE"         => $flag_frete,
                       "ENVIADO"             => "s");
         
         $data_atual     = new Zend_Date();
