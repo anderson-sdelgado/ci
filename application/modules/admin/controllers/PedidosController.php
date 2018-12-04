@@ -22,7 +22,7 @@ class Admin_PedidosController extends Zend_Controller_Action
                                ->appendStylesheet(PUBLIC_PATH. '_css/pedidos.css');
         $this->view->headScript()->appendFile(PUBLIC_PATH. '_js/admin.js')
                                  ->appendFile($head->getJsGeral('admin'))
-                                 ->appendFile(PUBLIC_PATH. '_js/pedidos.js?v=3');
+                                 ->appendFile(PUBLIC_PATH. '_js/pedidos.js?v=5');
     }
 
     /**
