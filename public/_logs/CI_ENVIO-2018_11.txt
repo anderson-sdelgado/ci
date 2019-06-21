@@ -7340,3 +7340,179 @@
 30/11/2018 09:08 -  | ID = 502479 | ENVIADO = S
 30/11/2018 09:08 -  | ID = 502480 | ENVIADO = S
 30/11/2018 09:09 -  | ID = 502481 | ENVIADO = S
+30/11/2018 10:33 - PORTARIA | ASSUNTO = Nova CI de N° 25851 disponivel para Avaliação | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = hebert.lucio@usinasantafe.com.br | PARA_NOME = HEBERT LUCIO DE ASSUNCAO | DE_TEXTO = Ignorado
+30/11/2018 10:33 - PORTARIA | ASSUNTO = CI N° 25851 Aberta | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = areias@usinasantafe.com.br | PARA_NOME = CARLOS AREIAS PEREIRA | DE_TEXTO = Ignorado
+30/11/2018 10:33 - PORTARIA | ASSUNTO = CI N° 25851 Aberta | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = portaria@usinasantafe.com.br | PARA_NOME = PORTARIA | DE_TEXTO = Ignorado
+30/11/2018 10:33 - PORTARIA | ASSUNTO = CI N° 25851 Aberta | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = camaceti@usinasantafe.com.br | PARA_NOME = camaceti@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 10:33 - PORTARIA | ASSUNTO = CI N° 25851 Aberta | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = apadovani@usinasantafe.com.br | PARA_NOME = apadovani@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 10:33 - PORTARIA | ASSUNTO = CI N° 25851 Aberta | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = cassiano@usinasantafe.com.br | PARA_NOME = cassiano@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 10:33 - PORTARIA | ASSUNTO = CI N° 25851 Aberta | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = junior.cesar@usinasantafe.com.br | PARA_NOME = junior.cesar@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 10:33 - PORTARIA | ASSUNTO = CI N° 25851 Aberta | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = rodrigobatista@usinasantafe.com.br | PARA_NOME = rodrigobatista@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 10:33 - PORTARIA | ASSUNTO = CI N° 25851 Aberta | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = alexandre@usinasantafe.com.br | PARA_NOME = alexandre@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 10:33 - PORTARIA | ASSUNTO = CI N° 25851 Aberta | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = luzia@usinasantafe.com.br | PARA_NOME = luzia@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 10:33 - PORTARIA | ASSUNTO = CI N° 25851 Aberta | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = everaldo.mandira@usinasantafe.com.br | PARA_NOME = everaldo.mandira@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 10:33 - PORTARIA | ASSUNTO = CI N° 25851 Aberta | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = tamara.abonizio@usinasantafe.com.br | PARA_NOME = tamara.abonizio@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 10:33 - PORTARIA | ASSUNTO = CI N° 25851 Aberta | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = dilson.burato@usinasantafe.com.br | PARA_NOME = dilson.burato@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 10:34 -  | ID = 502482 | ENVIADO = S
+30/11/2018 10:34 -  | ID = 502483 | ENVIADO = S
+30/11/2018 10:34 -  | ID = 502484 | ENVIADO = S
+30/11/2018 10:34 -  | ID = 502485 | ENVIADO = S
+30/11/2018 10:34 -  | ID = 502486 | ENVIADO = S
+30/11/2018 10:35 -  | ID = 502487 | ENVIADO = S
+30/11/2018 10:35 -  | ID = 502488 | ENVIADO = S
+30/11/2018 10:35 -  | ID = 502489 | ENVIADO = S
+30/11/2018 10:35 -  | ID = 502490 | ENVIADO = S
+30/11/2018 10:35 -  | ID = 502491 | ENVIADO = S
+30/11/2018 10:36 -  | ID = 502492 | ENVIADO = S
+30/11/2018 10:36 -  | ID = 502493 | ENVIADO = S
+30/11/2018 10:36 -  | ID = 502494 | ENVIADO = S
+30/11/2018 11:13 - PORTARIA | ASSUNTO = CI de N° 25844 Alterada e disponivel para Avaliação | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = hebert.lucio@usinasantafe.com.br | PARA_NOME = HEBERT LUCIO DE ASSUNCAO | DE_TEXTO = Ignorado
+30/11/2018 11:13 - PORTARIA | ASSUNTO = CI N° 25844 Alterada | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = areias@usinasantafe.com.br | PARA_NOME = CARLOS AREIAS PEREIRA | DE_TEXTO = Ignorado
+30/11/2018 11:13 - PORTARIA | ASSUNTO = CI N° 25844 Alterada | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = portaria@usinasantafe.com.br | PARA_NOME = PORTARIA | DE_TEXTO = Ignorado
+30/11/2018 11:13 - PORTARIA | ASSUNTO = CI N° 25844 Alterada | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = camaceti@usinasantafe.com.br | PARA_NOME = camaceti@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 11:13 - PORTARIA | ASSUNTO = CI N° 25844 Alterada | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = apadovani@usinasantafe.com.br | PARA_NOME = apadovani@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 11:13 - PORTARIA | ASSUNTO = CI N° 25844 Alterada | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = cassiano@usinasantafe.com.br | PARA_NOME = cassiano@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 11:13 - PORTARIA | ASSUNTO = CI N° 25844 Alterada | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = junior.cesar@usinasantafe.com.br | PARA_NOME = junior.cesar@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 11:13 - PORTARIA | ASSUNTO = CI N° 25844 Alterada | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = rodrigobatista@usinasantafe.com.br | PARA_NOME = rodrigobatista@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 11:13 - PORTARIA | ASSUNTO = CI N° 25844 Alterada | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = alexandre@usinasantafe.com.br | PARA_NOME = alexandre@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 11:13 - PORTARIA | ASSUNTO = CI N° 25844 Alterada | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = luzia@usinasantafe.com.br | PARA_NOME = luzia@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 11:13 - PORTARIA | ASSUNTO = CI N° 25844 Alterada | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = everaldo.mandira@usinasantafe.com.br | PARA_NOME = everaldo.mandira@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 11:13 - PORTARIA | ASSUNTO = CI N° 25844 Alterada | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = tamara.abonizio@usinasantafe.com.br | PARA_NOME = tamara.abonizio@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 11:13 - PORTARIA | ASSUNTO = CI N° 25844 Alterada | DE_EMAIL = portaria@usinasantafe.com.br | DE_NOME = PORTARIA | PARA_EMAIL = dilson.burato@usinasantafe.com.br | PARA_NOME = dilson.burato@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 11:13 -  | ID = 502495 | ENVIADO = S
+30/11/2018 11:14 -  | ID = 502496 | ENVIADO = S
+30/11/2018 11:14 -  | ID = 502497 | ENVIADO = S
+30/11/2018 11:14 -  | ID = 502498 | ENVIADO = S
+30/11/2018 11:14 -  | ID = 502499 | ENVIADO = S
+30/11/2018 11:14 -  | ID = 502500 | ENVIADO = S
+30/11/2018 11:15 -  | ID = 502501 | ENVIADO = S
+30/11/2018 11:15 -  | ID = 502502 | ENVIADO = S
+30/11/2018 11:15 -  | ID = 502503 | ENVIADO = S
+30/11/2018 11:15 -  | ID = 502504 | ENVIADO = S
+30/11/2018 11:15 -  | ID = 502505 | ENVIADO = S
+30/11/2018 11:16 -  | ID = 502506 | ENVIADO = S
+30/11/2018 11:16 -  | ID = 502507 | ENVIADO = S
+30/11/2018 12:35 - LUISMOREIRA | ASSUNTO = Nova CI de N° 25852 disponivel para Avaliação | DE_EMAIL = luis.moreira@usinasantafe.com.br | DE_NOME = LUIS FERNANDO MOREIRA | PARA_EMAIL = areias@usinasantafe.com.br | PARA_NOME = CARLOS AREIAS PEREIRA | DE_TEXTO = Ignorado
+30/11/2018 12:36 -  | ID = 502508 | ENVIADO = S
+30/11/2018 14:09 - ACIR | ASSUNTO = CI N° 25847 Pré-aprovada | DE_EMAIL = acir@usinasantafe.com.br | DE_NOME = ACIR JARDIM COELHO FILHO | PARA_EMAIL = acir@usinasantafe.com.br | PARA_NOME = ACIR JARDIM COELHO FILHO | DE_TEXTO = Ignorado
+30/11/2018 14:09 - ACIR | ASSUNTO = CI N° 25847 Pré-aprovada | DE_EMAIL = acir@usinasantafe.com.br | DE_NOME = ACIR JARDIM COELHO FILHO | PARA_EMAIL = camara@usinasantafe.com.br | PARA_NOME = CLAUDIO CAMARA | DE_TEXTO = Ignorado
+30/11/2018 14:09 - ACIR | ASSUNTO = CI N° 25847 Pré-aprovada | DE_EMAIL = acir@usinasantafe.com.br | DE_NOME = ACIR JARDIM COELHO FILHO | PARA_EMAIL = marcio@usinasantafe.com.br | PARA_NOME = MARCIO JOSE DOSVALDO | DE_TEXTO = Ignorado
+30/11/2018 14:09 - ACIR | ASSUNTO = CI N° 25847 Pré-aprovada | DE_EMAIL = acir@usinasantafe.com.br | DE_NOME = ACIR JARDIM COELHO FILHO | PARA_EMAIL = giacomelli@usinasantafe.com.br | PARA_NOME = SIDINEI DONIZETE GIACOMELLI | DE_TEXTO = Ignorado
+30/11/2018 14:09 - ACIR | ASSUNTO = CI N° 25847 Pré-aprovada | DE_EMAIL = acir@usinasantafe.com.br | DE_NOME = ACIR JARDIM COELHO FILHO | PARA_EMAIL = luide@usinasantafe.com.br | PARA_NOME = luide@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:09 - ACIR | ASSUNTO = CI N° 25847 Pré-aprovada | DE_EMAIL = acir@usinasantafe.com.br | DE_NOME = ACIR JARDIM COELHO FILHO | PARA_EMAIL = alexandre@usinasantafe.com.br | PARA_NOME = alexandre@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:09 - ACIR | ASSUNTO = CI N° 25847 Pré-aprovada | DE_EMAIL = acir@usinasantafe.com.br | DE_NOME = ACIR JARDIM COELHO FILHO | PARA_EMAIL = azevedo@usinasantafe.com.br | PARA_NOME = azevedo@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:09 - ACIR | ASSUNTO = CI N° 25847 Pré-aprovada | DE_EMAIL = acir@usinasantafe.com.br | DE_NOME = ACIR JARDIM COELHO FILHO | PARA_EMAIL = elissandra@usinasantafe.com.br | PARA_NOME = elissandra@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:10 -  | ID = 502509 | ENVIADO = S
+30/11/2018 14:10 -  | ID = 502510 | ENVIADO = S
+30/11/2018 14:10 -  | ID = 502511 | ENVIADO = S
+30/11/2018 14:10 -  | ID = 502512 | ENVIADO = S
+30/11/2018 14:10 -  | ID = 502513 | ENVIADO = S
+30/11/2018 14:11 -  | ID = 502514 | ENVIADO = S
+30/11/2018 14:11 -  | ID = 502515 | ENVIADO = S
+30/11/2018 14:11 -  | ID = 502516 | ENVIADO = S
+30/11/2018 14:25 - ALEXANDRE | ASSUNTO = Nova CI de N° 25853 disponivel para Avaliação | DE_EMAIL = alexandre@usinasantafe.com.br | DE_NOME = ALEXANDRE RODRIGUES MOREIRA | PARA_EMAIL = marta@usinasantafe.com.br | PARA_NOME = MARTA DOLORES DOSVALDO CAMACETI | DE_TEXTO = Ignorado
+30/11/2018 14:25 - ALEXANDRE | ASSUNTO = Nova CI de N° 25853 disponivel para Avaliação | DE_EMAIL = alexandre@usinasantafe.com.br | DE_NOME = ALEXANDRE RODRIGUES MOREIRA | PARA_EMAIL = zeze@usinasantafe.com.br | PARA_NOME = MARIA JOSE GONCALVES GOMES | DE_TEXTO = Ignorado
+30/11/2018 14:25 - ALEXANDRE | ASSUNTO = CI N° 25853 Aberta | DE_EMAIL = alexandre@usinasantafe.com.br | DE_NOME = ALEXANDRE RODRIGUES MOREIRA | PARA_EMAIL = alexandre@usinasantafe.com.br | PARA_NOME = ALEXANDRE RODRIGUES MOREIRA | DE_TEXTO = Ignorado
+30/11/2018 14:25 - ALEXANDRE | ASSUNTO = CI N° 25853 Aberta | DE_EMAIL = alexandre@usinasantafe.com.br | DE_NOME = ALEXANDRE RODRIGUES MOREIRA | PARA_EMAIL = jackson@usinasantafe.com.br | PARA_NOME = JACKSON LUIZ FURTADO PIMENTA NEVES | DE_TEXTO = Ignorado
+30/11/2018 14:25 - ALEXANDRE | ASSUNTO = CI N° 25853 Aberta | DE_EMAIL = alexandre@usinasantafe.com.br | DE_NOME = ALEXANDRE RODRIGUES MOREIRA | PARA_EMAIL = kleber@usinasantafe.com.br | PARA_NOME = kleber@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:25 - ALEXANDRE | ASSUNTO = CI N° 25853 Aberta | DE_EMAIL = alexandre@usinasantafe.com.br | DE_NOME = ALEXANDRE RODRIGUES MOREIRA | PARA_EMAIL = valderes@usinasantafe.com.br | PARA_NOME = valderes@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:25 - ALEXANDRE | ASSUNTO = CI N° 25853 Aberta | DE_EMAIL = alexandre@usinasantafe.com.br | DE_NOME = ALEXANDRE RODRIGUES MOREIRA | PARA_EMAIL = rose@usinasantafe.com.br | PARA_NOME = rose@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:25 -  | ID = 502517 | ENVIADO = S
+30/11/2018 14:25 -  | ID = 502518 | ENVIADO = S
+30/11/2018 14:25 -  | ID = 502519 | ENVIADO = S
+30/11/2018 14:25 -  | ID = 502520 | ENVIADO = S
+30/11/2018 14:25 -  | ID = 502521 | ENVIADO = S
+30/11/2018 14:26 -  | ID = 502522 | ENVIADO = S
+30/11/2018 14:26 -  | ID = 502523 | ENVIADO = S
+30/11/2018 14:26 - AREIAS | ASSUNTO = CI N° 25852 Aprovada | DE_EMAIL = areias@usinasantafe.com.br | DE_NOME = CARLOS AREIAS PEREIRA | PARA_EMAIL = areias@usinasantafe.com.br | PARA_NOME = CARLOS AREIAS PEREIRA | DE_TEXTO = Ignorado
+30/11/2018 14:26 - AREIAS | ASSUNTO = CI N° 25852 Aprovada | DE_EMAIL = areias@usinasantafe.com.br | DE_NOME = CARLOS AREIAS PEREIRA | PARA_EMAIL = luis.moreira@usinasantafe.com.br | PARA_NOME = LUIS FERNANDO MOREIRA | DE_TEXTO = Ignorado
+30/11/2018 14:26 - AREIAS | ASSUNTO = CI N° 25852 Aprovada | DE_EMAIL = areias@usinasantafe.com.br | DE_NOME = CARLOS AREIAS PEREIRA | PARA_EMAIL = luide@usinasantafe.com.br | PARA_NOME = luide@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:26 - AREIAS | ASSUNTO = CI N° 25852 Aprovada | DE_EMAIL = areias@usinasantafe.com.br | DE_NOME = CARLOS AREIAS PEREIRA | PARA_EMAIL = alexandre@usinasantafe.com.br | PARA_NOME = alexandre@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:26 - AREIAS | ASSUNTO = CI N° 25852 Aprovada | DE_EMAIL = areias@usinasantafe.com.br | DE_NOME = CARLOS AREIAS PEREIRA | PARA_EMAIL = azevedo@usinasantafe.com.br | PARA_NOME = azevedo@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:26 - AREIAS | ASSUNTO = CI N° 25852 Aprovada | DE_EMAIL = areias@usinasantafe.com.br | DE_NOME = CARLOS AREIAS PEREIRA | PARA_EMAIL = elissandra@usinasantafe.com.br | PARA_NOME = elissandra@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:27 -  | ID = 502524 | ENVIADO = S
+30/11/2018 14:27 -  | ID = 502525 | ENVIADO = S
+30/11/2018 14:27 -  | ID = 502526 | ENVIADO = S
+30/11/2018 14:27 -  | ID = 502527 | ENVIADO = S
+30/11/2018 14:27 -  | ID = 502528 | ENVIADO = S
+30/11/2018 14:28 -  | ID = 502529 | ENVIADO = S
+30/11/2018 14:31 - ERIC | ASSUNTO = Nova CI de N° 25854 disponivel para Avaliação | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = camara@usinasantafe.com.br | PARA_NOME = CLAUDIO CAMARA | DE_TEXTO = Ignorado
+30/11/2018 14:31 - ERIC | ASSUNTO = Nova CI de N° 25854 disponivel para Avaliação | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = marcio@usinasantafe.com.br | PARA_NOME = MARCIO JOSE DOSVALDO | DE_TEXTO = Ignorado
+30/11/2018 14:31 - ERIC | ASSUNTO = CI N° 25854 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = eric@usinasantafe.com.br | PARA_NOME = ERIC CORREIA LEPORE | DE_TEXTO = Ignorado
+30/11/2018 14:31 - ERIC | ASSUNTO = CI N° 25854 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = alexandre@usinasantafe.com.br | PARA_NOME = alexandre@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:31 - ERIC | ASSUNTO = CI N° 25854 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = luide@usinasantafe.com.br | PARA_NOME = luide@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:31 - ERIC | ASSUNTO = CI N° 25854 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = danilocampos@usinasantafe.com.br | PARA_NOME = danilocampos@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:31 - ERIC | ASSUNTO = CI N° 25854 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = cristiano.alves@usinasantafe.com.br | PARA_NOME = cristiano.alves@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:31 - ERIC | ASSUNTO = CI N° 25854 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = erika.costa@usinasantafe.com.br | PARA_NOME = erika.costa@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:31 - ERIC | ASSUNTO = CI N° 25854 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = ariele.pavan@usinasantafe.com.br | PARA_NOME = ariele.pavan@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:31 - ERIC | ASSUNTO = CI N° 25854 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = thiago.anselmo@usinasantafe.com.br | PARA_NOME = thiago.anselmo@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:31 -  | ID = 502530 | ENVIADO = S
+30/11/2018 14:31 -  | ID = 502531 | ENVIADO = S
+30/11/2018 14:31 -  | ID = 502532 | ENVIADO = S
+30/11/2018 14:31 -  | ID = 502533 | ENVIADO = S
+30/11/2018 14:31 -  | ID = 502534 | ENVIADO = S
+30/11/2018 14:32 -  | ID = 502535 | ENVIADO = S
+30/11/2018 14:32 -  | ID = 502536 | ENVIADO = S
+30/11/2018 14:32 -  | ID = 502537 | ENVIADO = S
+30/11/2018 14:32 -  | ID = 502538 | ENVIADO = S
+30/11/2018 14:32 -  | ID = 502539 | ENVIADO = S
+30/11/2018 14:33 - ERIC | ASSUNTO = Nova CI de N° 25855 disponivel para Avaliação | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = camara@usinasantafe.com.br | PARA_NOME = CLAUDIO CAMARA | DE_TEXTO = Ignorado
+30/11/2018 14:33 - ERIC | ASSUNTO = Nova CI de N° 25855 disponivel para Avaliação | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = marcio@usinasantafe.com.br | PARA_NOME = MARCIO JOSE DOSVALDO | DE_TEXTO = Ignorado
+30/11/2018 14:33 - ERIC | ASSUNTO = CI N° 25855 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = eric@usinasantafe.com.br | PARA_NOME = ERIC CORREIA LEPORE | DE_TEXTO = Ignorado
+30/11/2018 14:33 - ERIC | ASSUNTO = CI N° 25855 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = alexandre@usinasantafe.com.br | PARA_NOME = alexandre@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:33 - ERIC | ASSUNTO = CI N° 25855 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = luide@usinasantafe.com.br | PARA_NOME = luide@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:33 - ERIC | ASSUNTO = CI N° 25855 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = danilocampos@usinasantafe.com.br | PARA_NOME = danilocampos@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:33 - ERIC | ASSUNTO = CI N° 25855 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = cristiano.alves@usinasantafe.com.br | PARA_NOME = cristiano.alves@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:33 - ERIC | ASSUNTO = CI N° 25855 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = erika.costa@usinasantafe.com.br | PARA_NOME = erika.costa@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:33 - ERIC | ASSUNTO = CI N° 25855 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = ariele.pavan@usinasantafe.com.br | PARA_NOME = ariele.pavan@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:33 - ERIC | ASSUNTO = CI N° 25855 Aberta | DE_EMAIL = eric@usinasantafe.com.br | DE_NOME = ERIC CORREIA LEPORE | PARA_EMAIL = thiago.anselmo@usinasantafe.com.br | PARA_NOME = thiago.anselmo@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:34 -  | ID = 502540 | ENVIADO = S
+30/11/2018 14:34 -  | ID = 502541 | ENVIADO = S
+30/11/2018 14:34 -  | ID = 502542 | ENVIADO = S
+30/11/2018 14:34 -  | ID = 502543 | ENVIADO = S
+30/11/2018 14:34 -  | ID = 502544 | ENVIADO = S
+30/11/2018 14:35 -  | ID = 502545 | ENVIADO = S
+30/11/2018 14:35 -  | ID = 502546 | ENVIADO = S
+30/11/2018 14:35 -  | ID = 502547 | ENVIADO = S
+30/11/2018 14:35 -  | ID = 502548 | ENVIADO = S
+30/11/2018 14:35 -  | ID = 502549 | ENVIADO = S
+30/11/2018 14:43 - KLEBER | ASSUNTO = Nova CI de N° 25856 disponivel para Avaliação | DE_EMAIL = kleber@usinasantafe.com.br | DE_NOME = KLEBER HENRIQUE ELEUTERIO | PARA_EMAIL = marta@usinasantafe.com.br | PARA_NOME = MARTA DOLORES DOSVALDO CAMACETI | DE_TEXTO = Ignorado
+30/11/2018 14:43 - KLEBER | ASSUNTO = Nova CI de N° 25856 disponivel para Avaliação | DE_EMAIL = kleber@usinasantafe.com.br | DE_NOME = KLEBER HENRIQUE ELEUTERIO | PARA_EMAIL = zeze@usinasantafe.com.br | PARA_NOME = MARIA JOSE GONCALVES GOMES | DE_TEXTO = Ignorado
+30/11/2018 14:43 - KLEBER | ASSUNTO = CI N° 25856 Aberta | DE_EMAIL = kleber@usinasantafe.com.br | DE_NOME = KLEBER HENRIQUE ELEUTERIO | PARA_EMAIL = kleber@usinasantafe.com.br | PARA_NOME = KLEBER HENRIQUE ELEUTERIO | DE_TEXTO = Ignorado
+30/11/2018 14:43 - KLEBER | ASSUNTO = CI N° 25856 Aberta | DE_EMAIL = kleber@usinasantafe.com.br | DE_NOME = KLEBER HENRIQUE ELEUTERIO | PARA_EMAIL = rose@usinasantafe.com.br | PARA_NOME = rose@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:43 - KLEBER | ASSUNTO = CI N° 25856 Aberta | DE_EMAIL = kleber@usinasantafe.com.br | DE_NOME = KLEBER HENRIQUE ELEUTERIO | PARA_EMAIL = adrianapacola@usinasantafe.com.br | PARA_NOME = adrianapacola@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:43 - KLEBER | ASSUNTO = CI N° 25856 Aberta | DE_EMAIL = kleber@usinasantafe.com.br | DE_NOME = KLEBER HENRIQUE ELEUTERIO | PARA_EMAIL = valderes@usinasantafe.com.br | PARA_NOME = valderes@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 14:43 -  | ID = 502550 | ENVIADO = S
+30/11/2018 14:43 -  | ID = 502551 | ENVIADO = S
+30/11/2018 14:43 -  | ID = 502552 | ENVIADO = S
+30/11/2018 14:43 -  | ID = 502553 | ENVIADO = S
+30/11/2018 14:43 -  | ID = 502554 | ENVIADO = S
+30/11/2018 14:44 -  | ID = 502555 | ENVIADO = S
+30/11/2018 15:00 - NORIVAL | ASSUNTO = Nova CI de N° 25857 disponivel para Avaliação | DE_EMAIL = norival@usinasantafe.com.br | DE_NOME = NORIVAL EMERSON DOS SANTOS | PARA_EMAIL = joaofreitas@usinasantafe.com.br | PARA_NOME = JOAO ANTONIO FREITAS DA SILVA | DE_TEXTO = Ignorado
+30/11/2018 15:01 -  | ID = 502556 | ENVIADO = S
+30/11/2018 15:12 - ZEZE | ASSUNTO = CI N° 25853 Aprovada | DE_EMAIL = zeze@usinasantafe.com.br | DE_NOME = MARIA JOSE GONCALVES GOMES | PARA_EMAIL = alexandre@usinasantafe.com.br | PARA_NOME = ALEXANDRE RODRIGUES MOREIRA | DE_TEXTO = Ignorado
+30/11/2018 15:12 - ZEZE | ASSUNTO = CI N° 25853 Aprovada | DE_EMAIL = zeze@usinasantafe.com.br | DE_NOME = MARIA JOSE GONCALVES GOMES | PARA_EMAIL = jackson@usinasantafe.com.br | PARA_NOME = JACKSON LUIZ FURTADO PIMENTA NEVES | DE_TEXTO = Ignorado
+30/11/2018 15:12 - ZEZE | ASSUNTO = CI N° 25853 Aprovada | DE_EMAIL = zeze@usinasantafe.com.br | DE_NOME = MARIA JOSE GONCALVES GOMES | PARA_EMAIL = marta@usinasantafe.com.br | PARA_NOME = MARTA DOLORES DOSVALDO CAMACETI | DE_TEXTO = Ignorado
+30/11/2018 15:12 - ZEZE | ASSUNTO = CI N° 25853 Aprovada | DE_EMAIL = zeze@usinasantafe.com.br | DE_NOME = MARIA JOSE GONCALVES GOMES | PARA_EMAIL = zeze@usinasantafe.com.br | PARA_NOME = MARIA JOSE GONCALVES GOMES | DE_TEXTO = Ignorado
+30/11/2018 15:12 - ZEZE | ASSUNTO = CI N° 25853 Aprovada | DE_EMAIL = zeze@usinasantafe.com.br | DE_NOME = MARIA JOSE GONCALVES GOMES | PARA_EMAIL = kleber@usinasantafe.com.br | PARA_NOME = kleber@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 15:12 - ZEZE | ASSUNTO = CI N° 25853 Aprovada | DE_EMAIL = zeze@usinasantafe.com.br | DE_NOME = MARIA JOSE GONCALVES GOMES | PARA_EMAIL = valderes@usinasantafe.com.br | PARA_NOME = valderes@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 15:12 - ZEZE | ASSUNTO = CI N° 25853 Aprovada | DE_EMAIL = zeze@usinasantafe.com.br | DE_NOME = MARIA JOSE GONCALVES GOMES | PARA_EMAIL = rose@usinasantafe.com.br | PARA_NOME = rose@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 15:12 - ZEZE | ASSUNTO = CI N° 25856 Aprovada | DE_EMAIL = zeze@usinasantafe.com.br | DE_NOME = MARIA JOSE GONCALVES GOMES | PARA_EMAIL = marta@usinasantafe.com.br | PARA_NOME = MARTA DOLORES DOSVALDO CAMACETI | DE_TEXTO = Ignorado
+30/11/2018 15:12 - ZEZE | ASSUNTO = CI N° 25856 Aprovada | DE_EMAIL = zeze@usinasantafe.com.br | DE_NOME = MARIA JOSE GONCALVES GOMES | PARA_EMAIL = kleber@usinasantafe.com.br | PARA_NOME = KLEBER HENRIQUE ELEUTERIO | DE_TEXTO = Ignorado
+30/11/2018 15:12 - ZEZE | ASSUNTO = CI N° 25856 Aprovada | DE_EMAIL = zeze@usinasantafe.com.br | DE_NOME = MARIA JOSE GONCALVES GOMES | PARA_EMAIL = zeze@usinasantafe.com.br | PARA_NOME = MARIA JOSE GONCALVES GOMES | DE_TEXTO = Ignorado
+30/11/2018 15:12 - ZEZE | ASSUNTO = CI N° 25856 Aprovada | DE_EMAIL = zeze@usinasantafe.com.br | DE_NOME = MARIA JOSE GONCALVES GOMES | PARA_EMAIL = rose@usinasantafe.com.br | PARA_NOME = rose@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 15:12 - ZEZE | ASSUNTO = CI N° 25856 Aprovada | DE_EMAIL = zeze@usinasantafe.com.br | DE_NOME = MARIA JOSE GONCALVES GOMES | PARA_EMAIL = adrianapacola@usinasantafe.com.br | PARA_NOME = adrianapacola@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 15:12 - ZEZE | ASSUNTO = CI N° 25856 Aprovada | DE_EMAIL = zeze@usinasantafe.com.br | DE_NOME = MARIA JOSE GONCALVES GOMES | PARA_EMAIL = valderes@usinasantafe.com.br | PARA_NOME = valderes@usinasantafe.com.br | DE_TEXTO = Ignorado
+30/11/2018 15:13 -  | ID = 502557 | ENVIADO = S
+30/11/2018 15:13 -  | ID = 502558 | ENVIADO = S
+30/11/2018 15:13 -  | ID = 502559 | ENVIADO = S
+30/11/2018 15:13 -  | ID = 502560 | ENVIADO = S
+30/11/2018 15:13 -  | ID = 502561 | ENVIADO = S
+30/11/2018 15:14 -  | ID = 502562 | ENVIADO = S
+30/11/2018 15:14 -  | ID = 502563 | ENVIADO = S
+30/11/2018 15:14 -  | ID = 502564 | ENVIADO = S
+30/11/2018 15:14 -  | ID = 502565 | ENVIADO = S
+30/11/2018 15:14 -  | ID = 502566 | ENVIADO = S
+30/11/2018 15:15 -  | ID = 502567 | ENVIADO = S
+30/11/2018 15:15 -  | ID = 502568 | ENVIADO = S
+30/11/2018 15:15 -  | ID = 502569 | ENVIADO = S

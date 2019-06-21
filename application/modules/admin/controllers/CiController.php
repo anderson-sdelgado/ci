@@ -166,8 +166,7 @@ class Admin_CiController extends Zend_Controller_Action
         $this->view->CI     = $CI;
         $this->view->LogCI  = $Log;
     }
-    
-    public function imprimirAction()
+     public function imprimirAction()
     {
         $this->_helper->layout()->disableLayout();
         
@@ -189,7 +188,6 @@ class Admin_CiController extends Zend_Controller_Action
         $this->view->LogCI  = $LogCI;
         $this->view->Anexos = $Anexos;
     }
-    
     public function aprovarAction()
     {
         $page   = $this->_request->getParam("page",null);

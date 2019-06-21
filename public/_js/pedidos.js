@@ -381,14 +381,19 @@ $(document).ready(function(){
                             var id_transportadora = $("#transportadora").val();
                             var flag_frete = $("#frete").val();
                             if((id_transportadora) && (flag_frete)){
-                                $(this).dialog().html('<h1>Enviando Pedidos, Aguarde!<h1><br/><br/><div id="enviados" ></div><br/><div id="msg-envio" ></div>');
-                                $("#btn-confirmar").attr("disabled","disabled").addClass("ui-state-disabled");
-                                $("#enviados").progressbar({
-                                    value: 0
-                                });                            
-                                Enviar_Pedidos(pedidos, 0, id_transportadora, flag_frete);
+								if((id_transportadora == 90191) && (flag_frete == "N")){
+									$("#msgTransportadora").html("<label class='msg-erro'>Se 'Cotar frete' = NÃO, a transportadora não pode ser 'A COMBINAR'. </label>");
+								}else{
+									$(this).dialog().html('<h1>Enviando Pedidos, Aguarde!<h1><br/><br/><div id="enviados" ></div><br/><div id="msg-envio" ></div>');
+									$("#btn-confirmar").attr("disabled","disabled").addClass("ui-state-disabled");
+									$("#enviados").progressbar({
+										value: 0
+									});
+									Enviar_Pedidos(pedidos, 0, id_transportadora, flag_frete);
+								}
                             }else{
-                                $("#msgTransportadora").html("<label class='msg-erro'>Transportadora ou Cotar frete? não preenchido. Verifique para continuar.</label>");
+								$("#msgTransportadora").html("<label class='msg-erro'>" + id_transportadora + " - Transportadora ou Cotar frete? não preenchido. Verifique para continuar.</label>");
+                                //$("#msgTransportadora").html("<label class='msg-erro'>Transportadora ou Cotar frete? não preenchido. Verifique para continuar.</label>");
                             }                           
                         }
                     },{

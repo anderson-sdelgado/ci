@@ -1,0 +1,41 @@
+05/02/2019 10:52 - RONALDOGOMES | DESCRICAO = EMPRÉSTIMO DE EQUIPAMENTO | DETALHES =  | EMAIL_COPIA = areias@usinasantafe.com.br | ATIVO = s
+06/02/2019 10:34 - RONALDOGOMES | ID = 3 | DESCRICAO = LIBERAÇÃO DE PRESTAÇÃO DE SERVIÇOS | DETALHES = Utilizada para liberação da entrada de prestadores de serviço de empresas terceirizadas quando por falta de documentação necessária para execução do serviço.
+O cadastro do C.I. deverá ser realizado pela Segurança Patrimonial (portarias).
+A aprovação do C.I. deverá ser realizada pelo Gerente/Assessor da área responsável pelo serviço a ser realizado.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Nome da empresa prestadora do serviço
+DE:
+Informar o centro de custo Assessoria Segurança Patrimonial.
+PARA:
+Informar o centro de custo da área onde o serviço será realizado.
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo da solicitação da liberação da entrada dos prestadores de serviço da empresa terceirizada, relacionando nome e documento dos mesmos.
+VALOR TOTAL DA CI EM R$: 
+Não informar o valor
+ANEXOS:
+Poderá ser anexado qualquer arquivo que se julgue necessário. | EMAIL_COPIA = camaceti@usinasantafe.com.br;apadovani@usinasantafe.com.br;cassiano@usinasantafe.com.br;junior.cesar@usinasantafe.com.br;rodrigobatista@usinasantafe.com.br;alexandre@usinasantafe.com.br;areias@usinasantafe.com.br;luzia@usinasantafe.com.br;everaldo.mandira@usinasantafe.com.br;tamara.abonizio@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+12/02/2019 13:31 - RONALDOGOMES | ID = 185 | DESCRICAO = TRANSFERÊNCIA DE VERBA DE PROJETOS ENTRE CONTAS | DETALHES = Utilizada para solicitação de transferência de verba de projetos entre contas, quando existe insuficiência de saldo em uma conta e disponibilidade em outra no mesmo projeto.
+O cadastro do C.I. deverá ser realizado pela área responsável pelo projeto.
+A aprovação do C.I. deverá ser realizada pelo Gerente/Assessor da área responsável pelo projeto.
+
+Instruções para preenchimento dos campos:
+EMPRESA:
+Usina Santa Fé S.A.
+
+DE:
+Informar o centro de custo da área responsável pelo projeto.
+
+PARA:
+Informar o centro de custo da gerência / assessoria responsável pelo projeto.
+
+MOTIVO DA SOLICITAÇÃO DO COMUNICADO ABERTO:
+Descrever o motivo da solicitação de transferência de verba, o valor e as contas de débito e crédito.
+
+VALOR TOTAL DA CI EM R$: 
+Não informar valor.
+
+ANEXOS:
+Anexar o relatório do SGI (Acompanhamento por status do projeto -Analítico (OCPF0017)), e outros arquivos caso julgue necessário. | EMAIL_COPIA = alexandre@usinasantafe.com.br;luide@usinasantafe.com.br;danilocampos@usinasantafe.com.br;erika.costa@usinasantafe.com.br;ariele.pavan@usinasantafe.com.br;thiago.anselmo@usinasantafe.com.br;cristiano.alves@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
+20/02/2019 09:53 - RONALDOGOMES | ID = 721 | DESCRICAO = REFEIÇÃO - AUTORIZAÇÃO VISITANTE | DETALHES =  | EMAIL_COPIA = valdinei@usinasantafe.com.br; tania@usinasantafe.com.br;maria.ferreira@usinasantafe.com.br | ATIVO = s | PRE_APROVACAO = n | VALOR_OBRIGATORIO = n
